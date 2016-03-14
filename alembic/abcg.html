@@ -31,10 +31,7 @@
   
 
   
-    <link rel="top" title="Alembic v1.6.0 documentation" href="../index.html"/>
-        <link rel="up" title="Alembic Module Index" href="index.html"/>
-        <link rel="next" title="alembic.AbcMaterial" href="abcm.html"/>
-        <link rel="prev" title="alembic.AbcCollection" href="abcc.html"/> 
+    <link rel="top" title="Alembic v1.6.0 documentation" href="../index.html"/> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
@@ -86,30 +83,11 @@
           
             
             
-                <ul class="current">
-<li class="toctree-l1 current"><a class="reference internal" href="../examples.html">Introduction</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../examples.html#major-concepts">Major Concepts</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../examples.html#importing">Importing</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../examples.html#namespaces">Namespaces</a><ul class="current">
-<li class="toctree-l3 current"><a class="reference internal" href="index.html">Alembic Module Index</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="abc.html"><tt class="docutils literal"><span class="pre">alembic.Abc</span></tt></a></li>
-<li class="toctree-l4"><a class="reference internal" href="abca.html"><tt class="docutils literal"><span class="pre">alembic.AbcCoreAbstract</span></tt></a></li>
-<li class="toctree-l4"><a class="reference internal" href="abcc.html"><tt class="docutils literal"><span class="pre">alembic.AbcCollection</span></tt></a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href=""><tt class="docutils literal"><span class="pre">alembic.AbcGeom</span></tt></a></li>
-<li class="toctree-l4"><a class="reference internal" href="abcm.html"><tt class="docutils literal"><span class="pre">alembic.AbcMaterial</span></tt></a></li>
-<li class="toctree-l4"><a class="reference internal" href="util.html"><tt class="docutils literal"><span class="pre">alembic.Util</span></tt></a></li>
+                <!-- Local TOC -->
+                <div class="local-toc"><ul>
+<li><a class="reference internal" href="#"><tt class="docutils literal"><span class="pre">alembic.AbcGeom</span></tt></a></li>
 </ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../examples.html#setting-getting-data">Setting &amp; Getting Data</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../examples.html#finding-a-mesh-by-name">Finding a Mesh By Name</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../examples.html#accumulating-a-transform">Accumulating a Transform</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../examples.html#write-non-standard-data-for-a-polymesh">Write Non-Standard Data for a PolyMesh</a></li>
-</ul>
-
+</div>
             
           
         </div>
@@ -137,10 +115,6 @@
 <div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href="../index.html">Docs</a> &raquo;</li>
-      
-          <li><a href="../examples.html">Introduction</a> &raquo;</li>
-      
-          <li><a href="index.html">Alembic Module Index</a> &raquo;</li>
       
     <li><tt class="docutils literal"><span class="pre">alembic.AbcGeom</span></tt></li>
       <li class="wy-breadcrumbs-aside">
@@ -701,7 +675,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="function">
 <dt id="alembic.AbcGeom.GetVisibility">
 <tt class="descclassname">alembic.AbcGeom.</tt><tt class="descname">GetVisibility</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.GetVisibility" title="Permalink to this definition">¶</a></dt>
-<dd><p>GetVisibility( (IObject)schemaObject [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x281d150&gt;]) -&gt; ObjectVisibility</p>
+<dd><p>GetVisibility( (IObject)schemaObject [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x1502150&gt;]) -&gt; ObjectVisibility</p>
 </dd></dl>
 
 <dl class="function">
@@ -729,7 +703,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IBooleanGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IBooleanGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IBooleanGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x281d550&gt;]) -&gt; IBooleanGeomParamSample</p>
+<dd><p>getExpandedValue( (IBooleanGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1502550&gt;]) -&gt; IBooleanGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -747,7 +721,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IBooleanGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IBooleanGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IBooleanGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x281d5d0&gt;]) -&gt; IBooleanGeomParamSample</p>
+<dd><p>getIndexedValue( (IBooleanGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x15025d0&gt;]) -&gt; IBooleanGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -890,7 +864,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IBox2dGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IBox2dGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IBox2dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c88750&gt;]) -&gt; IBox2dGeomParamSample</p>
+<dd><p>getExpandedValue( (IBox2dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x196c750&gt;]) -&gt; IBox2dGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -908,7 +882,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IBox2dGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IBox2dGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IBox2dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c887d0&gt;]) -&gt; IBox2dGeomParamSample</p>
+<dd><p>getIndexedValue( (IBox2dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x196c7d0&gt;]) -&gt; IBox2dGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -1051,7 +1025,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IBox2fGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IBox2fGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IBox2fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c88650&gt;]) -&gt; IBox2fGeomParamSample</p>
+<dd><p>getExpandedValue( (IBox2fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x196c650&gt;]) -&gt; IBox2fGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -1069,7 +1043,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IBox2fGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IBox2fGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IBox2fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c886d0&gt;]) -&gt; IBox2fGeomParamSample</p>
+<dd><p>getIndexedValue( (IBox2fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x196c6d0&gt;]) -&gt; IBox2fGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -1212,7 +1186,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IBox2iGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IBox2iGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IBox2iGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c88550&gt;]) -&gt; IBox2iGeomParamSample</p>
+<dd><p>getExpandedValue( (IBox2iGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x196c550&gt;]) -&gt; IBox2iGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -1230,7 +1204,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IBox2iGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IBox2iGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IBox2iGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c885d0&gt;]) -&gt; IBox2iGeomParamSample</p>
+<dd><p>getIndexedValue( (IBox2iGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x196c5d0&gt;]) -&gt; IBox2iGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -1373,7 +1347,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IBox2sGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IBox2sGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IBox2sGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c88450&gt;]) -&gt; IBox2sGeomParamSample</p>
+<dd><p>getExpandedValue( (IBox2sGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x196c450&gt;]) -&gt; IBox2sGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -1391,7 +1365,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IBox2sGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IBox2sGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IBox2sGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c884d0&gt;]) -&gt; IBox2sGeomParamSample</p>
+<dd><p>getIndexedValue( (IBox2sGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x196c4d0&gt;]) -&gt; IBox2sGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -1534,7 +1508,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IBox3dGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IBox3dGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IBox3dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c88b50&gt;]) -&gt; IBox3dGeomParamSample</p>
+<dd><p>getExpandedValue( (IBox3dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x196cb50&gt;]) -&gt; IBox3dGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -1552,7 +1526,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IBox3dGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IBox3dGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IBox3dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c88bd0&gt;]) -&gt; IBox3dGeomParamSample</p>
+<dd><p>getIndexedValue( (IBox3dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x196cbd0&gt;]) -&gt; IBox3dGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -1695,7 +1669,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IBox3fGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IBox3fGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IBox3fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c88a50&gt;]) -&gt; IBox3fGeomParamSample</p>
+<dd><p>getExpandedValue( (IBox3fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x196ca50&gt;]) -&gt; IBox3fGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -1713,7 +1687,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IBox3fGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IBox3fGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IBox3fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c88ad0&gt;]) -&gt; IBox3fGeomParamSample</p>
+<dd><p>getIndexedValue( (IBox3fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x196cad0&gt;]) -&gt; IBox3fGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -1856,7 +1830,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IBox3iGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IBox3iGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IBox3iGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c88950&gt;]) -&gt; IBox3iGeomParamSample</p>
+<dd><p>getExpandedValue( (IBox3iGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x196c950&gt;]) -&gt; IBox3iGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -1874,7 +1848,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IBox3iGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IBox3iGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IBox3iGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c889d0&gt;]) -&gt; IBox3iGeomParamSample</p>
+<dd><p>getIndexedValue( (IBox3iGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x196c9d0&gt;]) -&gt; IBox3iGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -2017,7 +1991,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IBox3sGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IBox3sGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IBox3sGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c88850&gt;]) -&gt; IBox3sGeomParamSample</p>
+<dd><p>getExpandedValue( (IBox3sGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x196c850&gt;]) -&gt; IBox3sGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -2035,7 +2009,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IBox3sGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IBox3sGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IBox3sGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c888d0&gt;]) -&gt; IBox3sGeomParamSample</p>
+<dd><p>getIndexedValue( (IBox3sGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x196c8d0&gt;]) -&gt; IBox3sGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -2178,7 +2152,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IC3cGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IC3cGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IC3cGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2d004d0&gt;]) -&gt; IC3cGeomParamSample</p>
+<dd><p>getExpandedValue( (IC3cGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19e44d0&gt;]) -&gt; IC3cGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -2196,7 +2170,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IC3cGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IC3cGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IC3cGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2d00550&gt;]) -&gt; IC3cGeomParamSample</p>
+<dd><p>getIndexedValue( (IC3cGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19e4550&gt;]) -&gt; IC3cGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -2339,7 +2313,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IC3fGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IC3fGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IC3fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2d003d0&gt;]) -&gt; IC3fGeomParamSample</p>
+<dd><p>getExpandedValue( (IC3fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19e43d0&gt;]) -&gt; IC3fGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -2357,7 +2331,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IC3fGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IC3fGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IC3fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2d00450&gt;]) -&gt; IC3fGeomParamSample</p>
+<dd><p>getIndexedValue( (IC3fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19e4450&gt;]) -&gt; IC3fGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -2500,7 +2474,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IC3hGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IC3hGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IC3hGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2d002d0&gt;]) -&gt; IC3hGeomParamSample</p>
+<dd><p>getExpandedValue( (IC3hGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19e42d0&gt;]) -&gt; IC3hGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -2518,7 +2492,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IC3hGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IC3hGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IC3hGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2d00350&gt;]) -&gt; IC3hGeomParamSample</p>
+<dd><p>getIndexedValue( (IC3hGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19e4350&gt;]) -&gt; IC3hGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -2661,7 +2635,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IC4cGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IC4cGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IC4cGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2d007d0&gt;]) -&gt; IC4cGeomParamSample</p>
+<dd><p>getExpandedValue( (IC4cGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19e47d0&gt;]) -&gt; IC4cGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -2679,7 +2653,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IC4cGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IC4cGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IC4cGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2d00850&gt;]) -&gt; IC4cGeomParamSample</p>
+<dd><p>getIndexedValue( (IC4cGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19e4850&gt;]) -&gt; IC4cGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -2822,7 +2796,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IC4fGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IC4fGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IC4fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2d006d0&gt;]) -&gt; IC4fGeomParamSample</p>
+<dd><p>getExpandedValue( (IC4fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19e46d0&gt;]) -&gt; IC4fGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -2840,7 +2814,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IC4fGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IC4fGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IC4fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2d00750&gt;]) -&gt; IC4fGeomParamSample</p>
+<dd><p>getIndexedValue( (IC4fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19e4750&gt;]) -&gt; IC4fGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -2983,7 +2957,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IC4hGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IC4hGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IC4hGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2d005d0&gt;]) -&gt; IC4hGeomParamSample</p>
+<dd><p>getExpandedValue( (IC4hGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19e45d0&gt;]) -&gt; IC4hGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -3001,7 +2975,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IC4hGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IC4hGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IC4hGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2d00650&gt;]) -&gt; IC4hGeomParamSample</p>
+<dd><p>getIndexedValue( (IC4hGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19e4650&gt;]) -&gt; IC4hGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -3214,7 +3188,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.ICameraSchema.getValue">
 <tt class="descname">getValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.ICameraSchema.getValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getValue( (ICameraSchema)arg1 [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x2ea9050&gt;]) -&gt; CameraSample</p>
+<dd><p>getValue( (ICameraSchema)arg1 [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x1b8e050&gt;]) -&gt; CameraSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -3256,7 +3230,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.ICharGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.ICharGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (ICharGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x281d750&gt;]) -&gt; ICharGeomParamSample</p>
+<dd><p>getExpandedValue( (ICharGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1502750&gt;]) -&gt; ICharGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -3274,7 +3248,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.ICharGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.ICharGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (ICharGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x281d7d0&gt;]) -&gt; ICharGeomParamSample</p>
+<dd><p>getIndexedValue( (ICharGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x15027d0&gt;]) -&gt; ICharGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -3457,7 +3431,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.ICurvesSchema.get">
 <tt class="descname">get</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.ICurvesSchema.get" title="Permalink to this definition">¶</a></dt>
-<dd><p>get( (ICurvesSchema)arg1, (ICurvesSchemaSample)sample [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x2e7b650&gt;]) -&gt; None</p>
+<dd><p>get( (ICurvesSchema)arg1, (ICurvesSchemaSample)sample [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x1b26650&gt;]) -&gt; None</p>
 </dd></dl>
 
 <dl class="method">
@@ -3523,7 +3497,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.ICurvesSchema.getValue">
 <tt class="descname">getValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.ICurvesSchema.getValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getValue( (ICurvesSchema)arg1 [, (ISampleSelector)iSampSelector=&lt;alembic.Abc.ISampleSelector object at 0x2e7b5d0&gt;]) -&gt; ICurvesSchemaSample</p>
+<dd><p>getValue( (ICurvesSchema)arg1 [, (ISampleSelector)iSampSelector=&lt;alembic.Abc.ISampleSelector object at 0x1b265d0&gt;]) -&gt; ICurvesSchemaSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -3660,7 +3634,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IDoubleGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IDoubleGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IDoubleGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c6d0d0&gt;]) -&gt; IDoubleGeomParamSample</p>
+<dd><p>getExpandedValue( (IDoubleGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19510d0&gt;]) -&gt; IDoubleGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -3678,7 +3652,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IDoubleGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IDoubleGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IDoubleGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c6d150&gt;]) -&gt; IDoubleGeomParamSample</p>
+<dd><p>getIndexedValue( (IDoubleGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1951150&gt;]) -&gt; IDoubleGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -3879,7 +3853,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IFaceSetSchema.getValue">
 <tt class="descname">getValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IFaceSetSchema.getValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getValue( (IFaceSetSchema)arg1 [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x281d4d0&gt;]) -&gt; IFaceSetSchemaSample</p>
+<dd><p>getValue( (IFaceSetSchema)arg1 [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x15024d0&gt;]) -&gt; IFaceSetSchemaSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -3950,7 +3924,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IFloatGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IFloatGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IFloatGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x281df50&gt;]) -&gt; IFloatGeomParamSample</p>
+<dd><p>getExpandedValue( (IFloatGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1502f50&gt;]) -&gt; IFloatGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -3968,7 +3942,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IFloatGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IFloatGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IFloatGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c6d050&gt;]) -&gt; IFloatGeomParamSample</p>
+<dd><p>getIndexedValue( (IFloatGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1951050&gt;]) -&gt; IFloatGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -4099,7 +4073,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IGeomBase.get">
 <tt class="descname">get</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IGeomBase.get" title="Permalink to this definition">¶</a></dt>
-<dd><p>get( (IGeomBase)arg1, (IGeomBaseSample)oSample [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x2e0b9d0&gt;]) -&gt; None</p>
+<dd><p>get( (IGeomBase)arg1, (IGeomBaseSample)oSample [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x1aef9d0&gt;]) -&gt; None</p>
 </dd></dl>
 
 <dl class="method">
@@ -4129,7 +4103,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IGeomBase.getValue">
 <tt class="descname">getValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IGeomBase.getValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getValue( (IGeomBase)arg1 [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x2e0b950&gt;]) -&gt; IGeomBaseSample</p>
+<dd><p>getValue( (IGeomBase)arg1 [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x1aef950&gt;]) -&gt; IGeomBaseSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -4625,7 +4599,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IHalfGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IHalfGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IHalfGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x281de50&gt;]) -&gt; IHalfGeomParamSample</p>
+<dd><p>getExpandedValue( (IHalfGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1502e50&gt;]) -&gt; IHalfGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -4643,7 +4617,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IHalfGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IHalfGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IHalfGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x281ded0&gt;]) -&gt; IHalfGeomParamSample</p>
+<dd><p>getIndexedValue( (IHalfGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1502ed0&gt;]) -&gt; IHalfGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -4786,7 +4760,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IInt16GeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IInt16GeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IInt16GeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x281d950&gt;]) -&gt; IInt16GeomParamSample</p>
+<dd><p>getExpandedValue( (IInt16GeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1502950&gt;]) -&gt; IInt16GeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -4804,7 +4778,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IInt16GeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IInt16GeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IInt16GeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x281d9d0&gt;]) -&gt; IInt16GeomParamSample</p>
+<dd><p>getIndexedValue( (IInt16GeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x15029d0&gt;]) -&gt; IInt16GeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -4947,7 +4921,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IInt32GeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IInt32GeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IInt32GeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x281db50&gt;]) -&gt; IInt32GeomParamSample</p>
+<dd><p>getExpandedValue( (IInt32GeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1502b50&gt;]) -&gt; IInt32GeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -4965,7 +4939,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IInt32GeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IInt32GeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IInt32GeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x281dbd0&gt;]) -&gt; IInt32GeomParamSample</p>
+<dd><p>getIndexedValue( (IInt32GeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1502bd0&gt;]) -&gt; IInt32GeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -5108,7 +5082,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IInt64GeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IInt64GeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IInt64GeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x281dd50&gt;]) -&gt; IInt64GeomParamSample</p>
+<dd><p>getExpandedValue( (IInt64GeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1502d50&gt;]) -&gt; IInt64GeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -5126,7 +5100,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IInt64GeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IInt64GeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IInt64GeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x281ddd0&gt;]) -&gt; IInt64GeomParamSample</p>
+<dd><p>getIndexedValue( (IInt64GeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1502dd0&gt;]) -&gt; IInt64GeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -5375,7 +5349,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IM33dGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IM33dGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IM33dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c88d50&gt;]) -&gt; IM33dGeomParamSample</p>
+<dd><p>getExpandedValue( (IM33dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x196cd50&gt;]) -&gt; IM33dGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -5393,7 +5367,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IM33dGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IM33dGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IM33dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c88dd0&gt;]) -&gt; IM33dGeomParamSample</p>
+<dd><p>getIndexedValue( (IM33dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x196cdd0&gt;]) -&gt; IM33dGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -5536,7 +5510,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IM33fGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IM33fGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IM33fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c88c50&gt;]) -&gt; IM33fGeomParamSample</p>
+<dd><p>getExpandedValue( (IM33fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x196cc50&gt;]) -&gt; IM33fGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -5554,7 +5528,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IM33fGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IM33fGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IM33fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c88cd0&gt;]) -&gt; IM33fGeomParamSample</p>
+<dd><p>getIndexedValue( (IM33fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x196ccd0&gt;]) -&gt; IM33fGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -5697,7 +5671,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IM44dGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IM44dGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IM44dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c88f50&gt;]) -&gt; IM44dGeomParamSample</p>
+<dd><p>getExpandedValue( (IM44dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x196cf50&gt;]) -&gt; IM44dGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -5715,7 +5689,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IM44dGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IM44dGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IM44dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2d00050&gt;]) -&gt; IM44dGeomParamSample</p>
+<dd><p>getIndexedValue( (IM44dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19e4050&gt;]) -&gt; IM44dGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -5858,7 +5832,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IM44fGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IM44fGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IM44fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c88e50&gt;]) -&gt; IM44fGeomParamSample</p>
+<dd><p>getExpandedValue( (IM44fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x196ce50&gt;]) -&gt; IM44fGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -5876,7 +5850,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IM44fGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IM44fGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IM44fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c88ed0&gt;]) -&gt; IM44fGeomParamSample</p>
+<dd><p>getIndexedValue( (IM44fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x196ced0&gt;]) -&gt; IM44fGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -6019,7 +5993,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IN2dGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IN2dGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IN2dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2d009d0&gt;]) -&gt; IN2dGeomParamSample</p>
+<dd><p>getExpandedValue( (IN2dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19e49d0&gt;]) -&gt; IN2dGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -6037,7 +6011,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IN2dGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IN2dGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IN2dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2d00a50&gt;]) -&gt; IN2dGeomParamSample</p>
+<dd><p>getIndexedValue( (IN2dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19e4a50&gt;]) -&gt; IN2dGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -6180,7 +6154,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IN2fGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IN2fGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IN2fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2d008d0&gt;]) -&gt; IN2fGeomParamSample</p>
+<dd><p>getExpandedValue( (IN2fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19e48d0&gt;]) -&gt; IN2fGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -6198,7 +6172,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IN2fGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IN2fGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IN2fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2d00950&gt;]) -&gt; IN2fGeomParamSample</p>
+<dd><p>getIndexedValue( (IN2fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19e4950&gt;]) -&gt; IN2fGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -6341,7 +6315,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IN3dGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IN3dGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IN3dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2d00bd0&gt;]) -&gt; IN3dGeomParamSample</p>
+<dd><p>getExpandedValue( (IN3dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19e4bd0&gt;]) -&gt; IN3dGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -6359,7 +6333,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IN3dGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IN3dGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IN3dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2d00c50&gt;]) -&gt; IN3dGeomParamSample</p>
+<dd><p>getIndexedValue( (IN3dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19e4c50&gt;]) -&gt; IN3dGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -6502,7 +6476,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IN3fGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IN3fGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IN3fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2d00ad0&gt;]) -&gt; IN3fGeomParamSample</p>
+<dd><p>getExpandedValue( (IN3fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19e4ad0&gt;]) -&gt; IN3fGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -6520,7 +6494,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IN3fGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IN3fGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IN3fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2d00b50&gt;]) -&gt; IN3fGeomParamSample</p>
+<dd><p>getIndexedValue( (IN3fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19e4b50&gt;]) -&gt; IN3fGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -6703,7 +6677,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.INuPatchSchema.get">
 <tt class="descname">get</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.INuPatchSchema.get" title="Permalink to this definition">¶</a></dt>
-<dd><p>get( (INuPatchSchema)arg1, (INuPatchSchemaSample)sample [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x2e7bd50&gt;]) -&gt; None</p>
+<dd><p>get( (INuPatchSchema)arg1, (INuPatchSchemaSample)sample [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x1b26d50&gt;]) -&gt; None</p>
 </dd></dl>
 
 <dl class="method">
@@ -6763,7 +6737,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.INuPatchSchema.getValue">
 <tt class="descname">getValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.INuPatchSchema.getValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getValue( (INuPatchSchema)arg1 [, (ISampleSelector)iSampSelector=&lt;alembic.Abc.ISampleSelector object at 0x2e7bcd0&gt;]) -&gt; INuPatchSchemaSample</p>
+<dd><p>getValue( (INuPatchSchema)arg1 [, (ISampleSelector)iSampSelector=&lt;alembic.Abc.ISampleSelector object at 0x1b26cd0&gt;]) -&gt; INuPatchSchemaSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -6972,7 +6946,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IP2dGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IP2dGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IP2dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c6ded0&gt;]) -&gt; IP2dGeomParamSample</p>
+<dd><p>getExpandedValue( (IP2dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1951ed0&gt;]) -&gt; IP2dGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -6990,7 +6964,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IP2dGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IP2dGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IP2dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c6df50&gt;]) -&gt; IP2dGeomParamSample</p>
+<dd><p>getIndexedValue( (IP2dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1951f50&gt;]) -&gt; IP2dGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -7133,7 +7107,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IP2fGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IP2fGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IP2fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c6ddd0&gt;]) -&gt; IP2fGeomParamSample</p>
+<dd><p>getExpandedValue( (IP2fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1951dd0&gt;]) -&gt; IP2fGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -7151,7 +7125,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IP2fGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IP2fGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IP2fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c6de50&gt;]) -&gt; IP2fGeomParamSample</p>
+<dd><p>getIndexedValue( (IP2fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1951e50&gt;]) -&gt; IP2fGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -7294,7 +7268,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IP2iGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IP2iGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IP2iGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c6dcd0&gt;]) -&gt; IP2iGeomParamSample</p>
+<dd><p>getExpandedValue( (IP2iGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1951cd0&gt;]) -&gt; IP2iGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -7312,7 +7286,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IP2iGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IP2iGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IP2iGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c6dd50&gt;]) -&gt; IP2iGeomParamSample</p>
+<dd><p>getIndexedValue( (IP2iGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1951d50&gt;]) -&gt; IP2iGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -7455,7 +7429,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IP2sGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IP2sGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IP2sGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c6dbd0&gt;]) -&gt; IP2sGeomParamSample</p>
+<dd><p>getExpandedValue( (IP2sGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1951bd0&gt;]) -&gt; IP2sGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -7473,7 +7447,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IP2sGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IP2sGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IP2sGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c6dc50&gt;]) -&gt; IP2sGeomParamSample</p>
+<dd><p>getIndexedValue( (IP2sGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1951c50&gt;]) -&gt; IP2sGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -7616,7 +7590,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IP3dGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IP3dGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IP3dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c88350&gt;]) -&gt; IP3dGeomParamSample</p>
+<dd><p>getExpandedValue( (IP3dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x196c350&gt;]) -&gt; IP3dGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -7634,7 +7608,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IP3dGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IP3dGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IP3dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c883d0&gt;]) -&gt; IP3dGeomParamSample</p>
+<dd><p>getIndexedValue( (IP3dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x196c3d0&gt;]) -&gt; IP3dGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -7777,7 +7751,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IP3fGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IP3fGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IP3fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c88250&gt;]) -&gt; IP3fGeomParamSample</p>
+<dd><p>getExpandedValue( (IP3fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x196c250&gt;]) -&gt; IP3fGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -7795,7 +7769,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IP3fGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IP3fGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IP3fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c882d0&gt;]) -&gt; IP3fGeomParamSample</p>
+<dd><p>getIndexedValue( (IP3fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x196c2d0&gt;]) -&gt; IP3fGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -7938,7 +7912,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IP3iGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IP3iGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IP3iGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c88150&gt;]) -&gt; IP3iGeomParamSample</p>
+<dd><p>getExpandedValue( (IP3iGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x196c150&gt;]) -&gt; IP3iGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -7956,7 +7930,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IP3iGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IP3iGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IP3iGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c881d0&gt;]) -&gt; IP3iGeomParamSample</p>
+<dd><p>getIndexedValue( (IP3iGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x196c1d0&gt;]) -&gt; IP3iGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -8099,7 +8073,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IP3sGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IP3sGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IP3sGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c88050&gt;]) -&gt; IP3sGeomParamSample</p>
+<dd><p>getExpandedValue( (IP3sGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x196c050&gt;]) -&gt; IP3sGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -8117,7 +8091,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IP3sGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IP3sGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IP3sGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c880d0&gt;]) -&gt; IP3sGeomParamSample</p>
+<dd><p>getIndexedValue( (IP3sGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x196c0d0&gt;]) -&gt; IP3sGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -8324,7 +8298,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IPointsSchema.getValue">
 <tt class="descname">getValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IPointsSchema.getValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getValue( (IPointsSchema)arg1 [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x2e7b2d0&gt;]) -&gt; IPointsSchemaSample</p>
+<dd><p>getValue( (IPointsSchema)arg1 [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x1b262d0&gt;]) -&gt; IPointsSchemaSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -8519,7 +8493,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IPolyMeshSchema.getValue">
 <tt class="descname">getValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IPolyMeshSchema.getValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getValue( (IPolyMeshSchema)arg1 [, (ISampleSelector)iSampSelector=&lt;alembic.Abc.ISampleSelector object at 0x2e0bb50&gt;]) -&gt; IPolyMeshSchemaSample</p>
+<dd><p>getValue( (IPolyMeshSchema)arg1 [, (ISampleSelector)iSampSelector=&lt;alembic.Abc.ISampleSelector object at 0x1aefb50&gt;]) -&gt; IPolyMeshSchemaSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -8620,7 +8594,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IQuatdGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IQuatdGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IQuatdGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2d001d0&gt;]) -&gt; IQuatdGeomParamSample</p>
+<dd><p>getExpandedValue( (IQuatdGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19e41d0&gt;]) -&gt; IQuatdGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -8638,7 +8612,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IQuatdGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IQuatdGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IQuatdGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2d00250&gt;]) -&gt; IQuatdGeomParamSample</p>
+<dd><p>getIndexedValue( (IQuatdGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19e4250&gt;]) -&gt; IQuatdGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -8781,7 +8755,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IQuatfGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IQuatfGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IQuatfGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2d000d0&gt;]) -&gt; IQuatfGeomParamSample</p>
+<dd><p>getExpandedValue( (IQuatfGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19e40d0&gt;]) -&gt; IQuatfGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -8799,7 +8773,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IQuatfGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IQuatfGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IQuatfGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2d00150&gt;]) -&gt; IQuatfGeomParamSample</p>
+<dd><p>getIndexedValue( (IQuatfGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19e4150&gt;]) -&gt; IQuatfGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -9047,7 +9021,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IStringGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IStringGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IStringGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c6d1d0&gt;]) -&gt; IStringGeomParamSample</p>
+<dd><p>getExpandedValue( (IStringGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19511d0&gt;]) -&gt; IStringGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -9065,7 +9039,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IStringGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IStringGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IStringGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c6d250&gt;]) -&gt; IStringGeomParamSample</p>
+<dd><p>getIndexedValue( (IStringGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1951250&gt;]) -&gt; IStringGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -9362,7 +9336,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.ISubDSchema.getValue">
 <tt class="descname">getValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.ISubDSchema.getValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getValue( (ISubDSchema)arg1 [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x2e7b9d0&gt;]) -&gt; Sample</p>
+<dd><p>getValue( (ISubDSchema)arg1 [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x1b269d0&gt;]) -&gt; Sample</p>
 </dd></dl>
 
 <dl class="method">
@@ -9416,7 +9390,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IUInt16GeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IUInt16GeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IUInt16GeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x281d850&gt;]) -&gt; IUInt16GeomParamSample</p>
+<dd><p>getExpandedValue( (IUInt16GeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1502850&gt;]) -&gt; IUInt16GeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -9434,7 +9408,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IUInt16GeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IUInt16GeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IUInt16GeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x281d8d0&gt;]) -&gt; IUInt16GeomParamSample</p>
+<dd><p>getIndexedValue( (IUInt16GeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x15028d0&gt;]) -&gt; IUInt16GeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -9577,7 +9551,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IUInt32GeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IUInt32GeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IUInt32GeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x281da50&gt;]) -&gt; IUInt32GeomParamSample</p>
+<dd><p>getExpandedValue( (IUInt32GeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1502a50&gt;]) -&gt; IUInt32GeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -9595,7 +9569,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IUInt32GeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IUInt32GeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IUInt32GeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x281dad0&gt;]) -&gt; IUInt32GeomParamSample</p>
+<dd><p>getIndexedValue( (IUInt32GeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1502ad0&gt;]) -&gt; IUInt32GeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -9738,7 +9712,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IUInt64GeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IUInt64GeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IUInt64GeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x281dc50&gt;]) -&gt; IUInt64GeomParamSample</p>
+<dd><p>getExpandedValue( (IUInt64GeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1502c50&gt;]) -&gt; IUInt64GeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -9756,7 +9730,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IUInt64GeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IUInt64GeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IUInt64GeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x281dcd0&gt;]) -&gt; IUInt64GeomParamSample</p>
+<dd><p>getIndexedValue( (IUInt64GeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1502cd0&gt;]) -&gt; IUInt64GeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -9899,7 +9873,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IUcharGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IUcharGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IUcharGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x281d650&gt;]) -&gt; IUcharGeomParamSample</p>
+<dd><p>getExpandedValue( (IUcharGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1502650&gt;]) -&gt; IUcharGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -9917,7 +9891,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IUcharGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IUcharGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IUcharGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x281d6d0&gt;]) -&gt; IUcharGeomParamSample</p>
+<dd><p>getIndexedValue( (IUcharGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x15026d0&gt;]) -&gt; IUcharGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -10060,7 +10034,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IV2dGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IV2dGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IV2dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c6d6d0&gt;]) -&gt; IV2dGeomParamSample</p>
+<dd><p>getExpandedValue( (IV2dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19516d0&gt;]) -&gt; IV2dGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -10078,7 +10052,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IV2dGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IV2dGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IV2dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c6d750&gt;]) -&gt; IV2dGeomParamSample</p>
+<dd><p>getIndexedValue( (IV2dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1951750&gt;]) -&gt; IV2dGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -10221,7 +10195,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IV2fGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IV2fGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IV2fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c6d5d0&gt;]) -&gt; IV2fGeomParamSample</p>
+<dd><p>getExpandedValue( (IV2fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19515d0&gt;]) -&gt; IV2fGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -10239,7 +10213,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IV2fGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IV2fGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IV2fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c6d650&gt;]) -&gt; IV2fGeomParamSample</p>
+<dd><p>getIndexedValue( (IV2fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1951650&gt;]) -&gt; IV2fGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -10382,7 +10356,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IV2iGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IV2iGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IV2iGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c6d4d0&gt;]) -&gt; IV2iGeomParamSample</p>
+<dd><p>getExpandedValue( (IV2iGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19514d0&gt;]) -&gt; IV2iGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -10400,7 +10374,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IV2iGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IV2iGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IV2iGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c6d550&gt;]) -&gt; IV2iGeomParamSample</p>
+<dd><p>getIndexedValue( (IV2iGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1951550&gt;]) -&gt; IV2iGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -10543,7 +10517,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IV2sGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IV2sGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IV2sGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c6d3d0&gt;]) -&gt; IV2sGeomParamSample</p>
+<dd><p>getExpandedValue( (IV2sGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19513d0&gt;]) -&gt; IV2sGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -10561,7 +10535,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IV2sGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IV2sGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IV2sGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c6d450&gt;]) -&gt; IV2sGeomParamSample</p>
+<dd><p>getIndexedValue( (IV2sGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1951450&gt;]) -&gt; IV2sGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -10704,7 +10678,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IV3dGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IV3dGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IV3dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c6dad0&gt;]) -&gt; IV3dGeomParamSample</p>
+<dd><p>getExpandedValue( (IV3dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1951ad0&gt;]) -&gt; IV3dGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -10722,7 +10696,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IV3dGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IV3dGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IV3dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c6db50&gt;]) -&gt; IV3dGeomParamSample</p>
+<dd><p>getIndexedValue( (IV3dGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1951b50&gt;]) -&gt; IV3dGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -10865,7 +10839,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IV3fGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IV3fGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IV3fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c6d9d0&gt;]) -&gt; IV3fGeomParamSample</p>
+<dd><p>getExpandedValue( (IV3fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19519d0&gt;]) -&gt; IV3fGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -10883,7 +10857,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IV3fGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IV3fGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IV3fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c6da50&gt;]) -&gt; IV3fGeomParamSample</p>
+<dd><p>getIndexedValue( (IV3fGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1951a50&gt;]) -&gt; IV3fGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -11026,7 +11000,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IV3iGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IV3iGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IV3iGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c6d8d0&gt;]) -&gt; IV3iGeomParamSample</p>
+<dd><p>getExpandedValue( (IV3iGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19518d0&gt;]) -&gt; IV3iGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -11044,7 +11018,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IV3iGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IV3iGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IV3iGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c6d950&gt;]) -&gt; IV3iGeomParamSample</p>
+<dd><p>getIndexedValue( (IV3iGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1951950&gt;]) -&gt; IV3iGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -11187,7 +11161,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IV3sGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IV3sGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IV3sGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c6d7d0&gt;]) -&gt; IV3sGeomParamSample</p>
+<dd><p>getExpandedValue( (IV3sGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19517d0&gt;]) -&gt; IV3sGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -11205,7 +11179,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IV3sGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IV3sGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IV3sGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c6d850&gt;]) -&gt; IV3sGeomParamSample</p>
+<dd><p>getIndexedValue( (IV3sGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1951850&gt;]) -&gt; IV3sGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -11348,7 +11322,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IWstringGeomParam.getExpandedValue">
 <tt class="descname">getExpandedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IWstringGeomParam.getExpandedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getExpandedValue( (IWstringGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c6d2d0&gt;]) -&gt; IWstringGeomParamSample</p>
+<dd><p>getExpandedValue( (IWstringGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x19512d0&gt;]) -&gt; IWstringGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -11366,7 +11340,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IWstringGeomParam.getIndexedValue">
 <tt class="descname">getIndexedValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IWstringGeomParam.getIndexedValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getIndexedValue( (IWstringGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x2c6d350&gt;]) -&gt; IWstringGeomParamSample</p>
+<dd><p>getIndexedValue( (IWstringGeomParam)arg1 [, (ISampleSelector)iSampleSelector=&lt;alembic.Abc.ISampleSelector object at 0x1951350&gt;]) -&gt; IWstringGeomParamSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -11562,7 +11536,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dt id="alembic.AbcGeom.IXformSchema.getInheritsXforms">
 <tt class="descname">getInheritsXforms</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IXformSchema.getInheritsXforms" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
-<dt>getInheritsXforms( (IXformSchema)arg1 [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x2e0bed0&gt;]) -&gt; bool :</dt>
+<dt>getInheritsXforms( (IXformSchema)arg1 [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x1aefed0&gt;]) -&gt; bool :</dt>
 <dd>lightweight get to avoid constructing a sample</dd>
 </dl>
 </dd></dl>
@@ -11594,7 +11568,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="method">
 <dt id="alembic.AbcGeom.IXformSchema.getValue">
 <tt class="descname">getValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IXformSchema.getValue" title="Permalink to this definition">¶</a></dt>
-<dd><p>getValue( (IXformSchema)arg1 [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x2e0bf50&gt;]) -&gt; XformSample</p>
+<dd><p>getValue( (IXformSchema)arg1 [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x1aeff50&gt;]) -&gt; XformSample</p>
 </dd></dl>
 
 <dl class="method">
@@ -11626,7 +11600,7 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
 <dl class="function">
 <dt id="alembic.AbcGeom.IsAncestorInvisible">
 <tt class="descclassname">alembic.AbcGeom.</tt><tt class="descname">IsAncestorInvisible</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.AbcGeom.IsAncestorInvisible" title="Permalink to this definition">¶</a></dt>
-<dd><p>IsAncestorInvisible( (IObject)schemaObject [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x281d1d0&gt;]) -&gt; bool</p>
+<dd><p>IsAncestorInvisible( (IObject)schemaObject [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x15021d0&gt;]) -&gt; bool</p>
 </dd></dl>
 
 <dl class="class">
@@ -22596,15 +22570,6 @@ example, to write a polygonal mesh using AbcGeom functions.</p>
            </div>
           </div>
           <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="abcm.html" class="btn btn-neutral float-right" title="alembic.AbcMaterial" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="abcc.html" class="btn btn-neutral" title="alembic.AbcCollection" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
-    </div>
   
 
   <hr/>

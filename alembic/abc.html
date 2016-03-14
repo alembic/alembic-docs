@@ -31,10 +31,7 @@
   
 
   
-    <link rel="top" title="Alembic v1.6.0 documentation" href="../index.html"/>
-        <link rel="up" title="Alembic Module Index" href="index.html"/>
-        <link rel="next" title="alembic.AbcCoreAbstract" href="abca.html"/>
-        <link rel="prev" title="Alembic Module Index" href="index.html"/> 
+    <link rel="top" title="Alembic v1.6.0 documentation" href="../index.html"/> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
@@ -86,30 +83,11 @@
           
             
             
-                <ul class="current">
-<li class="toctree-l1 current"><a class="reference internal" href="../examples.html">Introduction</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../examples.html#major-concepts">Major Concepts</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../examples.html#importing">Importing</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../examples.html#namespaces">Namespaces</a><ul class="current">
-<li class="toctree-l3 current"><a class="reference internal" href="index.html">Alembic Module Index</a><ul class="current">
-<li class="toctree-l4 current"><a class="current reference internal" href=""><tt class="docutils literal"><span class="pre">alembic.Abc</span></tt></a></li>
-<li class="toctree-l4"><a class="reference internal" href="abca.html"><tt class="docutils literal"><span class="pre">alembic.AbcCoreAbstract</span></tt></a></li>
-<li class="toctree-l4"><a class="reference internal" href="abcc.html"><tt class="docutils literal"><span class="pre">alembic.AbcCollection</span></tt></a></li>
-<li class="toctree-l4"><a class="reference internal" href="abcg.html"><tt class="docutils literal"><span class="pre">alembic.AbcGeom</span></tt></a></li>
-<li class="toctree-l4"><a class="reference internal" href="abcm.html"><tt class="docutils literal"><span class="pre">alembic.AbcMaterial</span></tt></a></li>
-<li class="toctree-l4"><a class="reference internal" href="util.html"><tt class="docutils literal"><span class="pre">alembic.Util</span></tt></a></li>
+                <!-- Local TOC -->
+                <div class="local-toc"><ul>
+<li><a class="reference internal" href="#"><tt class="docutils literal"><span class="pre">alembic.Abc</span></tt></a></li>
 </ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../examples.html#setting-getting-data">Setting &amp; Getting Data</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../examples.html#finding-a-mesh-by-name">Finding a Mesh By Name</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../examples.html#accumulating-a-transform">Accumulating a Transform</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../examples.html#write-non-standard-data-for-a-polymesh">Write Non-Standard Data for a PolyMesh</a></li>
-</ul>
-
+</div>
             
           
         </div>
@@ -137,10 +115,6 @@
 <div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href="../index.html">Docs</a> &raquo;</li>
-      
-          <li><a href="../examples.html">Introduction</a> &raquo;</li>
-      
-          <li><a href="index.html">Alembic Module Index</a> &raquo;</li>
       
     <li><tt class="docutils literal"><span class="pre">alembic.Abc</span></tt></li>
       <li class="wy-breadcrumbs-aside">
@@ -641,7 +615,7 @@ layer those bytes can be thought of as a value instance of Imath objects.</p>
 <dt id="alembic.Abc.CreateArchiveWithInfo">
 <tt class="descclassname">alembic.Abc.</tt><tt class="descname">CreateArchiveWithInfo</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.Abc.CreateArchiveWithInfo" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
-<dt>CreateArchiveWithInfo( (str)fileName, (str)ApplicationWriter, (str)UserDescription [, (Argument)argument=&lt;alembic.Abc.Argument object at 0x2a53398&gt; [, (Argument)argument=&lt;alembic.Abc.Argument object at 0x2a53320&gt; [, (bool)asOgawa=True]]]) -&gt; OArchive :</dt>
+<dt>CreateArchiveWithInfo( (str)fileName, (str)ApplicationWriter, (str)UserDescription [, (Argument)argument=&lt;alembic.Abc.Argument object at 0x17362a8&gt; [, (Argument)argument=&lt;alembic.Abc.Argument object at 0x1736230&gt; [, (bool)asOgawa=True]]]) -&gt; OArchive :</dt>
 <dd>Create an OArchive with the passed arguments</dd>
 </dl>
 </dd></dl>
@@ -873,7 +847,7 @@ layer those bytes can be thought of as a value instance of Imath objects.</p>
 <dt id="alembic.Abc.IArrayProperty.getValue">
 <tt class="descname">getValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.Abc.IArrayProperty.getValue" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
-<dt>getValue( (IArrayProperty)arg1 [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x2a2ff50&gt;]) -&gt; object :</dt>
+<dt>getValue( (IArrayProperty)arg1 [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x1713f50&gt;]) -&gt; object :</dt>
 <dd>Return the sample with the given ISampleSelector</dd>
 </dl>
 </dd></dl>
@@ -905,7 +879,7 @@ layer those bytes can be thought of as a value instance of Imath objects.</p>
 <dt id="alembic.Abc.IArrayProperty.serialize">
 <tt class="descname">serialize</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.Abc.IArrayProperty.serialize" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
-<dt>serialize( (IArrayProperty)arg1 [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x2a2fed0&gt;]) -&gt; object :</dt>
+<dt>serialize( (IArrayProperty)arg1 [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x1713ed0&gt;]) -&gt; object :</dt>
 <dd>Return the sample with the given ISampleSelector as a string</dd>
 </dl>
 </dd></dl>
@@ -3524,7 +3498,7 @@ If the object is the top level object, the IObject returned will be an empty Obj
 <dt id="alembic.Abc.IScalarProperty.getArrayValue">
 <tt class="descname">getArrayValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.Abc.IScalarProperty.getArrayValue" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
-<dt>getArrayValue( (IScalarProperty)arg1 [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x2a2fd50&gt;]) -&gt; object :</dt>
+<dt>getArrayValue( (IScalarProperty)arg1 [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x1713d50&gt;]) -&gt; object :</dt>
 <dd>Return the array sample with the given ISampleSelector</dd>
 </dl>
 </dd></dl>
@@ -3551,7 +3525,7 @@ If the object is the top level object, the IObject returned will be an empty Obj
 <dt id="alembic.Abc.IScalarProperty.getScalarValue">
 <tt class="descname">getScalarValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.Abc.IScalarProperty.getScalarValue" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
-<dt>getScalarValue( (IScalarProperty)arg1 [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x2a2fdd0&gt;]) -&gt; object :</dt>
+<dt>getScalarValue( (IScalarProperty)arg1 [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x1713dd0&gt;]) -&gt; object :</dt>
 <dd>Return the scalar sample with the given ISampleSelector</dd>
 </dl>
 </dd></dl>
@@ -3569,7 +3543,7 @@ If the object is the top level object, the IObject returned will be an empty Obj
 <dt id="alembic.Abc.IScalarProperty.getValue">
 <tt class="descname">getValue</tt><big>(</big><big>)</big><a class="headerlink" href="#alembic.Abc.IScalarProperty.getValue" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="docutils">
-<dt>getValue( (IScalarProperty)arg1 [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x2a2fe50&gt;]) -&gt; object :</dt>
+<dt>getValue( (IScalarProperty)arg1 [, (ISampleSelector)iSS=&lt;alembic.Abc.ISampleSelector object at 0x1713e50&gt;]) -&gt; object :</dt>
 <dd>Return the sample with the given ISampleSelector</dd>
 </dl>
 </dd></dl>
@@ -8952,15 +8926,6 @@ If the object is the top level object, the OObject returned will be an empty Obj
            </div>
           </div>
           <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="abca.html" class="btn btn-neutral float-right" title="alembic.AbcCoreAbstract" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="index.html" class="btn btn-neutral" title="Alembic Module Index" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
-    </div>
   
 
   <hr/>
