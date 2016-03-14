@@ -1,0 +1,271 @@
+
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Alembic 1.6.0 &mdash; Alembic v1.6.0 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="Alembic v1.6.0 documentation" href="#"/>
+        <link rel="next" title="Introduction" href="examples.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="#" class="icon icon-home"> Alembic
+          
+
+          
+            
+            <img src="_static/alembic.png" class="logo" />
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.6.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html#setting-getting-data">Setting &amp; Getting Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html#finding-a-mesh-by-name">Finding a Mesh By Name</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html#accumulating-a-transform">Accumulating a Transform</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html#write-non-standard-data-for-a-polymesh">Write Non-Standard Data for a PolyMesh</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="#">Alembic</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="#">Docs</a> &raquo;</li>
+      
+    <li>Alembic 1.6.0</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/index.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="alembic-1-6-0">
+<h1>Alembic 1.6.0<a class="headerlink" href="#alembic-1-6-0" title="Permalink to this headline">¶</a></h1>
+<p>Alembic is an open source geometry caching format that promotes interoperability
+between authoring tools. From <a class="reference external" href="http://alembic.io">alembic.io</a>:</p>
+<blockquote>
+<div><em>Alembic distills complex, animated scenes into a non-procedural, application-
+independent set of baked geometric results. This ‘distillation&#8217; of scenes into
+baked geometry is exactly analogous to the distillation of lighting and rendering
+scenes into rendered image data.</em></div></blockquote>
+<p>Alembic is focused on efficiently storing the computed results of complex procedural
+geometric constructions. It is specifically NOT concerned with storing the complex
+dependency graph of procedural tools used to create the computed results. For example,
+Alembic will efficiently store the animated vertex positions and animated transforms
+that result from an arbitrarily complex animation and simulation process, but will not
+attempt to store a representation of the network of computations (rigs, basically) which
+were required to produce the final, animated vertex positions and animated transforms.</p>
+<p>This document is intended to serve as a brief introduction and  programmer&#8217;s guide to
+using the Alembic Python bindings.</p>
+<div class="section" id="get-alembic">
+<h2>Get Alembic<a class="headerlink" href="#get-alembic" title="Permalink to this headline">¶</a></h2>
+<p>The Alembic code can be found in a git repository at</p>
+<div class="highlight-python"><pre>$ git clone http://github.com/alembic/alembic</pre>
+</div>
+</div>
+<div class="section" id="getting-started">
+<h2>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h2>
+<p>The Alembic Python bindings have been tested with
+<a class="reference external" href="http://www.python.org/download/releases/2.6.8/">Python 2.6</a>,
+and require <a class="reference external" href="http://github.com/openexr/openexr">PyImath</a> and
+<a class="reference external" href="http://boost.org">Boost::Python</a> libraries to run.
+In order to use Alembic in Python, you must first build both Alembic and the Alembic
+Python bindings.</p>
+<div class="highlight-python"><pre>$ cmake -DUSE_PYALEMBIC</pre>
+</div>
+<p><strong>Usage Examples</strong>: Some basic Alembic tasks are explored here.</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Introduction</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="examples.html#major-concepts">Major Concepts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="examples.html#importing">Importing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="examples.html#namespaces">Namespaces</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html#setting-getting-data">Setting &amp; Getting Data</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="examples.html#archives">Archives</a></li>
+<li class="toctree-l2"><a class="reference internal" href="examples.html#objects">Objects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="examples.html#properties">Properties</a></li>
+<li class="toctree-l2"><a class="reference internal" href="examples.html#samples">Samples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="examples.html#reading-an-archive">Reading an Archive</a></li>
+<li class="toctree-l2"><a class="reference internal" href="examples.html#hierarchy-navigation">Hierarchy Navigation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html#finding-a-mesh-by-name">Finding a Mesh By Name</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html#accumulating-a-transform">Accumulating a Transform</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html#write-non-standard-data-for-a-polymesh">Write Non-Standard Data for a PolyMesh</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><a class="reference internal" href="genindex.html"><em>Index</em></a></li>
+<li><a class="reference internal" href="py-modindex.html"><em>Module Index</em></a></li>
+<li><a class="reference internal" href="search.html"><em>Search Page</em></a></li>
+</ul>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="examples.html" class="btn btn-neutral float-right" title="Introduction" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2012-2016, Sony Pictures Imageworks Inc. and Industrial Light &amp; Magic, a division of Lucasfilm Entertainment Company Ltd..
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'',
+            VERSION:'1.6.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
