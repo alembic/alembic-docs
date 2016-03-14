@@ -252,3 +252,6 @@ epub_copyright = u'2012-2016, Lucasfilm LTD.'
 
 # Allow duplicate toc entries.
 #epub_tocdup = True
+
+rst_epilog = ".. |version| replace: %s" % version
+
