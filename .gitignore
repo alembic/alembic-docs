@@ -2,6 +2,8 @@
 *.pyc
 *.swp
 *~
+conf.py
+alembic.dox
 venv
 html
 build

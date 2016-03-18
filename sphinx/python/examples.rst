@@ -1,4 +1,4 @@
-.. _pyalembic-examples:
+.. _pyalembic-intro:
 
 Introduction
 ============
@@ -46,7 +46,7 @@ on the layer below it. The lowest level library is an abstract interface layer c
 .. toctree::
    :maxdepth: 2
 
-   alembic/index
+   modindex
 
 
 Setting & Getting Data
@@ -54,8 +54,8 @@ Setting & Getting Data
 
 We'll start by targeting the thing you'd most often want to do - write and read
 animated, geometric primitives. To do this, we will be using two main
-modules: :doc:`alembic.Abc </alembic/abc>`, which provides the basic Alembic Abstractions,
-and :doc:`alembic.AbcGeom </alembic/abcg>`, which implements specific Geometric primitives
+modules: :doc:`alembic.Abc <abc>`, which provides the basic Alembic Abstractions,
+and :doc:`alembic.AbcGeom <abcg>`, which implements specific Geometric primitives
 on top of alembic.Abc (this example is taken from ``python/PyAlembic/Tests/testPolyMesh.py``).
 
 
@@ -343,9 +343,7 @@ Accumulating a Transform
 
 In this example, given a node in an Alembic Archive, we'll figure out what the final xform is. We 
 proceed from the leaf to the root. We're going to change :py:func:`visitObject()` slightly. Instead of checking the object's 
-name, we're going to call a new function, :py:func:`getBounds()`. This example is adapted from
-
-http://code.google.com/p/alembic/wiki/CookingWithAlembic#Accumulating_a_Transform
+name, we're going to call a new function, :py:func:`getBounds()`. 
 
 ::
     
@@ -413,4 +411,10 @@ workflows. Here we need an :py:class:`.OCompoundProperty` to use as the parent o
 
     mesh.set(mesh_samp)
     mass.set(2.0)
+
+
+Python Module Index
+===================
+
+:ref:`Python Module Index <modindex>`. 
 

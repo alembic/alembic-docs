@@ -63,6 +63,14 @@ Some of the available build options can be found in the
 `CMakeLists.txt <https://github.com/alembic/alembic/blob/master/CMakeLists.txt#L63>`_ file.
 
 
+API Reference
+-------------
+
+Click here for the C++ API reference documentation:
+
+    :ref:`API Reference <alembic-intro>` 
+
+
 PyAlembic
 ---------
 
@@ -76,8 +84,9 @@ The Alembic Python bindings have been tested with
 and require `PyImath <http://github.com/openexr/openexr>`_ and 
 `Boost::Python <http://boost.org>`_ libraries to run. 
 
-The :ref:`Introduction to PyAlembic <pyalembic-examples>` document is intended to serve
+The :ref:`Introduction to PyAlembic <pyalembic-intro>` document is intended to serve
 as a brief introduction and  programmer's guide to using the Alembic Python bindings. 
+You can also search the :ref:`Python Module Index <modindex>`. 
 
 
 Help
@@ -88,13 +97,4 @@ view the mailing list archives and join the mailing list via
 
 http://groups.google.com/group/alembic-discussion
 
-
-
-Indices and tables
-==================
-
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
 
