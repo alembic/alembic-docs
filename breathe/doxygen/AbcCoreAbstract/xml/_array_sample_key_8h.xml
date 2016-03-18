@@ -1,0 +1,385 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="_array_sample_key_8h" kind="file">
+    <compoundname>ArraySampleKey.h</compoundname>
+    <includes refid="_foundation_8h" local="no">Alembic/AbcCoreAbstract/Foundation.h</includes>
+    <includes refid="_data_type_8h" local="no">Alembic/AbcCoreAbstract/DataType.h</includes>
+    <includedby refid="_all_8h" local="no">/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/All.h</includedby>
+    <includedby refid="_array_sample_8h" local="no">/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArraySample.h</includedby>
+    <incdepgraph>
+      <node id="163">
+        <label>limits</label>
+      </node>
+      <node id="160">
+        <label>Alembic/AbcCoreAbstract/Foundation.h</label>
+        <link refid="_foundation_8h_source"/>
+        <childnode refid="161" relation="include">
+        </childnode>
+        <childnode refid="162" relation="include">
+        </childnode>
+        <childnode refid="163" relation="include">
+        </childnode>
+        <childnode refid="164" relation="include">
+        </childnode>
+        <childnode refid="165" relation="include">
+        </childnode>
+        <childnode refid="166" relation="include">
+        </childnode>
+        <childnode refid="167" relation="include">
+        </childnode>
+        <childnode refid="168" relation="include">
+        </childnode>
+        <childnode refid="169" relation="include">
+        </childnode>
+        <childnode refid="170" relation="include">
+        </childnode>
+      </node>
+      <node id="166">
+        <label>assert.h</label>
+      </node>
+      <node id="162">
+        <label>Alembic/Util/Export.h</label>
+      </node>
+      <node id="169">
+        <label>stdlib.h</label>
+      </node>
+      <node id="159">
+        <label>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArraySampleKey.h</label>
+        <link refid="ArraySampleKey.h"/>
+        <childnode refid="160" relation="include">
+        </childnode>
+        <childnode refid="171" relation="include">
+        </childnode>
+      </node>
+      <node id="161">
+        <label>Alembic/Util/All.h</label>
+      </node>
+      <node id="171">
+        <label>Alembic/AbcCoreAbstract/DataType.h</label>
+        <link refid="_data_type_8h_source"/>
+        <childnode refid="160" relation="include">
+        </childnode>
+      </node>
+      <node id="167">
+        <label>string.h</label>
+      </node>
+      <node id="165">
+        <label>vector</label>
+      </node>
+      <node id="164">
+        <label>utility</label>
+      </node>
+      <node id="170">
+        <label>math.h</label>
+      </node>
+      <node id="168">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="176">
+        <label>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ReadArraySampleCache.h</label>
+        <link refid="_read_array_sample_cache_8h_source"/>
+        <childnode refid="177" relation="include">
+        </childnode>
+      </node>
+      <node id="173">
+        <label>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/All.h</label>
+        <link refid="_all_8h_source"/>
+      </node>
+      <node id="189">
+        <label>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArrayPropertyReader.h</label>
+        <link refid="_array_property_reader_8h_source"/>
+        <childnode refid="173" relation="include">
+        </childnode>
+      </node>
+      <node id="184">
+        <label>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveWriter.h</label>
+        <link refid="_archive_writer_8h_source"/>
+        <childnode refid="173" relation="include">
+        </childnode>
+      </node>
+      <node id="188">
+        <label>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/CompoundPropertyReader.h</label>
+        <link refid="_compound_property_reader_8h_source"/>
+        <childnode refid="173" relation="include">
+        </childnode>
+      </node>
+      <node id="190">
+        <label>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectWriter.h</label>
+        <link refid="_object_writer_8h_source"/>
+        <childnode refid="173" relation="include">
+        </childnode>
+      </node>
+      <node id="172">
+        <label>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArraySampleKey.h</label>
+        <link refid="ArraySampleKey.h"/>
+        <childnode refid="173" relation="include">
+        </childnode>
+        <childnode refid="174" relation="include">
+        </childnode>
+      </node>
+      <node id="185">
+        <label>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectReader.h</label>
+        <link refid="_object_reader_8h_source"/>
+        <childnode refid="173" relation="include">
+        </childnode>
+      </node>
+      <node id="186">
+        <label>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/BasePropertyReader.h</label>
+        <link refid="_base_property_reader_8h_source"/>
+        <childnode refid="187" relation="include">
+        </childnode>
+        <childnode refid="188" relation="include">
+        </childnode>
+        <childnode refid="173" relation="include">
+        </childnode>
+        <childnode refid="189" relation="include">
+        </childnode>
+      </node>
+      <node id="177">
+        <label>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveReader.h</label>
+        <link refid="_archive_reader_8h_source"/>
+        <childnode refid="173" relation="include">
+        </childnode>
+      </node>
+      <node id="183">
+        <label>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ForwardDeclarations.h</label>
+        <link refid="_forward_declarations_8h_source"/>
+        <childnode refid="184" relation="include">
+        </childnode>
+        <childnode refid="180" relation="include">
+        </childnode>
+        <childnode refid="185" relation="include">
+        </childnode>
+        <childnode refid="186" relation="include">
+        </childnode>
+        <childnode refid="188" relation="include">
+        </childnode>
+        <childnode refid="173" relation="include">
+        </childnode>
+        <childnode refid="177" relation="include">
+        </childnode>
+        <childnode refid="190" relation="include">
+        </childnode>
+      </node>
+      <node id="187">
+        <label>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ScalarPropertyReader.h</label>
+        <link refid="_scalar_property_reader_8h_source"/>
+        <childnode refid="173" relation="include">
+        </childnode>
+      </node>
+      <node id="182">
+        <label>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/CompoundPropertyWriter.h</label>
+        <link refid="_compound_property_writer_8h_source"/>
+        <childnode refid="173" relation="include">
+        </childnode>
+      </node>
+      <node id="178">
+        <label>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/TimeSampling.h</label>
+        <link refid="_time_sampling_8h_source"/>
+        <childnode refid="173" relation="include">
+        </childnode>
+        <childnode refid="179" relation="include">
+        </childnode>
+      </node>
+      <node id="175">
+        <label>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArrayPropertyWriter.h</label>
+        <link refid="_array_property_writer_8h_source"/>
+        <childnode refid="173" relation="include">
+        </childnode>
+      </node>
+      <node id="174">
+        <label>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArraySample.h</label>
+        <link refid="_array_sample_8h_source"/>
+        <childnode refid="175" relation="include">
+        </childnode>
+        <childnode refid="176" relation="include">
+        </childnode>
+        <childnode refid="173" relation="include">
+        </childnode>
+        <childnode refid="178" relation="include">
+        </childnode>
+        <childnode refid="189" relation="include">
+        </childnode>
+      </node>
+      <node id="179">
+        <label>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/PropertyHeader.h</label>
+        <link refid="_property_header_8h_source"/>
+        <childnode refid="180" relation="include">
+        </childnode>
+        <childnode refid="183" relation="include">
+        </childnode>
+        <childnode refid="186" relation="include">
+        </childnode>
+        <childnode refid="188" relation="include">
+        </childnode>
+        <childnode refid="173" relation="include">
+        </childnode>
+      </node>
+      <node id="180">
+        <label>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/BasePropertyWriter.h</label>
+        <link refid="_base_property_writer_8h_source"/>
+        <childnode refid="175" relation="include">
+        </childnode>
+        <childnode refid="181" relation="include">
+        </childnode>
+        <childnode refid="182" relation="include">
+        </childnode>
+        <childnode refid="173" relation="include">
+        </childnode>
+      </node>
+      <node id="181">
+        <label>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ScalarPropertyWriter.h</label>
+        <link refid="_scalar_property_writer_8h_source"/>
+        <childnode refid="173" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArraySampleKey</innerclass>
+    <innerclass refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_equal_to" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArraySampleKeyEqualTo</innerclass>
+    <innerclass refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_std_hash" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArraySampleKeyStdHash</innerclass>
+    <innerclass refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_unordered_map_util" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::UnorderedMapUtil</innerclass>
+    <innernamespace refid="namespace_alembic">Alembic</innernamespace>
+    <innernamespace refid="namespace_alembic_1_1_abc_core_abstract">Alembic::AbcCoreAbstract</innernamespace>
+    <innernamespace refid="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//-*****************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Copyright<sp/>(c)<sp/>2009-2012,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Sony<sp/>Pictures<sp/>Imageworks<sp/>Inc.<sp/>and</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Industrial<sp/>Light<sp/>&amp;<sp/>Magic,<sp/>a<sp/>division<sp/>of<sp/>Lucasfilm<sp/>Entertainment<sp/>Company<sp/>Ltd.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Redistribution<sp/>and<sp/>use<sp/>in<sp/>source<sp/>and<sp/>binary<sp/>forms,<sp/>with<sp/>or<sp/>without</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>modification,<sp/>are<sp/>permitted<sp/>provided<sp/>that<sp/>the<sp/>following<sp/>conditions<sp/>are</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>met:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>Redistributions<sp/>of<sp/>source<sp/>code<sp/>must<sp/>retain<sp/>the<sp/>above<sp/>copyright</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>Redistributions<sp/>in<sp/>binary<sp/>form<sp/>must<sp/>reproduce<sp/>the<sp/>above</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>copyright<sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/>in<sp/>the<sp/>documentation<sp/>and/or<sp/>other<sp/>materials<sp/>provided<sp/>with<sp/>the</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>distribution.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>Neither<sp/>the<sp/>name<sp/>of<sp/>Sony<sp/>Pictures<sp/>Imageworks,<sp/>nor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Industrial<sp/>Light<sp/>&amp;<sp/>Magic,<sp/>nor<sp/>the<sp/>names<sp/>of<sp/>their<sp/>contributors<sp/>may<sp/>be<sp/>used</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/>to<sp/>endorse<sp/>or<sp/>promote<sp/>products<sp/>derived<sp/>from<sp/>this<sp/>software<sp/>without<sp/>specific</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>prior<sp/>written<sp/>permission.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/>THIS<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>BY<sp/>THE<sp/>COPYRIGHT<sp/>HOLDERS<sp/>AND<sp/>CONTRIBUTORS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>&quot;AS<sp/>IS&quot;<sp/>AND<sp/>ANY<sp/>EXPRESS<sp/>OR<sp/>IMPLIED<sp/>WARRANTIES,<sp/>INCLUDING,<sp/>BUT<sp/>NOT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/>LIMITED<sp/>TO,<sp/>THE<sp/>IMPLIED<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY<sp/>AND<sp/>FITNESS<sp/>FOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>ARE<sp/>DISCLAIMED.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE<sp/>COPYRIGHT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/>OWNER<sp/>OR<sp/>CONTRIBUTORS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>DIRECT,<sp/>INDIRECT,<sp/>INCIDENTAL,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>SPECIAL,<sp/>EXEMPLARY,<sp/>OR<sp/>CONSEQUENTIAL<sp/>DAMAGES<sp/>(INCLUDING,<sp/>BUT<sp/>NOT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//<sp/>LIMITED<sp/>TO,<sp/>PROCUREMENT<sp/>OF<sp/>SUBSTITUTE<sp/>GOODS<sp/>OR<sp/>SERVICES;<sp/>LOSS<sp/>OF<sp/>USE,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//<sp/>DATA,<sp/>OR<sp/>PROFITS;<sp/>OR<sp/>BUSINESS<sp/>INTERRUPTION)<sp/>HOWEVER<sp/>CAUSED<sp/>AND<sp/>ON<sp/>ANY</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//<sp/>THEORY<sp/>OF<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>CONTRACT,<sp/>STRICT<sp/>LIABILITY,<sp/>OR<sp/>TORT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>(INCLUDING<sp/>NEGLIGENCE<sp/>OR<sp/>OTHERWISE)<sp/>ARISING<sp/>IN<sp/>ANY<sp/>WAY<sp/>OUT<sp/>OF<sp/>THE<sp/>USE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//<sp/>OF<sp/>THIS<sp/>SOFTWARE,<sp/>EVEN<sp/>IF<sp/>ADVISED<sp/>OF<sp/>THE<sp/>POSSIBILITY<sp/>OF<sp/>SUCH<sp/>DAMAGE.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">//-*****************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_Alembic_AbcCoreAbstract_ArraySampleKey_h_</highlight></codeline>
+<codeline lineno="38"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_Alembic_AbcCoreAbstract_ArraySampleKey_h_</highlight></codeline>
+<codeline lineno="39"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;Alembic/AbcCoreAbstract/Foundation.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;Alembic/AbcCoreAbstract/DataType.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Alembic<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">AbcCoreAbstract<sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">ALEMBIC_VERSION_NS<sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key" kindref="compound">ArraySampleKey</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Alembic::Util::totally_ordered&lt;ArraySampleKey&gt;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="50" refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a110acb5f8720bd83b329efb1ae4e48fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/><ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a110acb5f8720bd83b329efb1ae4e48fa" kindref="member" tooltip="total number of bytes of the sample as originally stored">numBytes</ref>;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a14be52957c1391a0a11a1a4e7f5450be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>PlainOldDataType<sp/><ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a14be52957c1391a0a11a1a4e7f5450be" kindref="member" tooltip="Original POD as stored.">origPOD</ref>;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a57152426f9d10c46c5b01322515265a7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>PlainOldDataType<sp/><ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a57152426f9d10c46c5b01322515265a7" kindref="member" tooltip="POD used at read time.">readPOD</ref>;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>Digest<sp/>digest;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator==(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key" kindref="compound">ArraySampleKey</ref><sp/>&amp;iRhs<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="61"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<sp/>(<sp/><ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a110acb5f8720bd83b329efb1ae4e48fa" kindref="member" tooltip="total number of bytes of the sample as originally stored">numBytes</ref><sp/>==<sp/>iRhs.<ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a110acb5f8720bd83b329efb1ae4e48fa" kindref="member" tooltip="total number of bytes of the sample as originally stored">numBytes</ref><sp/>)<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<sp/><ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a14be52957c1391a0a11a1a4e7f5450be" kindref="member" tooltip="Original POD as stored.">origPOD</ref><sp/><sp/>==<sp/>iRhs.<ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a14be52957c1391a0a11a1a4e7f5450be" kindref="member" tooltip="Original POD as stored.">origPOD</ref><sp/><sp/>)<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<sp/><ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a57152426f9d10c46c5b01322515265a7" kindref="member" tooltip="POD used at read time.">readPOD</ref><sp/><sp/>==<sp/>iRhs.<ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a57152426f9d10c46c5b01322515265a7" kindref="member" tooltip="POD used at read time.">readPOD</ref><sp/><sp/>)<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<sp/>digest<sp/>==<sp/><sp/><sp/>iRhs.digest<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator&lt;(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key" kindref="compound">ArraySampleKey</ref><sp/>&amp;iRhs<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="69"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<sp/><ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a110acb5f8720bd83b329efb1ae4e48fa" kindref="member" tooltip="total number of bytes of the sample as originally stored">numBytes</ref><sp/>&lt;<sp/>iRhs.<ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a110acb5f8720bd83b329efb1ae4e48fa" kindref="member" tooltip="total number of bytes of the sample as originally stored">numBytes</ref><sp/>?<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>:</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<sp/><ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a110acb5f8720bd83b329efb1ae4e48fa" kindref="member" tooltip="total number of bytes of the sample as originally stored">numBytes</ref><sp/>&gt;<sp/>iRhs.<ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a110acb5f8720bd83b329efb1ae4e48fa" kindref="member" tooltip="total number of bytes of the sample as originally stored">numBytes</ref><sp/>?<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>:</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<sp/><ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a14be52957c1391a0a11a1a4e7f5450be" kindref="member" tooltip="Original POD as stored.">origPOD</ref><sp/>&lt;<sp/>iRhs.<ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a14be52957c1391a0a11a1a4e7f5450be" kindref="member" tooltip="Original POD as stored.">origPOD</ref><sp/>?<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>:</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<sp/><ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a14be52957c1391a0a11a1a4e7f5450be" kindref="member" tooltip="Original POD as stored.">origPOD</ref><sp/>&gt;<sp/>iRhs.<ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a14be52957c1391a0a11a1a4e7f5450be" kindref="member" tooltip="Original POD as stored.">origPOD</ref><sp/>?<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>:</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<sp/><ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a57152426f9d10c46c5b01322515265a7" kindref="member" tooltip="POD used at read time.">readPOD</ref><sp/>&lt;<sp/>iRhs.<ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a57152426f9d10c46c5b01322515265a7" kindref="member" tooltip="POD used at read time.">readPOD</ref><sp/>?<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>:</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<sp/><ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a57152426f9d10c46c5b01322515265a7" kindref="member" tooltip="POD used at read time.">readPOD</ref><sp/>&gt;<sp/>iRhs.<ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a57152426f9d10c46c5b01322515265a7" kindref="member" tooltip="POD used at read time.">readPOD</ref><sp/>?<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>:</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<sp/>digest<sp/>&lt;<sp/>iRhs.digest<sp/>)<sp/>)<sp/>)<sp/>)<sp/>)<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="comment">//-*****************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Equality<sp/>operator.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_equal_to" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_equal_to" kindref="compound">ArraySampleKeyEqualTo</ref><sp/>:</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>std::binary_function&lt;ArraySampleKey,ArraySampleKey,bool&gt;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator()(<sp/><ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key" kindref="compound">ArraySampleKey</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>&amp;a,</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key" kindref="compound">ArraySampleKey</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>&amp;b<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="91"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>a<sp/>==<sp/>b;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="comment">//-*****************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Hash<sp/>function</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>StdHash(<sp/><ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key" kindref="compound">ArraySampleKey</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>&amp;a<sp/>)</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Theoretically,<sp/>the<sp/>bits<sp/>of<sp/>our<sp/>hash<sp/>are<sp/>uniformly</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>randomly<sp/>distributed,<sp/>so<sp/>it<sp/>doesn&apos;t<sp/>matter<sp/>which<sp/>of<sp/>the<sp/>128</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>bits<sp/>we<sp/>use<sp/>to<sp/>generate<sp/>the<sp/>64<sp/>bits<sp/>that<sp/>we<sp/>return<sp/>as<sp/>the<sp/>hash</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>key.<sp/>So,<sp/>I&apos;ll<sp/>just<sp/>do<sp/>the<sp/>simple<sp/>thing.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>*((<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>*<sp/>)&amp;a.digest);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="comment">//-*****************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_std_hash" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_std_hash" kindref="compound">ArraySampleKeyStdHash</ref><sp/>:</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>std::unary_function&lt;ArraySampleKey,size_t&gt;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>operator()(<sp/><ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key" kindref="compound">ArraySampleKey</ref><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>&amp;a<sp/>)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="112"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>StdHash(<sp/>a<sp/>);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="comment">//-*****************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">class</highlight><highlight class="normal"><sp/>MAPPED&gt;</highlight></codeline>
+<codeline lineno="119" refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_unordered_map_util" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_unordered_map_util" kindref="compound">UnorderedMapUtil</ref></highlight></codeline>
+<codeline lineno="120"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>Alembic::Util::unordered_map&lt;<ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key" kindref="compound">ArraySampleKey</ref>,</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MAPPED,</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_std_hash" kindref="compound">ArraySampleKeyStdHash</ref>,</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_equal_to" kindref="compound">ArraySampleKeyEqualTo</ref>&gt;<sp/>umap_type;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>End<sp/>namespace<sp/>ALEMBIC_VERSION_NS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">ALEMBIC_VERSION_NS;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>End<sp/>namespace<sp/>AbcCoreAbstract</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>End<sp/>namespace<sp/>Alembic</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArraySampleKey.h"/>
+  </compounddef>
+</doxygen>

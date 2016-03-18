@@ -1,0 +1,328 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory" kind="class" prot="public">
+    <compoundname>Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1a1cbbe8b5f343afeae5fac7fbc041b82d" prot="public" static="no">
+        <name>CoreType</name>
+        <enumvalue id="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1a1cbbe8b5f343afeae5fac7fbc041b82da02e49131521e002916a297c5b3676765" prot="public">
+          <name>kHDF5</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1a1cbbe8b5f343afeae5fac7fbc041b82da1e0cb4f00383b30b77c6fdef81627d62" prot="public">
+          <name>kOgawa</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1a1cbbe8b5f343afeae5fac7fbc041b82da7e5eae322d374f968d014608d1b30f70" prot="public">
+          <name>kUnknown</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>The type which yielded a valid IArchive (or kUnknown if invalid). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" line="56" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" bodystart="55" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1a51ebf01c6168d65d492c567e3d03b2de" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory::m_cacheHierarchy</definition>
+        <argsstring></argsstring>
+        <name>m_cacheHierarchy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" line="121" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1aff7458c2650be50fd5172f1c11712ddc" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory::m_numStreams</definition>
+        <argsstring></argsstring>
+        <name>m_numStreams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" line="122" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1a98017d6ab8f6b5197aaec6d84a9f8619" prot="private" static="no" mutable="no">
+        <type>Alembic::AbcCoreAbstract::ReadArraySampleCachePtr</type>
+        <definition>Alembic::AbcCoreAbstract::ReadArraySampleCachePtr Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory::m_cachePtr</definition>
+        <argsstring></argsstring>
+        <name>m_cachePtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" line="123" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1ac713748cdaac2dddd38787985dfb74ec" prot="private" static="no" mutable="no">
+        <type>Alembic::Abc::ErrorHandler::Policy</type>
+        <definition>Alembic::Abc::ErrorHandler::Policy Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory::m_policy</definition>
+        <argsstring></argsstring>
+        <name>m_policy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" line="124" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1a27db8bd722ef0442d8dc046b0724e19b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory::IFactory</definition>
+        <argsstring>()</argsstring>
+        <name>IFactory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" line="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1ab2de31b3d11a46c847cb805927c9c22a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory::~IFactory</definition>
+        <argsstring>()</argsstring>
+        <name>~IFactory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" line="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1ae11c77b38be416cd1492421c3be1d369" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Alembic::Abc::IArchive</type>
+        <definition>Alembic::Abc::IArchive Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory::getArchive</definition>
+        <argsstring>(const std::string &amp;iFileName, CoreType &amp;oType)</argsstring>
+        <name>getArchive</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iFileName</declname>
+        </param>
+        <param>
+          <type><ref refid="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1a1cbbe8b5f343afeae5fac7fbc041b82d" kindref="member">CoreType</ref> &amp;</type>
+          <declname>oType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Try to open a file and set oType to the one that yields a successful oType, or kUnknown if the IArchive isn&apos;t valid </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" line="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1abf2eb4f286c8f1d152c6649d6bf47f46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Alembic::Abc::IArchive</type>
+        <definition>Alembic::Abc::IArchive Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory::getArchive</definition>
+        <argsstring>(const std::string &amp;iFileName)</argsstring>
+        <name>getArchive</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iFileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Try to open a file and return IArchive. If the file wasn&apos;t a valid file or known type and invalid archive is returned. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" line="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1ae52819f15e2a0356e201bc575dd403ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Alembic::Abc::IArchive</type>
+        <definition>Alembic::Abc::IArchive Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory::getArchive</definition>
+        <argsstring>(const std::vector&lt; std::istream * &gt; &amp;iStreams, CoreType &amp;oType)</argsstring>
+        <name>getArchive</name>
+        <param>
+          <type>const std::vector&lt; std::istream * &gt; &amp;</type>
+          <declname>iStreams</declname>
+        </param>
+        <param>
+          <type><ref refid="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1a1cbbe8b5f343afeae5fac7fbc041b82d" kindref="member">CoreType</ref> &amp;</type>
+          <declname>oType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Use the streams (Alembic does not take ownership) to read the data from This is currently only valid for Ogawa. The streams must all reference the same data. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" line="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1ae197b03ec95031ea08ebab24f5ff0cb2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory::setHDF5CacheHierarchy</definition>
+        <argsstring>(bool iCacheHierarchy)</argsstring>
+        <name>setHDF5CacheHierarchy</name>
+        <param>
+          <type>bool</type>
+          <declname>iCacheHierarchy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If opening an HDF5 file, sets whether to use the cached hierarchy if it exists, the default value is true </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" line="80" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" bodystart="79" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1ab474556d23d32d0c530a69272c68033b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory::getHDF5CacheHierarchy</definition>
+        <argsstring>() const </argsstring>
+        <name>getHDF5CacheHierarchy</name>
+        <briefdescription>
+<para>Gets whether an HDF5 file will use the cached hierarchy. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" line="85" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" bodystart="85" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1a058579602c4fd5a404615178d0a1dcc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory::setSampleCache</definition>
+        <argsstring>(Alembic::AbcCoreAbstract::ReadArraySampleCachePtr iCachePtr)</argsstring>
+        <name>setSampleCache</name>
+        <param>
+          <type>Alembic::AbcCoreAbstract::ReadArraySampleCachePtr</type>
+          <declname>iCachePtr</declname>
+        </param>
+        <briefdescription>
+<para>Set the array sample cache, the HDF5 implementation optionally uses this. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" line="90" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" bodystart="88" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1ab750caaccce5c23f428d8640367a6b5a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Alembic::AbcCoreAbstract::ReadArraySampleCachePtr</type>
+        <definition>Alembic::AbcCoreAbstract::ReadArraySampleCachePtr Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory::getSampleCache</definition>
+        <argsstring>() const </argsstring>
+        <name>getSampleCache</name>
+        <briefdescription>
+<para>Get the array sample cache. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" line="96" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" bodystart="95" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1a8de536f20f7c90079d96ec9099ff6366" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory::getOgawaNumStreams</definition>
+        <argsstring>() const </argsstring>
+        <name>getOgawaNumStreams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Gets the number of streams that will be opened when opening an Ogawa file </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" line="102" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" bodystart="102" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1acd20551e7743b53a9c2cdb777522f902" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory::setOgawaNumStreams</definition>
+        <argsstring>(size_t iNumStreams)</argsstring>
+        <name>setOgawaNumStreams</name>
+        <param>
+          <type>size_t</type>
+          <declname>iNumStreams</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the number of streams that will be opened when opening an Ogawa file, the default is 1 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" line="107" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" bodystart="106" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1ab7e5ae8134cb0cc45373c9a10e6617a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Alembic::Abc::ErrorHandler::Policy</type>
+        <definition>Alembic::Abc::ErrorHandler::Policy Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory::getPolicy</definition>
+        <argsstring>()</argsstring>
+        <name>getPolicy</name>
+        <briefdescription>
+<para>Gets the error handler policy. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" line="112" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" bodystart="112" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1ac40eab7fed59016061ee611fb62ab55d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory::setPolicy</definition>
+        <argsstring>(Alembic::Abc::ErrorHandler::Policy iPolicy)</argsstring>
+        <name>setPolicy</name>
+        <param>
+          <type>Alembic::Abc::ErrorHandler::Policy</type>
+          <declname>iPolicy</declname>
+        </param>
+        <briefdescription>
+<para>Sets the error handler policy, the default is kThrowPolicy. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" line="116" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" bodystart="115" bodyend="118"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" line="49" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" bodystart="48" bodyend="126"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1a1cbbe8b5f343afeae5fac7fbc041b82d" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory</scope><name>CoreType</name></member>
+      <member refid="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1ae11c77b38be416cd1492421c3be1d369" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory</scope><name>getArchive</name></member>
+      <member refid="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1abf2eb4f286c8f1d152c6649d6bf47f46" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory</scope><name>getArchive</name></member>
+      <member refid="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1ae52819f15e2a0356e201bc575dd403ee" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory</scope><name>getArchive</name></member>
+      <member refid="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1ab474556d23d32d0c530a69272c68033b" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory</scope><name>getHDF5CacheHierarchy</name></member>
+      <member refid="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1a8de536f20f7c90079d96ec9099ff6366" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory</scope><name>getOgawaNumStreams</name></member>
+      <member refid="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1ab7e5ae8134cb0cc45373c9a10e6617a4" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory</scope><name>getPolicy</name></member>
+      <member refid="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1ab750caaccce5c23f428d8640367a6b5a" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory</scope><name>getSampleCache</name></member>
+      <member refid="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1a27db8bd722ef0442d8dc046b0724e19b" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory</scope><name>IFactory</name></member>
+      <member refid="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1a1cbbe8b5f343afeae5fac7fbc041b82da02e49131521e002916a297c5b3676765" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory</scope><name>kHDF5</name></member>
+      <member refid="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1a1cbbe8b5f343afeae5fac7fbc041b82da1e0cb4f00383b30b77c6fdef81627d62" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory</scope><name>kOgawa</name></member>
+      <member refid="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1a1cbbe8b5f343afeae5fac7fbc041b82da7e5eae322d374f968d014608d1b30f70" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory</scope><name>kUnknown</name></member>
+      <member refid="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1a51ebf01c6168d65d492c567e3d03b2de" prot="private" virt="non-virtual"><scope>Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory</scope><name>m_cacheHierarchy</name></member>
+      <member refid="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1a98017d6ab8f6b5197aaec6d84a9f8619" prot="private" virt="non-virtual"><scope>Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory</scope><name>m_cachePtr</name></member>
+      <member refid="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1aff7458c2650be50fd5172f1c11712ddc" prot="private" virt="non-virtual"><scope>Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory</scope><name>m_numStreams</name></member>
+      <member refid="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1ac713748cdaac2dddd38787985dfb74ec" prot="private" virt="non-virtual"><scope>Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory</scope><name>m_policy</name></member>
+      <member refid="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1ae197b03ec95031ea08ebab24f5ff0cb2" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory</scope><name>setHDF5CacheHierarchy</name></member>
+      <member refid="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1acd20551e7743b53a9c2cdb777522f902" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory</scope><name>setOgawaNumStreams</name></member>
+      <member refid="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1ac40eab7fed59016061ee611fb62ab55d" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory</scope><name>setPolicy</name></member>
+      <member refid="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1a058579602c4fd5a404615178d0a1dcc9" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory</scope><name>setSampleCache</name></member>
+      <member refid="class_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_factory_1ab2de31b3d11a46c847cb805927c9c22a" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS::IFactory</scope><name>~IFactory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

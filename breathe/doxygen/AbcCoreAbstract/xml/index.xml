@@ -1,0 +1,471 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.6.1">
+  <compound refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader" kind="class"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveReader</name>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1a70cc61ebdfe326d93ef165a76a1cf8e5" kind="function"><name>~ArchiveReader</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1a22ea95c39132a9a5a9dd79506b3aa8db" kind="function"><name>getName</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1ac0f699827f0204c46fb969748dc5a097" kind="function"><name>getMetaData</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1adfe058bf0690e50d8fdd7f362f0881d6" kind="function"><name>getTop</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1a7eff265ed47b01a80bc2a382f057e177" kind="function"><name>getReadArraySampleCachePtr</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1ae66749a54d35ae587467bc9f189643be" kind="function"><name>setReadArraySampleCachePtr</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1a6a475f6727dce6b69f0b4a85e9921a0f" kind="function"><name>getTimeSampling</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1ad2204ed679f02ea0ea0b829b6cd47cf4" kind="function"><name>getMaxNumSamplesForTimeSamplingIndex</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1a40ca32a1b28e44a867bbcba960f8b526" kind="function"><name>getNumTimeSamplings</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1ab7cf7dc5df814ab08f08ff7f105067ca" kind="function"><name>getArchiveVersion</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1a7e291bfdf4a64f36a43964c67e05736f" kind="function"><name>asArchivePtr</name></member>
+  </compound>
+  <compound refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_illustration_on137ee7d0a264727f43ef7ed4bdcfea65" kind="struct"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::IllustrationOnly::ArchiveReaderConstructor</name>
+    <member refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_illustration_on137ee7d0a264727f43ef7ed4bdcfea65_1ac35342f7c509f944e77c5354940d8a3e" kind="function"><name>operator()</name></member>
+    <member refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_illustration_on137ee7d0a264727f43ef7ed4bdcfea65_1a7c5332dc0aadd831c5e5299e2f2dbd73" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer" kind="class"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveWriter</name>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1a8a78d6f2d40610226df04df99420fc6e" kind="variable"><name>m_compressionHint</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1abea624964c1f2bbe768830925e1c6d20" kind="function"><name>ArchiveWriter</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1acb76958aaf59fe96a10dd4799d1dc5d3" kind="function"><name>~ArchiveWriter</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1ac86a682a5d35f6ab414f5813b0db1acb" kind="function"><name>getName</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1a3e9cbbda377d9a9b98bbb33bdffa21ce" kind="function"><name>getMetaData</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1a00785506b1aad4fe4d237067eaba4efa" kind="function"><name>getTop</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1a1e36d58943127a1abff1a63d616451d9" kind="function"><name>getCompressionHint</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1a4daa83a19d478a752369a0ea4b4252e4" kind="function"><name>setCompressionHint</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1ac045d9ef414a7988e9d83af0c6c48d78" kind="function"><name>asArchivePtr</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1a4878d5ecfc0e225f70982d7abc283b3c" kind="function"><name>addTimeSampling</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1afc8b633eb04d5b776290bd037a227f1e" kind="function"><name>getTimeSampling</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1adfbbd4828b2fcf0adf184626aff8a08e" kind="function"><name>getNumTimeSamplings</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1aa1dc10017176739a85568fae79921247" kind="function"><name>getMaxNumSamplesForTimeSamplingIndex</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1a7683a7c85be34878f313f84d6288b412" kind="function"><name>setMaxNumSamplesForTimeSamplingIndex</name></member>
+  </compound>
+  <compound refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_illustration_on9f6b00cccf79f0d041c11ed2d2ceee99" kind="struct"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::IllustrationOnly::ArchiveWriterConstructor</name>
+    <member refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_illustration_on9f6b00cccf79f0d041c11ed2d2ceee99_1ae389caaaad4c2ac058aa22f5cf913fff" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_reader" kind="class"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyReader</name>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_reader_1a1f8f181ac443567d8401158451159baf" kind="function"><name>~ArrayPropertyReader</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_reader_1a3e99e0a0c784dc25f09f4bec19006205" kind="function"><name>getNumSamples</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_reader_1a7c8a11190aed21e1e6b33d81d3499428" kind="function"><name>isConstant</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_reader_1a58d9f351423e05934ee6ac6ec6747e27" kind="function"><name>getSample</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_reader_1a26ba085a9a37e1e62f5753c68dd5eb4a" kind="function"><name>getFloorIndex</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_reader_1a999a66cd63e8598547290c935a849d65" kind="function"><name>getCeilIndex</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_reader_1a04af372a2d0c58290ebcc32e47d5abf1" kind="function"><name>getNearIndex</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_reader_1a9cd234f7b376abfc837df425e9cd801d" kind="function"><name>getKey</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_reader_1a4111a9958aceaa3aa2cd3141e6fe2d42" kind="function"><name>getDimensions</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_reader_1a80b613fa01b4db001fe1c3fedc949eb0" kind="function"><name>isScalarLike</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_reader_1ac0085f19420a9d4cad71fde5c6ae4cf4" kind="function"><name>getAs</name></member>
+  </compound>
+  <compound refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_writer" kind="class"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyWriter</name>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_writer_1a028ff66d3558af836bc6be4486e4c8ec" kind="function"><name>~ArrayPropertyWriter</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_writer_1a53feedc7f793f56e14a616f7114217b7" kind="function"><name>setSample</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_writer_1a9b4a91e20c1df1ebefff5ee78bca9ab1" kind="function"><name>setFromPreviousSample</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_writer_1ad94e0d46e0db1c8a8c528332dfe3e68f" kind="function"><name>getNumSamples</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_writer_1a09e716d1b079541986ebc9d28fd7b50f" kind="function"><name>setTimeSamplingIndex</name></member>
+  </compound>
+  <compound refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample" kind="class"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArraySample</name>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_1a392c49901ad74b1ea3cd09b1040b0169" kind="typedef"><name>this_type</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_1aab38e0d56fa5ca9cd3c263ca0ac0e61e" kind="typedef"><name>Key</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_1a8da93ad436b39483e6ab9d445ec21e55" kind="typedef"><name>key_type</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_1ad3fb54843e2632e31e388cc06e0d226a" kind="variable"><name>m_data</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_1a288194b5a435df7aedd9aed4bb2e12df" kind="variable"><name>m_dataType</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_1af79b3d9283f907f937a46e8705cae741" kind="variable"><name>m_dimensions</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_1ae02b4beb2b0a36290dad1d687efc0de7" kind="function"><name>ArraySample</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_1ac5983880b0f0aa0c5349730be36efa8b" kind="function"><name>ArraySample</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_1ac26c4c1097ad2eab2e999563f6e99f77" kind="function"><name>getData</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_1ae756c0e3197f4f2aa9fe19f83baabd03" kind="function"><name>getDataType</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_1a84903c3b66e5d53a14edd82a2e0aa31f" kind="function"><name>getDimensions</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_1a4ebfc4de319aee9284aee93f8ff94f5e" kind="function"><name>size</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_1a11ad88b2d31d24f43b245765a6d33914" kind="function"><name>getKey</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_1af127110f9e5979a741a07723e8f690f8" kind="function"><name>valid</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_1af8b78483c4ef0d693d29fb2911a41701" kind="function"><name>reset</name></member>
+  </compound>
+  <compound refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key" kind="struct"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArraySampleKey</name>
+    <member refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a110acb5f8720bd83b329efb1ae4e48fa" kind="variable"><name>numBytes</name></member>
+    <member refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a14be52957c1391a0a11a1a4e7f5450be" kind="variable"><name>origPOD</name></member>
+    <member refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a57152426f9d10c46c5b01322515265a7" kind="variable"><name>readPOD</name></member>
+    <member refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a3293c863c68dc20b633430f271811eb7" kind="variable"><name>digest</name></member>
+    <member refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a1efecfa28218315a32124c24556b4db2" kind="function"><name>operator==</name></member>
+    <member refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a1ab009da9c44a9e5b54628ed3066d7c5" kind="function"><name>operator&lt;</name></member>
+  </compound>
+  <compound refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_equal_to" kind="struct"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArraySampleKeyEqualTo</name>
+    <member refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_equal_to_1accf488bb92b2cde99f9148c404ad4877" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_std_hash" kind="struct"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArraySampleKeyStdHash</name>
+    <member refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_std_hash_1afa8ce5ce284c7e0dbd1aaec42e0298f6" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader" kind="class"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::BasePropertyReader</name>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader_1a672435062a1e110fd193ea3c7f82744c" kind="function"><name>~BasePropertyReader</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader_1ade14c5d7db0efe847d2b214ba45fc071" kind="function"><name>getHeader</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader_1a9a7b23f534175031581c1cc4862925e8" kind="function"><name>getName</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader_1a899883189b969f6e3f5ad139822351ed" kind="function"><name>getPropertyType</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader_1a59d897b705e3a3ceeff74ae3e068f64e" kind="function"><name>isScalar</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader_1a7e314690fb71ca6588f8f6462e83ffe1" kind="function"><name>isArray</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader_1a5bb42239463323668a463b2689616e54" kind="function"><name>isCompound</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader_1a908162fdef5b79229bcb466521890bd6" kind="function"><name>isSimple</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader_1af8e668ae08e7a30019e725632a0d90c0" kind="function"><name>getMetaData</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader_1a03810de138b06e8c406841fa9c3c4b11" kind="function"><name>getDataType</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader_1af31433c192a5e368108ed61abc6ba9af" kind="function"><name>getTimeSampling</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader_1a3d48f520baa360218715d1879e4584ca" kind="function"><name>getObject</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader_1acc23e2bb3d7cd24dd81ff1ae80dfbced" kind="function"><name>getParent</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader_1a6bb1ea4123627a7af461518a85bc767e" kind="function"><name>asScalarPtr</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader_1a48fd973036944807cb076c2c477e2b4d" kind="function"><name>asArrayPtr</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader_1ab09abe9a2b385089778c98bfb9e5855d" kind="function"><name>asCompoundPtr</name></member>
+  </compound>
+  <compound refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer" kind="class"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::BasePropertyWriter</name>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1a65b7e7f3f1c230405bf7a0e9d5cc754d" kind="function"><name>~BasePropertyWriter</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1aa597b00285e091cc41061285f6e5c2fe" kind="function"><name>getHeader</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1a6b19a0d07332a0afa1449ae10d883a1d" kind="function"><name>getName</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1a7d9bdb9cc5daa81144100e3cab334f3d" kind="function"><name>getPropertyType</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1a1e264815a7aea859c54090f42d31f525" kind="function"><name>isScalar</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1af2ab6900320bb39016615d415f8555b4" kind="function"><name>isArray</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1a7c3d00015e79d249125b524aa65441e4" kind="function"><name>isCompound</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1addb6ce88ca32d9005fedf66d52b4f53d" kind="function"><name>isSimple</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1a091f30110679dfda4d0f0941bfb6a9f6" kind="function"><name>getMetaData</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1ac3f002773f52a853947f149105465491" kind="function"><name>getDataType</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1af2d3abe6a7405670d4545cfd225fc393" kind="function"><name>getTimeSampling</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1ac33c08d495e3ab72437b735d37dd4256" kind="function"><name>getObject</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1a8275cc226af42cf6f906f52a01b6d6cd" kind="function"><name>getParent</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1a8886cf07cefe81ef24efba8684ca0937" kind="function"><name>asScalarPtr</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1a34ec0068d675a4ef3d87039aa566b853" kind="function"><name>asArrayPtr</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1a2d24966ea8a448142131dd9b328f501c" kind="function"><name>asCompoundPtr</name></member>
+  </compound>
+  <compound refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_reader" kind="class"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyReader</name>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_reader_1a96158c29c968fb85eeb8d4275cb60cc9" kind="function"><name>~CompoundPropertyReader</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_reader_1a3ff79c07d2567f8cb4c2abb26c9fb01c" kind="function"><name>getNumProperties</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_reader_1a85b6db1ccc8e92d9767a23573f2862f1" kind="function"><name>getPropertyHeader</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_reader_1aeae3bb695a5ea48bbccd6ec5dc0b718e" kind="function"><name>getPropertyHeader</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_reader_1aa536041e3dadf5f3af2f47442e86921b" kind="function"><name>getScalarProperty</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_reader_1ae1a0546a6ac991589209a9de91d74a94" kind="function"><name>getArrayProperty</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_reader_1adb08ea0059fd273fe6fe52e2cb1986cb" kind="function"><name>getCompoundProperty</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_reader_1afff1c2af02e3d3fb3fe764459f546eb0" kind="function"><name>getProperty</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_reader_1a54345da0fe61ac2932a17f67bf1234e7" kind="function"><name>getScalarProperty</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_reader_1a4b1603efb21a24d35f1fc8512af3892a" kind="function"><name>getArrayProperty</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_reader_1abb2561a81c2ac9ff7820717b2f431275" kind="function"><name>getCompoundProperty</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_reader_1aaf1e573eaeffa534d3cb90fa779f4e59" kind="function"><name>getProperty</name></member>
+  </compound>
+  <compound refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer" kind="class"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter</name>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer_1a71e2bea13710666240af6505453db3d0" kind="function"><name>~CompoundPropertyWriter</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer_1a144e735caa6b4d5e9afbdb4b797ca705" kind="function"><name>getNumProperties</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer_1acfb8ae4223b4a391d8a47dc50f90337f" kind="function"><name>getPropertyHeader</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer_1ad5fd17db5adc816fc8518f0740a07684" kind="function"><name>getPropertyHeader</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer_1ac9a320087468ec1c2278f74609e9911f" kind="function"><name>getProperty</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer_1ae4896cf78166ac5da8a0d246207110b7" kind="function"><name>getProperty</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer_1a20fc62aeac4e458096cbee3dad964115" kind="function"><name>createScalarProperty</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer_1af0426640732433c767c404eaaf759299" kind="function"><name>createArrayProperty</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer_1a5aa0f517b10259d9025ae9ef79b98926" kind="function"><name>createCompoundProperty</name></member>
+  </compound>
+  <compound refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1_1_data" kind="class"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarSample::Data</name>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1_1_data_1aac2a9598bfa0c56b833c213b3c3bac37" kind="function"><name>~Data</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1_1_data_1a3bb51755cfe524aa8ae1fcb17428b3e0" kind="function"><name>setToDefault</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1_1_data_1ae6681de8bb1b340aa999f043f300260d" kind="function"><name>copyFrom</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1_1_data_1a06bd42c64dc7b7b629bff105311c8abd" kind="function"><name>equalTo</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1_1_data_1a64c0a9858af1e2f59bab86acdc5ac8ec" kind="function"><name>equalEpsilon</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1_1_data_1a33124675951f52fcc006c7d697ad114b" kind="function"><name>lessThan</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1_1_data_1abe1c4b9f669f461d3c2279da6b7e64eb" kind="function"><name>getData</name></member>
+  </compound>
+  <compound refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type" kind="class"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::DataType</name>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1ab503211243b8e5695322f3efc8c19947" kind="variable"><name>m_pod</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1a8da79b96af5f239fb40571b6a6b61ed6" kind="variable"><name>m_extent</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1aee5222e8854b29f6a581eb936445f04a" kind="function"><name>DataType</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1a622aa9724cedf4d0a518c56d47d5066c" kind="function"><name>DataType</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1a1dec4180c68c20d40903e9ca1400e591" kind="function"><name>getPod</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1a4ade6d128daf67d12b29b1e9cb5239cf" kind="function"><name>setPod</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1acd023b7b96c1afcdffda3ac74f8b4518" kind="function"><name>getExtent</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1aa1a4dffafa148d3ebfcd43e34e323414" kind="function"><name>setExtent</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1ac1a9ac28b3d1a7bb0064e96680f67ae5" kind="function"><name>getNumBytes</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1a57d5f69c2a841881274c1f0b1e73b368" kind="function"><name>operator==</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1a31b28ddf6e7477597f09021a4a16150f" kind="function"><name>operator&lt;</name></member>
+  </compound>
+  <compound refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kind="class"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData</name>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1affe92fa11b80fefd3873caa4b79307b1" kind="typedef"><name>token_map_type</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1a754bdb9e7745fef956f3a76bde1f5f32" kind="typedef"><name>key_type</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1ace637cc8a2d22299d127d72024085334" kind="typedef"><name>data_type</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1a0a4c27378edd45004f8cc59950550c46" kind="typedef"><name>value_type</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1af0db09439a4322dfa3f5443e4d864a95" kind="typedef"><name>const_reference</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1aeff2ae897c85d6cb06330cc1972e11b0" kind="typedef"><name>const_iterator</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1ab16676a4bbd8e3fd9ef436a3c7470073" kind="typedef"><name>const_reverse_iterator</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1af465e7b7532b4fb793d094714b4002e1" kind="variable"><name>m_tokenMap</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1a078b8f43c6443f0bbd9fac675ec34725" kind="function"><name>MetaData</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1a630170933ce91abeaeae1f62d756be90" kind="function"><name>MetaData</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1a1af420121e6866f66e472647bc369a16" kind="function"><name>operator=</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1ae60d01c7a335fa9c404b1e331b1429c2" kind="function"><name>deserialize</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1a847f8f1c3d73a65fb29a7626b269642b" kind="function"><name>serialize</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1a0c69284a95f37040c40d90eadf69a9bd" kind="function"><name>size</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1a64102b386845f7a6bc18baa776cb4150" kind="function"><name>begin</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1ad0dffbfa6823a0d2b88f1cc4c88f1bc6" kind="function"><name>end</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1aa9b22fe1cd277b6d2fcfa60cfa8b95b3" kind="function"><name>rbegin</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1ac8e545ee5d32b19429993705ccbef6d8" kind="function"><name>rend</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1aabfd2fb40c19158248a8d96e10624665" kind="function"><name>set</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1ac266b155c840f8a6893c921bdc66d7ac" kind="function"><name>setUnique</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1afa2c1150c1e56aa1fdbd28c97f1ede93" kind="function"><name>get</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1ab1dfba18d487fe7485e25a3a6c4bc0b1" kind="function"><name>getRequired</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1ae06be8bbfffbda8b4f0ac1ed748d45dc" kind="function"><name>append</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1ac4f26963810ab9ba593cb6b177263edd" kind="function"><name>appendUnique</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1a125d7f78cc8e171737a59362cd95d24d" kind="function"><name>matches</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1a38cb1ce6b6edbba82803aec83a688a11" kind="function"><name>matchesOverlap</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1abd9fe51e897f0d1343729bdc994d0266" kind="function"><name>matchesExactly</name></member>
+  </compound>
+  <compound refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_header" kind="class"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectHeader</name>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_header_1aa010edf1d0bd9a6c5911524e0f57bc97" kind="variable"><name>m_name</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_header_1a07df8cb06cc83fe77be7e4de83567bb4" kind="variable"><name>m_fullName</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_header_1a7612182e2cae5766f023528ebeb0e816" kind="variable"><name>m_metaData</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_header_1a4ccd14b6ea025a1260e7822ce31de5b6" kind="function"><name>ObjectHeader</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_header_1a589b9b4a4ea9cf06658be2e4a5dee0a3" kind="function"><name>ObjectHeader</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_header_1a576b61f8b30151c54a1ff75a72381c8b" kind="function"><name>ObjectHeader</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_header_1ae1ec5d4ba43556d922c7d847fca9779e" kind="function"><name>getName</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_header_1a3946ad9e08bd165598b984059b280ae2" kind="function"><name>setName</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_header_1a1a0b34ac22576106907c47b69ee41918" kind="function"><name>getFullName</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_header_1a62a83356b9c57d36b6272bc3139b95f0" kind="function"><name>setFullName</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_header_1a7cb493cb9a1a93c043f906b494d120f9" kind="function"><name>getMetaData</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_header_1acd4c6922472884c29e08c717347b16fb" kind="function"><name>getMetaData</name></member>
+  </compound>
+  <compound refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader" kind="class"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader</name>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1ae7151e52ed03a23e31e4fb2f28802915" kind="function"><name>~ObjectReader</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1a054488d37f0a9d81b5230df3e3838272" kind="function"><name>getHeader</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1acdf6355811db4b5713a6df3692ca51e8" kind="function"><name>getName</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1aab67e7cb1b0eedb167477b82943d6518" kind="function"><name>getFullName</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1a3945f47e529614ffa67a8ed83f721580" kind="function"><name>getMetaData</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1ae701aa04b42e82e68949a7ba2a3e2a64" kind="function"><name>getArchive</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1aad05571284af311581a61277846fc66a" kind="function"><name>getParent</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1a9f3a1dc6f393a9e73803547fbc244426" kind="function"><name>getProperties</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1aea63801c36cf5b31d7485219fe57036a" kind="function"><name>getNumChildren</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1a0f3aff46975eaad06a9d407201cbbbcb" kind="function"><name>getChildHeader</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1a783ee2f7a7d65195ad5a2b4171ee93ab" kind="function"><name>getChildHeader</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1ab6e26073479a9b8fcf6d4c44e33604d3" kind="function"><name>getChild</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1a80eb6fff9d6443502bb68dc5f0de8406" kind="function"><name>getChild</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1a81d78d3ee95a43cac6705ec702ea87a7" kind="function"><name>getPropertiesHash</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1a9d2c184e6298f2399c1f05ea5d978e09" kind="function"><name>getChildrenHash</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1aa9cfd713d954b776b841742d1a577e98" kind="function"><name>asObjectPtr</name></member>
+  </compound>
+  <compound refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer" kind="class"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter</name>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a9d75e07154a69d01b646a7a0f6c4d867" kind="function"><name>~ObjectWriter</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a48a00a8be707809cea1dc0e1ed2102c1" kind="function"><name>getHeader</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a7c550a94629b12e80040b93e3b5d6b3c" kind="function"><name>getName</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a68804b95646ff046f63c0ce2e3fd371b" kind="function"><name>getFullName</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1ac4dbcf8f006050f95d915b4730543832" kind="function"><name>getMetaData</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a95faa4141d8db72b2ee95e3e20be9f7d" kind="function"><name>getArchive</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a2c4c98b3cd4937f7f5c692006e617238" kind="function"><name>getParent</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a144fa2704318daaf5069476c395ec53a" kind="function"><name>getProperties</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a7cc26df39d866cc74810f2861458be5d" kind="function"><name>getNumChildren</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1af618659897b1e28a46493a9ca3b89338" kind="function"><name>getChildHeader</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a83760cc559adb894ed85e22c1f7bd55c" kind="function"><name>getChildHeader</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1ab704546a8f577e63fe6d4b5f34afbed7" kind="function"><name>getChild</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1aae3281ea90b6b636ca44b2e414fe393b" kind="function"><name>getChild</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a669acc92ef11e39390266c9b326cceee" kind="function"><name>createChild</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a675fdaa1b7d116227fe1fbc1130bba9a" kind="function"><name>asObjectPtr</name></member>
+  </compound>
+  <compound refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_property_header" kind="class"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::PropertyHeader</name>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_property_header_1a6c55a174599d75624e038f7d4364cdf3" kind="variable"><name>m_name</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_property_header_1a70603fd29d8f56b1ee7264e1feade042" kind="variable"><name>m_propertyType</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_property_header_1a60a04ec594d1ca58bc44a0ef83e8d4b9" kind="variable"><name>m_metaData</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_property_header_1a20541b8eafe06b3edc217f9a036f49de" kind="variable"><name>m_dataType</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_property_header_1af806a8b9cd3673e5277c00cbf507cdf4" kind="variable"><name>m_timeSampling</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_property_header_1a903d3fd9c5994e3ab5e46b37a2fc47ae" kind="function"><name>PropertyHeader</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_property_header_1a5da9288f3aec508e4e314c791212906c" kind="function"><name>PropertyHeader</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_property_header_1a29afac877db69eb81ddd40e91df8e19d" kind="function"><name>PropertyHeader</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_property_header_1a3918b1fa9449c96972f6df290481ba7e" kind="function"><name>PropertyHeader</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_property_header_1a1861110092d2392c01ecc45be38a518a" kind="function"><name>operator=</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_property_header_1a586349af9c4a8d3ee9689d10b046394d" kind="function"><name>getName</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_property_header_1a74ede00b46daf3fb004ad44eccb74aeb" kind="function"><name>setName</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_property_header_1a30cd56f998bf920bbda2d56eb8c6fdc3" kind="function"><name>getPropertyType</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_property_header_1ae01f29ccaa8c74e564b6f2a93228367d" kind="function"><name>setPropertyType</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_property_header_1aeebcce5eadbf7a6e95912d39413d184e" kind="function"><name>isScalar</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_property_header_1ae5ccce0d21cc05678ab094965dbc876a" kind="function"><name>isArray</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_property_header_1aaa2710514d916e12085ab08673c9196c" kind="function"><name>isCompound</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_property_header_1ad14caf8defd6c160b235069eb674ea5c" kind="function"><name>isSimple</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_property_header_1a71743d26f68be061edff0ae739f42ddc" kind="function"><name>getMetaData</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_property_header_1a725612dc668369f9bf8bb2a7a011afd6" kind="function"><name>setMetaData</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_property_header_1aeae7cb078610630ad04cb2aac2cbaf00" kind="function"><name>getDataType</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_property_header_1abf5874d7dcc2fe7a0ef8c1890b67a756" kind="function"><name>setDataType</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_property_header_1aa3182ecffdd877aed12e64d019aae7d3" kind="function"><name>getTimeSampling</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_property_header_1a99247a93f97bb487ed14d2237f9a7040" kind="function"><name>setTimeSampling</name></member>
+  </compound>
+  <compound refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_cache" kind="class"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ReadArraySampleCache</name>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_cache_1a06fe8346f334e64256d2ecd1a8deaf95" kind="function"><name>~ReadArraySampleCache</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_cache_1a1deb387f86e45204dcb666136a6ba841" kind="function"><name>find</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_cache_1aa07994eb88d386aee566300545955652" kind="function"><name>store</name></member>
+  </compound>
+  <compound refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d" kind="class"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ReadArraySampleID</name>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d_1a00f918d178d81766c7e197e342d37077" kind="typedef"><name>this_type</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d_1ae43a8e52ed81962a5f2140ce96df1543" kind="variable"><name>m_sampleKey</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d_1ae1971668ca3a7ebec537f1c6cdebe387" kind="variable"><name>m_sample</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d_1a02967385765d690c91ae06cf51b3e8bf" kind="function"><name>ReadArraySampleID</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d_1a42ccc67dab5b88170811034517751ddf" kind="function"><name>ReadArraySampleID</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d_1a0d290b77494bfdd7dc5470f5d8e30857" kind="function"><name>getKey</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d_1a2d8dfcca0256784d3089522d38a1798f" kind="function"><name>getSample</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d_1ab1bd9b63b1005749bce4dc28ca891cb1" kind="function"><name>valid</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d_1a17e9d3782120e4ff343c2741f21f99b0" kind="function"><name>ALEMBIC_OPERATOR_BOOL</name></member>
+  </compound>
+  <compound refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_reader" kind="class"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader</name>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_reader_1a0a9b51162037d3f1399d3cd5d32e5e47" kind="function"><name>~ScalarPropertyReader</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_reader_1aa8ee7e377e8a8fbd12e4bef2b7828491" kind="function"><name>getNumSamples</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_reader_1a531bbb582574429c56987e4e07b7f510" kind="function"><name>isConstant</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_reader_1a673107e2c1ead2e2ec8d0b740e4ce2b9" kind="function"><name>getSample</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_reader_1aa72e72242299f3efd3fde4977d75064c" kind="function"><name>getFloorIndex</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_reader_1a970d0040be7810d2679d2dfa4f663be4" kind="function"><name>getCeilIndex</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_reader_1ad2752c9b43ccedfdadf081d43d313c64" kind="function"><name>getNearIndex</name></member>
+  </compound>
+  <compound refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_writer" kind="class"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyWriter</name>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_writer_1aaadf604eed43ef7acc0b8a50864d5183" kind="function"><name>~ScalarPropertyWriter</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_writer_1add17f3286c36b48ed67630db46faefb5" kind="function"><name>setSample</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_writer_1ad23a0d7bb6c13917b0fa33b74f71a065" kind="function"><name>setFromPreviousSample</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_writer_1af64e47aa2ab83adad5725982e89e5fd2" kind="function"><name>getNumSamples</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_writer_1a6b25161c69bbd325a3cf726c7f557d85" kind="function"><name>setTimeSamplingIndex</name></member>
+  </compound>
+  <compound refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample" kind="class"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarSample</name>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1a97525375912a4b065f0c7916632add05" kind="variable"><name>m_dataType</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1ab58858661747769eddd73eb775eddc17" kind="variable"><name>m_data</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1a8bbd76caa1bcfa0d3b4e148492bbb627" kind="function"><name>ScalarSample</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1a1187e485215347cc226192b2f62b6bc5" kind="function"><name>copyFrom</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1ad4b114f33af5ce136553bb91b92cd130" kind="function"><name>getDataType</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1acfbff1940cfe6d0c6ff91018e072cbcb" kind="function"><name>getData</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1ab41b4fa7056e072826f01ceccf778c7c" kind="function"><name>operator==</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1ad80f89c22f8b5cf38901899552af35a4" kind="function"><name>operator==</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1a97632f9bcc5b09623036b26055fc005d" kind="function"><name>equalWithRelAbsError</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1a6c9f951c71440922c659298a248a1155" kind="function"><name>equalWithRelAbsError</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1ae7ffa09ba4aeea8932cf045883fc369f" kind="function"><name>operator&lt;</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1a3a5881ea1783d493641f377370b48853" kind="function"><name>operator&lt;</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1a9e7f08fac712e3393a611864fdae2328" kind="function"><name>setToDefault</name></member>
+  </compound>
+  <compound refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_t_array_deleter" kind="struct"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TArrayDeleter</name>
+    <member refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_t_array_deleter_1a026c2e8ce9d1ee838f2c0fd6ab93cdc6" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling" kind="class"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling</name>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a55607093cb061bc42d682ad96a678276" kind="variable"><name>m_timeSamplingType</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a6ef4dbd0e4e6bb32504290c68b07ec64" kind="variable"><name>m_sampleTimes</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a3f4932848d61aba24ab82ad475d2c63e" kind="function"><name>TimeSampling</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a0a4107b3d1442cda0885ce4deacc636f" kind="function"><name>TimeSampling</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a6b8263b7ab1d2b9fd37f870813993532" kind="function"><name>TimeSampling</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1acd5d3f3a5dfea14452b945d2ed4d7263" kind="function"><name>TimeSampling</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a4eb15e224b1dc162b877cefbaa7b1ac9" kind="function"><name>operator==</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a0a12be93c0ade9862010762bd53f3cf3" kind="function"><name>getNumStoredTimes</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a93f0ded0da83899b2b89b2caa8b10553" kind="function"><name>getStoredTimes</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1afa62e36bcb1b14ffb90b2d78d63e6446" kind="function"><name>getTimeSamplingType</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a50b748866f786f7e56550a32c9ebb1bf" kind="function"><name>getSampleTime</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a5e6b34c14bafcf2f6e726e020912bc7f" kind="function"><name>getFloorIndex</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a1fe72f053fd3f0ddf744056ee0f59c6a" kind="function"><name>getCeilIndex</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a05b94f917f96d28d47a26dfcb9bbbd90" kind="function"><name>getNearIndex</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a4026e1815bb107afacd0510c258a8973" kind="function"><name>init</name></member>
+  </compound>
+  <compound refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_type" kind="class"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSamplingType</name>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_type_1aa2ee0a91c510274457e30586beec9459" kind="enum"><name>AcyclicFlag</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_type_1aa2ee0a91c510274457e30586beec9459a410933d0c44b2441cade4a56beddda00" kind="enumvalue"><name>kAcyclic</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_type_1a9b1e618722a6f0470ed2b3e3ac055fc2" kind="variable"><name>m_numSamplesPerCycle</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_type_1a9b0a4159b0115ef27e0aea032bf39703" kind="variable"><name>m_timePerCycle</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_type_1ab4e281bd83ad5721f4d5b711c006d7d0" kind="function"><name>AcyclicNumSamples</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_type_1a2af070589d3628ba64f9ca08d76c4513" kind="function"><name>AcyclicTimePerCycle</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_type_1ac3cad2f7db1610e42296ecdb9ed29b5b" kind="function"><name>TimeSamplingType</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_type_1a9b965f9de9834f67be771fda04abf7aa" kind="function"><name>TimeSamplingType</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_type_1ae62da1edf11d5e39bef2725cdce31999" kind="function"><name>TimeSamplingType</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_type_1a8cf90687dec8b4a7934cec9b6ac4b7ee" kind="function"><name>TimeSamplingType</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_type_1aa3b68e6ad1865c813044721417d9bb44" kind="function"><name>operator==</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_type_1a3542575ddf45f634ac82af08a3f4f726" kind="function"><name>isUniform</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_type_1a9b7fbf455d09727aabdb08245ac8d311" kind="function"><name>isCyclic</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_type_1acce996907e3f29f3b1084b853ee42ef1" kind="function"><name>isAcyclic</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_type_1a75a9003709cdc1b371848f9c8eddda07" kind="function"><name>getNumSamplesPerCycle</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_type_1a8f537e0a37ed047f8a8a5ddc28445dc7" kind="function"><name>getTimePerCycle</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_type_1a7d43ef86bb8bdb8823bb90dc907b15a1" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_unordered_map_util" kind="struct"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::UnorderedMapUtil</name>
+    <member refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_unordered_map_util_1a37dbad07dacc847d0da8712071564da9" kind="typedef"><name>umap_type</name></member>
+  </compound>
+  <compound refid="namespace_alembic" kind="namespace"><name>Alembic</name>
+  </compound>
+  <compound refid="namespace_alembic_1_1_abc_core_abstract" kind="namespace"><name>Alembic::AbcCoreAbstract</name>
+  </compound>
+  <compound refid="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s" kind="namespace"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS</name>
+    <member refid="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1acf59417a2efeaed9e67dff78618f3d53" kind="enum"><name>PropertyType</name></member>
+    <member refid="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1acf59417a2efeaed9e67dff78618f3d53a40c04d1fecde7a36b1d114e8f6babf02" kind="enumvalue"><name>kCompoundProperty</name></member>
+    <member refid="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1acf59417a2efeaed9e67dff78618f3d53ad5c526a85d3304ebe0f6c10834a47a3e" kind="enumvalue"><name>kScalarProperty</name></member>
+    <member refid="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1acf59417a2efeaed9e67dff78618f3d53aaaa56f57657eba1c1983a2a0b9e988a0" kind="enumvalue"><name>kArrayProperty</name></member>
+    <member refid="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a4e5f63d661b381ad7d414f0a3166a7af" kind="typedef"><name>ArraySamplePtr</name></member>
+    <member refid="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a708ec4136ada329d70a79438b4e3a53f" kind="typedef"><name>ArchiveWriterPtr</name></member>
+    <member refid="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1aa1fd7fd404e741e1c300947eb1593855" kind="typedef"><name>ObjectWriterPtr</name></member>
+    <member refid="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a9bf1b719d941a0e9529050d3313e0ed2" kind="typedef"><name>CompoundPropertyWriterPtr</name></member>
+    <member refid="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1acfe04b12a4285d91ce902c196bc75b7d" kind="typedef"><name>ArrayPropertyWriterPtr</name></member>
+    <member refid="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1af5443a0fba781acbbdef58939ade36cb" kind="typedef"><name>ScalarPropertyWriterPtr</name></member>
+    <member refid="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ae0ebac0aa5a6994959a3d90d1a597ad3" kind="typedef"><name>BasePropertyWriterPtr</name></member>
+    <member refid="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1af3cbbcfd95ada6ad12ed25eed4516790" kind="typedef"><name>ArchiveReaderPtr</name></member>
+    <member refid="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1aae4c6fa1d7bdf39b02d5318a90ffe843" kind="typedef"><name>ObjectReaderPtr</name></member>
+    <member refid="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ae6c22185c99867cbb744e8114ca83fde" kind="typedef"><name>CompoundPropertyReaderPtr</name></member>
+    <member refid="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a3e6ed17836cfce1e3842bec579aa0007" kind="typedef"><name>ArrayPropertyReaderPtr</name></member>
+    <member refid="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ad26047d84cc2eb1d09b3c85dcf050664" kind="typedef"><name>ScalarPropertyReaderPtr</name></member>
+    <member refid="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a9cba89b3040aeef3894640ca83eb031f" kind="typedef"><name>BasePropertyReaderPtr</name></member>
+    <member refid="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ad300614adbbce2cbfc6b417a29220bff" kind="typedef"><name>ReadArraySampleCachePtr</name></member>
+    <member refid="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1aadfad31ea93f1f91ac07624cb2d6d068" kind="typedef"><name>TimeSamplingPtr</name></member>
+    <member refid="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a045b13438b92bd7cc8903f113e89fb86" kind="typedef"><name>index_t</name></member>
+    <member refid="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1aa3e9da423ebb177cf425db36ecad0e93" kind="typedef"><name>chrono_t</name></member>
+    <member refid="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ae522bd80a6386011f5edafa71411b036" kind="function"><name>StdHash</name></member>
+    <member refid="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ae68819ceea436e986acfd24c7ede6dee" kind="function"><name>AllocateArraySample</name></member>
+    <member refid="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a36e3e0202087e21e90db78a9629993bb" kind="function"><name>TAllocateArraySample</name></member>
+    <member refid="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a212153b7c8022508a7cc25317eb609f9" kind="function"><name>operator&lt;&lt;</name></member>
+    <member refid="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a81035893a0474c76d726e242e74f1f16" kind="function"><name>GetLibraryVersion</name></member>
+    <member refid="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1af1921d74cf49040ba080ea6e17422803" kind="function"><name>GetLibraryVersionShort</name></member>
+  </compound>
+  <compound refid="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_illustration_only" kind="namespace"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::IllustrationOnly</name>
+  </compound>
+  <compound refid="_all_8h" kind="file"><name>All.h</name>
+  </compound>
+  <compound refid="_archive_reader_8h" kind="file"><name>ArchiveReader.h</name>
+  </compound>
+  <compound refid="_archive_writer_8h" kind="file"><name>ArchiveWriter.h</name>
+  </compound>
+  <compound refid="_array_property_reader_8h" kind="file"><name>ArrayPropertyReader.h</name>
+  </compound>
+  <compound refid="_array_property_writer_8h" kind="file"><name>ArrayPropertyWriter.h</name>
+  </compound>
+  <compound refid="_array_sample_8h" kind="file"><name>ArraySample.h</name>
+  </compound>
+  <compound refid="_array_sample_key_8h" kind="file"><name>ArraySampleKey.h</name>
+  </compound>
+  <compound refid="_base_property_reader_8h" kind="file"><name>BasePropertyReader.h</name>
+  </compound>
+  <compound refid="_base_property_writer_8h" kind="file"><name>BasePropertyWriter.h</name>
+  </compound>
+  <compound refid="_compound_property_reader_8h" kind="file"><name>CompoundPropertyReader.h</name>
+  </compound>
+  <compound refid="_compound_property_writer_8h" kind="file"><name>CompoundPropertyWriter.h</name>
+  </compound>
+  <compound refid="_data_type_8h" kind="file"><name>DataType.h</name>
+  </compound>
+  <compound refid="_forward_declarations_8h" kind="file"><name>ForwardDeclarations.h</name>
+  </compound>
+  <compound refid="_foundation_8h" kind="file"><name>Foundation.h</name>
+    <member refid="_foundation_8h_1ad8deb07f87a436c5f3cb56bb5c9fe7ec" kind="define"><name>INDEX_UNKNOWN</name></member>
+    <member refid="_foundation_8h_1aa1e788317cdd36f42352744997f34322" kind="define"><name>kChrono_TPOD</name></member>
+    <member refid="_foundation_8h_1a624c699f3f7bdbece89789faa444769b" kind="define"><name>ABCA_THROW</name></member>
+    <member refid="_foundation_8h_1ab207f82762b36473db92500a9e094e4f" kind="define"><name>ABCA_ASSERT</name></member>
+  </compound>
+  <compound refid="_meta_data_8h" kind="file"><name>MetaData.h</name>
+  </compound>
+  <compound refid="_object_header_8h" kind="file"><name>ObjectHeader.h</name>
+  </compound>
+  <compound refid="_object_reader_8h" kind="file"><name>ObjectReader.h</name>
+  </compound>
+  <compound refid="_object_writer_8h" kind="file"><name>ObjectWriter.h</name>
+  </compound>
+  <compound refid="_property_header_8h" kind="file"><name>PropertyHeader.h</name>
+  </compound>
+  <compound refid="_read_array_sample_cache_8h" kind="file"><name>ReadArraySampleCache.h</name>
+  </compound>
+  <compound refid="_scalar_property_reader_8h" kind="file"><name>ScalarPropertyReader.h</name>
+  </compound>
+  <compound refid="_scalar_property_writer_8h" kind="file"><name>ScalarPropertyWriter.h</name>
+  </compound>
+  <compound refid="_scalar_sample_8h" kind="file"><name>ScalarSample.h</name>
+  </compound>
+  <compound refid="_time_sampling_8h" kind="file"><name>TimeSampling.h</name>
+  </compound>
+  <compound refid="_time_sampling_type_8h" kind="file"><name>TimeSamplingType.h</name>
+  </compound>
+  <compound refid="dir_26f3502895bfe03fb250014bf6440599" kind="dir"><name>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/</name>
+  </compound>
+  <compound refid="dir_d95f1c63c7bf278ab187e79c300bad28" kind="dir"><name>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/</name>
+  </compound>
+  <compound refid="dir_fb21a19169ae945afa1853fbab170fa8" kind="dir"><name>/var/tmp/doNotRemove/local/alembic-1.6.0/</name>
+  </compound>
+  <compound refid="dir_cc2aaca40dc87c9830d07544fb1eec8d" kind="dir"><name>/var/tmp/doNotRemove/</name>
+  </compound>
+  <compound refid="dir_f153bcc636200749934ad997aee2cad4" kind="dir"><name>/var/tmp/doNotRemove/local/alembic-1.6.0/include/</name>
+  </compound>
+  <compound refid="dir_a8ba750eb1c877acf140a99b46e04652" kind="dir"><name>/var/tmp/doNotRemove/local/</name>
+  </compound>
+  <compound refid="dir_b16804dff21b756ae8295d79ca0885bf" kind="dir"><name>/var/tmp/</name>
+  </compound>
+  <compound refid="dir_2d402fa29e6cd3b6ca13957b8f90c436" kind="dir"><name>/var/</name>
+  </compound>
+</doxygenindex>

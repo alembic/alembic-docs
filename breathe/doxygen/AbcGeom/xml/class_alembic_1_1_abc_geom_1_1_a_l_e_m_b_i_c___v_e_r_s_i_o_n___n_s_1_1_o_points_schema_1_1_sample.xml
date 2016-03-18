@@ -1,0 +1,335 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample" kind="class" prot="public">
+    <compoundname>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1a533704a55708164c170bae91da56ffea" prot="protected" static="no" mutable="no">
+        <type>Abc::P3fArraySample</type>
+        <definition>Abc::P3fArraySample Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample::m_positions</definition>
+        <argsstring></argsstring>
+        <name>m_positions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" line="124" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1a910ffe823150a66af0f26cd2038afcc0" prot="protected" static="no" mutable="no">
+        <type>Abc::V3fArraySample</type>
+        <definition>Abc::V3fArraySample Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample::m_velocities</definition>
+        <argsstring></argsstring>
+        <name>m_velocities</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" line="125" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1acac89e7e3b972c5e3096918dd7c0a793" prot="protected" static="no" mutable="no">
+        <type>Abc::UInt64ArraySample</type>
+        <definition>Abc::UInt64ArraySample Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample::m_ids</definition>
+        <argsstring></argsstring>
+        <name>m_ids</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" line="126" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1a8fc4d698f88f105e150300ebaf487812" prot="protected" static="no" mutable="no">
+        <type>OFloatGeomParam::Sample</type>
+        <definition>OFloatGeomParam::Sample Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample::m_widths</definition>
+        <argsstring></argsstring>
+        <name>m_widths</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" line="127" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1a834bc287c5e3dab62f668eb56d0a854e" prot="protected" static="no" mutable="no">
+        <type>Abc::Box3d</type>
+        <definition>Abc::Box3d Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample::m_selfBounds</definition>
+        <argsstring></argsstring>
+        <name>m_selfBounds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" line="129" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1a53ae9bfba264ed2623772bb50238ede9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample::Sample</definition>
+        <argsstring>()</argsstring>
+        <name>Sample</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a default sample with no data in it. ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" line="62" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1a931f8214e564ab9ca079d540b01ca0dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample::Sample</definition>
+        <argsstring>(const Abc::P3fArraySample &amp;iPos, const Abc::V3fArraySample &amp;iVelocities=Abc::V3fArraySample(), const OFloatGeomParam::Sample &amp;iWidths=OFloatGeomParam::Sample())</argsstring>
+        <name>Sample</name>
+        <param>
+          <type>const Abc::P3fArraySample &amp;</type>
+          <declname>iPos</declname>
+        </param>
+        <param>
+          <type>const Abc::V3fArraySample &amp;</type>
+          <declname>iVelocities</declname>
+          <defval>Abc::V3fArraySample()</defval>
+        </param>
+        <param>
+          <type>const OFloatGeomParam::Sample &amp;</type>
+          <declname>iWidths</declname>
+          <defval>OFloatGeomParam::Sample()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a sample with position data but no id data. For specifying samples after the first one </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" line="73" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" bodystart="66" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1a7c6f1e0202257b1a5fc9556a0b0a52aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample::Sample</definition>
+        <argsstring>(const Abc::P3fArraySample &amp;iPos, const Abc::UInt64ArraySample &amp;iId, const Abc::V3fArraySample &amp;iVelocities=Abc::V3fArraySample(), const OFloatGeomParam::Sample &amp;iWidths=OFloatGeomParam::Sample())</argsstring>
+        <name>Sample</name>
+        <param>
+          <type>const Abc::P3fArraySample &amp;</type>
+          <declname>iPos</declname>
+        </param>
+        <param>
+          <type>const Abc::UInt64ArraySample &amp;</type>
+          <declname>iId</declname>
+        </param>
+        <param>
+          <type>const Abc::V3fArraySample &amp;</type>
+          <declname>iVelocities</declname>
+          <defval>Abc::V3fArraySample()</defval>
+        </param>
+        <param>
+          <type>const OFloatGeomParam::Sample &amp;</type>
+          <declname>iWidths</declname>
+          <defval>OFloatGeomParam::Sample()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a sample with position data and id data. The first sample must be full like this. Subsequent samples may also be full like this, which would indicate a change of topology </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" line="87" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" bodystart="78" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1a3dae9a8d90f76ea19c500b7f389175d1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const Abc::P3fArraySample &amp;</type>
+        <definition>const Abc::P3fArraySample&amp; Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample::getPositions</definition>
+        <argsstring>() const </argsstring>
+        <name>getPositions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" line="90" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1acd2744a6e4de299359b98c1b31e49d2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample::setPositions</definition>
+        <argsstring>(const Abc::P3fArraySample &amp;iSmp)</argsstring>
+        <name>setPositions</name>
+        <param>
+          <type>const Abc::P3fArraySample &amp;</type>
+          <declname>iSmp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" line="92" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" bodystart="91" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1ac2904dd3432f6704685b31025fe5aa3a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const Abc::UInt64ArraySample &amp;</type>
+        <definition>const Abc::UInt64ArraySample&amp; Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample::getIds</definition>
+        <argsstring>() const </argsstring>
+        <name>getIds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" line="95" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" bodystart="95" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1aac61862d6c8837c5c0944637d049296b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample::setIds</definition>
+        <argsstring>(const Abc::UInt64ArraySample &amp;iSmp)</argsstring>
+        <name>setIds</name>
+        <param>
+          <type>const Abc::UInt64ArraySample &amp;</type>
+          <declname>iSmp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" line="97" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" bodystart="96" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1aa65c084cfa5594cba4e7f9d7ce1373f2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const Abc::V3fArraySample &amp;</type>
+        <definition>const Abc::V3fArraySample&amp; Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample::getVelocities</definition>
+        <argsstring>() const </argsstring>
+        <name>getVelocities</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" line="100" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" bodystart="100" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1ae998e572f334ae6bdda11d7ff2ab3352" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample::setVelocities</definition>
+        <argsstring>(const Abc::V3fArraySample &amp;iVelocities)</argsstring>
+        <name>setVelocities</name>
+        <param>
+          <type>const Abc::V3fArraySample &amp;</type>
+          <declname>iVelocities</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" line="102" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" bodystart="101" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1afafab702760f7b30d891df8f9edc111a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const OFloatGeomParam::Sample &amp;</type>
+        <definition>const OFloatGeomParam::Sample&amp; Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample::getWidths</definition>
+        <argsstring>() const </argsstring>
+        <name>getWidths</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" line="105" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" bodystart="105" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1a0c5090ddee19ea7f723a09c9b367ffc0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample::setWidths</definition>
+        <argsstring>(const OFloatGeomParam::Sample &amp;iWidths)</argsstring>
+        <name>setWidths</name>
+        <param>
+          <type>const OFloatGeomParam::Sample &amp;</type>
+          <declname>iWidths</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" line="107" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" bodystart="106" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1a1d0cd47e371a0ce68f0cd8721f48e21a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const Abc::Box3d &amp;</type>
+        <definition>const Abc::Box3d&amp; Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample::getSelfBounds</definition>
+        <argsstring>() const </argsstring>
+        <name>getSelfBounds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" line="109" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" bodystart="109" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1a8e3a244638abdc12c81d1ac7f78873e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample::setSelfBounds</definition>
+        <argsstring>(const Abc::Box3d &amp;iBnds)</argsstring>
+        <name>setSelfBounds</name>
+        <param>
+          <type>const Abc::Box3d &amp;</type>
+          <declname>iBnds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" line="111" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" bodystart="110" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1a5f0632853235eba7bd1ad732aa89e334" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" line="114" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" bodystart="113" bodyend="121"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" line="58" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPoints.h" bodystart="57" bodyend="130"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1ac2904dd3432f6704685b31025fe5aa3a" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample</scope><name>getIds</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1a3dae9a8d90f76ea19c500b7f389175d1" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample</scope><name>getPositions</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1a1d0cd47e371a0ce68f0cd8721f48e21a" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample</scope><name>getSelfBounds</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1aa65c084cfa5594cba4e7f9d7ce1373f2" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample</scope><name>getVelocities</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1afafab702760f7b30d891df8f9edc111a" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample</scope><name>getWidths</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1acac89e7e3b972c5e3096918dd7c0a793" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample</scope><name>m_ids</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1a533704a55708164c170bae91da56ffea" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample</scope><name>m_positions</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1a834bc287c5e3dab62f668eb56d0a854e" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample</scope><name>m_selfBounds</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1a910ffe823150a66af0f26cd2038afcc0" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample</scope><name>m_velocities</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1a8fc4d698f88f105e150300ebaf487812" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample</scope><name>m_widths</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1a5f0632853235eba7bd1ad732aa89e334" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample</scope><name>reset</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1a53ae9bfba264ed2623772bb50238ede9" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample</scope><name>Sample</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1a931f8214e564ab9ca079d540b01ca0dd" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample</scope><name>Sample</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1a7c6f1e0202257b1a5fc9556a0b0a52aa" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample</scope><name>Sample</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1aac61862d6c8837c5c0944637d049296b" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample</scope><name>setIds</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1acd2744a6e4de299359b98c1b31e49d2e" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample</scope><name>setPositions</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1a8e3a244638abdc12c81d1ac7f78873e0" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample</scope><name>setSelfBounds</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1ae998e572f334ae6bdda11d7ff2ab3352" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample</scope><name>setVelocities</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema_1_1_sample_1a0c5090ddee19ea7f723a09c9b367ffc0" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema::Sample</scope><name>setWidths</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

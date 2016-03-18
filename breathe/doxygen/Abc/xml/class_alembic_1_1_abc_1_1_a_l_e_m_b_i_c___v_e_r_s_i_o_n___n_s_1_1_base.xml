@@ -1,0 +1,372 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base" kind="class" prot="public">
+    <compoundname>Alembic::Abc::ALEMBIC_VERSION_NS::Base</compoundname>
+    <derivedcompoundref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_archive" prot="public" virt="non-virtual">Alembic::Abc::ALEMBIC_VERSION_NS::IArchive</derivedcompoundref>
+    <derivedcompoundref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t" prot="public" virt="non-virtual">Alembic::Abc::ALEMBIC_VERSION_NS::IBasePropertyT&lt; PROP_PTR &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object" prot="public" virt="non-virtual">Alembic::Abc::ALEMBIC_VERSION_NS::IObject</derivedcompoundref>
+    <derivedcompoundref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive" prot="public" virt="non-virtual">Alembic::Abc::ALEMBIC_VERSION_NS::OArchive</derivedcompoundref>
+    <derivedcompoundref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t" prot="public" virt="non-virtual">Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT&lt; PROP_PTR &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_object" prot="public" virt="non-virtual">Alembic::Abc::ALEMBIC_VERSION_NS::OObject</derivedcompoundref>
+    <derivedcompoundref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t" prot="public" virt="non-virtual">Alembic::Abc::ALEMBIC_VERSION_NS::IBasePropertyT&lt; AbcA::ArrayPropertyReaderPtr &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t" prot="public" virt="non-virtual">Alembic::Abc::ALEMBIC_VERSION_NS::IBasePropertyT&lt; AbcA::CompoundPropertyReaderPtr &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t" prot="public" virt="non-virtual">Alembic::Abc::ALEMBIC_VERSION_NS::IBasePropertyT&lt; AbcA::ScalarPropertyReaderPtr &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t" prot="public" virt="non-virtual">Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT&lt; AbcA::ArrayPropertyWriterPtr &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t" prot="public" virt="non-virtual">Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT&lt; AbcA::CompoundPropertyWriterPtr &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t" prot="public" virt="non-virtual">Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT&lt; AbcA::ScalarPropertyWriterPtr &gt;</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1a5e1391f07cf19f771c45c3160957e910" prot="private" static="no" mutable="yes">
+        <type><ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_error_handler" kindref="compound">ErrorHandler</ref></type>
+        <definition>ErrorHandler Alembic::Abc::ALEMBIC_VERSION_NS::Base::m_errorHandler</definition>
+        <argsstring></argsstring>
+        <name>m_errorHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Base.h" line="87" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Base.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1af36435a2f134e3bd7ae9452772bbc359" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Abc::ALEMBIC_VERSION_NS::Base::Base</definition>
+        <argsstring>()</argsstring>
+        <name>Base</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Base.h" line="51" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Base.h" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1aacf050bea2aa2dfb2c83ada9c7f010a1" prot="protected" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Abc::ALEMBIC_VERSION_NS::Base::Base</definition>
+        <argsstring>(ErrorHandler::Policy iPolicy)</argsstring>
+        <name>Base</name>
+        <param>
+          <type>ErrorHandler::Policy</type>
+          <declname>iPolicy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Base.h" line="54" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Base.h" bodystart="53" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1a10b8bf6b14e26ea73a88fade1d42f193" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Abc::ALEMBIC_VERSION_NS::Base::Base</definition>
+        <argsstring>(const Base &amp;iCopy)</argsstring>
+        <name>Base</name>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base" kindref="compound">Base</ref> &amp;</type>
+          <declname>iCopy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Base.h" line="57" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Base.h" bodystart="56" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1aba8cb00b70a9ea3bad9957037dbd3cbe" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base" kindref="compound">Base</ref> &amp;</type>
+        <definition>Base&amp; Alembic::Abc::ALEMBIC_VERSION_NS::Base::operator=</definition>
+        <argsstring>(const Base &amp;iCopy)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base" kindref="compound">Base</ref> &amp;</type>
+          <declname>iCopy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Base.h" line="60" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Base.h" bodystart="59" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1af5d3e83a6ffd138a68554c72946c9cd9" prot="protected" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::Abc::ALEMBIC_VERSION_NS::Base::valid</definition>
+        <argsstring>() const </argsstring>
+        <name>valid</name>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1a4a281c54d728ae12ef862c9c5b4e0307">valid</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1a4a281c54d728ae12ef862c9c5b4e0307">valid</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1a4a281c54d728ae12ef862c9c5b4e0307">valid</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1ab729da97825eefa51ec8ac51d6a38b5f">valid</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1ab729da97825eefa51ec8ac51d6a38b5f">valid</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1ab729da97825eefa51ec8ac51d6a38b5f">valid</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1a4a281c54d728ae12ef862c9c5b4e0307">valid</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_object_1adab9809aa01331ec4fa34ef0a89e1e36">valid</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_schema_object_1ab56447ab9ed1829972ce093534aac06f">valid</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1ab729da97825eefa51ec8ac51d6a38b5f">valid</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a2219bac13f64798268963c6bc41d7a6e">valid</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_archive_1a6e6af4c86ed7abb2159c8c698b63857e">valid</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_object_1ac4ac9d77c08e9058e91411620c72eeeb">valid</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1ad33dab997ba01cac4867b93694550c9d">valid</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Base.h" line="66" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Base.h" bodystart="65" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1ad5b1f06443aba3059f084aed110c6d96" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::Abc::ALEMBIC_VERSION_NS::Base::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1a0e36ddc9d604ed618d7de956a7df8000">reset</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1a0e36ddc9d604ed618d7de956a7df8000">reset</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1a0e36ddc9d604ed618d7de956a7df8000">reset</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a5a6f8b2b676658168fdb842780caa304">reset</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a5a6f8b2b676658168fdb842780caa304">reset</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a5a6f8b2b676658168fdb842780caa304">reset</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1a0e36ddc9d604ed618d7de956a7df8000">reset</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_object_1aaf1a992a287bda45c54cbcde71270918">reset</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_schema_object_1a19a41c81de029d6aaca811072d654c93">reset</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a5a6f8b2b676658168fdb842780caa304">reset</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1ab40a30aac40daff37ffa06527d63a36b">reset</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_archive_1ac04f0cf6067a0c893f92fad0f3c5a973">reset</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_object_1a5a06061c2fa810002007bf37e64b2b52">reset</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1afe750eda18c389e9fbc70a311f298344">reset</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Base.h" line="71" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Base.h" bodystart="70" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1af35d99de9b57714c46c454c03e620268" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_error_handler" kindref="compound">ErrorHandler</ref> &amp;</type>
+        <definition>ErrorHandler&amp; Alembic::Abc::ALEMBIC_VERSION_NS::Base::getErrorHandler</definition>
+        <argsstring>() const </argsstring>
+        <name>getErrorHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Base.h" line="77" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Base.h" bodystart="76" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1a64d9e1f5ed8dfab78f490d3e7a06643f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ErrorHandler::Policy</type>
+        <definition>ErrorHandler::Policy Alembic::Abc::ALEMBIC_VERSION_NS::Base::getErrorHandlerPolicy</definition>
+        <argsstring>() const </argsstring>
+        <name>getErrorHandlerPolicy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Base.h" line="82" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Base.h" bodystart="81" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="27">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::OTypedArrayProperty&lt; TRAITS &gt;</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_array_property"/>
+        <childnode refid="26" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::OTypedScalarProperty&lt; TRAITS &gt;</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_scalar_property"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT&lt; AbcA::ScalarPropertyWriterPtr &gt;</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::ISchemaObject&lt; SCHEMA &gt;</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_object"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::OCompoundProperty</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_compound_property"/>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::IScalarProperty</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_scalar_property"/>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::IArchive</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_archive"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT&lt; PROP_PTR &gt;</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::Base</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base"/>
+      </node>
+      <node id="14">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::OObject</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_object"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::IBasePropertyT&lt; PROP_PTR &gt;</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::IBasePropertyT&lt; AbcA::ScalarPropertyReaderPtr &gt;</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::OArrayProperty</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_array_property"/>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::IBasePropertyT&lt; AbcA::ArrayPropertyReaderPtr &gt;</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::ISchema&lt; INFO &gt;</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::IBasePropertyT&lt; AbcA::CompoundPropertyReaderPtr &gt;</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::OArchive</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT&lt; AbcA::CompoundPropertyWriterPtr &gt;</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT&lt; AbcA::ArrayPropertyWriterPtr &gt;</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::OScalarProperty</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_scalar_property"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::ICompoundProperty</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_compound_property"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::ITypedScalarProperty&lt; TRAITS &gt;</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_scalar_property"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::OSchemaObject&lt; SCHEMA &gt;</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_schema_object"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::ITypedArrayProperty&lt; TRAITS &gt;</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_array_property"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::OSchema&lt; INFO &gt;</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_schema"/>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="34">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::Base</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base"/>
+        <childnode refid="35" relation="usage">
+          <edgelabel>m_errorHandler</edgelabel>
+        </childnode>
+      </node>
+      <node id="35">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::ErrorHandler</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_error_handler"/>
+      </node>
+    </collaborationgraph>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Base.h" line="49" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Base.h" bodystart="48" bodyend="88"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1af36435a2f134e3bd7ae9452772bbc359" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::Base</scope><name>Base</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1aacf050bea2aa2dfb2c83ada9c7f010a1" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::Base</scope><name>Base</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1a10b8bf6b14e26ea73a88fade1d42f193" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::Base</scope><name>Base</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1af35d99de9b57714c46c454c03e620268" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::Base</scope><name>getErrorHandler</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1a64d9e1f5ed8dfab78f490d3e7a06643f" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::Base</scope><name>getErrorHandlerPolicy</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1a5e1391f07cf19f771c45c3160957e910" prot="private" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::Base</scope><name>m_errorHandler</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1aba8cb00b70a9ea3bad9957037dbd3cbe" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::Base</scope><name>operator=</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1ad5b1f06443aba3059f084aed110c6d96" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::Base</scope><name>reset</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1af5d3e83a6ffd138a68554c72946c9cd9" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::Base</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

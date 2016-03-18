@@ -1,0 +1,455 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kind="class" prot="public">
+    <compoundname>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData</compoundname>
+    <includes refid="_meta_data_8h" local="no">MetaData.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1affe92fa11b80fefd3873caa4b79307b1" prot="public" static="no">
+        <type>Alembic::Util::TokenMap</type>
+        <definition>typedef Alembic::Util::TokenMap Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData::token_map_type</definition>
+        <argsstring></argsstring>
+        <name>token_map_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Our internals are handled by a TokenMap, which we expose through these typedefs. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" line="68" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1a754bdb9e7745fef956f3a76bde1f5f32" prot="public" static="no">
+        <type>token_map_type::key_type</type>
+        <definition>typedef token_map_type::key_type Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData::key_type</definition>
+        <argsstring></argsstring>
+        <name>key_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Key type. Keys are unique within each <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> instance. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" line="72" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1ace637cc8a2d22299d127d72024085334" prot="public" static="no">
+        <type>token_map_type::data_type</type>
+        <definition>typedef token_map_type::data_type Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData::data_type</definition>
+        <argsstring></argsstring>
+        <name>data_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Data type. Data is associated with a key, with each key being unique. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" line="76" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1a0a4c27378edd45004f8cc59950550c46" prot="public" static="no">
+        <type>token_map_type::value_type</type>
+        <definition>typedef token_map_type::value_type Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData::value_type</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Value-type This is what the <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> class &quot;contains&quot;, when viewed as a standard container. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" line="81" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1af0db09439a4322dfa3f5443e4d864a95" prot="public" static="no">
+        <type>token_map_type::const_reference</type>
+        <definition>typedef token_map_type::const_reference Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData::const_reference</definition>
+        <argsstring></argsstring>
+        <name>const_reference</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Const reference type This is what the iterators dereference to. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" line="85" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1aeff2ae897c85d6cb06330cc1972e11b0" prot="public" static="no">
+        <type>token_map_type::const_iterator</type>
+        <definition>typedef token_map_type::const_iterator Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData::const_iterator</definition>
+        <argsstring></argsstring>
+        <name>const_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>const_iterator typedef this dereferences to a const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1a0a4c27378edd45004f8cc59950550c46" kindref="member">value_type</ref> reference. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" line="89" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1ab16676a4bbd8e3fd9ef436a3c7470073" prot="public" static="no">
+        <type>token_map_type::const_reverse_iterator</type>
+        <definition>typedef token_map_type::const_reverse_iterator Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData::const_reverse_iterator</definition>
+        <argsstring></argsstring>
+        <name>const_reverse_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>const_reverse_iterator typedef this dereferences to a const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1a0a4c27378edd45004f8cc59950550c46" kindref="member">value_type</ref> instance. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" line="93" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1af465e7b7532b4fb793d094714b4002e1" prot="private" static="no" mutable="no">
+        <type>Alembic::Util::TokenMap</type>
+        <definition>Alembic::Util::TokenMap Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData::m_tokenMap</definition>
+        <argsstring></argsstring>
+        <name>m_tokenMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" line="280" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1a078b8f43c6443f0bbd9fac675ec34725" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData::MetaData</definition>
+        <argsstring>()</argsstring>
+        <name>MetaData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default constructor creates an empty dictionary. ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" line="101" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" bodystart="101" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1a630170933ce91abeaeae1f62d756be90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData::MetaData</definition>
+        <argsstring>(const MetaData &amp;iCopy)</argsstring>
+        <name>MetaData</name>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> &amp;</type>
+          <declname>iCopy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Copy constructor copies another <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref>. ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" line="105" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" bodystart="105" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1a1af420121e6866f66e472647bc369a16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> &amp;</type>
+        <definition>MetaData&amp; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData::operator=</definition>
+        <argsstring>(const MetaData &amp;iCopy)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> &amp;</type>
+          <declname>iCopy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Assignment operator copies the contents of another <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> instance. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" line="110" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" bodystart="109" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1ae60d01c7a335fa9c404b1e331b1429c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData::deserialize</definition>
+        <argsstring>(const std::string &amp;iFrom)</argsstring>
+        <name>deserialize</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iFrom</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Deserialization will replace the contents of this class with the parsed contents of a string. It will just clear the contents first. It will throw an exception if the string is mal-formed. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" line="124" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" bodystart="123" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1a847f8f1c3d73a65fb29a7626b269642b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData::serialize</definition>
+        <argsstring>() const </argsstring>
+        <name>serialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Serialization will convert the contents of this <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> into a single string. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" line="133" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" bodystart="132" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1a0c69284a95f37040c40d90eadf69a9bd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData::size</definition>
+        <argsstring>() const </argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" line="140" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" bodystart="140" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1a64102b386845f7a6bc18baa776cb4150" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1aeff2ae897c85d6cb06330cc1972e11b0" kindref="member">const_iterator</ref></type>
+        <definition>const_iterator Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData::begin</definition>
+        <argsstring>() const </argsstring>
+        <name>begin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1aeff2ae897c85d6cb06330cc1972e11b0" kindref="member">const_iterator</ref> corresponding to the beginning of the <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> or the end of the <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> if empty. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" line="148" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" bodystart="148" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1ad0dffbfa6823a0d2b88f1cc4c88f1bc6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1aeff2ae897c85d6cb06330cc1972e11b0" kindref="member">const_iterator</ref></type>
+        <definition>const_iterator Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData::end</definition>
+        <argsstring>() const </argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1aeff2ae897c85d6cb06330cc1972e11b0" kindref="member">const_iterator</ref> corresponding to the end of the <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" line="152" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" bodystart="152" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1aa9b22fe1cd277b6d2fcfa60cfa8b95b3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1ab16676a4bbd8e3fd9ef436a3c7470073" kindref="member">const_reverse_iterator</ref></type>
+        <definition>const_reverse_iterator Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData::rbegin</definition>
+        <argsstring>() const </argsstring>
+        <name>rbegin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1ab16676a4bbd8e3fd9ef436a3c7470073" kindref="member">const_reverse_iterator</ref> corresponding to the beginning of the <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> or the end of the <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> if empty. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" line="156" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" bodystart="156" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1ac8e545ee5d32b19429993705ccbef6d8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1ab16676a4bbd8e3fd9ef436a3c7470073" kindref="member">const_reverse_iterator</ref></type>
+        <definition>const_reverse_iterator Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData::rend</definition>
+        <argsstring>() const </argsstring>
+        <name>rend</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns an <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1ab16676a4bbd8e3fd9ef436a3c7470073" kindref="member">const_reverse_iterator</ref> corresponding to the end of the <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" line="160" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" bodystart="160" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1aabfd2fb40c19158248a8d96e10624665" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData::set</definition>
+        <argsstring>(const std::string &amp;iKey, const std::string &amp;iData)</argsstring>
+        <name>set</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iKey</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set lets you set a key/data pair. This will silently overwrite an existing value. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" line="169" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" bodystart="168" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1ac266b155c840f8a6893c921bdc66d7ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData::setUnique</definition>
+        <argsstring>(const std::string &amp;iKey, const std::string &amp;iData)</argsstring>
+        <name>setUnique</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iKey</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setUnique lets you set a key/data pair, but throws an exception if you attempt to change the value of an existing field. It is fine if you set the same value. <simplesect kind="remark"><para>Not the most efficient implementation at the moment. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" line="178" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" bodystart="177" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1afa2c1150c1e56aa1fdbd28c97f1ede93" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData::get</definition>
+        <argsstring>(const std::string &amp;iKey) const </argsstring>
+        <name>get</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iKey</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get returns the value, or an empty string if it is not set. ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" line="193" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" bodystart="192" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1ab1dfba18d487fe7485e25a3a6c4bc0b1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData::getRequired</definition>
+        <argsstring>(const std::string &amp;iKey) const </argsstring>
+        <name>getRequired</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iKey</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getRequired returns the value, and throws an exception if it is not found. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" line="200" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" bodystart="199" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1ae06be8bbfffbda8b4f0ac1ed748d45dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData::append</definition>
+        <argsstring>(const MetaData &amp;iMetaData)</argsstring>
+        <name>append</name>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> &amp;</type>
+          <declname>iMetaData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>append appends the given <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> to this class. Duplicates are overwritten. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" line="212" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" bodystart="211" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1ac4f26963810ab9ba593cb6b177263edd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData::appendUnique</definition>
+        <argsstring>(const MetaData &amp;iMetaData)</argsstring>
+        <name>appendUnique</name>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> &amp;</type>
+          <declname>iMetaData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>append appends the given <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> to this class. Duplicate values will cause an exception to be thrown. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" line="223" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" bodystart="222" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1a125d7f78cc8e171737a59362cd95d24d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData::matches</definition>
+        <argsstring>(const MetaData &amp;iMetaData) const </argsstring>
+        <name>matches</name>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> &amp;</type>
+          <declname>iMetaData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The matches function returns true if each of the fields in the passed iMetaData are found in this instance and have the same values. it returns false otherwise. This is not the same as &quot;equals&quot;, because this <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> may contain fields that are not included in the passed iMetaData. This should be the default &quot;matching&quot; function. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" line="243" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" bodystart="242" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1a38cb1ce6b6edbba82803aec83a688a11" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData::matchesOverlap</definition>
+        <argsstring>(const MetaData &amp;iMetaData) const </argsstring>
+        <name>matchesOverlap</name>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> &amp;</type>
+          <declname>iMetaData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The matchesExisting function returns true if, for each of the fields in the passed iMetaData, we have either no entry, or the same entry. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" line="258" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" bodystart="257" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1abd9fe51e897f0d1343729bdc994d0266" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData::matchesExactly</definition>
+        <argsstring>(const MetaData &amp;iMetaData) const </argsstring>
+        <name>matchesExactly</name>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> &amp;</type>
+          <declname>iMetaData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the matchesExactly function returns true if we&apos;re exactly equal in every field. This is a rarely useful concept with <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref>. It is for this reason that we explicitly do not overload the == operator. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" line="275" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" bodystart="274" bodyend="277"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> class lies at the core of Alembic&apos;s notion of &quot;Object and Property Identity&quot;. It is a refinement of the idea of Protocol (for Objects) and Interpretation (for Properties) in OpenGTO. It is, essentially, an UNORDERED, UNIQUE DICTIONARY of strings. It turns itself into a regular string for serialization and deserialization. This is not a virtual class, nor is it intended to be used as a base for derivation. It is explicitly declared and implemented as part of the AbcCoreAbstract library. It is composed (not inherited) from Alembic::Util::TokenMap. In order to not have duplicated (and possibly conflicting) policy implementation, we present this class here as a MOSTLY-WRITE-ONCE interface, with selective exception throwing behavior for failed writes. </para>    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" line="60" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/MetaData.h" bodystart="59" bodyend="281"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1ae06be8bbfffbda8b4f0ac1ed748d45dc" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData</scope><name>append</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1ac4f26963810ab9ba593cb6b177263edd" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData</scope><name>appendUnique</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1a64102b386845f7a6bc18baa776cb4150" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData</scope><name>begin</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1aeff2ae897c85d6cb06330cc1972e11b0" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData</scope><name>const_iterator</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1af0db09439a4322dfa3f5443e4d864a95" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData</scope><name>const_reference</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1ab16676a4bbd8e3fd9ef436a3c7470073" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData</scope><name>const_reverse_iterator</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1ace637cc8a2d22299d127d72024085334" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData</scope><name>data_type</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1ae60d01c7a335fa9c404b1e331b1429c2" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData</scope><name>deserialize</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1ad0dffbfa6823a0d2b88f1cc4c88f1bc6" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData</scope><name>end</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1afa2c1150c1e56aa1fdbd28c97f1ede93" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData</scope><name>get</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1ab1dfba18d487fe7485e25a3a6c4bc0b1" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData</scope><name>getRequired</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1a754bdb9e7745fef956f3a76bde1f5f32" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData</scope><name>key_type</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1af465e7b7532b4fb793d094714b4002e1" prot="private" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData</scope><name>m_tokenMap</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1a125d7f78cc8e171737a59362cd95d24d" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData</scope><name>matches</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1abd9fe51e897f0d1343729bdc994d0266" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData</scope><name>matchesExactly</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1a38cb1ce6b6edbba82803aec83a688a11" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData</scope><name>matchesOverlap</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1a078b8f43c6443f0bbd9fac675ec34725" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData</scope><name>MetaData</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1a630170933ce91abeaeae1f62d756be90" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData</scope><name>MetaData</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1a1af420121e6866f66e472647bc369a16" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData</scope><name>operator=</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1aa9b22fe1cd277b6d2fcfa60cfa8b95b3" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData</scope><name>rbegin</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1ac8e545ee5d32b19429993705ccbef6d8" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData</scope><name>rend</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1a847f8f1c3d73a65fb29a7626b269642b" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData</scope><name>serialize</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1aabfd2fb40c19158248a8d96e10624665" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData</scope><name>set</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1ac266b155c840f8a6893c921bdc66d7ac" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData</scope><name>setUnique</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1a0c69284a95f37040c40d90eadf69a9bd" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData</scope><name>size</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1affe92fa11b80fefd3873caa4b79307b1" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData</scope><name>token_map_type</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data_1a0a4c27378edd45004f8cc59950550c46" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

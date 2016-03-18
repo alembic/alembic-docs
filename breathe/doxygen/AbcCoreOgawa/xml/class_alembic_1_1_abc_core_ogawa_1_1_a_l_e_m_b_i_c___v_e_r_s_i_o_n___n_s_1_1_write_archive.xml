@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_core_ogawa_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_write_archive" kind="class" prot="public">
+    <compoundname>Alembic::AbcCoreOgawa::ALEMBIC_VERSION_NS::WriteArchive</compoundname>
+    <includes refid="_read_write_8h" local="no">ReadWrite.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_ogawa_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_write_archive_1af5591442ea88a456a9bcb6b8a736174b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcCoreOgawa::ALEMBIC_VERSION_NS::WriteArchive::WriteArchive</definition>
+        <argsstring>()</argsstring>
+        <name>WriteArchive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreOgawa/ReadWrite.h" line="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_ogawa_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_write_archive_1acc3c5db93aad19317ec8e180c5389fdd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>::Alembic::AbcCoreAbstract::ArchiveWriterPtr</type>
+        <definition>::Alembic::AbcCoreAbstract::ArchiveWriterPtr Alembic::AbcCoreOgawa::ALEMBIC_VERSION_NS::WriteArchive::operator()</definition>
+        <argsstring>(const std::string &amp;iFileName, const ::Alembic::AbcCoreAbstract::MetaData &amp;iMetaData) const </argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iFileName</declname>
+        </param>
+        <param>
+          <type>const ::Alembic::AbcCoreAbstract::MetaData &amp;</type>
+          <declname>iMetaData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreOgawa/ReadWrite.h" line="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_ogawa_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_write_archive_1a49ec9e27ac5f6c7a813eecec299670b0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>::Alembic::AbcCoreAbstract::ArchiveWriterPtr</type>
+        <definition>::Alembic::AbcCoreAbstract::ArchiveWriterPtr Alembic::AbcCoreOgawa::ALEMBIC_VERSION_NS::WriteArchive::operator()</definition>
+        <argsstring>(std::ostream *iStream, const ::Alembic::AbcCoreAbstract::MetaData &amp;iMetaData) const </argsstring>
+        <name>operator()</name>
+        <param>
+          <type>std::ostream *</type>
+          <declname>iStream</declname>
+        </param>
+        <param>
+          <type>const ::Alembic::AbcCoreAbstract::MetaData &amp;</type>
+          <declname>iMetaData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreOgawa/ReadWrite.h" line="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Will return a shared pointer to the archive writer. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreOgawa/ReadWrite.h" line="50" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreOgawa/ReadWrite.h" bodystart="49" bodyend="61"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_core_ogawa_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_write_archive_1acc3c5db93aad19317ec8e180c5389fdd" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreOgawa::ALEMBIC_VERSION_NS::WriteArchive</scope><name>operator()</name></member>
+      <member refid="class_alembic_1_1_abc_core_ogawa_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_write_archive_1a49ec9e27ac5f6c7a813eecec299670b0" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreOgawa::ALEMBIC_VERSION_NS::WriteArchive</scope><name>operator()</name></member>
+      <member refid="class_alembic_1_1_abc_core_ogawa_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_write_archive_1af5591442ea88a456a9bcb6b8a736174b" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreOgawa::ALEMBIC_VERSION_NS::WriteArchive</scope><name>WriteArchive</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

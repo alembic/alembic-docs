@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.6.1">
+  <compound refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_collections_schema" kind="class"><name>Alembic::AbcCollection::ALEMBIC_VERSION_NS::ICollectionsSchema</name>
+    <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_collections_schema_1adfd6fc112c0681a669dd7b02086c1c91" kind="typedef"><name>this_type</name></member>
+    <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_collections_schema_1a6908e6d376f9aa930b3d2887534bbe9c" kind="variable"><name>m_collections</name></member>
+    <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_collections_schema_1a873136b54f78771a21ddb40350ae0e11" kind="function"><name>ICollectionsSchema</name></member>
+    <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_collections_schema_1acb1006dae8e55410af746d5cb7c7fe6b" kind="function"><name>ICollectionsSchema</name></member>
+    <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_collections_schema_1aaa37e02f1b4329ae723afaac6a7975db" kind="function"><name>ICollectionsSchema</name></member>
+    <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_collections_schema_1a5d0d677ddfee431e2271a1f80172dfb8" kind="function"><name>ICollectionsSchema</name></member>
+    <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_collections_schema_1a4751c22055077ec6365766539fcc5eda" kind="function"><name>ICollectionsSchema</name></member>
+    <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_collections_schema_1a8701f441a3677306b8dea76e60875574" kind="function"><name>getNumCollections</name></member>
+    <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_collections_schema_1a7ba852e8c647013600a143155ceaf24e" kind="function"><name>getCollection</name></member>
+    <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_collections_schema_1a8a32eb3173a6a9c764e9d5655d660874" kind="function"><name>getCollection</name></member>
+    <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_collections_schema_1af51bfb10a058679157b205dc48c7a4a3" kind="function"><name>getCollectionName</name></member>
+    <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_collections_schema_1a5988bf43db00d5df2a78fd7462e9a3cd" kind="function"><name>valid</name></member>
+    <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_collections_schema_1a785305aad97e568e4f7b1e45c816f9c6" kind="function"><name>init</name></member>
+  </compound>
+  <compound refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema" kind="class"><name>Alembic::AbcCollection::ALEMBIC_VERSION_NS::OCollectionsSchema</name>
+    <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1af1555722af9078faccc4af156d4c539e" kind="typedef"><name>this_type</name></member>
+    <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1ae61e2c28b4b35078e8354a9dabc04e60" kind="variable"><name>m_collections</name></member>
+    <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1af5db6fba2e9ffb778452cc3d790705d0" kind="function"><name>OCollectionsSchema</name></member>
+    <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1a2c5fd81ec0026ab4a45d26f0b06b7fd9" kind="function"><name>OCollectionsSchema</name></member>
+    <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1a8cfef7cd9de025cac0009e2fe144a4e8" kind="function"><name>OCollectionsSchema</name></member>
+    <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1ab77c297ac8b1183c03d58f6fa5ac6559" kind="function"><name>OCollectionsSchema</name></member>
+    <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1a9f6433f930649f29d2ca7b80d3d437d4" kind="function"><name>createCollection</name></member>
+    <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1ae6f57026d2734eb50aea9458290fae61" kind="function"><name>getNumCollections</name></member>
+    <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1ac2870296eab464f68077e379d384029e" kind="function"><name>getCollection</name></member>
+    <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1ac81760813bd6219b0e7c4fcb3e1f562c" kind="function"><name>getCollection</name></member>
+    <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1a13f56499054774ec432fd5e4e0078e33" kind="function"><name>valid</name></member>
+  </compound>
+  <compound refid="namespace_alembic" kind="namespace"><name>Alembic</name>
+  </compound>
+  <compound refid="namespace_alembic_1_1_abc_collection" kind="namespace"><name>Alembic::AbcCollection</name>
+  </compound>
+  <compound refid="namespace_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s" kind="namespace"><name>Alembic::AbcCollection::ALEMBIC_VERSION_NS</name>
+    <member refid="namespace_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a34fe3c18aa3383324c1cbb7f9cff35c0" kind="typedef"><name>ICollections</name></member>
+    <member refid="namespace_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1af05a519a9aba54f0872803c97a946256" kind="typedef"><name>ICollectionsPtr</name></member>
+    <member refid="namespace_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a533d25f107576c100c9402bee4cf6c50" kind="typedef"><name>OCollections</name></member>
+    <member refid="namespace_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a2bde8d39250d5bdba6dbe4daaf85a29d" kind="typedef"><name>OCollectionsPtr</name></member>
+    <member refid="namespace_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a08f1daf8c9e931846a4bf29d43e1178e" kind="function"><name>ALEMBIC_ABC_DECLARE_SCHEMA_INFO</name></member>
+  </compound>
+  <compound refid="_all_8h" kind="file"><name>All.h</name>
+  </compound>
+  <compound refid="_i_collections_8h" kind="file"><name>ICollections.h</name>
+  </compound>
+  <compound refid="_o_collections_8h" kind="file"><name>OCollections.h</name>
+  </compound>
+  <compound refid="_schema_info_declarations_8h" kind="file"><name>SchemaInfoDeclarations.h</name>
+  </compound>
+  <compound refid="dir_082fd6121386531b41fc02dbd22813b2" kind="dir"><name>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/</name>
+  </compound>
+  <compound refid="dir_d95f1c63c7bf278ab187e79c300bad28" kind="dir"><name>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/</name>
+  </compound>
+  <compound refid="dir_fb21a19169ae945afa1853fbab170fa8" kind="dir"><name>/var/tmp/doNotRemove/local/alembic-1.6.0/</name>
+  </compound>
+  <compound refid="dir_cc2aaca40dc87c9830d07544fb1eec8d" kind="dir"><name>/var/tmp/doNotRemove/</name>
+  </compound>
+  <compound refid="dir_f153bcc636200749934ad997aee2cad4" kind="dir"><name>/var/tmp/doNotRemove/local/alembic-1.6.0/include/</name>
+  </compound>
+  <compound refid="dir_a8ba750eb1c877acf140a99b46e04652" kind="dir"><name>/var/tmp/doNotRemove/local/</name>
+  </compound>
+  <compound refid="dir_b16804dff21b756ae8295d79ca0885bf" kind="dir"><name>/var/tmp/</name>
+  </compound>
+  <compound refid="dir_2d402fa29e6cd3b6ca13957b8f90c436" kind="dir"><name>/var/</name>
+  </compound>
+</doxygenindex>

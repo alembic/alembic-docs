@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.6.1">
+  <compound refid="struct_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1_1_connection" kind="struct"><name>Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::Connection</name>
+    <member refid="struct_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1_1_connection_1af696f966692c7b17364bbb0968e7e3e2" kind="variable"><name>inputName</name></member>
+    <member refid="struct_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1_1_connection_1ad87879d0845d9ddf669b72ab9071dec1" kind="variable"><name>connectedNodeName</name></member>
+    <member refid="struct_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1_1_connection_1a0c9ffd9e272a58221514ccbcf96c835d" kind="variable"><name>connectedOutputName</name></member>
+    <member refid="struct_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1_1_connection_1aa65363a80f3040ede59fcee790d0147d" kind="function"><name>Connection</name></member>
+    <member refid="struct_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1_1_connection_1acbd0c4592dd33b350cb80e6436390a97" kind="function"><name>operator==</name></member>
+  </compound>
+  <compound refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema" kind="class"><name>Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema</name>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a5c36ba3752e073fef72c63a719bc2275" kind="typedef"><name>this_type</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1ae83fddf52871e0b994b3a3543806d1af" kind="variable"><name>m_shaderNames</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a38b56edfcb3c88241afe0de114bbbd12" kind="variable"><name>m_terminals</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a45ec9f24a7fc85b58ff79ebf19b79e66" kind="variable"><name>m_interfaceMap</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a7798e8b20a605b0904b5134d2405315d" kind="variable"><name>m_interface</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1adc001846646824a371700b184165b8fc" kind="variable"><name>m_interfaceParams</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a26ac9d2a649d9e4f65906622c1cb0d75" kind="variable"><name>m_node</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1acbdf0d1ee620621229c16ead9ad4acb8" kind="function"><name>IMaterialSchema</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1aa024f5f991d92d5d22d9971bbfd3793b" kind="function"><name>IMaterialSchema</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1aa9bda472b23559987260e26c4c4efe4f" kind="function"><name>IMaterialSchema</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1acc84a80ad9990abf7d218aef652313fc" kind="function"><name>IMaterialSchema</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a7d6c2b616f7ff42b5b16f904068cf9b1" kind="function"><name>IMaterialSchema</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1ac81dd6372cef7beaad223ae4e7dff3ee" kind="function"><name>getTargetNames</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a069ab7ee11fcdd9b59a59f5e4d4ca29a" kind="function"><name>getShaderTypesForTarget</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1acacdf8d95d45e58f6c3b74d40b09c26a" kind="function"><name>getShader</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1abdffe69c9daf9b396dd575c91d871588" kind="function"><name>getShaderParameters</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a87356f0cde4a743621d2bdf6c9e3acfb" kind="function"><name>getNumNetworkNodes</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a047772cb0031a75117f399f452bc9025" kind="function"><name>getNetworkNodeNames</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a30927f6f83048500796aebd0b2a2040c" kind="function"><name>getNetworkNode</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a49ad0ed1dd3c6426d725a94ed3c8bfbe" kind="function"><name>getNetworkNode</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a0e2356d9e0a25384376fdbf2dbb88eab" kind="function"><name>getNetworkTerminalTargetNames</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a2aad809d14759cb6f152c692c3b20dd4" kind="function"><name>getNetworkTerminalShaderTypesForTarget</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1ae3b46eccac1cc865f02f446b63d3c6a7" kind="function"><name>getNetworkTerminal</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a571b7cff96529ed3b89f28db350027f0" kind="function"><name>getNumNetworkInterfaceParameterMappings</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a84435e7acd0a4f230ea8743e8d10cfb7" kind="function"><name>getNetworkInterfaceParameterMapping</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a2883baf11f2941eb87f398fa1fb62ddb" kind="function"><name>getNetworkInterfaceParameterMappingNames</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a60b5f4618d0835a22ebdb1b4ce6c313e" kind="function"><name>getNetworkInterfaceParameterMapping</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a7e70898e6934a4bb469e127dc6c5a742" kind="function"><name>getNetworkInterfaceParameters</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a5fefdbaf1f59bd4ff2fcf7e2c955ecfd" kind="function"><name>init</name></member>
+  </compound>
+  <compound refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten" kind="class"><name>Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten</name>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1ae073acdd003d20fd0d2da6195382b957" kind="typedef"><name>ParameterEntryVector</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1a8a73b10517aa7d39100295e14659890b" kind="typedef"><name>StringMap</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1a14e3cc8ceec760f944a475c8c1af00c7" kind="typedef"><name>StringMapPtr</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1af7bd88398d575e7ecff65220bb0436b4" kind="typedef"><name>SchemaVector</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1a31865d37a2ad839c2c6b32013e331397" kind="typedef"><name>StringMapMap</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1ace8bfc77180b76b16c94960ed6d20a9f" kind="variable"><name>m_schemas</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1a069d3752b130f6cdfc7b64f110e63af0" kind="variable"><name>m_networkFlattened</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1ac15adce764073258721fb9dc311ed0c9" kind="variable"><name>m_nodeNames</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1ab00ec7a9acf75ba93f4ca8ff346c52ee" kind="variable"><name>m_nodesToInterfaceMappings</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1a73802918f646f18b202b57cc19694536" kind="function"><name>MaterialFlatten</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1aa279d8297da876e2c0e3806c6bbf9278" kind="function"><name>MaterialFlatten</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1a8768e984796f2853cb1510423a58ad11" kind="function"><name>MaterialFlatten</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1ad17c2097919c93f3263ff440f33d8b30" kind="function"><name>MaterialFlatten</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1a7a15c087e10ff3a604e4e1d05b58be36" kind="function"><name>append</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1a2085dbba82ffeef540f164e2188e4fee" kind="function"><name>append</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1a106e936ea73e797808345fee39e6a79c" kind="function"><name>empty</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1aaf3dedc47aa731c6faae9e0c7030e7fe" kind="function"><name>getTargetNames</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1a8c5346ef8570eded503b5064df3d6dde" kind="function"><name>getShaderTypesForTarget</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1a6db7c1ae9813cd9a0ae610934919f756" kind="function"><name>getShader</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1a837098eda7c2c3bde4750c6404ba082e" kind="function"><name>getShaderParameters</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1ad89cc23ac190797bf9847933a16fe9fe" kind="function"><name>getNetworkTerminalTargetNames</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1a5ed24dc4f6ec437ed5aaf015c1a373dc" kind="function"><name>getNetworkTerminalShaderTypesForTarget</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1a07726cf8477afe6fdbbcd291626fb110" kind="function"><name>getNetworkTerminal</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1af578af22e32cca9dc5f45e6b8a0c513c" kind="function"><name>getNumNetworkNodes</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1ad23927ba6139fc2ca4b5d143a0455bd1" kind="function"><name>getNetworkNode</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1a73f383c6668d914671fd3cfada6782dd" kind="function"><name>getNetworkNode</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1a3d0078b5a86c3698405c4c53ce86dcb4" kind="function"><name>flattenNetwork</name></member>
+  </compound>
+  <compound refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node" kind="class"><name>Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::NetworkNode</name>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node_1a5fddadc118b46a77569ba693953ff9c4" kind="variable"><name>m_compound</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node_1af19147892a245b2dd6c065e91e7895dd" kind="variable"><name>m_connectionsChecked</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node_1af036deb47969b7df88e28876acfb2924" kind="variable"><name>m_connections</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node_1af848067cfd5ba1ef87afabadbf74f97c" kind="variable"><name>m_connectionsMap</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node_1addc9d4a24def8f940078a4ac1e26a2e2" kind="function"><name>NetworkNode</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node_1a805bab82e0cc840ab6c37b8fcc5bc0db" kind="function"><name>NetworkNode</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node_1ad87e4146b3c63d3a7c17538d24cdf076" kind="function"><name>NetworkNode</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node_1a0a1e9adfd24c63aa0314dcdcf049107d" kind="function"><name>valid</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node_1ad4c17e7130ff004f208c332e8857af92" kind="function"><name>getName</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node_1ab985d139ada6f428edad1befc9a0f996" kind="function"><name>getTarget</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node_1ad064d0a467e334b3f6508b9ccfbe7419" kind="function"><name>getNodeType</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node_1acf7a9035ea9f66721aa60e02adb67468" kind="function"><name>getParameters</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node_1ac0e2bd2fddb058f9154031a6f53432bb" kind="function"><name>getNumConnections</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node_1a7427b633632463eef116f07434fb820c" kind="function"><name>getConnection</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node_1a359269ced55299d2a16efef4d7caede2" kind="function"><name>getConnection</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node_1a6c5394fcce9d154c372e3877de9f4536" kind="function"><name>splitConnectionValue</name></member>
+  </compound>
+  <compound refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node" kind="class"><name>Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode</name>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1ad7e4f8ec5cebfbfe145deb590d4d261c" kind="typedef"><name>ConnectionVector</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a41f2f70bce01a95925c1691e4f065066" kind="friend"><name>MaterialFlatten</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a09c3b0417d23bae80e7c0b857554fdf2" kind="variable"><name>m_name</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1ac168fb4b7f2cc036d82140aa337be7e5" kind="variable"><name>m_nodes</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a4314981ee61fe14d7598eb1b3aa46239" kind="variable"><name>m_networkParameters</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1ad289bbce799446ad89f8e124ecdf9131" kind="variable"><name>m_interfaceMappings</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a7bc3e856be1eb9ee43c85cad085aed4c" kind="function"><name>NetworkNode</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a001aaeb26fdcbc12c354ea76158b9260" kind="function"><name>valid</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a52614b7bfe24de67c5f6752e19ade6dd" kind="function"><name>getName</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1ab17835e49778f2411d1e8cb3679fe0e3" kind="function"><name>getTarget</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a1931bdda9bf94dcdae734fa6e6e3eb10" kind="function"><name>getNodeType</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1ad7cd91f853e3f74f797c5c3a53cc29e6" kind="function"><name>getParameters</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a4a2d8bcc2dfb61321f6fcd5fa3b89579" kind="function"><name>getConnections</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a4ac9a742424a6eb12fb10b61a57f954d" kind="function"><name>NetworkNode</name></member>
+  </compound>
+  <compound refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema" kind="class"><name>Alembic::AbcMaterial::ALEMBIC_VERSION_NS::OMaterialSchema</name>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1a7cedefba6e384de7e9c62be0320eac80" kind="typedef"><name>this_type</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1a740fcbd0b8d8ea639a900a972ac083af" kind="variable"><name>m_node</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1a033d15cbbea5edc7b642d589ba217fca" kind="variable"><name>m_data</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1ac6004edb27859c54a0482347b2842dac" kind="function"><name>OMaterialSchema</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1a7a07899b47855ee0244e3c45cc0d2656" kind="function"><name>OMaterialSchema</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1ad2fa484b1846a8baad168218d64d47f9" kind="function"><name>OMaterialSchema</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1a6bb978c8737dc3db0d7e5e9193be3d16" kind="function"><name>OMaterialSchema</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1aab945f75e9e5a555c4226bef209fd548" kind="function"><name>setShader</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1a95cc55866c470f13fbba87b534cc3efc" kind="function"><name>getShaderParameters</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1a08c3e20bc8180f57b2126bdbd2092a7e" kind="function"><name>addNetworkNode</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1ae9a75d2128a9057c62b40ef9359a353c" kind="function"><name>setNetworkNodeConnection</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1a28285f2a588706c7f666e7f62b1392f4" kind="function"><name>getNetworkNodeParameters</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1a41188e6e9b1d591eb4a2f92b3ee58a6d" kind="function"><name>setNetworkTerminal</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1a78acc7100f533ec9a5521cd497f3c302" kind="function"><name>setNetworkInterfaceParameterMapping</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1ac368901b30ca20a09abf9a5233a05c6e" kind="function"><name>getNetworkInterfaceParameters</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1a4eb8fdcc47ba1a4ae04bd0f839f68d9f" kind="function"><name>init</name></member>
+    <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1ac5f699e3bda18a28f4f5db46103a5aa9" kind="function"><name>createNodeCompound</name></member>
+  </compound>
+  <compound refid="struct_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_parameter_entry" kind="struct"><name>Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::ParameterEntry</name>
+    <member refid="struct_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_parameter_entry_1a11037a7be3bf3e4addb6a13830ef1f55" kind="variable"><name>name</name></member>
+    <member refid="struct_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_parameter_entry_1a6db4917cb41e5a583d888b1dbb277541" kind="variable"><name>parent</name></member>
+    <member refid="struct_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_parameter_entry_1a4b08f47fd0c1fb28e471eef0c97d5c4a" kind="variable"><name>header</name></member>
+    <member refid="struct_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_parameter_entry_1ac5ce9a076150e551e243a554dc7fe560" kind="function"><name>ParameterEntry</name></member>
+    <member refid="struct_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_parameter_entry_1a52671de9350d489804c2ac428e4bb7ae" kind="function"><name>ParameterEntry</name></member>
+    <member refid="struct_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_parameter_entry_1a074eac9de64cb4091117603b66876f72" kind="function"><name>operator==</name></member>
+  </compound>
+  <compound refid="namespace_alembic" kind="namespace"><name>Alembic</name>
+  </compound>
+  <compound refid="namespace_alembic_1_1_abc_material" kind="namespace"><name>Alembic::AbcMaterial</name>
+  </compound>
+  <compound refid="namespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s" kind="namespace"><name>Alembic::AbcMaterial::ALEMBIC_VERSION_NS</name>
+    <member refid="namespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ac45895f0e40b75f2febf8791b2395f81" kind="typedef"><name>IMaterial</name></member>
+    <member refid="namespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a2cf683406ca277c316ed9d10c8de1dd7" kind="typedef"><name>IMaterialPtr</name></member>
+    <member refid="namespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a0d0b469b13e121a5fc9dbfa054f7633e" kind="typedef"><name>OMaterial</name></member>
+    <member refid="namespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1abbb4c62e6d902a7d20a39acfd6cdcb73" kind="typedef"><name>OMaterialPtr</name></member>
+    <member refid="namespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a15ca19dfeaac18d7fb429c39b73caa25" kind="function"><name>ALEMBIC_ABC_DECLARE_SCHEMA_INFO</name></member>
+    <member refid="namespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a7c5539d9b2a647f262e01284e5fee0ee" kind="function"><name>addMaterialAssignment</name></member>
+    <member refid="namespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ae8005261adb6c2b425b52540315c133c" kind="function"><name>addMaterialAssignment</name></member>
+    <member refid="namespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1afae69a4e0d1d9e3f1b197340c4b334f7" kind="function"><name>addMaterial</name></member>
+    <member refid="namespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a817578d6035e1e0800e494da2fc58ccc" kind="function"><name>addMaterial</name></member>
+    <member refid="namespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a94fe080cdc3eab063dcc4c618d91b2a7" kind="function"><name>getMaterialAssignmentPath</name></member>
+    <member refid="namespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ac32023785e59856eb84686a69168eb6a" kind="function"><name>getMaterialAssignmentPath</name></member>
+    <member refid="namespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a019bb0636f8cfc75d5d9b34655a0f040" kind="function"><name>hasMaterial</name></member>
+    <member refid="namespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ab0096b6a23bed23996e60e7407778c9b" kind="function"><name>hasMaterial</name></member>
+  </compound>
+  <compound refid="_all_8h" kind="file"><name>All.h</name>
+  </compound>
+  <compound refid="_i_material_8h" kind="file"><name>IMaterial.h</name>
+  </compound>
+  <compound refid="_material_assignment_8h" kind="file"><name>MaterialAssignment.h</name>
+    <member refid="_material_assignment_8h_1ad469a673fb261ab95e896df92d8004fd" kind="define"><name>MATERIALASSIGN_PROPNAME</name></member>
+    <member refid="_material_assignment_8h_1ad1dca1dfdc5efb377a5bfdffbea1df13" kind="define"><name>MATERIAL_PROPNAME</name></member>
+  </compound>
+  <compound refid="_material_flatten_8h" kind="file"><name>MaterialFlatten.h</name>
+  </compound>
+  <compound refid="_o_material_8h" kind="file"><name>OMaterial.h</name>
+  </compound>
+  <compound refid="_schema_info_declarations_8h" kind="file"><name>SchemaInfoDeclarations.h</name>
+  </compound>
+  <compound refid="dir_5548939139359600eeeb759ab3a81558" kind="dir"><name>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/</name>
+  </compound>
+  <compound refid="dir_d95f1c63c7bf278ab187e79c300bad28" kind="dir"><name>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/</name>
+  </compound>
+  <compound refid="dir_fb21a19169ae945afa1853fbab170fa8" kind="dir"><name>/var/tmp/doNotRemove/local/alembic-1.6.0/</name>
+  </compound>
+  <compound refid="dir_cc2aaca40dc87c9830d07544fb1eec8d" kind="dir"><name>/var/tmp/doNotRemove/</name>
+  </compound>
+  <compound refid="dir_f153bcc636200749934ad997aee2cad4" kind="dir"><name>/var/tmp/doNotRemove/local/alembic-1.6.0/include/</name>
+  </compound>
+  <compound refid="dir_a8ba750eb1c877acf140a99b46e04652" kind="dir"><name>/var/tmp/doNotRemove/local/</name>
+  </compound>
+  <compound refid="dir_b16804dff21b756ae8295d79ca0885bf" kind="dir"><name>/var/tmp/</name>
+  </compound>
+  <compound refid="dir_2d402fa29e6cd3b6ca13957b8f90c436" kind="dir"><name>/var/</name>
+  </compound>
+</doxygenindex>

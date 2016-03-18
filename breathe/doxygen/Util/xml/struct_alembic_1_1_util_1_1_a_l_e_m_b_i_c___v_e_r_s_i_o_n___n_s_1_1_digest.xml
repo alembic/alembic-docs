@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="struct_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_digest" kind="struct" prot="public">
+    <compoundname>Alembic::Util::ALEMBIC_VERSION_NS::Digest</compoundname>
+    <basecompoundref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1totally__ordered" prot="public" virt="non-virtual">Alembic::Util::ALEMBIC_VERSION_NS::totally_ordered&lt; Digest &gt;</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_digest_1a4c3048f33c2814aaab992135adc8a03d" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t Alembic::Util::ALEMBIC_VERSION_NS::Digest::d[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>d</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Digest.h" line="54" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Digest.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_digest_1ab37583a98c1007fae744c15df4fcb04e" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t Alembic::Util::ALEMBIC_VERSION_NS::Digest::words[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>words</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Digest.h" line="55" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Digest.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_digest_1a447cb87474fbffb25c94880ea9b33a78" prot="public" static="no" mutable="no">
+        <type>union Alembic::Util::ALEMBIC_VERSION_NS::Digest::@0</type>
+        <definition>union Alembic::Util::ALEMBIC_VERSION_NS::Digest::@0 Alembic::Util::ALEMBIC_VERSION_NS::Digest::@1</definition>
+        <argsstring></argsstring>
+        <name>@1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Digest.h" line="56"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_digest_1a4623569be8116a829eff6be1b3b1fe64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Util::ALEMBIC_VERSION_NS::Digest::Digest</definition>
+        <argsstring>()</argsstring>
+        <name>Digest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Digest.h" line="58" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Digest.h" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_digest_1a6bd4c5e6ec807f39dfc40643242e9c3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Util::ALEMBIC_VERSION_NS::Digest::Digest</definition>
+        <argsstring>(const Digest &amp;copy)</argsstring>
+        <name>Digest</name>
+        <param>
+          <type>const <ref refid="struct_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_digest" kindref="compound">Digest</ref> &amp;</type>
+          <declname>copy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Digest.h" line="60" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Digest.h" bodystart="59" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_digest_1a37484abe749eb8c4430b77bb53366145" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="struct_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_digest" kindref="compound">Digest</ref> &amp;</type>
+        <definition>Digest&amp; Alembic::Util::ALEMBIC_VERSION_NS::Digest::operator=</definition>
+        <argsstring>(const Digest &amp;copy)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="struct_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_digest" kindref="compound">Digest</ref> &amp;</type>
+          <declname>copy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Digest.h" line="66" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Digest.h" bodystart="65" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_digest_1a32185abba1fd211647daa708abe66231" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint8_t &amp;</type>
+        <definition>uint8_t&amp; Alembic::Util::ALEMBIC_VERSION_NS::Digest::operator[]</definition>
+        <argsstring>(size_t i)</argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Digest.h" line="72" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Digest.h" bodystart="72" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_digest_1a86469ddfd5765b6790f53edae989cc33" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t Alembic::Util::ALEMBIC_VERSION_NS::Digest::operator[]</definition>
+        <argsstring>(size_t i) const </argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Digest.h" line="73" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Digest.h" bodystart="73" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_digest_1a99b2bfb44ea56713d6fe20b5558865ea" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::Util::ALEMBIC_VERSION_NS::Digest::print</definition>
+        <argsstring>(std::ostream &amp;ostr) const </argsstring>
+        <name>print</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>ostr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Digest.h" line="76" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Digest.h" bodystart="75" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_digest_1a956bedf0501022d908a92b4b6a33e70d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Alembic::Util::ALEMBIC_VERSION_NS::Digest::str</definition>
+        <argsstring>() const </argsstring>
+        <name>str</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Digest.h" line="85" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Digest.h" bodystart="84" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_digest_1aa049ff1b9cff0b844b6a521370973f25" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::Util::ALEMBIC_VERSION_NS::Digest::operator==</definition>
+        <argsstring>(const Digest &amp;iRhs) const </argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="struct_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_digest" kindref="compound">Digest</ref> &amp;</type>
+          <declname>iRhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Digest.h" line="95" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Digest.h" bodystart="94" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_digest_1afaa91627df2a4df4e22a8223db37a1e1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::Util::ALEMBIC_VERSION_NS::Digest::operator&lt;</definition>
+        <argsstring>(const Digest &amp;iRhs) const </argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="struct_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_digest" kindref="compound">Digest</ref> &amp;</type>
+          <declname>iRhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Digest.h" line="101" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Digest.h" bodystart="100" bodyend="105"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>Alembic::Util::ALEMBIC_VERSION_NS::Digest</label>
+        <link refid="struct_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_digest"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Alembic::Util::ALEMBIC_VERSION_NS::totally_ordered&lt; Digest &gt;</label>
+        <link refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1totally__ordered"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>Alembic::Util::ALEMBIC_VERSION_NS::Digest</label>
+        <link refid="struct_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_digest"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Alembic::Util::ALEMBIC_VERSION_NS::totally_ordered&lt; Digest &gt;</label>
+        <link refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1totally__ordered"/>
+      </node>
+    </collaborationgraph>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Digest.h" line="51" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Digest.h" bodystart="50" bodyend="106"/>
+    <listofallmembers>
+      <member refid="struct_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_digest_1a4c3048f33c2814aaab992135adc8a03d" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::Digest</scope><name>d</name></member>
+      <member refid="struct_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_digest_1a4623569be8116a829eff6be1b3b1fe64" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::Digest</scope><name>Digest</name></member>
+      <member refid="struct_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_digest_1a6bd4c5e6ec807f39dfc40643242e9c3e" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::Digest</scope><name>Digest</name></member>
+      <member refid="struct_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_digest_1afaa91627df2a4df4e22a8223db37a1e1" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::Digest</scope><name>operator&lt;</name></member>
+      <member refid="struct_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_digest_1a37484abe749eb8c4430b77bb53366145" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::Digest</scope><name>operator=</name></member>
+      <member refid="struct_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_digest_1aa049ff1b9cff0b844b6a521370973f25" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::Digest</scope><name>operator==</name></member>
+      <member refid="struct_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_digest_1a32185abba1fd211647daa708abe66231" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::Digest</scope><name>operator[]</name></member>
+      <member refid="struct_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_digest_1a86469ddfd5765b6790f53edae989cc33" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::Digest</scope><name>operator[]</name></member>
+      <member refid="struct_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_digest_1a99b2bfb44ea56713d6fe20b5558865ea" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::Digest</scope><name>print</name></member>
+      <member refid="struct_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_digest_1a956bedf0501022d908a92b4b6a33e70d" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::Digest</scope><name>str</name></member>
+      <member refid="struct_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_digest_1ab37583a98c1007fae744c15df4fcb04e" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::Digest</scope><name>words</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

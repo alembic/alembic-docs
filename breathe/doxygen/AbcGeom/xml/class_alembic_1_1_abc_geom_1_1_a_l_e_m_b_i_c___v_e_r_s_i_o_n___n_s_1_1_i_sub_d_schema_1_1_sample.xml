@@ -1,0 +1,528 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample" kind="class" prot="public">
+    <compoundname>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a32012b640d1073f55a04a132f0a26351" prot="public" static="no">
+        <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample" kindref="compound">Sample</ref></type>
+        <definition>typedef Sample Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::this_type</definition>
+        <argsstring></argsstring>
+        <name>this_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="61" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1aa2a49f65ce0f83c47e550aada5489a4a" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class ISubDSchema</definition>
+        <argsstring></argsstring>
+        <name>ISubDSchema</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="143" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1acf0f31ae2848e6461cacc373890dc8cc" prot="protected" static="no" mutable="no">
+        <type>Abc::P3fArraySamplePtr</type>
+        <definition>Abc::P3fArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::m_positions</definition>
+        <argsstring></argsstring>
+        <name>m_positions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="145" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a28d9078faa2bb201978a7540ac72c1e4" prot="protected" static="no" mutable="no">
+        <type>Abc::V3fArraySamplePtr</type>
+        <definition>Abc::V3fArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::m_velocities</definition>
+        <argsstring></argsstring>
+        <name>m_velocities</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="146" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a64487f447b6ba6529b9bdbf60a57e875" prot="protected" static="no" mutable="no">
+        <type>Abc::Int32ArraySamplePtr</type>
+        <definition>Abc::Int32ArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::m_faceIndices</definition>
+        <argsstring></argsstring>
+        <name>m_faceIndices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="147" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a079d09cc69e0228c4184ae368c0d6838" prot="protected" static="no" mutable="no">
+        <type>Abc::Int32ArraySamplePtr</type>
+        <definition>Abc::Int32ArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::m_faceCounts</definition>
+        <argsstring></argsstring>
+        <name>m_faceCounts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="148" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a0b252976f1a7a0441630c57e2de93e06" prot="protected" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::m_faceVaryingInterpolateBoundary</definition>
+        <argsstring></argsstring>
+        <name>m_faceVaryingInterpolateBoundary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="150" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a6591e7e9a7df7db4708d964cb8c36657" prot="protected" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::m_faceVaryingPropagateCorners</definition>
+        <argsstring></argsstring>
+        <name>m_faceVaryingPropagateCorners</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="151" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1acbdac496762fa50f4fe153e633511365" prot="protected" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::m_interpolateBoundary</definition>
+        <argsstring></argsstring>
+        <name>m_interpolateBoundary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="152" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a3c61de6b12d406b681a744d3b1ccf7cb" prot="protected" static="no" mutable="no">
+        <type>Abc::Int32ArraySamplePtr</type>
+        <definition>Abc::Int32ArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::m_creaseIndices</definition>
+        <argsstring></argsstring>
+        <name>m_creaseIndices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="155" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a43a84066f2a681131ec56d69a2c32ffb" prot="protected" static="no" mutable="no">
+        <type>Abc::Int32ArraySamplePtr</type>
+        <definition>Abc::Int32ArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::m_creaseLengths</definition>
+        <argsstring></argsstring>
+        <name>m_creaseLengths</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="156" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1aa267a0effc8e100d1481dd25f4367cbd" prot="protected" static="no" mutable="no">
+        <type>Abc::FloatArraySamplePtr</type>
+        <definition>Abc::FloatArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::m_creaseSharpnesses</definition>
+        <argsstring></argsstring>
+        <name>m_creaseSharpnesses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="157" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a4d99d6743e6c8d409ed783e0cc8b626a" prot="protected" static="no" mutable="no">
+        <type>Abc::Int32ArraySamplePtr</type>
+        <definition>Abc::Int32ArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::m_cornerIndices</definition>
+        <argsstring></argsstring>
+        <name>m_cornerIndices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="160" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a53242b9ebaa22eda9f7f76a7e825a90f" prot="protected" static="no" mutable="no">
+        <type>Abc::FloatArraySamplePtr</type>
+        <definition>Abc::FloatArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::m_cornerSharpnesses</definition>
+        <argsstring></argsstring>
+        <name>m_cornerSharpnesses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="161" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a4732b8d3e84c992bafe45cf2fb97068b" prot="protected" static="no" mutable="no">
+        <type>Abc::Int32ArraySamplePtr</type>
+        <definition>Abc::Int32ArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::m_holes</definition>
+        <argsstring></argsstring>
+        <name>m_holes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="164" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1afec88321527dd050ac0814d8b78a2d49" prot="protected" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::m_subdScheme</definition>
+        <argsstring></argsstring>
+        <name>m_subdScheme</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="167" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a1e3ee3e03c4134193cab385ed05c7206" prot="protected" static="no" mutable="no">
+        <type>Abc::Box3d</type>
+        <definition>Abc::Box3d Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::m_selfBounds</definition>
+        <argsstring></argsstring>
+        <name>m_selfBounds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="170" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a7b0b691e4dbc3c66111ca0e2c9543ef0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::Sample</definition>
+        <argsstring>()</argsstring>
+        <name>Sample</name>
+        <briefdescription>
+<para>Users never create this data directly. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="64" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a03a5eb474544998ee0a2319cb3d06ce4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::P3fArraySamplePtr</type>
+        <definition>Abc::P3fArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::getPositions</definition>
+        <argsstring>() const </argsstring>
+        <name>getPositions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="67" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a418485dc96341e5d9ee822769df68177" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::Int32ArraySamplePtr</type>
+        <definition>Abc::Int32ArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::getFaceIndices</definition>
+        <argsstring>() const </argsstring>
+        <name>getFaceIndices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="68" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="68" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a3c2be310a44d6df5eb9616460e02a423" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::Int32ArraySamplePtr</type>
+        <definition>Abc::Int32ArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::getFaceCounts</definition>
+        <argsstring>() const </argsstring>
+        <name>getFaceCounts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="69" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="69" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1ad8e783643bd8a13ceb9d7ba20dd3652d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int32_t</type>
+        <definition>int32_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::getFaceVaryingInterpolateBoundary</definition>
+        <argsstring>() const </argsstring>
+        <name>getFaceVaryingInterpolateBoundary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="73" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="72" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a16323ae69fda6284f23add54b64afe8e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int32_t</type>
+        <definition>int32_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::getFaceVaryingPropagateCorners</definition>
+        <argsstring>() const </argsstring>
+        <name>getFaceVaryingPropagateCorners</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="76" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="75" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a27c44d3990bd1b5a13714df95c1c3e36" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int32_t</type>
+        <definition>int32_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::getInterpolateBoundary</definition>
+        <argsstring>() const </argsstring>
+        <name>getInterpolateBoundary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="79" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="78" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a0ceb6d20459931845095f67a0da7ba6f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::Int32ArraySamplePtr</type>
+        <definition>Abc::Int32ArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::getCreaseIndices</definition>
+        <argsstring>() const </argsstring>
+        <name>getCreaseIndices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="83" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="82" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1add63c8640f6d22c72481338cb731ef91" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::Int32ArraySamplePtr</type>
+        <definition>Abc::Int32ArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::getCreaseLengths</definition>
+        <argsstring>() const </argsstring>
+        <name>getCreaseLengths</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="86" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="85" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a69452f6b0699861c091fb5e6a9dacea8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::FloatArraySamplePtr</type>
+        <definition>Abc::FloatArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::getCreaseSharpnesses</definition>
+        <argsstring>() const </argsstring>
+        <name>getCreaseSharpnesses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="89" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="88" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1aec8575dcb3b20c666896dee37c6f8b45" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::Int32ArraySamplePtr</type>
+        <definition>Abc::Int32ArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::getCornerIndices</definition>
+        <argsstring>() const </argsstring>
+        <name>getCornerIndices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="93" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="92" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1acb48e4aeafea4e852445476687549324" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::FloatArraySamplePtr</type>
+        <definition>Abc::FloatArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::getCornerSharpnesses</definition>
+        <argsstring>() const </argsstring>
+        <name>getCornerSharpnesses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="96" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="95" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1afdb064679cb53ab651e3dd39d49cb8b1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::Int32ArraySamplePtr</type>
+        <definition>Abc::Int32ArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::getHoles</definition>
+        <argsstring>() const </argsstring>
+        <name>getHoles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="99" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="99" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a74ed86dd3cdfd5a7d2f16c05b7818cbf" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::getSubdivisionScheme</definition>
+        <argsstring>() const </argsstring>
+        <name>getSubdivisionScheme</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="103" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="102" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1aee0776a913d17dfb3884fe52d7d3bbc9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::V3fArraySamplePtr</type>
+        <definition>Abc::V3fArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::getVelocities</definition>
+        <argsstring>() const </argsstring>
+        <name>getVelocities</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="105" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="105" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1adb3f44cdb2219490a0fa29363a7295d8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::Box3d</type>
+        <definition>Abc::Box3d Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::getSelfBounds</definition>
+        <argsstring>() const </argsstring>
+        <name>getSelfBounds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="108" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="108" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1ae8f37cdb34ee21f6978c2ac30e8d92ff" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::valid</definition>
+        <argsstring>() const </argsstring>
+        <name>valid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="111" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="110" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a383a8ad867851ba7740c5d0437708a0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="116" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="115" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a853cd64f1c5f1a1bb60414fa9038e297" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample::ALEMBIC_OPERATOR_BOOL</definition>
+        <argsstring>(valid())</argsstring>
+        <name>ALEMBIC_OPERATOR_BOOL</name>
+        <param>
+          <type>valid()</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="140"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" line="59" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ISubD.h" bodystart="58" bodyend="172"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a853cd64f1c5f1a1bb60414fa9038e297" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>ALEMBIC_OPERATOR_BOOL</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1aec8575dcb3b20c666896dee37c6f8b45" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>getCornerIndices</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1acb48e4aeafea4e852445476687549324" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>getCornerSharpnesses</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a0ceb6d20459931845095f67a0da7ba6f" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>getCreaseIndices</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1add63c8640f6d22c72481338cb731ef91" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>getCreaseLengths</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a69452f6b0699861c091fb5e6a9dacea8" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>getCreaseSharpnesses</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a3c2be310a44d6df5eb9616460e02a423" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>getFaceCounts</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a418485dc96341e5d9ee822769df68177" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>getFaceIndices</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1ad8e783643bd8a13ceb9d7ba20dd3652d" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>getFaceVaryingInterpolateBoundary</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a16323ae69fda6284f23add54b64afe8e" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>getFaceVaryingPropagateCorners</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1afdb064679cb53ab651e3dd39d49cb8b1" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>getHoles</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a27c44d3990bd1b5a13714df95c1c3e36" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>getInterpolateBoundary</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a03a5eb474544998ee0a2319cb3d06ce4" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>getPositions</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1adb3f44cdb2219490a0fa29363a7295d8" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>getSelfBounds</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a74ed86dd3cdfd5a7d2f16c05b7818cbf" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>getSubdivisionScheme</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1aee0776a913d17dfb3884fe52d7d3bbc9" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>getVelocities</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1aa2a49f65ce0f83c47e550aada5489a4a" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>ISubDSchema</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a4d99d6743e6c8d409ed783e0cc8b626a" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>m_cornerIndices</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a53242b9ebaa22eda9f7f76a7e825a90f" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>m_cornerSharpnesses</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a3c61de6b12d406b681a744d3b1ccf7cb" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>m_creaseIndices</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a43a84066f2a681131ec56d69a2c32ffb" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>m_creaseLengths</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1aa267a0effc8e100d1481dd25f4367cbd" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>m_creaseSharpnesses</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a079d09cc69e0228c4184ae368c0d6838" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>m_faceCounts</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a64487f447b6ba6529b9bdbf60a57e875" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>m_faceIndices</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a0b252976f1a7a0441630c57e2de93e06" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>m_faceVaryingInterpolateBoundary</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a6591e7e9a7df7db4708d964cb8c36657" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>m_faceVaryingPropagateCorners</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a4732b8d3e84c992bafe45cf2fb97068b" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>m_holes</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1acbdac496762fa50f4fe153e633511365" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>m_interpolateBoundary</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1acf0f31ae2848e6461cacc373890dc8cc" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>m_positions</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a1e3ee3e03c4134193cab385ed05c7206" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>m_selfBounds</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1afec88321527dd050ac0814d8b78a2d49" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>m_subdScheme</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a28d9078faa2bb201978a7540ac72c1e4" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>m_velocities</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a383a8ad867851ba7740c5d0437708a0c" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>reset</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a7b0b691e4dbc3c66111ca0e2c9543ef0" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>Sample</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1a32012b640d1073f55a04a132f0a26351" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>this_type</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1_1_sample_1ae8f37cdb34ee21f6978c2ac30e8d92ff" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ISubDSchema::Sample</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

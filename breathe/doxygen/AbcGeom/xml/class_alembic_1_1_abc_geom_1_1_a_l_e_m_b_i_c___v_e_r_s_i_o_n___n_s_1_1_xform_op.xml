@@ -1,0 +1,755 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op" kind="class" prot="public">
+    <compoundname>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</compoundname>
+    <includes refid="_xform_op_8h" local="no">XformOp.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1ab056f009d3127b477354e4be6de4d61c" prot="private" static="no" mutable="no">
+        <type>XformOperationType</type>
+        <definition>XformOperationType Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::m_type</definition>
+        <argsstring></argsstring>
+        <name>m_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="230" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a7695191144602ac8fdeb5385d2e25de3" prot="private" static="no" mutable="no">
+        <type>Alembic::Util::uint8_t</type>
+        <definition>Alembic::Util::uint8_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::m_hint</definition>
+        <argsstring></argsstring>
+        <name>m_hint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="231" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" bodystart="231" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a30702a0e302606037fccf0f3a08f1c02" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::m_channels</definition>
+        <argsstring></argsstring>
+        <name>m_channels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="233" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1ac2c30ecd7896a89f2bb3746b607998c7" prot="private" static="no" mutable="no">
+        <type>std::set&lt; Alembic::Util::uint32_t &gt;</type>
+        <definition>std::set&lt;Alembic::Util::uint32_t&gt; Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::m_animChannels</definition>
+        <argsstring></argsstring>
+        <name>m_animChannels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="235" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1ad60c92080325014388e47f4b73374e28" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class IXformSchema</definition>
+        <argsstring></argsstring>
+        <name>IXformSchema</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The IXform can tell the op if its channels are animated by directly inserting keys into the m_animChannels set. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="240" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1accfa19ca1b17223aa60523b3b27dc854" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::XformOp</definition>
+        <argsstring>()</argsstring>
+        <name>XformOp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a3fbc19590724e6ae80411f4f2b0866af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::XformOp</definition>
+        <argsstring>(const XformOperationType iType, const Alembic::Util::uint8_t iHint=0)</argsstring>
+        <name>XformOp</name>
+        <param>
+          <type>const XformOperationType</type>
+          <declname>iType</declname>
+        </param>
+        <param>
+          <type>const Alembic::Util::uint8_t</type>
+          <declname>iHint</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a8764744a2fddc08f0cd18f88b776bc58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::XformOp</definition>
+        <argsstring>(const Alembic::Util::uint8_t iEncodedOp)</argsstring>
+        <name>XformOp</name>
+        <param>
+          <type>const Alembic::Util::uint8_t</type>
+          <declname>iEncodedOp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1abe9c9358a1213f1a02f813805bdd78f9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>XformOperationType</type>
+        <definition>XformOperationType Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::getType</definition>
+        <argsstring>() const </argsstring>
+        <name>getType</name>
+        <briefdescription>
+<para>Get the type of transform operation. (Translate, Rotate, Scale, Matrix). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1aa96e6e00e4418a832745b6be23bfc115" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::setType</definition>
+        <argsstring>(const XformOperationType iType)</argsstring>
+        <name>setType</name>
+        <param>
+          <type>const XformOperationType</type>
+          <declname>iType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the type of transform operation. (Translate, Rotate, Scale, Matrix) Setting the type resets the hint, and sets all the channels to static. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a1e50d6ced90e0ed5872a667ef97be45f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Alembic::Util::uint8_t</type>
+        <definition>Alembic::Util::uint8_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::getHint</definition>
+        <argsstring>() const </argsstring>
+        <name>getHint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the MatrixHint, RotateHint, TranslateHint, or ScaleHint to help disambiguate certain options that may have the same type. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="139"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a6baab350d94ed05b013d7946c6be4f0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::setHint</definition>
+        <argsstring>(const Alembic::Util::uint8_t iHint)</argsstring>
+        <name>setHint</name>
+        <param>
+          <type>const Alembic::Util::uint8_t</type>
+          <declname>iHint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the hint, if it is an illegal value for the type, then the hint is set to the default, 0. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a8c8e63dc6606f5660bf00a8228d7c0fa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::isXAnimated</definition>
+        <argsstring>() const </argsstring>
+        <name>isXAnimated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns whether the x component (index 0) is animated. Only meaningful on read. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="147"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a72ba9f2af615a920c4278681332da52d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::isYAnimated</definition>
+        <argsstring>() const </argsstring>
+        <name>isYAnimated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns whether the y component (index 1) is animated. Only meaningful on read. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="151"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a8fe181924966dae3aa795eda129953bf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::isZAnimated</definition>
+        <argsstring>() const </argsstring>
+        <name>isZAnimated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns whether the z component (index 2) is animated. Only meaningful on read. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a6c6e824b1d0f75adafdb3aa8e9eedecd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::isAngleAnimated</definition>
+        <argsstring>() const </argsstring>
+        <name>isAngleAnimated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns whether the angle component (index 3) is animated. Since Scale and Translate do not have an angle component, false is returned for those types. Only meaningful on read. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="161"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a627fdedab6914df6e9c6b18f89b460d4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::isChannelAnimated</definition>
+        <argsstring>(std::size_t iIndex) const </argsstring>
+        <name>isChannelAnimated</name>
+        <param>
+          <type>std::size_t</type>
+          <declname>iIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns whether a particular channel is animated. Scale and Translate only have 3 channels, Rotate has 4, and Matrix has 16. Indices greater than the number of channels will return false. Only meaningful on read. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="168"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a93f2cdc05b56e97effb94544b861f6b9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::size_t</type>
+        <definition>std::size_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::getNumChannels</definition>
+        <argsstring>() const </argsstring>
+        <name>getNumChannels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the number of components that this operation has based on the type. Translate and Scale have 3, Rotate has 4 and Matrix has 16, and single-axis rotate ops (rotateX, rotateY, rotateZ) have 1. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a91a72cefb5c2d0dae349add4713d2c32" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::getDefaultChannelValue</definition>
+        <argsstring>(std::size_t iIndex) const </argsstring>
+        <name>getDefaultChannelValue</name>
+        <param>
+          <type>std::size_t</type>
+          <declname>iIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>For every channel, there&apos;s a default value. Typically, for each op type, it&apos;s the same across channels. But matrix ops have different defaults to allow the identity matrix to be defaulted (most channels there are 0.0, the determinant channels are 1.0). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="179"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a1a75b2a2c62c0386c46cf97ccee34a85" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::getChannelValue</definition>
+        <argsstring>(std::size_t iIndex) const </argsstring>
+        <name>getChannelValue</name>
+        <param>
+          <type>std::size_t</type>
+          <declname>iIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="181"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a9003a0ef2619676bab4fb7a6e57015fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::setChannelValue</definition>
+        <argsstring>(std::size_t iIndex, double iVal)</argsstring>
+        <name>setChannelValue</name>
+        <param>
+          <type>std::size_t</type>
+          <declname>iIndex</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>iVal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set a single channel; will throw if iIndex is greater than numchannels - 1. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="185"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a2be221cb07816654c4cecdac3b3009df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::setVector</definition>
+        <argsstring>(const Abc::V3d &amp;iVec)</argsstring>
+        <name>setVector</name>
+        <param>
+          <type>const Abc::V3d &amp;</type>
+          <declname>iVec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="187"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1ad6f6965851b1eb7bb326f8dc0a623116" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::setTranslate</definition>
+        <argsstring>(const Abc::V3d &amp;iTrans)</argsstring>
+        <name>setTranslate</name>
+        <param>
+          <type>const Abc::V3d &amp;</type>
+          <declname>iTrans</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1aeb5373089db7788c006f8fdd88d672e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::setScale</definition>
+        <argsstring>(const Abc::V3d &amp;iScale)</argsstring>
+        <name>setScale</name>
+        <param>
+          <type>const Abc::V3d &amp;</type>
+          <declname>iScale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="189"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1ad61ee676bda4ba5bdc0af7bd897709f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::setAxis</definition>
+        <argsstring>(const Abc::V3d &amp;iAxis)</argsstring>
+        <name>setAxis</name>
+        <param>
+          <type>const Abc::V3d &amp;</type>
+          <declname>iAxis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="190"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1ab9ee27392029a38fe80505b4270ffdc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::setAngle</definition>
+        <argsstring>(const double iAngle)</argsstring>
+        <name>setAngle</name>
+        <param>
+          <type>const double</type>
+          <declname>iAngle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="191"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1abb6b64c2a7455e17388732a49cbc78b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::setMatrix</definition>
+        <argsstring>(const Abc::M44d &amp;iMatrix)</argsstring>
+        <name>setMatrix</name>
+        <param>
+          <type>const Abc::M44d &amp;</type>
+          <declname>iMatrix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="192"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a2afdc892e114c001ce2efcb1114e8039" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::setXRotation</definition>
+        <argsstring>(const double iAngle)</argsstring>
+        <name>setXRotation</name>
+        <param>
+          <type>const double</type>
+          <declname>iAngle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="194"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a4dde780ec8fb4e6c3b8f7b74a2f05f07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::setYRotation</definition>
+        <argsstring>(const double iAngle)</argsstring>
+        <name>setYRotation</name>
+        <param>
+          <type>const double</type>
+          <declname>iAngle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="195"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1acf15ecdf2606eb293770c0ae8602d4ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::setZRotation</definition>
+        <argsstring>(const double iAngle)</argsstring>
+        <name>setZRotation</name>
+        <param>
+          <type>const double</type>
+          <declname>iAngle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="196"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a21debacbf794777dd9a9700213536119" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Abc::V3d</type>
+        <definition>Abc::V3d Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::getVector</definition>
+        <argsstring>() const </argsstring>
+        <name>getVector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="199"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a2a2e119005277a437e831ffca303c4c5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Abc::V3d</type>
+        <definition>Abc::V3d Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::getTranslate</definition>
+        <argsstring>() const </argsstring>
+        <name>getTranslate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="200"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a72cdbac396a7323824113c3b2bcb5ae4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Abc::V3d</type>
+        <definition>Abc::V3d Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::getScale</definition>
+        <argsstring>() const </argsstring>
+        <name>getScale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="201"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a4f837120a69f3e00236bb0c918016b38" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Abc::V3d</type>
+        <definition>Abc::V3d Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::getAxis</definition>
+        <argsstring>() const </argsstring>
+        <name>getAxis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a6732acb9a70b2f084011b22280bbe4b6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::getAngle</definition>
+        <argsstring>() const </argsstring>
+        <name>getAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="203"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a9c6e31e2e8174aa4f72ad9574ea29676" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Abc::M44d</type>
+        <definition>Abc::M44d Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::getMatrix</definition>
+        <argsstring>() const </argsstring>
+        <name>getMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="204"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1af89a6f468d03b6daeaa253441a1470c6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::getXRotation</definition>
+        <argsstring>() const </argsstring>
+        <name>getXRotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="206"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a5ea4f0b9b46ee3f41bbe3ba17d7971cf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::getYRotation</definition>
+        <argsstring>() const </argsstring>
+        <name>getYRotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="207"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1ab0c42e10bb3fa0b0efa44015822446f4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::getZRotation</definition>
+        <argsstring>() const </argsstring>
+        <name>getZRotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="208"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1afbb81251eb389760668584484d9ca5e8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::isTranslateOp</definition>
+        <argsstring>() const </argsstring>
+        <name>isTranslateOp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="210"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a25ed8cb8342d82d6979ec266181f6419" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::isScaleOp</definition>
+        <argsstring>() const </argsstring>
+        <name>isScaleOp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="212"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a478e5292215e80fefcf0d10d086bb88e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::isRotateOp</definition>
+        <argsstring>() const </argsstring>
+        <name>isRotateOp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="214"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a8ed3cb85e89756eaf41b57a61f58cc3e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::isMatrixOp</definition>
+        <argsstring>() const </argsstring>
+        <name>isMatrixOp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="216"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a06eb21440331d4a1e780368ee8538aa1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::isRotateXOp</definition>
+        <argsstring>() const </argsstring>
+        <name>isRotateXOp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="218"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1ac6ac5ced460b00f0a67df75d22b87e9f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::isRotateYOp</definition>
+        <argsstring>() const </argsstring>
+        <name>isRotateYOp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="219"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1ac19df18b85e6b198d53aa3b7f98ebb99" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::isRotateZOp</definition>
+        <argsstring>() const </argsstring>
+        <name>isRotateZOp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="220"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1aeeeb486aeb0d5c627fb4ce484bdc0483" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Alembic::Util::uint8_t</type>
+        <definition>Alembic::Util::uint8_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp::getOpEncoding</definition>
+        <argsstring>() const </argsstring>
+        <name>getOpEncoding</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Function for returning the combined encoded type and hint. The type is in the first four bits, the hint in the second.</para><para>This is not really intended for use by human clients of this class. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="226"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Xform Operation This class holds the data about a particular transform operation, but does not hold the actual data to calculate a 4x4 matrix. It holds the type of operation (Translate, Rotate, Scale, Matrix), a hint about the type which can be interpreted by packages like Maya, and what particular parts of the operations can change over time. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" line="121" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformOp.h" bodystart="120" bodyend="242"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a6732acb9a70b2f084011b22280bbe4b6" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>getAngle</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a4f837120a69f3e00236bb0c918016b38" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>getAxis</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a1a75b2a2c62c0386c46cf97ccee34a85" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>getChannelValue</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a91a72cefb5c2d0dae349add4713d2c32" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>getDefaultChannelValue</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a1e50d6ced90e0ed5872a667ef97be45f" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>getHint</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a9c6e31e2e8174aa4f72ad9574ea29676" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>getMatrix</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a93f2cdc05b56e97effb94544b861f6b9" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>getNumChannels</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1aeeeb486aeb0d5c627fb4ce484bdc0483" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>getOpEncoding</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a72cdbac396a7323824113c3b2bcb5ae4" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>getScale</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a2a2e119005277a437e831ffca303c4c5" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>getTranslate</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1abe9c9358a1213f1a02f813805bdd78f9" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>getType</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a21debacbf794777dd9a9700213536119" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>getVector</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1af89a6f468d03b6daeaa253441a1470c6" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>getXRotation</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a5ea4f0b9b46ee3f41bbe3ba17d7971cf" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>getYRotation</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1ab0c42e10bb3fa0b0efa44015822446f4" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>getZRotation</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a6c6e824b1d0f75adafdb3aa8e9eedecd" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>isAngleAnimated</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a627fdedab6914df6e9c6b18f89b460d4" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>isChannelAnimated</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a8ed3cb85e89756eaf41b57a61f58cc3e" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>isMatrixOp</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a478e5292215e80fefcf0d10d086bb88e" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>isRotateOp</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a06eb21440331d4a1e780368ee8538aa1" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>isRotateXOp</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1ac6ac5ced460b00f0a67df75d22b87e9f" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>isRotateYOp</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1ac19df18b85e6b198d53aa3b7f98ebb99" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>isRotateZOp</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a25ed8cb8342d82d6979ec266181f6419" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>isScaleOp</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1afbb81251eb389760668584484d9ca5e8" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>isTranslateOp</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a8c8e63dc6606f5660bf00a8228d7c0fa" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>isXAnimated</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a72ba9f2af615a920c4278681332da52d" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>isYAnimated</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a8fe181924966dae3aa795eda129953bf" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>isZAnimated</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1ad60c92080325014388e47f4b73374e28" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>IXformSchema</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1ac2c30ecd7896a89f2bb3746b607998c7" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>m_animChannels</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a30702a0e302606037fccf0f3a08f1c02" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>m_channels</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a7695191144602ac8fdeb5385d2e25de3" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>m_hint</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1ab056f009d3127b477354e4be6de4d61c" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>m_type</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1ab9ee27392029a38fe80505b4270ffdc4" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>setAngle</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1ad61ee676bda4ba5bdc0af7bd897709f2" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>setAxis</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a9003a0ef2619676bab4fb7a6e57015fc" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>setChannelValue</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a6baab350d94ed05b013d7946c6be4f0f" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>setHint</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1abb6b64c2a7455e17388732a49cbc78b9" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>setMatrix</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1aeb5373089db7788c006f8fdd88d672e1" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>setScale</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1ad6f6965851b1eb7bb326f8dc0a623116" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>setTranslate</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1aa96e6e00e4418a832745b6be23bfc115" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>setType</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a2be221cb07816654c4cecdac3b3009df" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>setVector</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a2afdc892e114c001ce2efcb1114e8039" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>setXRotation</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a4dde780ec8fb4e6c3b8f7b74a2f05f07" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>setYRotation</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1acf15ecdf2606eb293770c0ae8602d4ae" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>setZRotation</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1accfa19ca1b17223aa60523b3b27dc854" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>XformOp</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a3fbc19590724e6ae80411f4f2b0866af" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>XformOp</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op_1a8764744a2fddc08f0cd18f88b776bc58" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformOp</scope><name>XformOp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

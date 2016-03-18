@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="dir_52d8598eeef5181f086e39122e41b44e" kind="dir">
+    <compoundname>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/</compoundname>
+    <innerfile refid="_all_8h">All.h</innerfile>
+    <innerfile refid="_config_8h">Config.h</innerfile>
+    <innerfile refid="_digest_8h">Digest.h</innerfile>
+    <innerfile refid="_dimensions_8h">Dimensions.h</innerfile>
+    <innerfile refid="_exception_8h">Exception.h</innerfile>
+    <innerfile refid="_export_8h">Export.h</innerfile>
+    <innerfile refid="_foundation_8h">Foundation.h</innerfile>
+    <innerfile refid="_murmur3_8h">Murmur3.h</innerfile>
+    <innerfile refid="_naming_8h">Naming.h</innerfile>
+    <innerfile refid="_operator_bool_8h">OperatorBool.h</innerfile>
+    <innerfile refid="_plain_old_data_type_8h">PlainOldDataType.h</innerfile>
+    <innerfile refid="_spooky_v2_8h">SpookyV2.h</innerfile>
+    <innerfile refid="_token_map_8h">TokenMap.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/"/>
+  </compounddef>
+</doxygen>

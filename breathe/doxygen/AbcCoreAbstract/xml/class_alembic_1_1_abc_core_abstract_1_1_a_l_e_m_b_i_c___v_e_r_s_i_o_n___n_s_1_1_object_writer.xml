@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer" kind="class" prot="public">
+    <compoundname>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter</compoundname>
+    <includes refid="_object_writer_8h" local="no">ObjectWriter.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a9d75e07154a69d01b646a7a0f6c4d867" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter::~ObjectWriter</definition>
+        <argsstring>()</argsstring>
+        <name>~ObjectWriter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Virtual destructor ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectWriter.h" line="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a48a00a8be707809cea1dc0e1ed2102c1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_header" kindref="compound">ObjectHeader</ref> &amp;</type>
+        <definition>virtual const ObjectHeader&amp; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter::getHeader</definition>
+        <argsstring>() const =0</argsstring>
+        <name>getHeader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>All objects are created from an <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_header" kindref="compound">ObjectHeader</ref>, which contains their name, their full name, and their <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref>. This returns a const reference to the <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_header" kindref="compound">ObjectHeader</ref> which was given upon creation. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectWriter.h" line="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a7c550a94629b12e80040b93e3b5d6b3c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::string &amp;</type>
+        <definition>const std::string&amp; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter::getName</definition>
+        <argsstring>() const </argsstring>
+        <name>getName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>All objects have a name. This name is unique amongst their siblings Returned by reference, since it is guaranteed to exist and be unchanging. This is the name that was given when the object was created. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectWriter.h" line="78" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectWriter.h" bodystart="77" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a68804b95646ff046f63c0ce2e3fd371b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::string &amp;</type>
+        <definition>const std::string&amp; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter::getFullName</definition>
+        <argsstring>() const </argsstring>
+        <name>getFullName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The full name of an object is the complete path name all the way to the root object of the archive. It is guaranteed to be fully unique within the entire archive. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectWriter.h" line="84" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectWriter.h" bodystart="83" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1ac4dbcf8f006050f95d915b4730543832" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> &amp;</type>
+        <definition>const MetaData&amp; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter::getMetaData</definition>
+        <argsstring>() const </argsstring>
+        <name>getMetaData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>All objects have metadata. This metadata is identical to the Metadata of the top level compoundProperty &quot;properties&quot;. Because the metadata must exist and be initialized in order to bootstrap the object, it is guaranteed to exist and is returned by reference. While <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> was required to create the object, additional <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> may be appended during the writing of the object. This returns the accumulated <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref>, which may change as writing occurs. The reference will remain valid, but the <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> it points to may change over time. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectWriter.h" line="96" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectWriter.h" bodystart="95" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a95faa4141d8db72b2ee95e3e20be9f7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>ArchiveWriterPtr</type>
+        <definition>virtual ArchiveWriterPtr Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter::getArchive</definition>
+        <argsstring>()=0</argsstring>
+        <name>getArchive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>All objects have a shared link to the root. This may seem wasteful, but it is essential in order to allow for the flexible, reference-counted autonomy of the writer objects. Alembic allows you to keep references to writers wherever you want, without requiring you to keep track of (or store) the parental hierarchy directly. In order to make this possible, we have the ability to walk upwards. This may be stored as a direct link, or retrieved by walking up the parent chain, which is a feature of the individual implementations. (it might not be cheap, basically). In order to prevent shared_ptr cycles, it is important that objects only store their children via weak ptrs. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectWriter.h" line="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a2c4c98b3cd4937f7f5c692006e617238" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>ObjectWriterPtr</type>
+        <definition>virtual ObjectWriterPtr Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter::getParent</definition>
+        <argsstring>()=0</argsstring>
+        <name>getParent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>All objects have a shared link to their parent. This may seem wasteful, but it is essential in order to allow for the flexible, reference-counted autonomy of the writer objects. Alembic allows you to keep references to writers wherever you want, without requiring you to keep track of (or store) the parental hierarchy directly. In order to make this possible, we have the ability to walk upwards. In order to prevent shared_ptr cycles, it is important that objects only store their children via weak ptrs. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectWriter.h" line="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a144fa2704318daaf5069476c395ec53a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>CompoundPropertyWriterPtr</type>
+        <definition>virtual CompoundPropertyWriterPtr Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter::getProperties</definition>
+        <argsstring>()=0</argsstring>
+        <name>getProperties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>All objects have a single compound property which is the root for any properties which are associated with this object. Guaranteed to exist, even if the compound property itself is empty. This may change as properties are added. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectWriter.h" line="127"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a7cc26df39d866cc74810f2861458be5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>size_t</type>
+        <definition>virtual size_t Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter::getNumChildren</definition>
+        <argsstring>()=0</argsstring>
+        <name>getNumChildren</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the number of objects that are contained as children. this number may increase (but not decrease) as objects are created. This is the number of children object writers that have ALREADY BEEN ADDED. It may increase. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectWriter.h" line="137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1af618659897b1e28a46493a9ca3b89338" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_header" kindref="compound">ObjectHeader</ref> &amp;</type>
+        <definition>virtual const ObjectHeader&amp; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter::getChildHeader</definition>
+        <argsstring>(size_t i)=0</argsstring>
+        <name>getChildHeader</name>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the header of an object that has already been added. Object is selected by index. This will throw an exception on out-of-range access. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectWriter.h" line="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a83760cc559adb894ed85e22c1f7bd55c" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_header" kindref="compound">ObjectHeader</ref> *</type>
+        <definition>virtual const ObjectHeader* Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter::getChildHeader</definition>
+        <argsstring>(const std::string &amp;iName)=0</argsstring>
+        <name>getChildHeader</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the header of an object that has already been added, by name. This will return NULL pointer if no header by that name is found. Even if the object assosciated with this header is no longer existing, the header will be non-null if any such object had been created. This is a mechanism for testing if something has already been made. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectWriter.h" line="152"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1ab704546a8f577e63fe6d4b5f34afbed7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ObjectWriterPtr</type>
+        <definition>ObjectWriterPtr Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter::getChild</definition>
+        <argsstring>(size_t i)</argsstring>
+        <name>getChild</name>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to an object writer at the given index, that has ALREADY BEEN ADDED. It is an error to request a child with an out of range index, and an exception will be thrown. In a strange case, this will return an empty pointer if the writer has been added in the past, but was closed (deleted). There is really no distinction between an empty weak pointer and a weak pointer to an expired object, so we simply return an empty pointer if the object had been created but no longer exists. This is just a convenience function that uses getChildHeader and getChild( name ); </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectWriter.h" line="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1aae3281ea90b6b636ca44b2e414fe393b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>ObjectWriterPtr</type>
+        <definition>virtual ObjectWriterPtr Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter::getChild</definition>
+        <argsstring>(const std::string &amp;iName)=0</argsstring>
+        <name>getChild</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to an object writer of the given name iName, for an object that has ALREADY BEEN ADDED. This will return an empty pointer if no object of the given name has been added. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectWriter.h" line="170"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a669acc92ef11e39390266c9b326cceee" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>ObjectWriterPtr</type>
+        <definition>virtual ObjectWriterPtr Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter::createChild</definition>
+        <argsstring>(const ObjectHeader &amp;iHeader)=0</argsstring>
+        <name>createChild</name>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_header" kindref="compound">ObjectHeader</ref> &amp;</type>
+          <declname>iHeader</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create an object with given header. the header&apos;s &quot;fullName&quot; will be ignored and set by the parent object. If an object with the given name already exists, an exception will be thrown, as this is a programming error. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectWriter.h" line="176"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a675fdaa1b7d116227fe1fbc1130bba9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>ObjectWriterPtr</type>
+        <definition>virtual ObjectWriterPtr Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter::asObjectPtr</definition>
+        <argsstring>()=0</argsstring>
+        <name>asObjectPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns shared pointer to myself. Sometimes this may be a spoofed ptr. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectWriter.h" line="180"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>An Object consists of a list of children objects, which may be empty, and a single compound property which is the root of any properties which the object may contain. Objects have <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref>, which is identical to the <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> of the root Compound Property. </para>    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectWriter.h" line="57" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectWriter.h" bodystart="55" bodyend="181"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a675fdaa1b7d116227fe1fbc1130bba9a" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter</scope><name>asObjectPtr</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a669acc92ef11e39390266c9b326cceee" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter</scope><name>createChild</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a95faa4141d8db72b2ee95e3e20be9f7d" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter</scope><name>getArchive</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1ab704546a8f577e63fe6d4b5f34afbed7" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter</scope><name>getChild</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1aae3281ea90b6b636ca44b2e414fe393b" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter</scope><name>getChild</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1af618659897b1e28a46493a9ca3b89338" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter</scope><name>getChildHeader</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a83760cc559adb894ed85e22c1f7bd55c" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter</scope><name>getChildHeader</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a68804b95646ff046f63c0ce2e3fd371b" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter</scope><name>getFullName</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a48a00a8be707809cea1dc0e1ed2102c1" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter</scope><name>getHeader</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1ac4dbcf8f006050f95d915b4730543832" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter</scope><name>getMetaData</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a7c550a94629b12e80040b93e3b5d6b3c" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter</scope><name>getName</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a7cc26df39d866cc74810f2861458be5d" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter</scope><name>getNumChildren</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a2c4c98b3cd4937f7f5c692006e617238" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter</scope><name>getParent</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a144fa2704318daaf5069476c395ec53a" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter</scope><name>getProperties</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer_1a9d75e07154a69d01b646a7a0f6c4d867" prot="public" virt="virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter</scope><name>~ObjectWriter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

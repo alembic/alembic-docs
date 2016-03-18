@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="namespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s" kind="namespace">
+    <compoundname>Alembic::AbcMaterial::ALEMBIC_VERSION_NS</compoundname>
+    <innerclass refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema" prot="public">Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema</innerclass>
+    <innerclass refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema" prot="public">Alembic::AbcMaterial::ALEMBIC_VERSION_NS::OMaterialSchema</innerclass>
+    <innerclass refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten" prot="public">Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ac45895f0e40b75f2febf8791b2395f81" prot="public" static="no">
+        <type>Abc::ISchemaObject&lt; <ref refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema" kindref="compound">IMaterialSchema</ref> &gt;</type>
+        <definition>typedef Abc::ISchemaObject&lt;IMaterialSchema&gt; Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterial</definition>
+        <argsstring></argsstring>
+        <name>IMaterial</name>
+        <briefdescription>
+<para>Object declaration. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/IMaterial.h" line="225" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/IMaterial.h" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a2cf683406ca277c316ed9d10c8de1dd7" prot="public" static="no">
+        <type>Util::shared_ptr&lt; IMaterial &gt;</type>
+        <definition>typedef Util::shared_ptr&lt; IMaterial &gt; Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialPtr</definition>
+        <argsstring></argsstring>
+        <name>IMaterialPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/IMaterial.h" line="227" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/IMaterial.h" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a0d0b469b13e121a5fc9dbfa054f7633e" prot="public" static="no">
+        <type>Abc::OSchemaObject&lt; <ref refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema" kindref="compound">OMaterialSchema</ref> &gt;</type>
+        <definition>typedef Abc::OSchemaObject&lt;OMaterialSchema&gt; Alembic::AbcMaterial::ALEMBIC_VERSION_NS::OMaterial</definition>
+        <argsstring></argsstring>
+        <name>OMaterial</name>
+        <briefdescription>
+<para>Object declaration. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/OMaterial.h" line="159" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/OMaterial.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1abbb4c62e6d902a7d20a39acfd6cdcb73" prot="public" static="no">
+        <type>Util::shared_ptr&lt; OMaterial &gt;</type>
+        <definition>typedef Util::shared_ptr&lt; OMaterial &gt; Alembic::AbcMaterial::ALEMBIC_VERSION_NS::OMaterialPtr</definition>
+        <argsstring></argsstring>
+        <name>OMaterialPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/OMaterial.h" line="161" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/OMaterial.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a15ca19dfeaac18d7fb429c39b73caa25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcMaterial::ALEMBIC_VERSION_NS::ALEMBIC_ABC_DECLARE_SCHEMA_INFO</definition>
+        <argsstring>(&quot;AbcMaterial_Material_v1&quot;,&quot;&quot;,&quot;.material&quot;, MaterialSchemaInfo)</argsstring>
+        <name>ALEMBIC_ABC_DECLARE_SCHEMA_INFO</name>
+        <param>
+          <type>&quot;AbcMaterial_Material_v1&quot;</type>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <param>
+          <type>&quot;.material&quot;</type>
+        </param>
+        <param>
+          <type>MaterialSchemaInfo</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/SchemaInfoDeclarations.h" line="49"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a7c5539d9b2a647f262e01284e5fee0ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ALEMBIC_EXPORT void</type>
+        <definition>ALEMBIC_EXPORT void Alembic::AbcMaterial::ALEMBIC_VERSION_NS::addMaterialAssignment</definition>
+        <argsstring>(Abc::OObject iObject, const std::string &amp;iValue, const std::string &amp;iPropName=MATERIALASSIGN_PROPNAME)</argsstring>
+        <name>addMaterialAssignment</name>
+        <param>
+          <type>Abc::OObject</type>
+          <declname>iObject</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iValue</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iPropName</declname>
+          <defval>MATERIALASSIGN_PROPNAME</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds a material assignment to an object. The value should be the absolute path to an Material object. (The default interpretation is that this path is to an object within the same archive.)</para><para>The default value for &quot;propName&quot; is officially supported convention of the library. You may provide an alternative value for custom solutions that want to make use of this convenience. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/MaterialAssignment.h" line="63"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ae8005261adb6c2b425b52540315c133c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ALEMBIC_EXPORT void</type>
+        <definition>ALEMBIC_EXPORT void Alembic::AbcMaterial::ALEMBIC_VERSION_NS::addMaterialAssignment</definition>
+        <argsstring>(Abc::OCompoundProperty iProp, const std::string &amp;iValue, const std::string &amp;iPropName=MATERIALASSIGN_PROPNAME)</argsstring>
+        <name>addMaterialAssignment</name>
+        <param>
+          <type>Abc::OCompoundProperty</type>
+          <declname>iProp</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iValue</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iPropName</declname>
+          <defval>MATERIALASSIGN_PROPNAME</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds a material assignment within a compound property. The conventions and concerns are identical as with applying to an object. This exists primarily for custom solutions which want to make use of the convenience within nested compounds. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/MaterialAssignment.h" line="72"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1afae69a4e0d1d9e3f1b197340c4b334f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ALEMBIC_EXPORT <ref refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema" kindref="compound">OMaterialSchema</ref></type>
+        <definition>ALEMBIC_EXPORT OMaterialSchema Alembic::AbcMaterial::ALEMBIC_VERSION_NS::addMaterial</definition>
+        <argsstring>(Abc::OObject iObject, const std::string &amp;iPropName=MATERIAL_PROPNAME)</argsstring>
+        <name>addMaterial</name>
+        <param>
+          <type>Abc::OObject</type>
+          <declname>iObject</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iPropName</declname>
+          <defval>MATERIAL_PROPNAME</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds a local material schema to any object. This is intended for &quot;has-a&quot; cases such as &quot;this polymesh has a material locally defined.&quot;</para><para>The default value for &quot;propName&quot; is officially supported convention of the library. You may provide an alternative value for custom solutions that want to make use of this convenience. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/MaterialAssignment.h" line="82"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a817578d6035e1e0800e494da2fc58ccc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ALEMBIC_EXPORT <ref refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema" kindref="compound">OMaterialSchema</ref></type>
+        <definition>ALEMBIC_EXPORT OMaterialSchema Alembic::AbcMaterial::ALEMBIC_VERSION_NS::addMaterial</definition>
+        <argsstring>(Abc::OCompoundProperty iProp, const std::string &amp;iPropName=MATERIAL_PROPNAME)</argsstring>
+        <name>addMaterial</name>
+        <param>
+          <type>Abc::OCompoundProperty</type>
+          <declname>iProp</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iPropName</declname>
+          <defval>MATERIAL_PROPNAME</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds a local material schema within any compound. This is intended for the &quot;has-a&quot; cases for nested compound properties. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/MaterialAssignment.h" line="88"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a94fe080cdc3eab063dcc4c618d91b2a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ALEMBIC_EXPORT bool</type>
+        <definition>ALEMBIC_EXPORT bool Alembic::AbcMaterial::ALEMBIC_VERSION_NS::getMaterialAssignmentPath</definition>
+        <argsstring>(Abc::IObject iObject, std::string &amp;oResult, const std::string &amp;iPropName=MATERIALASSIGN_PROPNAME)</argsstring>
+        <name>getMaterialAssignmentPath</name>
+        <param>
+          <type>Abc::IObject</type>
+          <declname>iObject</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>oResult</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iPropName</declname>
+          <defval>MATERIALASSIGN_PROPNAME</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true and fills result with the value of previously defined material assignment path. The default interpretation of the value is as a full path to an IMaterial object within the same archive.</para><para>The default value for &quot;propName&quot; is officially supported convention of the library. You may provide an alternative value for custom solutions that want to make use of this convenience. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/MaterialAssignment.h" line="101"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ac32023785e59856eb84686a69168eb6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ALEMBIC_EXPORT bool</type>
+        <definition>ALEMBIC_EXPORT bool Alembic::AbcMaterial::ALEMBIC_VERSION_NS::getMaterialAssignmentPath</definition>
+        <argsstring>(Abc::ICompoundProperty iProp, std::string &amp;oResult, const std::string &amp;iPropName=MATERIALASSIGN_PROPNAME)</argsstring>
+        <name>getMaterialAssignmentPath</name>
+        <param>
+          <type>Abc::ICompoundProperty</type>
+          <declname>iProp</declname>
+        </param>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>oResult</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iPropName</declname>
+          <defval>MATERIALASSIGN_PROPNAME</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true and fills result with the value of previously defined material assignment path within a given compound property.</para><para>The common case is at the object level but this is here as a convenince for custom solutions </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/MaterialAssignment.h" line="111"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a019bb0636f8cfc75d5d9b34655a0f040" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ALEMBIC_EXPORT bool</type>
+        <definition>ALEMBIC_EXPORT bool Alembic::AbcMaterial::ALEMBIC_VERSION_NS::hasMaterial</definition>
+        <argsstring>(Abc::IObject iObject, IMaterialSchema &amp;oResult, const std::string &amp;iPropName=MATERIAL_PROPNAME)</argsstring>
+        <name>hasMaterial</name>
+        <param>
+          <type>Abc::IObject</type>
+          <declname>iObject</declname>
+        </param>
+        <param>
+          <type><ref refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema" kindref="compound">IMaterialSchema</ref> &amp;</type>
+          <declname>oResult</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iPropName</declname>
+          <defval>MATERIAL_PROPNAME</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true and fills result a previously defined local material on this object following the &quot;has a&quot; pattern.</para><para>The default value for &quot;propName&quot; is officially supported convention of the library. You may provide an alternative value for custom solutions that want to make use of this convenience. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/MaterialAssignment.h" line="122"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ab0096b6a23bed23996e60e7407778c9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ALEMBIC_EXPORT bool</type>
+        <definition>ALEMBIC_EXPORT bool Alembic::AbcMaterial::ALEMBIC_VERSION_NS::hasMaterial</definition>
+        <argsstring>(Abc::ICompoundProperty iCompound, IMaterialSchema &amp;oResult, const std::string &amp;iPropName=MATERIAL_PROPNAME)</argsstring>
+        <name>hasMaterial</name>
+        <param>
+          <type>Abc::ICompoundProperty</type>
+          <declname>iCompound</declname>
+        </param>
+        <param>
+          <type><ref refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema" kindref="compound">IMaterialSchema</ref> &amp;</type>
+          <declname>oResult</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iPropName</declname>
+          <defval>MATERIAL_PROPNAME</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns true and fills result a previously defined local material within the given compound property. This is useful for solutions in which another schema wants to contain a material definition but not advertise it as such at the object level </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/MaterialAssignment.h" line="131"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/SchemaInfoDeclarations.h" line="44"/>
+  </compounddef>
+</doxygen>

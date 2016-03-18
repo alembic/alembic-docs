@@ -1,0 +1,366 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema" kind="class" prot="public">
+    <compoundname>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema</compoundname>
+    <includes refid="_i_geom_base_8h" local="no">IGeomBase.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class</type>
+        <declname>INFO</declname>
+        <defname>INFO</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1ae9021b2606d76423cf4dfdfab8e3b191" prot="public" static="no">
+        <type>INFO</type>
+        <definition>typedef INFO Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema&lt; INFO &gt;::info_type</definition>
+        <argsstring></argsstring>
+        <name>info_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" line="67" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a69fb55565e4fbb5ab493f087a29833e0" prot="protected" static="no" mutable="no">
+        <type>Abc::IBox3dProperty</type>
+        <definition>Abc::IBox3dProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema&lt; INFO &gt;::m_selfBoundsProperty</definition>
+        <argsstring></argsstring>
+        <name>m_selfBoundsProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" line="187" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1ad60ae57e733665228832bb4ebb73f8a3" prot="protected" static="no" mutable="no">
+        <type>Abc::IBox3dProperty</type>
+        <definition>Abc::IBox3dProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema&lt; INFO &gt;::m_childBoundsProperty</definition>
+        <argsstring></argsstring>
+        <name>m_childBoundsProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" line="188" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a5e9e8dfce4f66cc6d5c0cbc184861356" prot="protected" static="no" mutable="no">
+        <type>Abc::ICompoundProperty</type>
+        <definition>Abc::ICompoundProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema&lt; INFO &gt;::m_arbGeomParams</definition>
+        <argsstring></argsstring>
+        <name>m_arbGeomParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" line="190" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a7674a7901895336597726b94fb9ac6d7" prot="protected" static="no" mutable="no">
+        <type>Abc::ICompoundProperty</type>
+        <definition>Abc::ICompoundProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema&lt; INFO &gt;::m_userProperties</definition>
+        <argsstring></argsstring>
+        <name>m_userProperties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" line="191" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1afd505d2c67a3d5d86a60519e966a009e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema&lt; INFO &gt;::IGeomBaseSchema</definition>
+        <argsstring>()</argsstring>
+        <name>IGeomBaseSchema</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default constructor creates an empty ISchema. Used to create &quot;NULL/invalid&quot; instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" line="76" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" bodystart="76" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a84288647e074e0df57954383dd02cc56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class CPROP_PTR</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema&lt; INFO &gt;::IGeomBaseSchema</definition>
+        <argsstring>(CPROP_PTR iParentCompound, const std::string &amp;iName, const Argument &amp;iArg0=Argument(), const Argument &amp;iArg1=Argument())</argsstring>
+        <name>IGeomBaseSchema</name>
+        <param>
+          <type>CPROP_PTR</type>
+          <declname>iParentCompound</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iName</declname>
+        </param>
+        <param>
+          <type>const Argument &amp;</type>
+          <declname>iArg0</declname>
+          <defval>Argument()</defval>
+        </param>
+        <param>
+          <type>const Argument &amp;</type>
+          <declname>iArg1</declname>
+          <defval>Argument()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Delegates to Abc/ISchema, and then creates properties that are present. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" line="87" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" bodystart="81" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a346dd3763ed20551f74baaada21fb166" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class CPROP_PTR</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema&lt; INFO &gt;::IGeomBaseSchema</definition>
+        <argsstring>(CPROP_PTR iParentCompound, const Argument &amp;iArg0=Argument(), const Argument &amp;iArg1=Argument())</argsstring>
+        <name>IGeomBaseSchema</name>
+        <param>
+          <type>CPROP_PTR</type>
+          <declname>iParentCompound</declname>
+        </param>
+        <param>
+          <type>const Argument &amp;</type>
+          <declname>iArg0</declname>
+          <defval>Argument()</defval>
+        </param>
+        <param>
+          <type>const Argument &amp;</type>
+          <declname>iArg1</declname>
+          <defval>Argument()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" line="97" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" bodystart="92" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a331c2aaa3344c427fa72aa89887ff72a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class CPROP_PTR</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema&lt; INFO &gt;::IGeomBaseSchema</definition>
+        <argsstring>(CPROP_PTR iThis, Abc::WrapExistingFlag iFlag, const Abc::Argument &amp;iArg0=Abc::Argument(), const Abc::Argument &amp;iArg1=Abc::Argument())</argsstring>
+        <name>IGeomBaseSchema</name>
+        <param>
+          <type>CPROP_PTR</type>
+          <declname>iThis</declname>
+        </param>
+        <param>
+          <type>Abc::WrapExistingFlag</type>
+          <declname>iFlag</declname>
+        </param>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg0</declname>
+          <defval>Abc::Argument()</defval>
+        </param>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg1</declname>
+          <defval>Abc::Argument()</defval>
+        </param>
+        <briefdescription>
+<para>Wrap an existing schema object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" line="108" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" bodystart="103" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a0c4299a17e3534abda898d6c655f8d3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema&lt; INFO &gt;::IGeomBaseSchema</definition>
+        <argsstring>(const IGeomBaseSchema &amp;iCopy)</argsstring>
+        <name>IGeomBaseSchema</name>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema" kindref="compound">IGeomBaseSchema</ref> &amp;</type>
+          <declname>iCopy</declname>
+        </param>
+        <briefdescription>
+<para>Copy constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" line="115" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" bodystart="113" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a346a39eb65631615398049c7aa9f8845" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema&lt; INFO &gt;::init</definition>
+        <argsstring>(const Abc::Argument &amp;iArg0, const Abc::Argument &amp;iArg1)</argsstring>
+        <name>init</name>
+        <reimplementedby refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_poly_mesh_schema_1aa55012fa5dd321e886352af75b9179f6">init</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a4cc62d29b632ae34cb712459281bff99">init</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1afccc08b09a9e1d6608ca7bda8322d3c7">init</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1a8d6cae49157c60f16706afdebfadafb1">init</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1abac4bdcf4122429563756ebcca63051c">init</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_points_schema_1a7fd48811932951324c6f014852055f48">init</reimplementedby>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg0</declname>
+        </param>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" line="120" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" bodystart="119" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a6378c04f4ca75331e647daea87f164f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema&lt; INFO &gt;::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <reimplementedby refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_poly_mesh_schema_1a7285ffaeb5314d9ff50fd5aeab59cf32">reset</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1ab67ea2dd2810104f0e55c431b7b37f9d">reset</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1ab1762429267d1090aed16924fbee7744">reset</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1a88e28aaa281e0a4bb51bf44bfdbe2f74">reset</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1ab62aacd1f2191919013f8934b4a0f65f">reset</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_points_schema_1a30c29dc7bfb685fea1743250bcd0894e">reset</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_1adf6f3bf3fb0b09e6c9ab9e12e46092aa">reset</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" line="152" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" bodystart="151" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1aa49688649c08f669488aadcc974e0a6a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema&lt; INFO &gt;::valid</definition>
+        <argsstring>() const </argsstring>
+        <name>valid</name>
+        <reimplementedby refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_poly_mesh_schema_1acaee5969e78ca1066a270a01ac1030c2">valid</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a16273184ee99f87ed271c0cacec6c8dd">valid</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1a1f740eca5924cf0fa91a6f9acbf9d62d">valid</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sub_d_schema_1ab5030d4b3e82f84ff3de8204a743b50f">valid</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1ab8f16b84ce33891f96279bb8901e0702">valid</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_points_schema_1ac4b12a0dfa539cb9e6c6af4472f0221b">valid</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_1af43a7ced6a65d6f3d5e6a3b7bcd5f711">valid</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" line="161" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" bodystart="160" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1ab0d3bc72027537d6c0ecd94480335bcd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::IBox3dProperty</type>
+        <definition>Abc::IBox3dProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema&lt; INFO &gt;::getSelfBoundsProperty</definition>
+        <argsstring>() const </argsstring>
+        <name>getSelfBoundsProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" line="168" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" bodystart="167" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a00553f71ee5c5db700c72761e991d89f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::IBox3dProperty</type>
+        <definition>Abc::IBox3dProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema&lt; INFO &gt;::getChildBoundsProperty</definition>
+        <argsstring>() const </argsstring>
+        <name>getChildBoundsProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" line="173" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" bodystart="172" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a9736726f547c000bdf9baf62206aaf8a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ICompoundProperty</type>
+        <definition>ICompoundProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema&lt; INFO &gt;::getArbGeomParams</definition>
+        <argsstring>() const </argsstring>
+        <name>getArbGeomParams</name>
+        <reimplementedby refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_1aef50945ffd8d18f135cff63f29085746">getArbGeomParams</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" line="179" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" bodystart="179" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1ad6d664bd9b11a61e1e34dddd9d90654f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ICompoundProperty</type>
+        <definition>ICompoundProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema&lt; INFO &gt;::getUserProperties</definition>
+        <argsstring>() const </argsstring>
+        <name>getUserProperties</name>
+        <reimplementedby refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_1a020d3ea31243f3d8f5dc86a2ca415f77">getUserProperties</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" line="183" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" bodystart="183" bodyend="183"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class holds properties common to all geometric classes that have a physical volume.<itemizedlist>
+<listitem><para>selfBounds</para></listitem><listitem><para>childBounds (optional)</para></listitem><listitem><para>GeomParams (optional)</para></listitem><listitem><para>UserProperties (optional)</para></listitem></itemizedlist>
+</para><para>This class is used to encapsulate common functionality of the real Geometry schema classes, like IPoints and IPolyMesh and so on </para>    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" line="61" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomBase.h" bodystart="60" bodyend="193"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a9736726f547c000bdf9baf62206aaf8a" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema</scope><name>getArbGeomParams</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a00553f71ee5c5db700c72761e991d89f" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema</scope><name>getChildBoundsProperty</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1ab0d3bc72027537d6c0ecd94480335bcd" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema</scope><name>getSelfBoundsProperty</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1ad6d664bd9b11a61e1e34dddd9d90654f" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema</scope><name>getUserProperties</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1afd505d2c67a3d5d86a60519e966a009e" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema</scope><name>IGeomBaseSchema</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a84288647e074e0df57954383dd02cc56" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema</scope><name>IGeomBaseSchema</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a346dd3763ed20551f74baaada21fb166" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema</scope><name>IGeomBaseSchema</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a331c2aaa3344c427fa72aa89887ff72a" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema</scope><name>IGeomBaseSchema</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a0c4299a17e3534abda898d6c655f8d3f" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema</scope><name>IGeomBaseSchema</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1ae9021b2606d76423cf4dfdfab8e3b191" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema</scope><name>info_type</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a346a39eb65631615398049c7aa9f8845" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema</scope><name>init</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a5e9e8dfce4f66cc6d5c0cbc184861356" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema</scope><name>m_arbGeomParams</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1ad60ae57e733665228832bb4ebb73f8a3" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema</scope><name>m_childBoundsProperty</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a69fb55565e4fbb5ab493f087a29833e0" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema</scope><name>m_selfBoundsProperty</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a7674a7901895336597726b94fb9ac6d7" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema</scope><name>m_userProperties</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a6378c04f4ca75331e647daea87f164f3" prot="public" virt="virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema</scope><name>reset</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1aa49688649c08f669488aadcc974e0a6a" prot="public" virt="virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

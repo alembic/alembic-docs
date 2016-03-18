@@ -1,0 +1,697 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema" kind="class" prot="public">
+    <compoundname>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</compoundname>
+    <basecompoundref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema" prot="public" virt="non-virtual">Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema&lt; CurvesSchemaInfo &gt;</basecompoundref>
+    <innerclass refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1_1_sample" prot="public">Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::Sample</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a795a1d750267317d0cc82be0a6ac8710" prot="public" static="no">
+        <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema" kindref="compound">ICurvesSchema</ref></type>
+        <definition>typedef ICurvesSchema Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::this_type</definition>
+        <argsstring></argsstring>
+        <name>this_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>By convention we always define this_type in AbcGeom classes. Used by unspecified-bool-type conversion below </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="139" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1aa7c8d9cb29b8a2fe10c3632dcd1f8db0" prot="public" static="no">
+        <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1_1_sample" kindref="compound">ICurvesSchema::Sample</ref></type>
+        <definition>typedef ICurvesSchema::Sample Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::sample_type</definition>
+        <argsstring></argsstring>
+        <name>sample_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="141" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a07d16eb0aee022d3c6f2230c002c342a" prot="protected" static="no" mutable="no">
+        <type>Abc::IP3fArrayProperty</type>
+        <definition>Abc::IP3fArrayProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::m_positionsProperty</definition>
+        <argsstring></argsstring>
+        <name>m_positionsProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="317" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="317" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a95ffef339748a3f5aa35162fb9238425" prot="protected" static="no" mutable="no">
+        <type>Abc::IV3fArrayProperty</type>
+        <definition>Abc::IV3fArrayProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::m_velocitiesProperty</definition>
+        <argsstring></argsstring>
+        <name>m_velocitiesProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="318" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="318" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a5845a74c597f12ee061be2a0b46522f0" prot="protected" static="no" mutable="no">
+        <type>Abc::IInt32ArrayProperty</type>
+        <definition>Abc::IInt32ArrayProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::m_nVerticesProperty</definition>
+        <argsstring></argsstring>
+        <name>m_nVerticesProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="319" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="319" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a57be5c35806f3a1203a7b1d84e2c7d21" prot="protected" static="no" mutable="no">
+        <type>Abc::IScalarProperty</type>
+        <definition>Abc::IScalarProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::m_basisAndTypeProperty</definition>
+        <argsstring></argsstring>
+        <name>m_basisAndTypeProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="322" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="322" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1aacce3ec7482ace4edb4f19b61aae1a05" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">IFloatGeomParam</ref></type>
+        <definition>IFloatGeomParam Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::m_widthsParam</definition>
+        <argsstring></argsstring>
+        <name>m_widthsParam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="324" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="324" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a3214bb373aaa595a60b89ac595d43397" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">IV2fGeomParam</ref></type>
+        <definition>IV2fGeomParam Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::m_uvsParam</definition>
+        <argsstring></argsstring>
+        <name>m_uvsParam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="325" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="325" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1aead6c87f66dfc572faa75156db76ed0d" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">IN3fGeomParam</ref></type>
+        <definition>IN3fGeomParam Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::m_normalsParam</definition>
+        <argsstring></argsstring>
+        <name>m_normalsParam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="326" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="326" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a747ae4e575f6eec28ed6eb0c6b397a6a" prot="protected" static="no" mutable="no">
+        <type>Abc::IFloatArrayProperty</type>
+        <definition>Abc::IFloatArrayProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::m_positionWeightsProperty</definition>
+        <argsstring></argsstring>
+        <name>m_positionWeightsProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="329" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1ae7c3feab0e011dca06f4cf70fff3dfd6" prot="protected" static="no" mutable="no">
+        <type>Abc::IUcharArrayProperty</type>
+        <definition>Abc::IUcharArrayProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::m_ordersProperty</definition>
+        <argsstring></argsstring>
+        <name>m_ordersProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="330" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="330" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a5d587203ef4bfa426b389507dbe9908e" prot="protected" static="no" mutable="no">
+        <type>Abc::IFloatArrayProperty</type>
+        <definition>Abc::IFloatArrayProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::m_knotsProperty</definition>
+        <argsstring></argsstring>
+        <name>m_knotsProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="331" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="331" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1ae462ea8c014f9bde2e1ee11d7aa1a844" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::ICurvesSchema</definition>
+        <argsstring>()</argsstring>
+        <name>ICurvesSchema</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default constructor creates an empty <ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema" kindref="compound">ICurvesSchema</ref> ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="149" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="149" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a7c1d41a2203d6e39d4150601a91623dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class CPROP_PTR</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::ICurvesSchema</definition>
+        <argsstring>(CPROP_PTR iParent, const std::string &amp;iName, const Abc::Argument &amp;iArg0=Abc::Argument(), const Abc::Argument &amp;iArg1=Abc::Argument())</argsstring>
+        <name>ICurvesSchema</name>
+        <param>
+          <type>CPROP_PTR</type>
+          <declname>iParent</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iName</declname>
+        </param>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg0</declname>
+          <defval>Abc::Argument()</defval>
+        </param>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg1</declname>
+          <defval>Abc::Argument()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This templated, explicit function creates a new scalar property reader. The first argument is any Abc (or AbcCoreAbstract) object which can intrusively be converted to an CompoundPropertyReaderPtr to use as a parent, from which the error handler policy for inheritance is also derived. The remaining optional arguments can be used to override the ErrorHandlerPolicy and to specify schema interpretation matching. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="164" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="159" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1ad9807ae4c63259459db698f3136070a8" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class CPROP_PTR</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::ICurvesSchema</definition>
+        <argsstring>(CPROP_PTR iParent, const Abc::Argument &amp;iArg0=Abc::Argument(), const Abc::Argument &amp;iArg1=Abc::Argument())</argsstring>
+        <name>ICurvesSchema</name>
+        <param>
+          <type>CPROP_PTR</type>
+          <declname>iParent</declname>
+        </param>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg0</declname>
+          <defval>Abc::Argument()</defval>
+        </param>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg1</declname>
+          <defval>Abc::Argument()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This constructor is the same as above, but with default schema name used. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="175" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="171" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a270a12a05b71d4847c921c1aa223af7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class CPROP_PTR</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::ICurvesSchema</definition>
+        <argsstring>(CPROP_PTR iThis, Abc::WrapExistingFlag iFlag, const Abc::Argument &amp;iArg0=Abc::Argument(), const Abc::Argument &amp;iArg1=Abc::Argument())</argsstring>
+        <name>ICurvesSchema</name>
+        <param>
+          <type>CPROP_PTR</type>
+          <declname>iThis</declname>
+        </param>
+        <param>
+          <type>Abc::WrapExistingFlag</type>
+          <declname>iFlag</declname>
+        </param>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg0</declname>
+          <defval>Abc::Argument()</defval>
+        </param>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg1</declname>
+          <defval>Abc::Argument()</defval>
+        </param>
+        <briefdescription>
+<para>Wrap an existing schema object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="186" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="181" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a70bd4a3419268856e9442b3d52c99790" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::ICurvesSchema</definition>
+        <argsstring>(const ICurvesSchema &amp;iCopy)</argsstring>
+        <name>ICurvesSchema</name>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema" kindref="compound">ICurvesSchema</ref> &amp;</type>
+          <declname>iCopy</declname>
+        </param>
+        <briefdescription>
+<para>Default assignment operator used. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="194" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="192" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a273feec1d0bec331daf43701e1535b3e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::getNumSamples</definition>
+        <argsstring>() const </argsstring>
+        <name>getNumSamples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="199" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="198" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1abd3293afcd7adf39b2ef369c88409f56" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MeshTopologyVariance</type>
+        <definition>MeshTopologyVariance Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::getTopologyVariance</definition>
+        <argsstring>() const </argsstring>
+        <name>getTopologyVariance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the topological variance. This indicates how the mesh may change. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="203"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a8c0966a6920c2e3a9bdd397c97b9937a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::isConstant</definition>
+        <argsstring>() const </argsstring>
+        <name>isConstant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Ask if we&apos;re constant - no change in value amongst samples, regardless of the time sampling. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="208" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="207" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a793fd759fcced72abbca8d8809d38342" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>AbcA::TimeSamplingPtr</type>
+        <definition>AbcA::TimeSamplingPtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::getTimeSampling</definition>
+        <argsstring>() const </argsstring>
+        <name>getTimeSampling</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Time sampling type. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="213" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="212" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a0ad02754bcec669ef0d8de0dcae2e5d2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::get</definition>
+        <argsstring>(sample_type &amp;oSample, const Abc::ISampleSelector &amp;iSS=Abc::ISampleSelector()) const </argsstring>
+        <name>get</name>
+        <param>
+          <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1_1_sample" kindref="compound">sample_type</ref> &amp;</type>
+          <declname>oSample</declname>
+        </param>
+        <param>
+          <type>const Abc::ISampleSelector &amp;</type>
+          <declname>iSS</declname>
+          <defval>Abc::ISampleSelector()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="219"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1ac04435791f754a92153fbfdb854d2648" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1_1_sample" kindref="compound">sample_type</ref></type>
+        <definition>sample_type Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::getValue</definition>
+        <argsstring>(const Abc::ISampleSelector &amp;iSS=Abc::ISampleSelector()) const </argsstring>
+        <name>getValue</name>
+        <param>
+          <type>const Abc::ISampleSelector &amp;</type>
+          <declname>iSS</declname>
+          <defval>Abc::ISampleSelector()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="223" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="221" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a741052136986464fb6f7132de87add2f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::IV3fArrayProperty</type>
+        <definition>Abc::IV3fArrayProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::getVelocitiesProperty</definition>
+        <argsstring>() const </argsstring>
+        <name>getVelocitiesProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="230" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="229" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a7e7269f80456df26575b09f34fbc7fef" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::IP3fArrayProperty</type>
+        <definition>Abc::IP3fArrayProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::getPositionsProperty</definition>
+        <argsstring>() const </argsstring>
+        <name>getPositionsProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="235" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="234" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a050e818a5ee3b9fbcef7b6d91edd080d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::IInt32ArrayProperty</type>
+        <definition>Abc::IInt32ArrayProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::getNumVerticesProperty</definition>
+        <argsstring>() const </argsstring>
+        <name>getNumVerticesProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="240" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="239" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1af69587bc5e79c3ab2cbbb164819740f5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::IFloatArrayProperty</type>
+        <definition>Abc::IFloatArrayProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::getPositionWeightsProperty</definition>
+        <argsstring>() const </argsstring>
+        <name>getPositionWeightsProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="246" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="245" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a06658ad4d0e2a2b1fec31bd929d88c41" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">IV2fGeomParam</ref></type>
+        <definition>IV2fGeomParam Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::getUVsParam</definition>
+        <argsstring>() const </argsstring>
+        <name>getUVsParam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="251" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="250" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1ae76d007fd70d43f2d32783da73ba29c4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">IN3fGeomParam</ref></type>
+        <definition>IN3fGeomParam Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::getNormalsParam</definition>
+        <argsstring>() const </argsstring>
+        <name>getNormalsParam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="256" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="255" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1adbbefb6ed3612d8dc187445b2ca5cd81" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">IFloatGeomParam</ref></type>
+        <definition>IFloatGeomParam Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::getWidthsParam</definition>
+        <argsstring>() const </argsstring>
+        <name>getWidthsParam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="261" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="260" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a4e5951475aefe87186247d06088ac798" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::IUcharArrayProperty</type>
+        <definition>Abc::IUcharArrayProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::getOrdersProperty</definition>
+        <argsstring>() const </argsstring>
+        <name>getOrdersProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="266" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="265" bodyend="268"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a2b76dc66eebcf447e8122c3848bbb96d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::IFloatArrayProperty</type>
+        <definition>Abc::IFloatArrayProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::getKnotsProperty</definition>
+        <argsstring>() const </argsstring>
+        <name>getKnotsProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="271" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="270" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1ab67ea2dd2810104f0e55c431b7b37f9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <reimplements refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a6378c04f4ca75331e647daea87f164f3">reset</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reset returns this function set to an empty, default state. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="284" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="283" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a16273184ee99f87ed271c0cacec6c8dd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::valid</definition>
+        <argsstring>() const </argsstring>
+        <name>valid</name>
+        <reimplements refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1aa49688649c08f669488aadcc974e0a6a">valid</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Valid returns whether this function set is valid. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="305" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="304" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a126e69fe045ac35e5b2b65b1ef45f2ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::ALEMBIC_OVERRIDE_OPERATOR_BOOL</definition>
+        <argsstring>(this_type::valid())</argsstring>
+        <name>ALEMBIC_OVERRIDE_OPERATOR_BOOL</name>
+        <param>
+          <type>this_type::</type>
+          <declname>valid</declname>
+          <array>()</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>unspecified-bool-type operator overload. ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="312"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a4cc62d29b632ae34cb712459281bff99" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema::init</definition>
+        <argsstring>(const Abc::Argument &amp;iArg0, const Abc::Argument &amp;iArg1)</argsstring>
+        <name>init</name>
+        <reimplements refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a346a39eb65631615398049c7aa9f8845">init</reimplements>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg0</declname>
+        </param>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="315"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="6">
+        <label>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</label>
+        <link refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Abc::ISchema&lt;CurvesSchemaInfo &gt;</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema"/>
+      </node>
+      <node id="7">
+        <label>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema&lt; CurvesSchemaInfo &gt;</label>
+        <link refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="12">
+        <label>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ITypedGeomParam&lt; N3fTPTraits &gt;</label>
+        <link refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param"/>
+      </node>
+      <node id="9">
+        <label>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</label>
+        <link refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>m_normalsParam</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>m_widthsParam</edgelabel>
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>m_uvsParam</edgelabel>
+        </childnode>
+      </node>
+      <node id="14">
+        <label>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ITypedGeomParam&lt; V2fTPTraits &gt;</label>
+        <link refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param"/>
+      </node>
+      <node id="13">
+        <label>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ITypedGeomParam&lt; Float32TPTraits &gt;</label>
+        <link refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param"/>
+      </node>
+      <node id="11">
+        <label>Abc::ISchema&lt;CurvesSchemaInfo &gt;</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema"/>
+      </node>
+      <node id="10">
+        <label>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IGeomBaseSchema&lt; CurvesSchemaInfo &gt;</label>
+        <link refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" line="54" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/ICurves.h" bodystart="53" bodyend="332"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a126e69fe045ac35e5b2b65b1ef45f2ac" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>ALEMBIC_OVERRIDE_OPERATOR_BOOL</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a0ad02754bcec669ef0d8de0dcae2e5d2" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>get</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a9736726f547c000bdf9baf62206aaf8a" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>getArbGeomParams</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a00553f71ee5c5db700c72761e991d89f" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>getChildBoundsProperty</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a2b76dc66eebcf447e8122c3848bbb96d" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>getKnotsProperty</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1ae76d007fd70d43f2d32783da73ba29c4" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>getNormalsParam</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a273feec1d0bec331daf43701e1535b3e" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>getNumSamples</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a050e818a5ee3b9fbcef7b6d91edd080d" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>getNumVerticesProperty</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a4e5951475aefe87186247d06088ac798" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>getOrdersProperty</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a7e7269f80456df26575b09f34fbc7fef" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>getPositionsProperty</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1af69587bc5e79c3ab2cbbb164819740f5" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>getPositionWeightsProperty</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1ab0d3bc72027537d6c0ecd94480335bcd" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>getSelfBoundsProperty</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a793fd759fcced72abbca8d8809d38342" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>getTimeSampling</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1abd3293afcd7adf39b2ef369c88409f56" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>getTopologyVariance</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1ad6d664bd9b11a61e1e34dddd9d90654f" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>getUserProperties</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a06658ad4d0e2a2b1fec31bd929d88c41" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>getUVsParam</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1ac04435791f754a92153fbfdb854d2648" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>getValue</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a741052136986464fb6f7132de87add2f" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>getVelocitiesProperty</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1adbbefb6ed3612d8dc187445b2ca5cd81" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>getWidthsParam</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1ae462ea8c014f9bde2e1ee11d7aa1a844" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>ICurvesSchema</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a7c1d41a2203d6e39d4150601a91623dc" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>ICurvesSchema</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1ad9807ae4c63259459db698f3136070a8" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>ICurvesSchema</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a270a12a05b71d4847c921c1aa223af7a" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>ICurvesSchema</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a70bd4a3419268856e9442b3d52c99790" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>ICurvesSchema</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1afd505d2c67a3d5d86a60519e966a009e" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>IGeomBaseSchema</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a84288647e074e0df57954383dd02cc56" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>IGeomBaseSchema</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a346dd3763ed20551f74baaada21fb166" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>IGeomBaseSchema</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a331c2aaa3344c427fa72aa89887ff72a" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>IGeomBaseSchema</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a0c4299a17e3534abda898d6c655f8d3f" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>IGeomBaseSchema</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1ae9021b2606d76423cf4dfdfab8e3b191" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>info_type</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a4cc62d29b632ae34cb712459281bff99" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>init</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a8c0966a6920c2e3a9bdd397c97b9937a" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>isConstant</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a5e9e8dfce4f66cc6d5c0cbc184861356" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>m_arbGeomParams</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a57be5c35806f3a1203a7b1d84e2c7d21" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>m_basisAndTypeProperty</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1ad60ae57e733665228832bb4ebb73f8a3" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>m_childBoundsProperty</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a5d587203ef4bfa426b389507dbe9908e" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>m_knotsProperty</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1aead6c87f66dfc572faa75156db76ed0d" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>m_normalsParam</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a5845a74c597f12ee061be2a0b46522f0" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>m_nVerticesProperty</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1ae7c3feab0e011dca06f4cf70fff3dfd6" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>m_ordersProperty</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a07d16eb0aee022d3c6f2230c002c342a" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>m_positionsProperty</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a747ae4e575f6eec28ed6eb0c6b397a6a" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>m_positionWeightsProperty</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a69fb55565e4fbb5ab493f087a29833e0" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>m_selfBoundsProperty</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a7674a7901895336597726b94fb9ac6d7" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>m_userProperties</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a3214bb373aaa595a60b89ac595d43397" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>m_uvsParam</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a95ffef339748a3f5aa35162fb9238425" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>m_velocitiesProperty</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1aacce3ec7482ace4edb4f19b61aae1a05" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>m_widthsParam</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1ab67ea2dd2810104f0e55c431b7b37f9d" prot="public" virt="virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>reset</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1aa7c8d9cb29b8a2fe10c3632dcd1f8db0" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>sample_type</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a795a1d750267317d0cc82be0a6ac8710" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>this_type</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_curves_schema_1a16273184ee99f87ed271c0cacec6c8dd" prot="public" virt="virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ICurvesSchema</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

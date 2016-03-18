@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer" kind="class" prot="public">
+    <compoundname>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter</compoundname>
+    <basecompoundref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer" prot="public" virt="non-virtual">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::BasePropertyWriter</basecompoundref>
+    <includes refid="_compound_property_writer_8h" local="no">CompoundPropertyWriter.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer_1a71e2bea13710666240af6505453db3d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter::~CompoundPropertyWriter</definition>
+        <argsstring>()</argsstring>
+        <name>~CompoundPropertyWriter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Virtual destructor ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/CompoundPropertyWriter.h" line="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer_1a144e735caa6b4d5e9afbdb4b797ca705" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>size_t</type>
+        <definition>virtual size_t Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter::getNumProperties</definition>
+        <argsstring>()=0</argsstring>
+        <name>getNumProperties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the number of properties that have been created thus far. May change as more are created. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/CompoundPropertyWriter.h" line="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer_1acfb8ae4223b4a391d8a47dc50f90337f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_property_header" kindref="compound">PropertyHeader</ref> &amp;</type>
+        <definition>virtual const PropertyHeader&amp; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter::getPropertyHeader</definition>
+        <argsstring>(size_t i)=0</argsstring>
+        <name>getPropertyHeader</name>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the header of a property that has already been added. Property is selected by index. This will throw an exception on out-of-range access. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/CompoundPropertyWriter.h" line="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer_1ad5fd17db5adc816fc8518f0740a07684" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_property_header" kindref="compound">PropertyHeader</ref> *</type>
+        <definition>virtual const PropertyHeader* Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter::getPropertyHeader</definition>
+        <argsstring>(const std::string &amp;iName)=0</argsstring>
+        <name>getPropertyHeader</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the header of a property that has already been added, found by name. A typical use of this would be for an application that wants to incrementally add properties, and wishes to query whether a property of a given name has already been added, before attempting to add a new one. This will return NULL if no property of the given name has been added. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/CompoundPropertyWriter.h" line="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer_1ac9a320087468ec1c2278f74609e9911f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>BasePropertyWriterPtr</type>
+        <definition>BasePropertyWriterPtr Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter::getProperty</definition>
+        <argsstring>(size_t i)</argsstring>
+        <name>getProperty</name>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>It is an error to request for a property by index out of range. This returns a property that has ALREADY BEEN ADDED. This will throw an exception on out-of-range access. There is a possibility it could return a NULL pointer, if the added property has been closed (deleted). This is just a convenience function which calls getPropertyHeader and then getProperty. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/CompoundPropertyWriter.h" line="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer_1ae4896cf78166ac5da8a0d246207110b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>BasePropertyWriterPtr</type>
+        <definition>virtual BasePropertyWriterPtr Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter::getProperty</definition>
+        <argsstring>(const std::string &amp;iName)=0</argsstring>
+        <name>getProperty</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns an ALREADY ADDED PROPERTY by name. If it can&apos;t find one by name, it returns an empty pointer. This can also happen if the property was added, but has been closed (deleted). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/CompoundPropertyWriter.h" line="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer_1a20fc62aeac4e458096cbee3dad964115" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>ScalarPropertyWriterPtr</type>
+        <definition>virtual ScalarPropertyWriterPtr Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter::createScalarProperty</definition>
+        <argsstring>(const std::string &amp;iName, const MetaData &amp;iMetaData, const DataType &amp;iDataType, uint32_t iTimeSamplingIndex)=0</argsstring>
+        <name>createScalarProperty</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iName</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> &amp;</type>
+          <declname>iMetaData</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type" kindref="compound">DataType</ref> &amp;</type>
+          <declname>iDataType</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>iTimeSamplingIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create and return the requested scalar property. If a property already exists with the same name, throws an exception. An exception will also be thrown if the <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type" kindref="compound">DataType</ref>, or time sampling index is illegal. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/CompoundPropertyWriter.h" line="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer_1af0426640732433c767c404eaaf759299" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>ArrayPropertyWriterPtr</type>
+        <definition>virtual ArrayPropertyWriterPtr Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter::createArrayProperty</definition>
+        <argsstring>(const std::string &amp;iName, const MetaData &amp;iMetaData, const DataType &amp;iDataType, uint32_t iTimeSamplingIndex)=0</argsstring>
+        <name>createArrayProperty</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iName</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> &amp;</type>
+          <declname>iMetaData</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type" kindref="compound">DataType</ref> &amp;</type>
+          <declname>iDataType</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>iTimeSamplingIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create and return the requested array property. If a property already exists with the same name, throws. an exception. An exception will also be thrown if the <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type" kindref="compound">DataType</ref>, or time sampling index is illegal. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/CompoundPropertyWriter.h" line="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer_1a5aa0f517b10259d9025ae9ef79b98926" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>CompoundPropertyWriterPtr</type>
+        <definition>virtual CompoundPropertyWriterPtr Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter::createCompoundProperty</definition>
+        <argsstring>(const std::string &amp;iName, const MetaData &amp;iMetaData)=0</argsstring>
+        <name>createCompoundProperty</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iName</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> &amp;</type>
+          <declname>iMetaData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create and return the requested compound property. If a property already exists with the same name, throws an exception. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/CompoundPropertyWriter.h" line="121"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A CompoundProperty is a group of other properties, possibly Simple or possibly Compound. Every object has at one of these. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="39">
+        <label>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter</label>
+        <link refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::BasePropertyWriter</label>
+        <link refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="41">
+        <label>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter</label>
+        <link refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer"/>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::BasePropertyWriter</label>
+        <link refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer"/>
+      </node>
+    </collaborationgraph>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/CompoundPropertyWriter.h" line="53" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/CompoundPropertyWriter.h" bodystart="51" bodyend="123"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1a34ec0068d675a4ef3d87039aa566b853" prot="public" virt="virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter</scope><name>asArrayPtr</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1a2d24966ea8a448142131dd9b328f501c" prot="public" virt="virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter</scope><name>asCompoundPtr</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1a8886cf07cefe81ef24efba8684ca0937" prot="public" virt="virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter</scope><name>asScalarPtr</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer_1af0426640732433c767c404eaaf759299" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter</scope><name>createArrayProperty</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer_1a5aa0f517b10259d9025ae9ef79b98926" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter</scope><name>createCompoundProperty</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer_1a20fc62aeac4e458096cbee3dad964115" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter</scope><name>createScalarProperty</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1ac3f002773f52a853947f149105465491" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter</scope><name>getDataType</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1aa597b00285e091cc41061285f6e5c2fe" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter</scope><name>getHeader</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1a091f30110679dfda4d0f0941bfb6a9f6" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter</scope><name>getMetaData</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1a6b19a0d07332a0afa1449ae10d883a1d" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter</scope><name>getName</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer_1a144e735caa6b4d5e9afbdb4b797ca705" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter</scope><name>getNumProperties</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1ac33c08d495e3ab72437b735d37dd4256" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter</scope><name>getObject</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1a8275cc226af42cf6f906f52a01b6d6cd" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter</scope><name>getParent</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer_1ac9a320087468ec1c2278f74609e9911f" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter</scope><name>getProperty</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer_1ae4896cf78166ac5da8a0d246207110b7" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter</scope><name>getProperty</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer_1acfb8ae4223b4a391d8a47dc50f90337f" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter</scope><name>getPropertyHeader</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer_1ad5fd17db5adc816fc8518f0740a07684" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter</scope><name>getPropertyHeader</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1a7d9bdb9cc5daa81144100e3cab334f3d" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter</scope><name>getPropertyType</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1af2d3abe6a7405670d4545cfd225fc393" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter</scope><name>getTimeSampling</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1af2ab6900320bb39016615d415f8555b4" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter</scope><name>isArray</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1a7c3d00015e79d249125b524aa65441e4" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter</scope><name>isCompound</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1a1e264815a7aea859c54090f42d31f525" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter</scope><name>isScalar</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1addb6ce88ca32d9005fedf66d52b4f53d" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter</scope><name>isSimple</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1a65b7e7f3f1c230405bf7a0e9d5cc754d" prot="public" virt="virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter</scope><name>~BasePropertyWriter</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer_1a71e2bea13710666240af6505453db3d0" prot="public" virt="virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter</scope><name>~CompoundPropertyWriter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

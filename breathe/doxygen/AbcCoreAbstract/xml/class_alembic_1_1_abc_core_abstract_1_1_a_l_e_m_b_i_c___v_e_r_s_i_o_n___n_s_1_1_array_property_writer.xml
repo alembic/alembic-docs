@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_writer" kind="class" prot="public">
+    <compoundname>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyWriter</compoundname>
+    <basecompoundref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer" prot="public" virt="non-virtual">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::BasePropertyWriter</basecompoundref>
+    <includes refid="_array_property_writer_8h" local="no">ArrayPropertyWriter.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_writer_1a028ff66d3558af836bc6be4486e4c8ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyWriter::~ArrayPropertyWriter</definition>
+        <argsstring>()</argsstring>
+        <name>~ArrayPropertyWriter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Virtual destructor ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArrayPropertyWriter.h" line="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_writer_1a53feedc7f793f56e14a616f7114217b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyWriter::setSample</definition>
+        <argsstring>(const ArraySample &amp;iSamp)=0</argsstring>
+        <name>setSample</name>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample" kindref="compound">ArraySample</ref> &amp;</type>
+          <declname>iSamp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets a sample</para><para>This takes a read-only <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample" kindref="compound">ArraySample</ref> by const reference. The class will make an internal copy (or the functional equivalent of ), and will not use that memory block outside the scope of this function call.</para><para>Arrays of std::string and std::wstring are assumed to be treated just like regular data elements. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArrayPropertyWriter.h" line="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_writer_1a9b4a91e20c1df1ebefff5ee78bca9ab1" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyWriter::setFromPreviousSample</definition>
+        <argsstring>()=0</argsstring>
+        <name>setFromPreviousSample</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the next sample to equal the previous sample. An important feature! </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArrayPropertyWriter.h" line="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_writer_1ad94e0d46e0db1c8a8c528332dfe3e68f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>size_t</type>
+        <definition>virtual size_t Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyWriter::getNumSamples</definition>
+        <argsstring>()=0</argsstring>
+        <name>getNumSamples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the number of samples that have been written so far. This changes as samples are written. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArrayPropertyWriter.h" line="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_writer_1a09e716d1b079541986ebc9d28fd7b50f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyWriter::setTimeSamplingIndex</definition>
+        <argsstring>(uint32_t iIndex)=0</argsstring>
+        <name>setTimeSamplingIndex</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>iIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Changes the <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling" kindref="compound">TimeSampling</ref> used by this property. If the <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling" kindref="compound">TimeSampling</ref> is changed to Acyclic and the number of samples currently set is more than the number of times provided in the Acyclic <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling" kindref="compound">TimeSampling</ref>, an exception will be thrown. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArrayPropertyWriter.h" line="90"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>An Array Property is a Rank N (usually 1-3) property which has a multidimensional array of identically typed values for each sample. This is distinguished from a Simple Property, which has a single element per sample, and requires less sophisticated resource management. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="12">
+        <label>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyWriter</label>
+        <link refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_writer"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::BasePropertyWriter</label>
+        <link refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="14">
+        <label>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyWriter</label>
+        <link refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_writer"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::BasePropertyWriter</label>
+        <link refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer"/>
+      </node>
+    </collaborationgraph>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArrayPropertyWriter.h" line="57" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArrayPropertyWriter.h" bodystart="55" bodyend="91"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1a34ec0068d675a4ef3d87039aa566b853" prot="public" virt="virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyWriter</scope><name>asArrayPtr</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1a2d24966ea8a448142131dd9b328f501c" prot="public" virt="virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyWriter</scope><name>asCompoundPtr</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1a8886cf07cefe81ef24efba8684ca0937" prot="public" virt="virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyWriter</scope><name>asScalarPtr</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1ac3f002773f52a853947f149105465491" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyWriter</scope><name>getDataType</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1aa597b00285e091cc41061285f6e5c2fe" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyWriter</scope><name>getHeader</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1a091f30110679dfda4d0f0941bfb6a9f6" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyWriter</scope><name>getMetaData</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1a6b19a0d07332a0afa1449ae10d883a1d" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyWriter</scope><name>getName</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_writer_1ad94e0d46e0db1c8a8c528332dfe3e68f" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyWriter</scope><name>getNumSamples</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1ac33c08d495e3ab72437b735d37dd4256" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyWriter</scope><name>getObject</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1a8275cc226af42cf6f906f52a01b6d6cd" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyWriter</scope><name>getParent</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1a7d9bdb9cc5daa81144100e3cab334f3d" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyWriter</scope><name>getPropertyType</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1af2d3abe6a7405670d4545cfd225fc393" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyWriter</scope><name>getTimeSampling</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1af2ab6900320bb39016615d415f8555b4" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyWriter</scope><name>isArray</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1a7c3d00015e79d249125b524aa65441e4" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyWriter</scope><name>isCompound</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1a1e264815a7aea859c54090f42d31f525" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyWriter</scope><name>isScalar</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1addb6ce88ca32d9005fedf66d52b4f53d" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyWriter</scope><name>isSimple</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_writer_1a9b4a91e20c1df1ebefff5ee78bca9ab1" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyWriter</scope><name>setFromPreviousSample</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_writer_1a53feedc7f793f56e14a616f7114217b7" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyWriter</scope><name>setSample</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_writer_1a09e716d1b079541986ebc9d28fd7b50f" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyWriter</scope><name>setTimeSamplingIndex</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_writer_1a028ff66d3558af836bc6be4486e4c8ec" prot="public" virt="virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyWriter</scope><name>~ArrayPropertyWriter</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer_1a65b7e7f3f1c230405bf7a0e9d5cc754d" prot="public" virt="virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyWriter</scope><name>~BasePropertyWriter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

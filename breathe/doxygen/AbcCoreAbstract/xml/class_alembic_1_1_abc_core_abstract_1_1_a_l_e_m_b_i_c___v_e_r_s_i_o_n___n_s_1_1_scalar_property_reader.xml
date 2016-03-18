@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_reader" kind="class" prot="public">
+    <compoundname>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader</compoundname>
+    <basecompoundref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader" prot="public" virt="non-virtual">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::BasePropertyReader</basecompoundref>
+    <includes refid="_scalar_property_reader_8h" local="no">ScalarPropertyReader.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_reader_1a0a9b51162037d3f1399d3cd5d32e5e47" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader::~ScalarPropertyReader</definition>
+        <argsstring>()</argsstring>
+        <name>~ScalarPropertyReader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Virtual destructor ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ScalarPropertyReader.h" line="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_reader_1aa8ee7e377e8a8fbd12e4bef2b7828491" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>size_t</type>
+        <definition>virtual size_t Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader::getNumSamples</definition>
+        <argsstring>()=0</argsstring>
+        <name>getNumSamples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the number of samples contained in the property. This can be any number, including zero. This returns the number of samples that were written, independently of whether or not they were constant. Implementations may (and should) choose to condense identical samples. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ScalarPropertyReader.h" line="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_reader_1a531bbb582574429c56987e4e07b7f510" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader::isConstant</definition>
+        <argsstring>()=0</argsstring>
+        <name>isConstant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Ask if we&apos;re constant - no change in value amongst samples, regardless of the time sampling. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ScalarPropertyReader.h" line="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_reader_1a673107e2c1ead2e2ec8d0b740e4ce2b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader::getSample</definition>
+        <argsstring>(index_t iSample, void *iIntoLocation)=0</argsstring>
+        <name>getSample</name>
+        <param>
+          <type>index_t</type>
+          <declname>iSample</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>iIntoLocation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the single sample value for the requested sample by reference. Out-of-range indices will cause an exception to be thrown. It will copy the scalar value directly into the memory location specified by iIntoLocation</para><para>In all cases EXCEPT String and Wstring, the <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type" kindref="compound">DataType</ref> for this property can be used to determine the size of the memory buffer which iIntoLocation must point to. In the case of String and Wstring, iIntoLocation should be ( void * )&amp;std::string and ( void * )&amp;std::wstring, respectively.</para><para>This is one of the only places where we break from POD types at the base, and we&apos;re making an explicit decision to use std::string and std::wstring as core language-level primitives. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ScalarPropertyReader.h" line="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_reader_1aa72e72242299f3efd3fde4977d75064c" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::pair&lt; index_t, chrono_t &gt;</type>
+        <definition>virtual std::pair&lt;index_t, chrono_t&gt; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader::getFloorIndex</definition>
+        <argsstring>(chrono_t iTime)=0</argsstring>
+        <name>getFloorIndex</name>
+        <param>
+          <type>chrono_t</type>
+          <declname>iTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Find the largest valid index that has a time less than or equal to the given time. Invalid to call this with zero samples. If the minimum sample time is greater than iTime, index 0 will be returned. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ScalarPropertyReader.h" line="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_reader_1a970d0040be7810d2679d2dfa4f663be4" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::pair&lt; index_t, chrono_t &gt;</type>
+        <definition>virtual std::pair&lt;index_t, chrono_t&gt; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader::getCeilIndex</definition>
+        <argsstring>(chrono_t iTime)=0</argsstring>
+        <name>getCeilIndex</name>
+        <param>
+          <type>chrono_t</type>
+          <declname>iTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Find the smallest valid index that has a time greater than the given time. Invalid to call this with zero samples. If the maximum sample time is less than iTime, index numSamples-1 will be returned. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ScalarPropertyReader.h" line="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_reader_1ad2752c9b43ccedfdadf081d43d313c64" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::pair&lt; index_t, chrono_t &gt;</type>
+        <definition>virtual std::pair&lt;index_t, chrono_t&gt; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader::getNearIndex</definition>
+        <argsstring>(chrono_t iTime)=0</argsstring>
+        <name>getNearIndex</name>
+        <param>
+          <type>chrono_t</type>
+          <declname>iTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Find the valid index with the closest time to the given time. Invalid to call this with zero samples. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ScalarPropertyReader.h" line="108"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A Scalar Property is a Rank 0 property which has a single value for each sample. This is distinguished from an Array Property, which has a variable number of elements per sample, and requires more sophisticated resource management. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="65">
+        <label>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader</label>
+        <link refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_reader"/>
+        <childnode refid="66" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::BasePropertyReader</label>
+        <link refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="67">
+        <label>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader</label>
+        <link refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_reader"/>
+        <childnode refid="68" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::BasePropertyReader</label>
+        <link refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader"/>
+      </node>
+    </collaborationgraph>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ScalarPropertyReader.h" line="55" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ScalarPropertyReader.h" bodystart="53" bodyend="109"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader_1a48fd973036944807cb076c2c477e2b4d" prot="public" virt="virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader</scope><name>asArrayPtr</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader_1ab09abe9a2b385089778c98bfb9e5855d" prot="public" virt="virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader</scope><name>asCompoundPtr</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader_1a6bb1ea4123627a7af461518a85bc767e" prot="public" virt="virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader</scope><name>asScalarPtr</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_reader_1a970d0040be7810d2679d2dfa4f663be4" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader</scope><name>getCeilIndex</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader_1a03810de138b06e8c406841fa9c3c4b11" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader</scope><name>getDataType</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_reader_1aa72e72242299f3efd3fde4977d75064c" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader</scope><name>getFloorIndex</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader_1ade14c5d7db0efe847d2b214ba45fc071" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader</scope><name>getHeader</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader_1af8e668ae08e7a30019e725632a0d90c0" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader</scope><name>getMetaData</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader_1a9a7b23f534175031581c1cc4862925e8" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader</scope><name>getName</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_reader_1ad2752c9b43ccedfdadf081d43d313c64" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader</scope><name>getNearIndex</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_reader_1aa8ee7e377e8a8fbd12e4bef2b7828491" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader</scope><name>getNumSamples</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader_1a3d48f520baa360218715d1879e4584ca" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader</scope><name>getObject</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader_1acc23e2bb3d7cd24dd81ff1ae80dfbced" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader</scope><name>getParent</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader_1a899883189b969f6e3f5ad139822351ed" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader</scope><name>getPropertyType</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_reader_1a673107e2c1ead2e2ec8d0b740e4ce2b9" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader</scope><name>getSample</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader_1af31433c192a5e368108ed61abc6ba9af" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader</scope><name>getTimeSampling</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader_1a7e314690fb71ca6588f8f6462e83ffe1" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader</scope><name>isArray</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader_1a5bb42239463323668a463b2689616e54" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader</scope><name>isCompound</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_reader_1a531bbb582574429c56987e4e07b7f510" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader</scope><name>isConstant</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader_1a59d897b705e3a3ceeff74ae3e068f64e" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader</scope><name>isScalar</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader_1a908162fdef5b79229bcb466521890bd6" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader</scope><name>isSimple</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader_1a672435062a1e110fd193ea3c7f82744c" prot="public" virt="virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader</scope><name>~BasePropertyReader</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_reader_1a0a9b51162037d3f1399d3cd5d32e5e47" prot="public" virt="virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader</scope><name>~ScalarPropertyReader</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_exception" kind="class" prot="public">
+    <compoundname>Alembic::Util::ALEMBIC_VERSION_NS::Exception</compoundname>
+    <includes refid="_exception_8h" local="no">Exception.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_exception_1afa35ed8d616919d44a7e5ed04178a9d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Util::ALEMBIC_VERSION_NS::Exception::Exception</definition>
+        <argsstring>()</argsstring>
+        <name>Exception</name>
+        <exceptions> throw ()</exceptions>
+        <briefdescription>
+<para>default constructor creates exception with empty message string </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Exception.h" line="62" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Exception.h" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_exception_1a393bcd015cdd9bb4a918a0da6979984d" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Util::ALEMBIC_VERSION_NS::Exception::Exception</definition>
+        <argsstring>(const std::string &amp;str)</argsstring>
+        <name>Exception</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <exceptions> throw ()</exceptions>
+        <briefdescription>
+<para>Creates exception with an explicit message string. ... </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Exception.h" line="67" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Exception.h" bodystart="66" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_exception_1a41ef3c6640f8fc8aa8a87c000ca2bb8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Util::ALEMBIC_VERSION_NS::Exception::Exception</definition>
+        <argsstring>(const Exception &amp;exc)</argsstring>
+        <name>Exception</name>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_exception" kindref="compound">Exception</ref> &amp;</type>
+          <declname>exc</declname>
+        </param>
+        <exceptions> throw ()</exceptions>
+        <briefdescription>
+<para>Copies exception. ... </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Exception.h" line="72" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Exception.h" bodystart="71" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_exception_1a921f85f791102499a30fc62a574e197c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual Alembic::Util::ALEMBIC_VERSION_NS::Exception::~Exception</definition>
+        <argsstring>()</argsstring>
+        <name>~Exception</name>
+        <exceptions> throw ()</exceptions>
+        <briefdescription>
+<para>Destructor is empty, but virtual to support polymorphic destruction of data in any derived classes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Exception.h" line="76" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Exception.h" bodystart="76" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_exception_1a51cd0ff1f3dff67b3d8506c2bf524f53" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>const char *</type>
+        <definition>virtual const char* Alembic::Util::ALEMBIC_VERSION_NS::Exception::what</definition>
+        <argsstring>() const </argsstring>
+        <name>what</name>
+        <exceptions> throw ()</exceptions>
+        <briefdescription>
+<para>Inherited from std::exception, this returns a non-modifiable character string describing the nature of the exception. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Exception.h" line="80" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Exception.h" bodystart="80" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Base class for all exceptions in the <ref refid="namespace_alembic" kindref="compound">Alembic</ref> libraries. Derived from both std::exception and std::string, publicly It is mostly commonly thrown using the macros. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Exception.h" line="58" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Exception.h" bodystart="57" bodyend="81"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_exception_1afa35ed8d616919d44a7e5ed04178a9d7" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::Exception</scope><name>Exception</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_exception_1a393bcd015cdd9bb4a918a0da6979984d" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::Exception</scope><name>Exception</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_exception_1a41ef3c6640f8fc8aa8a87c000ca2bb8b" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::Exception</scope><name>Exception</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_exception_1a51cd0ff1f3dff67b3d8506c2bf524f53" prot="public" virt="virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::Exception</scope><name>what</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_exception_1a921f85f791102499a30fc62a574e197c" prot="public" virt="virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::Exception</scope><name>~Exception</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

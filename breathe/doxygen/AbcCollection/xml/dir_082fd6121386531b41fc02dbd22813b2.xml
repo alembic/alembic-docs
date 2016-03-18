@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="dir_082fd6121386531b41fc02dbd22813b2" kind="dir">
+    <compoundname>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/</compoundname>
+    <innerfile refid="_all_8h">All.h</innerfile>
+    <innerfile refid="_i_collections_8h">ICollections.h</innerfile>
+    <innerfile refid="_o_collections_8h">OCollections.h</innerfile>
+    <innerfile refid="_schema_info_declarations_8h">SchemaInfoDeclarations.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_schema" kind="class" prot="public">
+    <compoundname>Alembic::Abc::ALEMBIC_VERSION_NS::OSchema</compoundname>
+    <derivedcompoundref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_geom_base_schema" prot="public" virt="non-virtual">Alembic::AbcGeom::ALEMBIC_VERSION_NS::OGeomBaseSchema&lt; CurvesSchemaInfo &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_geom_base_schema" prot="public" virt="non-virtual">Alembic::AbcGeom::ALEMBIC_VERSION_NS::OGeomBaseSchema&lt; FaceSetSchemaInfo &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_geom_base_schema" prot="public" virt="non-virtual">Alembic::AbcGeom::ALEMBIC_VERSION_NS::OGeomBaseSchema&lt; NuPatchSchemaInfo &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_geom_base_schema" prot="public" virt="non-virtual">Alembic::AbcGeom::ALEMBIC_VERSION_NS::OGeomBaseSchema&lt; PointsSchemaInfo &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_geom_base_schema" prot="public" virt="non-virtual">Alembic::AbcGeom::ALEMBIC_VERSION_NS::OGeomBaseSchema&lt; PolyMeshSchemaInfo &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_geom_base_schema" prot="public" virt="non-virtual">Alembic::AbcGeom::ALEMBIC_VERSION_NS::OGeomBaseSchema&lt; SubDSchemaInfo &gt;</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="142">
+        <label>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OSubDSchema</label>
+        <link refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_sub_d_schema"/>
+        <childnode refid="141" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="135">
+        <label>OGeomBaseSchema&lt; NuPatchSchemaInfo &gt;</label>
+        <link refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_geom_base_schema"/>
+        <childnode refid="130" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="132">
+        <label>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCurvesSchema</label>
+        <link refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_curves_schema"/>
+        <childnode refid="131" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="140">
+        <label>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema</label>
+        <link refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema"/>
+        <childnode refid="139" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="141">
+        <label>OGeomBaseSchema&lt; SubDSchemaInfo &gt;</label>
+        <link refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_geom_base_schema"/>
+        <childnode refid="130" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="139">
+        <label>OGeomBaseSchema&lt; PolyMeshSchemaInfo &gt;</label>
+        <link refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_geom_base_schema"/>
+        <childnode refid="130" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="134">
+        <label>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OFaceSetSchema</label>
+        <link refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_face_set_schema"/>
+        <childnode refid="133" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="138">
+        <label>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPointsSchema</label>
+        <link refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_points_schema"/>
+        <childnode refid="137" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="137">
+        <label>OGeomBaseSchema&lt; PointsSchemaInfo &gt;</label>
+        <link refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_geom_base_schema"/>
+        <childnode refid="130" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="133">
+        <label>OGeomBaseSchema&lt; FaceSetSchemaInfo &gt;</label>
+        <link refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_geom_base_schema"/>
+        <childnode refid="130" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="130">
+        <label>OSchema</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_schema"/>
+      </node>
+      <node id="136">
+        <label>Alembic::AbcGeom::ALEMBIC_VERSION_NS::ONuPatchSchema</label>
+        <link refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_nu_patch_schema"/>
+        <childnode refid="135" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="131">
+        <label>OGeomBaseSchema&lt; CurvesSchemaInfo &gt;</label>
+        <link refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_geom_base_schema"/>
+        <childnode refid="130" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomBase.h" line="59"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

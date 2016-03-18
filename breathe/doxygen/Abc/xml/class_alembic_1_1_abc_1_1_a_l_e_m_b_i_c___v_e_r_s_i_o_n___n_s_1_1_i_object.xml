@@ -1,0 +1,695 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object" kind="class" prot="public">
+    <compoundname>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</compoundname>
+    <basecompoundref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base" prot="public" virt="non-virtual">Alembic::Abc::ALEMBIC_VERSION_NS::Base</basecompoundref>
+    <derivedcompoundref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_object" prot="public" virt="non-virtual">Alembic::Abc::ALEMBIC_VERSION_NS::ISchemaObject&lt; SCHEMA &gt;</derivedcompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1ac9137a27ca3934d7aa5ac3b6dd24e19e" prot="public" static="no">
+        <type><ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object" kindref="compound">IObject</ref></type>
+        <definition>typedef IObject Alembic::Abc::ALEMBIC_VERSION_NS::IObject::this_type</definition>
+        <argsstring></argsstring>
+        <name>this_type</name>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_object_1a1d6304e47ab1f38a9ba3f6629910c51f">this_type</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>By convention, we always define &quot;this_type&quot; in every Abc class. This convention is relied upon by the unspecified-bool-type conversion. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="59" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1ad25af3514988dd30db102a64274403dd" prot="public" static="no">
+        <type><ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object" kindref="compound">IObject</ref></type>
+        <definition>typedef IObject Alembic::Abc::ALEMBIC_VERSION_NS::IObject::operator_bool_base_type</definition>
+        <argsstring></argsstring>
+        <name>operator_bool_base_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="60" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a94ec5620094de247989023e0b101d2c6" prot="public" static="no" mutable="no">
+        <type>AbcA::ObjectReaderPtr</type>
+        <definition>AbcA::ObjectReaderPtr Alembic::Abc::ALEMBIC_VERSION_NS::IObject::m_object</definition>
+        <argsstring></argsstring>
+        <name>m_object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="256" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" bodystart="256" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a0a7a70e32357275000c286d4151d049c" prot="private" static="no" mutable="no">
+        <type>AbcA::ObjectReaderPtr</type>
+        <definition>AbcA::ObjectReaderPtr Alembic::Abc::ALEMBIC_VERSION_NS::IObject::m_instanceObject</definition>
+        <argsstring></argsstring>
+        <name>m_instanceObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="268" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" bodystart="268" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a9813e7071766001f27241d1929e7842b" prot="private" static="no" mutable="yes">
+        <type>std::string</type>
+        <definition>std::string Alembic::Abc::ALEMBIC_VERSION_NS::IObject::m_instancedFullName</definition>
+        <argsstring></argsstring>
+        <name>m_instancedFullName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="271" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" bodystart="271" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a04d03f45f7d379aa5843f629218fa061" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Abc::ALEMBIC_VERSION_NS::IObject::IObject</definition>
+        <argsstring>()</argsstring>
+        <name>IObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default constructor creates an empty <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object" kindref="compound">IObject</ref> function set. ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="68" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" bodystart="68" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a4b6d252ce2a41c51bc182b1dabec8b0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class OBJECT_PTR</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>Alembic::Abc::ALEMBIC_VERSION_NS::IObject::IObject</definition>
+        <argsstring>(OBJECT_PTR iParentObject, const std::string &amp;iName, const Argument &amp;iArg0=Argument())</argsstring>
+        <name>IObject</name>
+        <param>
+          <type>OBJECT_PTR</type>
+          <declname>iParentObject</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iName</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument" kindref="compound">Argument</ref> &amp;</type>
+          <declname>iArg0</declname>
+          <defval><ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument" kindref="compound">Argument</ref>()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This templated, explicit function creates a new object reader. The first argument is any Abc (or AbcCoreAbstract) object which can intrusively be converted to an AbcA::ObjectReaderPtr to use as a parent, from which the error handler policy for inheritance is also derived. The remaining optional arguments can be used to override the ErrorHandlerPolicy. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="79" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" bodystart="294" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a544043e895f618b0e57a3e2e6d83cf42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class OBJECT_PTR</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>Alembic::Abc::ALEMBIC_VERSION_NS::IObject::IObject</definition>
+        <argsstring>(OBJECT_PTR iPtr, WrapExistingFlag, const Argument &amp;iArg0=Argument())</argsstring>
+        <name>IObject</name>
+        <param>
+          <type>OBJECT_PTR</type>
+          <declname>iPtr</declname>
+        </param>
+        <param>
+          <type>WrapExistingFlag</type>
+        </param>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument" kindref="compound">Argument</ref> &amp;</type>
+          <declname>iArg0</declname>
+          <defval><ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument" kindref="compound">Argument</ref>()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This attaches an <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object" kindref="compound">IObject</ref> wrapper around an existing ObjectReaderPtr, with an optional error handling policy. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="88" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" bodystart="84" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a68c0c39f8412e86913829721bdf180c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class ARCHIVE_PTR</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>Alembic::Abc::ALEMBIC_VERSION_NS::IObject::IObject</definition>
+        <argsstring>(ARCHIVE_PTR iPtr, TopFlag iFlag, const Argument &amp;iArg0=Argument())</argsstring>
+        <name>IObject</name>
+        <param>
+          <type>ARCHIVE_PTR</type>
+          <declname>iPtr</declname>
+        </param>
+        <param>
+          <type>TopFlag</type>
+          <declname>iFlag</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument" kindref="compound">Argument</ref> &amp;</type>
+          <declname>iArg0</declname>
+          <defval><ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument" kindref="compound">Argument</ref>()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This attaches an <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object" kindref="compound">IObject</ref> wrapper around the top object of an archive. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="102" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" bodystart="99" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1addbfb16bfbbe56dfcb139b83ef3ba52d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual Alembic::Abc::ALEMBIC_VERSION_NS::IObject::~IObject</definition>
+        <argsstring>()</argsstring>
+        <name>~IObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default copy constructor used Default assignment operator used. Destructor ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a5dfe3183b6469aba37ec0b73f0a9340c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const AbcA::ObjectHeader &amp;</type>
+        <definition>const AbcA::ObjectHeader&amp; Alembic::Abc::ALEMBIC_VERSION_NS::IObject::getHeader</definition>
+        <argsstring>() const </argsstring>
+        <name>getHeader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>All objects have a header, which contains all the MetaData that was specified upon their creation. This function returns a constant reference to that Header. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1ab2cc0bb4d229aff45ab1d4e5c27c7742" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::string &amp;</type>
+        <definition>const std::string&amp; Alembic::Abc::ALEMBIC_VERSION_NS::IObject::getName</definition>
+        <argsstring>() const </argsstring>
+        <name>getName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>All objects have a name. This name is unique amongst their siblings Returned by reference, since it is guaranteed to exist and be unchanging. This is a convenience function which returns the header&apos;s name. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1aebb1d1bcb0722a1715eeb69659fe1aa9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::string &amp;</type>
+        <definition>const std::string&amp; Alembic::Abc::ALEMBIC_VERSION_NS::IObject::getFullName</definition>
+        <argsstring>() const </argsstring>
+        <name>getFullName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The full name of an object is the complete path name all the way to the root object of the archive. It is guaranteed to be fully unique within the entire archive. This is a convenience function which returns the header&apos;s full name. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a29218bdee072333d8fde54e3b04a39a2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const AbcA::MetaData &amp;</type>
+        <definition>const AbcA::MetaData&amp; Alembic::Abc::ALEMBIC_VERSION_NS::IObject::getMetaData</definition>
+        <argsstring>() const </argsstring>
+        <name>getMetaData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>All objects have metadata. This metadata is identical to the Metadata of the top level compoundProperty &quot;properties&quot;. Because the metadata must exist and be initialized in order to bootstrap the object, it is guaranteed to exist and is returned by reference. This is a convenience function which returns the header&apos;s MetaData. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="149" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" bodystart="148" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a8758344eb104089146ef27a2b1384882" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_archive" kindref="compound">IArchive</ref></type>
+        <definition>IArchive Alembic::Abc::ALEMBIC_VERSION_NS::IObject::getArchive</definition>
+        <argsstring>() const </argsstring>
+        <name>getArchive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns the object&apos;s archive, handily wrapped in an <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_archive" kindref="compound">IArchive</ref> wrapper. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="153"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a1cba4f7fe37726842aaee5f5fa4d38ed" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object" kindref="compound">IObject</ref></type>
+        <definition>IObject Alembic::Abc::ALEMBIC_VERSION_NS::IObject::getParent</definition>
+        <argsstring>() const </argsstring>
+        <name>getParent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns the object&apos;s parent, handily wrapped in an <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object" kindref="compound">IObject</ref> wrapper. If the object is the top level object, the <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object" kindref="compound">IObject</ref> returned will be NULL. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a4aaff7454fcbe0fa6c8042c20923b2c1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t Alembic::Abc::ALEMBIC_VERSION_NS::IObject::getNumChildren</definition>
+        <argsstring>() const </argsstring>
+        <name>getNumChildren</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns the number of child objects that this object has. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="162"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a0714a127cccb3aa4cf2c9bbd0ec03acc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const AbcA::ObjectHeader &amp;</type>
+        <definition>const AbcA::ObjectHeader&amp; Alembic::Abc::ALEMBIC_VERSION_NS::IObject::getChildHeader</definition>
+        <argsstring>(size_t i) const </argsstring>
+        <name>getChildHeader</name>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns the headers of each of the child objects that were written as children of this object. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a8ab6bf2457d6e7a16c19cb8365b9c53c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const AbcA::ObjectHeader *</type>
+        <definition>const AbcA::ObjectHeader* Alembic::Abc::ALEMBIC_VERSION_NS::IObject::getChildHeader</definition>
+        <argsstring>(const std::string &amp;iName) const </argsstring>
+        <name>getChildHeader</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the header of an object by name. This will return a NULL pointer if no header by that name is found. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="171"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1ae5657f0fcc9e0c7285a11a3ee9ed4e5d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_compound_property" kindref="compound">ICompoundProperty</ref></type>
+        <definition>ICompoundProperty Alembic::Abc::ALEMBIC_VERSION_NS::IObject::getProperties</definition>
+        <argsstring>() const </argsstring>
+        <name>getProperties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This returns the single top-level CompoundPropertyReader that exists automatically as part of the object. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a96c40d7029f0db7ea40a78def1ef2272" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object" kindref="compound">IObject</ref></type>
+        <definition>IObject Alembic::Abc::ALEMBIC_VERSION_NS::IObject::getChild</definition>
+        <argsstring>(size_t iChildIndex) const </argsstring>
+        <name>getChild</name>
+        <param>
+          <type>size_t</type>
+          <declname>iChildIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns an <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object" kindref="compound">IObject</ref> constructed from the indexed object. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="186"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a5d6396cc12e03e9edde6b95d9d36ab2e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object" kindref="compound">IObject</ref></type>
+        <definition>IObject Alembic::Abc::ALEMBIC_VERSION_NS::IObject::getChild</definition>
+        <argsstring>(const std::string &amp;iChildName) const </argsstring>
+        <name>getChild</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iChildName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns an <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object" kindref="compound">IObject</ref> wrapped constructed from the header referenced by the name. If the child of the given name does not exist, this will fail in the same way as if the equivalent constructor was called. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="192"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1ae5e569cace319043b8bbfea3df0ed058" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::Abc::ALEMBIC_VERSION_NS::IObject::isInstanceRoot</definition>
+        <argsstring>() const </argsstring>
+        <name>isInstanceRoot</name>
+        <briefdescription>
+<para>-************************************************************************ </para>        </briefdescription>
+        <detaileddescription>
+<para>-************************************************************************ Returns whether this object directly instances another object. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="205"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a81ef0fdd2fc81bf481b03f3ef0d2732f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::Abc::ALEMBIC_VERSION_NS::IObject::isInstanceDescendant</definition>
+        <argsstring>() const </argsstring>
+        <name>isInstanceDescendant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns whether this object has been arrived at via an instance, or if this object is an instance itself. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="209"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a4407c8ee67ddc5a5817ca3357a8e1f47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Alembic::Abc::ALEMBIC_VERSION_NS::IObject::instanceSourcePath</definition>
+        <argsstring>()</argsstring>
+        <name>instanceSourcePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If this object is an instance (isInstanceRoot), returns the source path that the instance points at. Otherwise and empty string is returned. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="213"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1ab65cbd793d3be983a06538abe82ca37a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::Abc::ALEMBIC_VERSION_NS::IObject::isChildInstance</definition>
+        <argsstring>(size_t iChildIndex) const </argsstring>
+        <name>isChildInstance</name>
+        <param>
+          <type>size_t</type>
+          <declname>iChildIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="215"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a40d2271dea01f57669f835f319be0e4e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::Abc::ALEMBIC_VERSION_NS::IObject::isChildInstance</definition>
+        <argsstring>(const std::string &amp;iChildName) const </argsstring>
+        <name>isChildInstance</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iChildName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="216"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1ace4c40d246440fd8f87ed3d90246f022" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>AbcA::ObjectReaderPtr</type>
+        <definition>AbcA::ObjectReaderPtr Alembic::Abc::ALEMBIC_VERSION_NS::IObject::getInstancePtr</definition>
+        <argsstring>() const </argsstring>
+        <name>getInstancePtr</name>
+        <briefdescription>
+<para>Returns the original ObjectReaderPtr, if this object is an instance. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="219" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" bodystart="219" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a4aa99edf874f6585e345478b3d145a13" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>AbcA::ObjectReaderPtr</type>
+        <definition>AbcA::ObjectReaderPtr Alembic::Abc::ALEMBIC_VERSION_NS::IObject::getPtr</definition>
+        <argsstring>() const </argsstring>
+        <name>getPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getPtr, as usual, returns a shared ptr to the underlying AbcCoreAbstract object, in this case the ObjectReaderPtr. If this object happens to be an instance, it points to the instance source ObjectReaderPtr </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="231" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" bodystart="231" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1ab40a30aac40daff37ffa06527d63a36b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::Abc::ALEMBIC_VERSION_NS::IObject::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <reimplements refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1ad5b1f06443aba3059f084aed110c6d96">reset</reimplements>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_object_1a5a06061c2fa810002007bf37e64b2b52">reset</reimplementedby>
+        <briefdescription>
+<para>Reset returns this function set to an empty, default state. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="234"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a2219bac13f64798268963c6bc41d7a6e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::Abc::ALEMBIC_VERSION_NS::IObject::valid</definition>
+        <argsstring>() const </argsstring>
+        <name>valid</name>
+        <reimplements refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1af5d3e83a6ffd138a68554c72946c9cd9">valid</reimplements>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_object_1ac4ac9d77c08e9058e91411620c72eeeb">valid</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Valid returns whether this function set is valid. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="239" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" bodystart="238" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a3f530b3445e7aff3248c6b452522418f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::Abc::ALEMBIC_VERSION_NS::IObject::getPropertiesHash</definition>
+        <argsstring>(Util::Digest &amp;oDigest)</argsstring>
+        <name>getPropertiesHash</name>
+        <param>
+          <type>Util::Digest &amp;</type>
+          <declname>oDigest</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If an aggregated properties hash exists fill oDigest with it and return true, if it doesn&apos;t exist return false </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="245"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a743a316cc81e3742e0b63f1c65a51345" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::Abc::ALEMBIC_VERSION_NS::IObject::getChildrenHash</definition>
+        <argsstring>(Util::Digest &amp;oDigest)</argsstring>
+        <name>getChildrenHash</name>
+        <param>
+          <type>Util::Digest &amp;</type>
+          <declname>oDigest</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If an aggregated child objects hash exists fill oDigest with it and return true, if it doesn&apos;t exist return false </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="249"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a33150ab8b3dd4a308fcf9a974a88e612" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Abc::ALEMBIC_VERSION_NS::IObject::ALEMBIC_OPERATOR_BOOL</definition>
+        <argsstring>(valid())</argsstring>
+        <name>ALEMBIC_OPERATOR_BOOL</name>
+        <param>
+          <type>valid()</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The unspecified-bool-type operator casts the object to &quot;true&quot; if it is valid, and &quot;false&quot; otherwise. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="253"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a0d818b46c30e85e0745850062cddff8b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::Abc::ALEMBIC_VERSION_NS::IObject::init</definition>
+        <argsstring>(AbcA::ObjectReaderPtr iParentObject, const std::string &amp;iName, ErrorHandler::Policy iPolicy)</argsstring>
+        <name>init</name>
+        <param>
+          <type>AbcA::ObjectReaderPtr</type>
+          <declname>iParentObject</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iName</declname>
+        </param>
+        <param>
+          <type>ErrorHandler::Policy</type>
+          <declname>iPolicy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="261"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a8e794c2d68b9402bc39d3709efe5f89a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::Abc::ALEMBIC_VERSION_NS::IObject::initInstance</definition>
+        <argsstring>()</argsstring>
+        <name>initInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="263"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a8bdda2ad0d849a04aa41e242c426db26" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::Abc::ALEMBIC_VERSION_NS::IObject::setInstancedFullName</definition>
+        <argsstring>(const std::string &amp;parentPath) const </argsstring>
+        <name>setInstancedFullName</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>parentPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="265"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="70">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::ISchemaObject&lt; SCHEMA &gt;</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_object"/>
+        <childnode refid="68" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::Base</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base"/>
+      </node>
+      <node id="68">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object"/>
+        <childnode refid="69" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="72">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::Base</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base"/>
+        <childnode refid="73" relation="usage">
+          <edgelabel>m_errorHandler</edgelabel>
+        </childnode>
+      </node>
+      <node id="71">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object"/>
+        <childnode refid="72" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::ErrorHandler</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_error_handler"/>
+      </node>
+    </collaborationgraph>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" line="54" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IObject.h" bodystart="53" bodyend="272"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a33150ab8b3dd4a308fcf9a974a88e612" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>ALEMBIC_OPERATOR_BOOL</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1af36435a2f134e3bd7ae9452772bbc359" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>Base</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1aacf050bea2aa2dfb2c83ada9c7f010a1" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>Base</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1a10b8bf6b14e26ea73a88fade1d42f193" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>Base</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a8758344eb104089146ef27a2b1384882" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>getArchive</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a96c40d7029f0db7ea40a78def1ef2272" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>getChild</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a5d6396cc12e03e9edde6b95d9d36ab2e" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>getChild</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a0714a127cccb3aa4cf2c9bbd0ec03acc" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>getChildHeader</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a8ab6bf2457d6e7a16c19cb8365b9c53c" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>getChildHeader</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a743a316cc81e3742e0b63f1c65a51345" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>getChildrenHash</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1af35d99de9b57714c46c454c03e620268" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>getErrorHandler</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1a64d9e1f5ed8dfab78f490d3e7a06643f" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>getErrorHandlerPolicy</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1aebb1d1bcb0722a1715eeb69659fe1aa9" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>getFullName</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a5dfe3183b6469aba37ec0b73f0a9340c" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>getHeader</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1ace4c40d246440fd8f87ed3d90246f022" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>getInstancePtr</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a29218bdee072333d8fde54e3b04a39a2" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>getMetaData</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1ab2cc0bb4d229aff45ab1d4e5c27c7742" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>getName</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a4aaff7454fcbe0fa6c8042c20923b2c1" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>getNumChildren</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a1cba4f7fe37726842aaee5f5fa4d38ed" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>getParent</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1ae5657f0fcc9e0c7285a11a3ee9ed4e5d" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>getProperties</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a3f530b3445e7aff3248c6b452522418f" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>getPropertiesHash</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a4aa99edf874f6585e345478b3d145a13" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>getPtr</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a0d818b46c30e85e0745850062cddff8b" prot="private" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>init</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a8e794c2d68b9402bc39d3709efe5f89a" prot="private" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>initInstance</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a4407c8ee67ddc5a5817ca3357a8e1f47" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>instanceSourcePath</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a04d03f45f7d379aa5843f629218fa061" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>IObject</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a4b6d252ce2a41c51bc182b1dabec8b0a" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>IObject</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a544043e895f618b0e57a3e2e6d83cf42" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>IObject</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a68c0c39f8412e86913829721bdf180c0" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>IObject</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1ab65cbd793d3be983a06538abe82ca37a" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>isChildInstance</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a40d2271dea01f57669f835f319be0e4e" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>isChildInstance</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a81ef0fdd2fc81bf481b03f3ef0d2732f" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>isInstanceDescendant</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1ae5e569cace319043b8bbfea3df0ed058" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>isInstanceRoot</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a9813e7071766001f27241d1929e7842b" prot="private" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>m_instancedFullName</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a0a7a70e32357275000c286d4151d049c" prot="private" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>m_instanceObject</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a94ec5620094de247989023e0b101d2c6" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>m_object</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1aba8cb00b70a9ea3bad9957037dbd3cbe" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>operator=</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1ad25af3514988dd30db102a64274403dd" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>operator_bool_base_type</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1ab40a30aac40daff37ffa06527d63a36b" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>reset</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a8bdda2ad0d849a04aa41e242c426db26" prot="private" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>setInstancedFullName</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1ac9137a27ca3934d7aa5ac3b6dd24e19e" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>this_type</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1a2219bac13f64798268963c6bc41d7a6e" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>valid</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_object_1addbfb16bfbbe56dfcb139b83ef3ba52d" prot="public" virt="virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IObject</scope><name>~IObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

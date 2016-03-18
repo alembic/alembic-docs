@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader" kind="class" prot="public">
+    <compoundname>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader</compoundname>
+    <includes refid="_object_reader_8h" local="no">ObjectReader.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1ae7151e52ed03a23e31e4fb2f28802915" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader::~ObjectReader</definition>
+        <argsstring>()</argsstring>
+        <name>~ObjectReader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Virtual destructor ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectReader.h" line="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1a054488d37f0a9d81b5230df3e3838272" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_header" kindref="compound">ObjectHeader</ref> &amp;</type>
+        <definition>virtual const ObjectHeader&amp; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader::getHeader</definition>
+        <argsstring>() const =0</argsstring>
+        <name>getHeader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>All objects have a header, which contains all the <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> that was specified upon their creation. This function returns a constant reference to that Header. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectReader.h" line="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1acdf6355811db4b5713a6df3692ca51e8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::string &amp;</type>
+        <definition>const std::string&amp; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader::getName</definition>
+        <argsstring>() const </argsstring>
+        <name>getName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>All objects have a name. This name is unique amongst their siblings Returned by reference, since it is guaranteed to exist and be unchanging. This is a convenience function which returns the header&apos;s name. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectReader.h" line="77" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectReader.h" bodystart="76" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1aab67e7cb1b0eedb167477b82943d6518" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::string &amp;</type>
+        <definition>const std::string&amp; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader::getFullName</definition>
+        <argsstring>() const </argsstring>
+        <name>getFullName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The full name of an object is the complete path name all the way to the root object of the archive. It is guaranteed to be fully unique within the entire archive. This is a convenience function which returns the header&apos;s full name. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectReader.h" line="84" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectReader.h" bodystart="83" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1a3945f47e529614ffa67a8ed83f721580" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> &amp;</type>
+        <definition>const MetaData&amp; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader::getMetaData</definition>
+        <argsstring>() const </argsstring>
+        <name>getMetaData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>All objects have metadata. This metadata is identical to the Metadata of the top level compoundProperty &quot;properties&quot;. Because the metadata must exist and be initialized in order to bootstrap the object, it is guaranteed to exist and is returned by reference. This is a convenience function which returns the header&apos;s <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectReader.h" line="93" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectReader.h" bodystart="92" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1ae701aa04b42e82e68949a7ba2a3e2a64" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>ArchiveReaderPtr</type>
+        <definition>virtual ArchiveReaderPtr Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader::getArchive</definition>
+        <argsstring>()=0</argsstring>
+        <name>getArchive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>All objects have a shared link to the root. This may seem wasteful, but it is essential in order to allow for the flexible, reference-counted autonomy of the reader objects. Alembic allows you to keep references to readers wherever you want, without requiring you to keep track of (or store) the parental hierarchy directly. In order to make this possible, we have the ability to walk upwards. This may be stored as a direct link, or retrieved by walking up the parent chain, which is a feature of the individual implementations. (it might not be cheap, basically). In order to prevent shared_ptr cycles, it is important that objects only store their children via weak ptrs. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectReader.h" line="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1aad05571284af311581a61277846fc66a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>ObjectReaderPtr</type>
+        <definition>virtual ObjectReaderPtr Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader::getParent</definition>
+        <argsstring>()=0</argsstring>
+        <name>getParent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>All objects have a shared link to their parent. This may seem wasteful, but it is essential in order to allow for the flexible, reference-counted autonomy of the reader objects. Alembic allows you to keep references to readers wherever you want, without requiring you to keep track of (or store) the parental hierarchy directly. In order to make this possible, we have the ability to walk upwards. In order to prevent shared_ptr cycles, it is important that objects only store their children via weak ptrs. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectReader.h" line="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1a9f3a1dc6f393a9e73803547fbc244426" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>CompoundPropertyReaderPtr</type>
+        <definition>virtual CompoundPropertyReaderPtr Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader::getProperties</definition>
+        <argsstring>()=0</argsstring>
+        <name>getProperties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>All objects have one and only one compound property which is the root for any properties which are associated with this object. If no properties were written to the object, this may return an empty pointer. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectReader.h" line="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1aea63801c36cf5b31d7485219fe57036a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>size_t</type>
+        <definition>virtual size_t Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader::getNumChildren</definition>
+        <argsstring>()=0</argsstring>
+        <name>getNumChildren</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the number of objects that are contained as children. Objects do not have to have children, this may return zero. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectReader.h" line="132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1a0f3aff46975eaad06a9d407201cbbbcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_header" kindref="compound">ObjectHeader</ref> &amp;</type>
+        <definition>virtual const ObjectHeader&amp; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader::getChildHeader</definition>
+        <argsstring>(size_t i)=0</argsstring>
+        <name>getChildHeader</name>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the header of an object by index. This will throw an exception on out-of-range access. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectReader.h" line="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1a783ee2f7a7d65195ad5a2b4171ee93ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_header" kindref="compound">ObjectHeader</ref> *</type>
+        <definition>virtual const ObjectHeader* Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader::getChildHeader</definition>
+        <argsstring>(const std::string &amp;iName)=0</argsstring>
+        <name>getChildHeader</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the header of an object by name. This will return a NULL pointer if no header by that name is found. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectReader.h" line="141"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1ab6e26073479a9b8fcf6d4c44e33604d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>ObjectReaderPtr</type>
+        <definition>virtual ObjectReaderPtr Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader::getChild</definition>
+        <argsstring>(const std::string &amp;iName)=0</argsstring>
+        <name>getChild</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get a child object by name. This is a convenience function that uses getChildHeader and the various named &quot;get&quot; functions here. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectReader.h" line="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1a80eb6fff9d6443502bb68dc5f0de8406" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>ObjectReaderPtr</type>
+        <definition>virtual ObjectReaderPtr Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader::getChild</definition>
+        <argsstring>(size_t i)=0</argsstring>
+        <name>getChild</name>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get a child object by index. It is an error to call with out-of-range indices. This is a convenience function that uses getChildHeader and the various named &quot;get&quot; functions here. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectReader.h" line="152"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1a81d78d3ee95a43cac6705ec702ea87a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader::getPropertiesHash</definition>
+        <argsstring>(Util::Digest &amp;oDigest)</argsstring>
+        <name>getPropertiesHash</name>
+        <param>
+          <type>Util::Digest &amp;</type>
+          <declname>oDigest</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If an aggregated properties hash exists fill oDigest with it and return true, if it doesn&apos;t exist return false </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectReader.h" line="160"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1a9d2c184e6298f2399c1f05ea5d978e09" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader::getChildrenHash</definition>
+        <argsstring>(Util::Digest &amp;oDigest)</argsstring>
+        <name>getChildrenHash</name>
+        <param>
+          <type>Util::Digest &amp;</type>
+          <declname>oDigest</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If an aggregated child objects hash exists fill oDigest with it and return true, if it doesn&apos;t exist return false </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectReader.h" line="164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1aa9cfd713d954b776b841742d1a577e98" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>ObjectReaderPtr</type>
+        <definition>virtual ObjectReaderPtr Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader::asObjectPtr</definition>
+        <argsstring>()=0</argsstring>
+        <name>asObjectPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns shared pointer to myself. This is non-virtual </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectReader.h" line="172"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>An Object consists of a list of children objects, which may be empty, and a single compound property which is the root of any properties which the object may contain. Objects have <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref>, which is identical to the <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> of the root Compound Property. </para>    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectReader.h" line="57" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ObjectReader.h" bodystart="55" bodyend="173"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1aa9cfd713d954b776b841742d1a577e98" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader</scope><name>asObjectPtr</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1ae701aa04b42e82e68949a7ba2a3e2a64" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader</scope><name>getArchive</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1ab6e26073479a9b8fcf6d4c44e33604d3" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader</scope><name>getChild</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1a80eb6fff9d6443502bb68dc5f0de8406" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader</scope><name>getChild</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1a0f3aff46975eaad06a9d407201cbbbcb" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader</scope><name>getChildHeader</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1a783ee2f7a7d65195ad5a2b4171ee93ab" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader</scope><name>getChildHeader</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1a9d2c184e6298f2399c1f05ea5d978e09" prot="public" virt="virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader</scope><name>getChildrenHash</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1aab67e7cb1b0eedb167477b82943d6518" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader</scope><name>getFullName</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1a054488d37f0a9d81b5230df3e3838272" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader</scope><name>getHeader</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1a3945f47e529614ffa67a8ed83f721580" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader</scope><name>getMetaData</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1acdf6355811db4b5713a6df3692ca51e8" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader</scope><name>getName</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1aea63801c36cf5b31d7485219fe57036a" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader</scope><name>getNumChildren</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1aad05571284af311581a61277846fc66a" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader</scope><name>getParent</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1a9f3a1dc6f393a9e73803547fbc244426" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader</scope><name>getProperties</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1a81d78d3ee95a43cac6705ec702ea87a7" prot="public" virt="virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader</scope><name>getPropertiesHash</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader_1ae7151e52ed03a23e31e4fb2f28802915" prot="public" virt="virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader</scope><name>~ObjectReader</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

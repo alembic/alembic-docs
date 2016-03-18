@@ -1,0 +1,463 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema" kind="class" prot="public">
+    <compoundname>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a2f8264089b75cd5bcdd7d4b1c4f0bfaa" prot="public" static="no">
+        <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema" kindref="compound">OCameraSchema</ref></type>
+        <definition>typedef OCameraSchema Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema::this_type</definition>
+        <argsstring></argsstring>
+        <name>this_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>By convention we always define this_type in AbcGeom classes. Used by unspecified-bool-type conversion below </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" line="58" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a7f694c5d738599ace0e7f3e00a06fabd" prot="protected" static="no" mutable="no">
+        <type>Abc::OScalarProperty</type>
+        <definition>Abc::OScalarProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema::m_coreProperties</definition>
+        <argsstring></argsstring>
+        <name>m_coreProperties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" line="208" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" bodystart="208" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a61997f5630ca159904c277302e071630" prot="protected" static="no" mutable="no">
+        <type>Abc::OBox3dProperty</type>
+        <definition>Abc::OBox3dProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema::m_childBoundsProperty</definition>
+        <argsstring></argsstring>
+        <name>m_childBoundsProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" line="210" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" bodystart="210" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a5f059772f572f046b4f77ad52be11f92" prot="protected" static="no" mutable="no">
+        <type>Abc::OCompoundProperty</type>
+        <definition>Abc::OCompoundProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema::m_userProperties</definition>
+        <argsstring></argsstring>
+        <name>m_userProperties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" line="212" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a037ef091181324511af84a53514fbcca" prot="protected" static="no" mutable="no">
+        <type>Abc::OCompoundProperty</type>
+        <definition>Abc::OCompoundProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema::m_arbGeomParams</definition>
+        <argsstring></argsstring>
+        <name>m_arbGeomParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" line="213" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1ab46bc2ba9fe2211c406e5facd143a600" prot="protected" static="no" mutable="no">
+        <type>Abc::ODoubleArrayProperty</type>
+        <definition>Abc::ODoubleArrayProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema::m_bigFilmBackChannelsProperty</definition>
+        <argsstring></argsstring>
+        <name>m_bigFilmBackChannelsProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" line="215" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a58cdf59d00f47ef749639b668181c836" prot="protected" static="no" mutable="no">
+        <type>Abc::OScalarProperty</type>
+        <definition>Abc::OScalarProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema::m_smallFilmBackChannelsProperty</definition>
+        <argsstring></argsstring>
+        <name>m_smallFilmBackChannelsProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" line="217" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1ae69bf6b47007ea59c77fd8742ec3c7fe" prot="private" static="no" mutable="no">
+        <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample" kindref="compound">CameraSample</ref></type>
+        <definition>CameraSample Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema::m_initialSample</definition>
+        <argsstring></argsstring>
+        <name>m_initialSample</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" line="220" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a3a31dcb94a5702092c87b40dd012d2c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema::OCameraSchema</definition>
+        <argsstring>()</argsstring>
+        <name>OCameraSchema</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default constructor creates an empty OCameraMeshSchema ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" line="66" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" bodystart="66" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1abb5c40f173161d7310d501cc2647b227" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class CPROP_PTR</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema::OCameraSchema</definition>
+        <argsstring>(CPROP_PTR iParent, const std::string &amp;iName, const Abc::Argument &amp;iArg0=Abc::Argument(), const Abc::Argument &amp;iArg1=Abc::Argument(), const Abc::Argument &amp;iArg2=Abc::Argument())</argsstring>
+        <name>OCameraSchema</name>
+        <param>
+          <type>CPROP_PTR</type>
+          <declname>iParent</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iName</declname>
+        </param>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg0</declname>
+          <defval>Abc::Argument()</defval>
+        </param>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg1</declname>
+          <defval>Abc::Argument()</defval>
+        </param>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg2</declname>
+          <defval>Abc::Argument()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This templated, primary constructor creates a new camera writer. The first argument is any Abc (or AbcCoreAbstract) object which can intrusively be converted to an CompoundPropertyWriterPtr to use as a parent, from which the error handler policy for inheritance is also derived. The remaining optional arguments can be used to override the ErrorHandlerPolicy, to specify MetaData, and to set TimeSampling. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" line="85" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" bodystart="76" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a6b124019b0b539f552bf9010f86ad080" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class CPROP_PTR</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema::OCameraSchema</definition>
+        <argsstring>(CPROP_PTR iParent, const Abc::Argument &amp;iArg0=Abc::Argument(), const Abc::Argument &amp;iArg1=Abc::Argument(), const Abc::Argument &amp;iArg2=Abc::Argument())</argsstring>
+        <name>OCameraSchema</name>
+        <param>
+          <type>CPROP_PTR</type>
+          <declname>iParent</declname>
+        </param>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg0</declname>
+          <defval>Abc::Argument()</defval>
+        </param>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg1</declname>
+          <defval>Abc::Argument()</defval>
+        </param>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg2</declname>
+          <defval>Abc::Argument()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" line="114" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" bodystart="107" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1af9eadb100e1eb6cf8e8af9ae384d9be0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema::OCameraSchema</definition>
+        <argsstring>(const OCameraSchema &amp;iCopy)</argsstring>
+        <name>OCameraSchema</name>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema" kindref="compound">OCameraSchema</ref> &amp;</type>
+          <declname>iCopy</declname>
+        </param>
+        <briefdescription>
+<para>Copy constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" line="138" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" bodystart="136" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1ae33d90906817136601be321172c76619" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>AbcA::TimeSamplingPtr</type>
+        <definition>AbcA::TimeSamplingPtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema::getTimeSampling</definition>
+        <argsstring>() const </argsstring>
+        <name>getTimeSampling</name>
+        <briefdescription>
+<para>Default assignment operator used. </para>        </briefdescription>
+        <detaileddescription>
+<para>Return the time sampling. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" line="150" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" bodystart="149" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a66c36f8216c5c6151b0cf0395c596bc4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema::getNumSamples</definition>
+        <argsstring>()</argsstring>
+        <name>getNumSamples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get number of samples written so far. ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" line="159" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" bodystart="158" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a99c11abed81498d7e46376cb21623c22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema::set</definition>
+        <argsstring>(const CameraSample &amp;iSamp)</argsstring>
+        <name>set</name>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample" kindref="compound">CameraSample</ref> &amp;</type>
+          <declname>iSamp</declname>
+        </param>
+        <briefdescription>
+<para>Set a sample. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" line="162"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1aff35a4f0cb817ac4a3c60056aeecf02d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema::setFromPrevious</definition>
+        <argsstring>()</argsstring>
+        <name>setFromPrevious</name>
+        <briefdescription>
+<para>Set from previous sample. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" line="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a1f8e5458ea15c0550ab2a23f9c915e66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema::setTimeSampling</definition>
+        <argsstring>(uint32_t iIndex)</argsstring>
+        <name>setTimeSampling</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>iIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" line="167"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a85a37eede3f51318e4e633a675bcd075" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema::setTimeSampling</definition>
+        <argsstring>(AbcA::TimeSamplingPtr iTime)</argsstring>
+        <name>setTimeSampling</name>
+        <param>
+          <type>AbcA::TimeSamplingPtr</type>
+          <declname>iTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" line="168"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1afbad3524bd28da055aab397c781c9dae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Abc::OCompoundProperty</type>
+        <definition>Abc::OCompoundProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema::getUserProperties</definition>
+        <argsstring>()</argsstring>
+        <name>getUserProperties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" line="170"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1ac7c3779d4d53f2c316cfc02bb860fcc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Abc::OCompoundProperty</type>
+        <definition>Abc::OCompoundProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema::getArbGeomParams</definition>
+        <argsstring>()</argsstring>
+        <name>getArbGeomParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" line="171"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a4c43a4b15661e63e45368dcd5ec98f08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Abc::OBox3dProperty</type>
+        <definition>Abc::OBox3dProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema::getChildBoundsProperty</definition>
+        <argsstring>()</argsstring>
+        <name>getChildBoundsProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" line="173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a986c65a42dea20d3a9761735912c7e88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reset returns this function set to an empty, default state. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" line="184" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" bodystart="183" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a9e021a2091b5b6d9dff7db6e47c499e1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema::valid</definition>
+        <argsstring>() const </argsstring>
+        <name>valid</name>
+        <briefdescription>
+<para>Returns whether this function set is valid. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" line="196" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" bodystart="195" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a2d774ebfab38759ea79955ab1aa554b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema::ALEMBIC_OVERRIDE_OPERATOR_BOOL</definition>
+        <argsstring>(OCameraSchema::valid())</argsstring>
+        <name>ALEMBIC_OVERRIDE_OPERATOR_BOOL</name>
+        <param>
+          <type>OCameraSchema::</type>
+          <declname>valid</declname>
+          <array>()</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>unspecified-bool-type operator overload. ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" line="203"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a86af1cc17074034e395179cd1d11fcba" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema::init</definition>
+        <argsstring>(uint32_t iTsIdx)</argsstring>
+        <name>init</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>iTsIdx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" line="206"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="85">
+        <label>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</label>
+        <link refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample"/>
+      </node>
+      <node id="84">
+        <label>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema</label>
+        <link refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema"/>
+        <childnode refid="85" relation="usage">
+          <edgelabel>m_initialSample</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" line="51" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OCamera.h" bodystart="50" bodyend="222"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a2d774ebfab38759ea79955ab1aa554b1" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema</scope><name>ALEMBIC_OVERRIDE_OPERATOR_BOOL</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1ac7c3779d4d53f2c316cfc02bb860fcc1" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema</scope><name>getArbGeomParams</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a4c43a4b15661e63e45368dcd5ec98f08" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema</scope><name>getChildBoundsProperty</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a66c36f8216c5c6151b0cf0395c596bc4" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema</scope><name>getNumSamples</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1ae33d90906817136601be321172c76619" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema</scope><name>getTimeSampling</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1afbad3524bd28da055aab397c781c9dae" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema</scope><name>getUserProperties</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a86af1cc17074034e395179cd1d11fcba" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema</scope><name>init</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a037ef091181324511af84a53514fbcca" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema</scope><name>m_arbGeomParams</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1ab46bc2ba9fe2211c406e5facd143a600" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema</scope><name>m_bigFilmBackChannelsProperty</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a61997f5630ca159904c277302e071630" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema</scope><name>m_childBoundsProperty</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a7f694c5d738599ace0e7f3e00a06fabd" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema</scope><name>m_coreProperties</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1ae69bf6b47007ea59c77fd8742ec3c7fe" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema</scope><name>m_initialSample</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a58cdf59d00f47ef749639b668181c836" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema</scope><name>m_smallFilmBackChannelsProperty</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a5f059772f572f046b4f77ad52be11f92" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema</scope><name>m_userProperties</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a3a31dcb94a5702092c87b40dd012d2c7" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema</scope><name>OCameraSchema</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1abb5c40f173161d7310d501cc2647b227" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema</scope><name>OCameraSchema</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a6b124019b0b539f552bf9010f86ad080" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema</scope><name>OCameraSchema</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1af9eadb100e1eb6cf8e8af9ae384d9be0" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema</scope><name>OCameraSchema</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a986c65a42dea20d3a9761735912c7e88" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema</scope><name>reset</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a99c11abed81498d7e46376cb21623c22" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema</scope><name>set</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1aff35a4f0cb817ac4a3c60056aeecf02d" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema</scope><name>setFromPrevious</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a1f8e5458ea15c0550ab2a23f9c915e66" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema</scope><name>setTimeSampling</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a85a37eede3f51318e4e633a675bcd075" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema</scope><name>setTimeSampling</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a2f8264089b75cd5bcdd7d4b1c4f0bfaa" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema</scope><name>this_type</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_camera_schema_1a9e021a2091b5b6d9dff7db6e47c499e1" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OCameraSchema</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

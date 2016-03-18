@@ -1,0 +1,621 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema" kind="class" prot="public">
+    <compoundname>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a88739f6eaa1dfa5f8e2c01df86682590" prot="public" static="no">
+        <type>Abc::OSchema&lt; XformSchemaInfo &gt;</type>
+        <definition>typedef Abc::OSchema&lt;XformSchemaInfo&gt; Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::super_type</definition>
+        <argsstring></argsstring>
+        <name>super_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>By convention we always define this_type in AbcGeom classes. Used by unspecified-bool-type conversion below </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="64" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a07fc51c99684693d9cd33981cfb55d98" prot="public" static="no">
+        <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema" kindref="compound">OXformSchema</ref></type>
+        <definition>typedef OXformSchema Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::this_type</definition>
+        <argsstring></argsstring>
+        <name>this_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="65" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1af2e301e9d43671db62aba68b36f1e8dc" prot="public" static="no">
+        <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample" kindref="compound">XformSample</ref></type>
+        <definition>typedef XformSample Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::sample_type</definition>
+        <argsstring></argsstring>
+        <name>sample_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="66" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a0431ec1339688b7e70c1c1272803e345" prot="private" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::m_numChannels</definition>
+        <argsstring></argsstring>
+        <name>m_numChannels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="209" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1ae607c7a20c4e42f88095c43661b5751f" prot="private" static="no" mutable="no">
+        <type>std::size_t</type>
+        <definition>std::size_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::m_numOps</definition>
+        <argsstring></argsstring>
+        <name>m_numOps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="210" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" bodystart="210" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1ab00ed7d0b5b048ac41aca43e88e11aae" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::m_useArrayProp</definition>
+        <argsstring></argsstring>
+        <name>m_useArrayProp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="214" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1ab61c9ad43f78f1787c923eeb94354a30" prot="private" static="no" mutable="no">
+        <type>AbcA::DataType</type>
+        <definition>AbcA::DataType Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::m_arrayValuesDataType</definition>
+        <argsstring></argsstring>
+        <name>m_arrayValuesDataType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="216" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a660a8d6b94c901812f6be4ac1c0ecced" prot="private" static="no" mutable="no">
+        <type>Alembic::Util::Dimensions</type>
+        <definition>Alembic::Util::Dimensions Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::m_arraySampleDimensions</definition>
+        <argsstring></argsstring>
+        <name>m_arraySampleDimensions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="217" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1aa918b407d95e84fdc201014f749c64c2" prot="protected" static="no" mutable="no">
+        <type>Abc::OBox3dProperty</type>
+        <definition>Abc::OBox3dProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::m_childBoundsProperty</definition>
+        <argsstring></argsstring>
+        <name>m_childBoundsProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="223" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a80946af92b863dfdbb3e777b1054b405" prot="protected" static="no" mutable="no">
+        <type>AbcA::ScalarPropertyWriterPtr</type>
+        <definition>AbcA::ScalarPropertyWriterPtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::m_opsPWPtr</definition>
+        <argsstring></argsstring>
+        <name>m_opsPWPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="225" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1acf871d6727f55fa6efdf39bc33aca923" prot="protected" static="no" mutable="no">
+        <type>AbcA::BasePropertyWriterPtr</type>
+        <definition>AbcA::BasePropertyWriterPtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::m_valsPWPtr</definition>
+        <argsstring></argsstring>
+        <name>m_valsPWPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="227" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a5d8e15f19f120ca34dad1ef8c56a217c" prot="protected" static="no" mutable="no">
+        <type>Abc::OBoolProperty</type>
+        <definition>Abc::OBoolProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::m_inheritsProperty</definition>
+        <argsstring></argsstring>
+        <name>m_inheritsProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="229" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1aa8e01b12ab0ce07ee96770aaa915f7ad" prot="protected" static="no" mutable="no">
+        <type>Abc::OBoolProperty</type>
+        <definition>Abc::OBoolProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::m_isNotConstantIdentityProperty</definition>
+        <argsstring></argsstring>
+        <name>m_isNotConstantIdentityProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="231" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" bodystart="231" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a47e004c46215a17689b7564a2eb0a4c7" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample" kindref="compound">XformSample</ref></type>
+        <definition>XformSample Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::m_protoSample</definition>
+        <argsstring></argsstring>
+        <name>m_protoSample</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="235" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a3a991fe400824ade6801517dade323a4" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::m_isIdentity</definition>
+        <argsstring></argsstring>
+        <name>m_isIdentity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="237" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1ad1ba1dbf1857d41b2f747ec04516f752" prot="protected" static="no" mutable="no">
+        <type>Abc::OCompoundProperty</type>
+        <definition>Abc::OCompoundProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::m_arbGeomParams</definition>
+        <argsstring></argsstring>
+        <name>m_arbGeomParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="239" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" bodystart="239" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1ae4f50e9b1beb63f78217601b2deb2b47" prot="protected" static="no" mutable="no">
+        <type>Abc::OCompoundProperty</type>
+        <definition>Abc::OCompoundProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::m_userProperties</definition>
+        <argsstring></argsstring>
+        <name>m_userProperties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="241" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1abb6826f6a72d25571cc5468873fcc8fa" prot="protected" static="no" mutable="no">
+        <type>Util::shared_ptr&lt; Data &gt;</type>
+        <definition>Util::shared_ptr&lt; Data &gt; Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::m_data</definition>
+        <argsstring></argsstring>
+        <name>m_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="246" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1ac919e399f712ac16142d048e16a47b89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::OXformSchema</definition>
+        <argsstring>()</argsstring>
+        <name>OXformSchema</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default constructor creates an empty <ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema" kindref="compound">OPolyMeshSchema</ref> ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="74" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a2fb184a4cb3c063368118ad3aa4e311e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class CPROP_PTR</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::OXformSchema</definition>
+        <argsstring>(CPROP_PTR iParent, const std::string &amp;iName, const Abc::Argument &amp;iArg0=Abc::Argument(), const Abc::Argument &amp;iArg1=Abc::Argument(), const Abc::Argument &amp;iArg2=Abc::Argument())</argsstring>
+        <name>OXformSchema</name>
+        <param>
+          <type>CPROP_PTR</type>
+          <declname>iParent</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iName</declname>
+        </param>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg0</declname>
+          <defval>Abc::Argument()</defval>
+        </param>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg1</declname>
+          <defval>Abc::Argument()</defval>
+        </param>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg2</declname>
+          <defval>Abc::Argument()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This templated, primary constructor creates a new xform writer. The first argument is any Abc (or AbcCoreAbstract) object which can intrusively be converted to an CompoundPropertyWriterPtr to use as a parent, from which the error handler policy for inheritance is also derived. The remaining optional arguments can be used to override the ErrorHandlerPolicy, to specify MetaData, and to set TimeSampling. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="91" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" bodystart="84" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1ac4f666148997c44fcb06da8ef457a247" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class CPROP_PTR</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::OXformSchema</definition>
+        <argsstring>(CPROP_PTR iParent, const Abc::Argument &amp;iArg0=Abc::Argument(), const Abc::Argument &amp;iArg1=Abc::Argument(), const Abc::Argument &amp;iArg2=Abc::Argument())</argsstring>
+        <name>OXformSchema</name>
+        <param>
+          <type>CPROP_PTR</type>
+          <declname>iParent</declname>
+        </param>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg0</declname>
+          <defval>Abc::Argument()</defval>
+        </param>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg1</declname>
+          <defval>Abc::Argument()</defval>
+        </param>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg2</declname>
+          <defval>Abc::Argument()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This constructor does the same as the above, but uses the default name from the XformSchemaInfo struct. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="118" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" bodystart="112" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a5ec66c3b99af66e365bcf6cd914d8907" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::OXformSchema</definition>
+        <argsstring>(const OXformSchema &amp;iCopy)</argsstring>
+        <name>OXformSchema</name>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema" kindref="compound">OXformSchema</ref> &amp;</type>
+          <declname>iCopy</declname>
+        </param>
+        <briefdescription>
+<para>Explicit copy constructor to work around MSVC bug. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="139" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" bodystart="137" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1acd94acec9b9f9fb0e216240f1c9928d5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>AbcA::TimeSamplingPtr</type>
+        <definition>AbcA::TimeSamplingPtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::getTimeSampling</definition>
+        <argsstring>() const </argsstring>
+        <name>getTimeSampling</name>
+        <briefdescription>
+<para>Default assignment operator used. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="147"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a7ce6c231b2f1f8a70081a241fc3aa6b5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::getNumSamples</definition>
+        <argsstring>() const </argsstring>
+        <name>getNumSamples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get number of samples written so far. ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a06348beb26c67b7ecf6dd1bbbda0db60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::set</definition>
+        <argsstring>(XformSample &amp;ioSamp)</argsstring>
+        <name>set</name>
+        <param>
+          <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample" kindref="compound">XformSample</ref> &amp;</type>
+          <declname>ioSamp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set an animated sample. On first call to set, the sample is modified, so it can&apos;t be const. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="159"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a8eedca89de3e88b421e0173191283a53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::setFromPrevious</definition>
+        <argsstring>()</argsstring>
+        <name>setFromPrevious</name>
+        <briefdescription>
+<para>Set from previous sample. Will hold the animated channels. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="162"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a05c84b3c65c651f83678a0c94cad0744" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::setTimeSampling</definition>
+        <argsstring>(uint32_t iIndex)</argsstring>
+        <name>setTimeSampling</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>iIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a32c5405c2f1cc0bff787cf1ba6e1e9e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::setTimeSampling</definition>
+        <argsstring>(AbcA::TimeSamplingPtr iTime)</argsstring>
+        <name>setTimeSampling</name>
+        <param>
+          <type>AbcA::TimeSamplingPtr</type>
+          <declname>iTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1ac47659441fd3912042e4a3e98f26a91a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Abc::OCompoundProperty</type>
+        <definition>Abc::OCompoundProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::getArbGeomParams</definition>
+        <argsstring>()</argsstring>
+        <name>getArbGeomParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="167"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a47adf7bc48b27a24e7d75e08d6edd7bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Abc::OCompoundProperty</type>
+        <definition>Abc::OCompoundProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::getUserProperties</definition>
+        <argsstring>()</argsstring>
+        <name>getUserProperties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="168"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1ab14d3ff20236207c494a68dd2a2d44ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Abc::OBox3dProperty</type>
+        <definition>Abc::OBox3dProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::getChildBoundsProperty</definition>
+        <argsstring>()</argsstring>
+        <name>getChildBoundsProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="169"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1ad8b9128b798f8e0070a464fc7776c749" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reset returns this function set to an empty, default state. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="180" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" bodystart="179" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a4627fc76aef7f3b42adebf4df161a972" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::valid</definition>
+        <argsstring>() const </argsstring>
+        <name>valid</name>
+        <briefdescription>
+<para>Valid returns whether this function set is valid. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="196" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" bodystart="195" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1ad01b053e52d3dc1cde514eba32d38169" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::ALEMBIC_OVERRIDE_OPERATOR_BOOL</definition>
+        <argsstring>(this_type::valid())</argsstring>
+        <name>ALEMBIC_OVERRIDE_OPERATOR_BOOL</name>
+        <param>
+          <type>this_type::</type>
+          <declname>valid</declname>
+          <array>()</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>unspecified-bool-type operator overload. ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="202"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a401414c5f33bc69f2d71326589e4e762" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::init</definition>
+        <argsstring>(const AbcA::index_t iTSIndex)</argsstring>
+        <name>init</name>
+        <param>
+          <type>const AbcA::index_t</type>
+          <declname>iTSIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="206"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a521b7d395dce735224dc22d5ae140626" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema::setChannelValues</definition>
+        <argsstring>(const std::vector&lt; double &gt; &amp;iVals)</argsstring>
+        <name>setChannelValues</name>
+        <param>
+          <type>const std::vector&lt; double &gt; &amp;</type>
+          <declname>iVals</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="219"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="155">
+        <label>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</label>
+        <link refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample"/>
+      </node>
+      <node id="154">
+        <label>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</label>
+        <link refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema"/>
+        <childnode refid="155" relation="usage">
+          <edgelabel>m_protoSample</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" line="56" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OXform.h" bodystart="55" bodyend="247"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1ad01b053e52d3dc1cde514eba32d38169" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>ALEMBIC_OVERRIDE_OPERATOR_BOOL</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1ac47659441fd3912042e4a3e98f26a91a" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>getArbGeomParams</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1ab14d3ff20236207c494a68dd2a2d44ae" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>getChildBoundsProperty</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a7ce6c231b2f1f8a70081a241fc3aa6b5" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>getNumSamples</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1acd94acec9b9f9fb0e216240f1c9928d5" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>getTimeSampling</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a47adf7bc48b27a24e7d75e08d6edd7bf" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>getUserProperties</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a401414c5f33bc69f2d71326589e4e762" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>init</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1ad1ba1dbf1857d41b2f747ec04516f752" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>m_arbGeomParams</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a660a8d6b94c901812f6be4ac1c0ecced" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>m_arraySampleDimensions</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1ab61c9ad43f78f1787c923eeb94354a30" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>m_arrayValuesDataType</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1aa918b407d95e84fdc201014f749c64c2" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>m_childBoundsProperty</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1abb6826f6a72d25571cc5468873fcc8fa" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>m_data</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a5d8e15f19f120ca34dad1ef8c56a217c" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>m_inheritsProperty</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a3a991fe400824ade6801517dade323a4" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>m_isIdentity</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1aa8e01b12ab0ce07ee96770aaa915f7ad" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>m_isNotConstantIdentityProperty</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a0431ec1339688b7e70c1c1272803e345" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>m_numChannels</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1ae607c7a20c4e42f88095c43661b5751f" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>m_numOps</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a80946af92b863dfdbb3e777b1054b405" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>m_opsPWPtr</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a47e004c46215a17689b7564a2eb0a4c7" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>m_protoSample</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1ab00ed7d0b5b048ac41aca43e88e11aae" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>m_useArrayProp</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1ae4f50e9b1beb63f78217601b2deb2b47" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>m_userProperties</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1acf871d6727f55fa6efdf39bc33aca923" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>m_valsPWPtr</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1ac919e399f712ac16142d048e16a47b89" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>OXformSchema</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a2fb184a4cb3c063368118ad3aa4e311e" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>OXformSchema</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1ac4f666148997c44fcb06da8ef457a247" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>OXformSchema</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a5ec66c3b99af66e365bcf6cd914d8907" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>OXformSchema</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1ad8b9128b798f8e0070a464fc7776c749" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>reset</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1af2e301e9d43671db62aba68b36f1e8dc" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>sample_type</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a06348beb26c67b7ecf6dd1bbbda0db60" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>set</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a521b7d395dce735224dc22d5ae140626" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>setChannelValues</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a8eedca89de3e88b421e0173191283a53" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>setFromPrevious</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a05c84b3c65c651f83678a0c94cad0744" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>setTimeSampling</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a32c5405c2f1cc0bff787cf1ba6e1e9e7" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>setTimeSampling</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a88739f6eaa1dfa5f8e2c01df86682590" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>super_type</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a07fc51c99684693d9cd33981cfb55d98" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>this_type</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a4627fc76aef7f3b42adebf4df161a972" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OXformSchema</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

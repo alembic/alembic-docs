@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1_1_sample" kind="class" prot="public">
+    <compoundname>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IFaceSetSchema::Sample</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1_1_sample_1a6d8b7261f624cd1b06e79a442b3edcb8" prot="public" static="no">
+        <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1_1_sample" kindref="compound">Sample</ref></type>
+        <definition>typedef Sample Alembic::AbcGeom::ALEMBIC_VERSION_NS::IFaceSetSchema::Sample::this_type</definition>
+        <argsstring></argsstring>
+        <name>this_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" line="61" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1_1_sample_1a0b441669a2b3d810a9648b0248e7b999" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class IFaceSetSchema</definition>
+        <argsstring></argsstring>
+        <name>IFaceSetSchema</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" line="87" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1_1_sample_1a496977c99d77207659c2980f5b4c223e" prot="protected" static="no" mutable="no">
+        <type>Abc::Int32ArraySamplePtr</type>
+        <definition>Abc::Int32ArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::IFaceSetSchema::Sample::m_faces</definition>
+        <argsstring></argsstring>
+        <name>m_faces</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" line="89" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1_1_sample_1a56e83c68852ca55fa9277b58746f7f20" prot="protected" static="no" mutable="no">
+        <type>Abc::Box3d</type>
+        <definition>Abc::Box3d Alembic::AbcGeom::ALEMBIC_VERSION_NS::IFaceSetSchema::Sample::m_selfBounds</definition>
+        <argsstring></argsstring>
+        <name>m_selfBounds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" line="93" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1_1_sample_1a352dcfcf862671ac05cc9758f9304ca7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IFaceSetSchema::Sample::Sample</definition>
+        <argsstring>()</argsstring>
+        <name>Sample</name>
+        <briefdescription>
+<para>Users never create this data directly. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" line="64" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1_1_sample_1aada4820aeb7d13ba22539b115562ede4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::Int32ArraySamplePtr</type>
+        <definition>Abc::Int32ArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::IFaceSetSchema::Sample::getFaces</definition>
+        <argsstring>() const </argsstring>
+        <name>getFaces</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" line="67" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1_1_sample_1a405859c1c6d5da57c25bba70c5007ad9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::Box3d</type>
+        <definition>Abc::Box3d Alembic::AbcGeom::ALEMBIC_VERSION_NS::IFaceSetSchema::Sample::getSelfBounds</definition>
+        <argsstring>() const </argsstring>
+        <name>getSelfBounds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" line="70" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1_1_sample_1a006863f3f6b995ccc73492b27338d862" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::IFaceSetSchema::Sample::valid</definition>
+        <argsstring>() const </argsstring>
+        <name>valid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" line="73" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" bodystart="72" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1_1_sample_1a279cc2c334d6598c42048d7132b8073a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::IFaceSetSchema::Sample::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" line="78" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" bodystart="77" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1_1_sample_1a4730366e4817595252776e97b7804034" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IFaceSetSchema::Sample::ALEMBIC_OPERATOR_BOOL</definition>
+        <argsstring>(valid())</argsstring>
+        <name>ALEMBIC_OPERATOR_BOOL</name>
+        <param>
+          <type>valid()</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" line="84"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" line="59" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" bodystart="58" bodyend="95"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1_1_sample_1a4730366e4817595252776e97b7804034" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IFaceSetSchema::Sample</scope><name>ALEMBIC_OPERATOR_BOOL</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1_1_sample_1aada4820aeb7d13ba22539b115562ede4" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IFaceSetSchema::Sample</scope><name>getFaces</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1_1_sample_1a405859c1c6d5da57c25bba70c5007ad9" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IFaceSetSchema::Sample</scope><name>getSelfBounds</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1_1_sample_1a0b441669a2b3d810a9648b0248e7b999" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IFaceSetSchema::Sample</scope><name>IFaceSetSchema</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1_1_sample_1a496977c99d77207659c2980f5b4c223e" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IFaceSetSchema::Sample</scope><name>m_faces</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1_1_sample_1a56e83c68852ca55fa9277b58746f7f20" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IFaceSetSchema::Sample</scope><name>m_selfBounds</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1_1_sample_1a279cc2c334d6598c42048d7132b8073a" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IFaceSetSchema::Sample</scope><name>reset</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1_1_sample_1a352dcfcf862671ac05cc9758f9304ca7" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IFaceSetSchema::Sample</scope><name>Sample</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1_1_sample_1a6d8b7261f624cd1b06e79a442b3edcb8" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IFaceSetSchema::Sample</scope><name>this_type</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1_1_sample_1a006863f3f6b995ccc73492b27338d862" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IFaceSetSchema::Sample</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

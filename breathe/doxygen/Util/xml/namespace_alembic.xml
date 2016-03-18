@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="namespace_alembic" kind="namespace">
+    <compoundname>Alembic</compoundname>
+    <innernamespace refid="namespace_alembic_1_1_util">Alembic::Util</innernamespace>
+    <briefdescription>
+<para><ref refid="namespace_alembic" kindref="compound">Alembic</ref> namespace ... </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Exception.h" line="49"/>
+  </compounddef>
+</doxygen>

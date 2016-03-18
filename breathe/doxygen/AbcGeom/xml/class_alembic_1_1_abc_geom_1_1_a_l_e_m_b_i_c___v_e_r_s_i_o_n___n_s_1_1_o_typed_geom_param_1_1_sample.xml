@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample" kind="class" prot="public">
+    <compoundname>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam::Sample</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample_1a22ae4bfdbe038b4c9811629177f9e325" prot="public" static="no">
+        <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample" kindref="compound">Sample</ref></type>
+        <definition>typedef Sample Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam&lt; TRAITS &gt;::Sample::this_type</definition>
+        <argsstring></argsstring>
+        <name>this_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="61" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample_1a8ef78717ab012ea78103e24ad692a98f" prot="protected" static="no" mutable="no">
+        <type>Abc::TypedArraySample&lt; TRAITS &gt;</type>
+        <definition>Abc::TypedArraySample&lt;TRAITS&gt; Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam&lt; TRAITS &gt;::Sample::m_vals</definition>
+        <argsstring></argsstring>
+        <name>m_vals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="108" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample_1abe8f30b713864d5755fa69f2fa981700" prot="protected" static="no" mutable="no">
+        <type>Abc::UInt32ArraySample</type>
+        <definition>Abc::UInt32ArraySample Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam&lt; TRAITS &gt;::Sample::m_indices</definition>
+        <argsstring></argsstring>
+        <name>m_indices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="109" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample_1a1f641875aa2fe73053bd23605946f808" prot="protected" static="no" mutable="no">
+        <type>GeometryScope</type>
+        <definition>GeometryScope Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam&lt; TRAITS &gt;::Sample::m_scope</definition>
+        <argsstring></argsstring>
+        <name>m_scope</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="110" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample_1a93565901fb449db84a6c4f55797d9d9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam&lt; TRAITS &gt;::Sample::Sample</definition>
+        <argsstring>()</argsstring>
+        <name>Sample</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="65" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="63" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample_1a373bf4b6bec6a3b3a842777160587b66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam&lt; TRAITS &gt;::Sample::Sample</definition>
+        <argsstring>(const Abc::TypedArraySample&lt; TRAITS &gt; &amp;iVals, GeometryScope iScope)</argsstring>
+        <name>Sample</name>
+        <param>
+          <type>const Abc::TypedArraySample&lt; TRAITS &gt; &amp;</type>
+          <declname>iVals</declname>
+        </param>
+        <param>
+          <type>GeometryScope</type>
+          <declname>iScope</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="71" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="67" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample_1a22d226c8256812425200accec759d00e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam&lt; TRAITS &gt;::Sample::Sample</definition>
+        <argsstring>(const Abc::TypedArraySample&lt; TRAITS &gt; &amp;iVals, const Abc::UInt32ArraySample &amp;iIndices, GeometryScope iScope)</argsstring>
+        <name>Sample</name>
+        <param>
+          <type>const Abc::TypedArraySample&lt; TRAITS &gt; &amp;</type>
+          <declname>iVals</declname>
+        </param>
+        <param>
+          <type>const Abc::UInt32ArraySample &amp;</type>
+          <declname>iIndices</declname>
+        </param>
+        <param>
+          <type>GeometryScope</type>
+          <declname>iScope</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="79" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="73" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample_1aa887e2f6751a0e4ef00c5d8d4cfa67d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam&lt; TRAITS &gt;::Sample::setVals</definition>
+        <argsstring>(const Abc::TypedArraySample&lt; TRAITS &gt; &amp;iVals)</argsstring>
+        <name>setVals</name>
+        <param>
+          <type>const Abc::TypedArraySample&lt; TRAITS &gt; &amp;</type>
+          <declname>iVals</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="82" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="81" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample_1ac4e291e8e32fbffee56565a799c4b28f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const Abc::TypedArraySample&lt; TRAITS &gt; &amp;</type>
+        <definition>const Abc::TypedArraySample&lt;TRAITS&gt;&amp; Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam&lt; TRAITS &gt;::Sample::getVals</definition>
+        <argsstring>() const </argsstring>
+        <name>getVals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="84" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="83" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample_1a2cf6c14101a25bba7fa5da1475cfefb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam&lt; TRAITS &gt;::Sample::setIndices</definition>
+        <argsstring>(const Abc::UInt32ArraySample &amp;iIndices)</argsstring>
+        <name>setIndices</name>
+        <param>
+          <type>const Abc::UInt32ArraySample &amp;</type>
+          <declname>iIndices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="87" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="86" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample_1ae8af1152f132a51eb23abf54f55f08b4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const Abc::UInt32ArraySample &amp;</type>
+        <definition>const Abc::UInt32ArraySample&amp; Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam&lt; TRAITS &gt;::Sample::getIndices</definition>
+        <argsstring>() const </argsstring>
+        <name>getIndices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="89" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="88" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample_1a87006b78ef8d52840d70b50c9d1b8950" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam&lt; TRAITS &gt;::Sample::setScope</definition>
+        <argsstring>(GeometryScope iScope)</argsstring>
+        <name>setScope</name>
+        <param>
+          <type>GeometryScope</type>
+          <declname>iScope</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="92" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="91" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample_1adae7997f11f800cd9f8767a189ee26df" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>GeometryScope</type>
+        <definition>GeometryScope Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam&lt; TRAITS &gt;::Sample::getScope</definition>
+        <argsstring>() const </argsstring>
+        <name>getScope</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="94" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="93" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample_1a8a19338e25cc166d9b5b1dd7d676bd09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam&lt; TRAITS &gt;::Sample::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="97" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="96" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample_1ade114e9283e86ca3e1720f401ade33d6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam&lt; TRAITS &gt;::Sample::valid</definition>
+        <argsstring>() const </argsstring>
+        <name>valid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="103" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="103" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample_1a892370e1d7529e71edf8dbf356ae16bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam&lt; TRAITS &gt;::Sample::ALEMBIC_OPERATOR_BOOL</definition>
+        <argsstring>(valid())</argsstring>
+        <name>ALEMBIC_OPERATOR_BOOL</name>
+        <param>
+          <type>valid()</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="105"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="59" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="58" bodyend="111"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample_1a892370e1d7529e71edf8dbf356ae16bc" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam::Sample</scope><name>ALEMBIC_OPERATOR_BOOL</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample_1ae8af1152f132a51eb23abf54f55f08b4" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam::Sample</scope><name>getIndices</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample_1adae7997f11f800cd9f8767a189ee26df" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam::Sample</scope><name>getScope</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample_1ac4e291e8e32fbffee56565a799c4b28f" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam::Sample</scope><name>getVals</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample_1abe8f30b713864d5755fa69f2fa981700" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam::Sample</scope><name>m_indices</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample_1a1f641875aa2fe73053bd23605946f808" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam::Sample</scope><name>m_scope</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample_1a8ef78717ab012ea78103e24ad692a98f" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam::Sample</scope><name>m_vals</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample_1a8a19338e25cc166d9b5b1dd7d676bd09" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam::Sample</scope><name>reset</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample_1a93565901fb449db84a6c4f55797d9d9a" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam::Sample</scope><name>Sample</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample_1a373bf4b6bec6a3b3a842777160587b66" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam::Sample</scope><name>Sample</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample_1a22d226c8256812425200accec759d00e" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam::Sample</scope><name>Sample</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample_1a2cf6c14101a25bba7fa5da1475cfefb8" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam::Sample</scope><name>setIndices</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample_1a87006b78ef8d52840d70b50c9d1b8950" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam::Sample</scope><name>setScope</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample_1aa887e2f6751a0e4ef00c5d8d4cfa67d1" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam::Sample</scope><name>setVals</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample_1a22ae4bfdbe038b4c9811629177f9e325" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam::Sample</scope><name>this_type</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1_1_sample_1ade114e9283e86ca3e1720f401ade33d6" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OTypedGeomParam::Sample</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

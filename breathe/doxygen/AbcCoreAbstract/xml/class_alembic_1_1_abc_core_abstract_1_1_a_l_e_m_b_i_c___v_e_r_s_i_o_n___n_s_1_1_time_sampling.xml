@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling" kind="class" prot="public">
+    <compoundname>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling</compoundname>
+    <includes refid="_time_sampling_8h" local="no">TimeSampling.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a55607093cb061bc42d682ad96a678276" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_type" kindref="compound">TimeSamplingType</ref></type>
+        <definition>TimeSamplingType Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling::m_timeSamplingType</definition>
+        <argsstring></argsstring>
+        <name>m_timeSamplingType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_type" kindref="compound">TimeSamplingType</ref> This is &quot;Uniform&quot;, &quot;Cyclic&quot;, or &quot;Acyclic&quot;. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/TimeSampling.h" line="128" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/TimeSampling.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a6ef4dbd0e4e6bb32504290c68b07ec64" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; chrono_t &gt;</type>
+        <definition>std::vector&lt; chrono_t &gt; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling::m_sampleTimes</definition>
+        <argsstring></argsstring>
+        <name>m_sampleTimes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/TimeSampling.h" line="130" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/TimeSampling.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a3f4932848d61aba24ab82ad475d2c63e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling::TimeSampling</definition>
+        <argsstring>(const TimeSamplingType &amp;iTimeSamplingType, const std::vector&lt; chrono_t &gt; &amp;iSampleTimes)</argsstring>
+        <name>TimeSampling</name>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_type" kindref="compound">TimeSamplingType</ref> &amp;</type>
+          <declname>iTimeSamplingType</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; chrono_t &gt; &amp;</type>
+          <declname>iSampleTimes</declname>
+          <briefdescription><para>The number of time samples per cycle </para></briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling" kindref="compound">TimeSampling</ref> class is really a portable interface, usable via aggregation, that the SimplePropertyReaders and Writers (and their derived classes) can use to provide consistent time-sampling introspection to clients. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/TimeSampling.h" line="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a0a4107b3d1442cda0885ce4deacc636f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling::TimeSampling</definition>
+        <argsstring>(chrono_t iTimePerCycle, chrono_t iStartTime)</argsstring>
+        <name>TimeSampling</name>
+        <param>
+          <type>chrono_t</type>
+          <declname>iTimePerCycle</declname>
+        </param>
+        <param>
+          <type>chrono_t</type>
+          <declname>iStartTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convenience constructor which creates uniform time sampling with the specified time per cycle and the specified start time. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/TimeSampling.h" line="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a6b8263b7ab1d2b9fd37f870813993532" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling::TimeSampling</definition>
+        <argsstring>(const TimeSampling &amp;copy)</argsstring>
+        <name>TimeSampling</name>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling" kindref="compound">TimeSampling</ref> &amp;</type>
+          <declname>copy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/TimeSampling.h" line="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1acd5d3f3a5dfea14452b945d2ed4d7263" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling::TimeSampling</definition>
+        <argsstring>()</argsstring>
+        <name>TimeSampling</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/TimeSampling.h" line="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a4eb15e224b1dc162b877cefbaa7b1ac9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling::operator==</definition>
+        <argsstring>(const TimeSampling &amp;iRhs) const </argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling" kindref="compound">TimeSampling</ref> &amp;</type>
+          <declname>iRhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/TimeSampling.h" line="78" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/TimeSampling.h" bodystart="77" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a0a12be93c0ade9862010762bd53f3cf3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling::getNumStoredTimes</definition>
+        <argsstring>() const </argsstring>
+        <name>getNumStoredTimes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the number of stored times. This is same as the samples per cycle in the time sampling type except for acyclic time sampling. There will always be at least one sample because a start time is always needed. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/TimeSampling.h" line="88" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/TimeSampling.h" bodystart="87" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a93f0ded0da83899b2b89b2caa8b10553" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::vector&lt; chrono_t &gt; &amp;</type>
+        <definition>const std::vector&lt; chrono_t &gt;&amp; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling::getStoredTimes</definition>
+        <argsstring>() const </argsstring>
+        <name>getStoredTimes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/TimeSampling.h" line="93" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/TimeSampling.h" bodystart="92" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1afa62e36bcb1b14ffb90b2d78d63e6446" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_type" kindref="compound">TimeSamplingType</ref></type>
+        <definition>TimeSamplingType Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling::getTimeSamplingType</definition>
+        <argsstring>() const </argsstring>
+        <name>getTimeSamplingType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/TimeSampling.h" line="98" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/TimeSampling.h" bodystart="97" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a50b748866f786f7e56550a32c9ebb1bf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>chrono_t</type>
+        <definition>chrono_t Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling::getSampleTime</definition>
+        <argsstring>(index_t iIndex) const </argsstring>
+        <name>getSampleTime</name>
+        <param>
+          <type>index_t</type>
+          <declname>iIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the time of any sample it is invalid to call this for out-of-range indices. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/TimeSampling.h" line="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a5e6b34c14bafcf2f6e726e020912bc7f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::pair&lt; index_t, chrono_t &gt;</type>
+        <definition>std::pair&lt;index_t, chrono_t&gt; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling::getFloorIndex</definition>
+        <argsstring>(chrono_t iTime, index_t iNumSamples) const </argsstring>
+        <name>getFloorIndex</name>
+        <param>
+          <type>chrono_t</type>
+          <declname>iTime</declname>
+        </param>
+        <param>
+          <type>index_t</type>
+          <declname>iNumSamples</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Find the largest valid index that has a time less than or equal to the given time. Invalid to call this with zero samples. If the minimum sample time is greater than iTime, index 0 will be returned. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/TimeSampling.h" line="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a1fe72f053fd3f0ddf744056ee0f59c6a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::pair&lt; index_t, chrono_t &gt;</type>
+        <definition>std::pair&lt;index_t, chrono_t&gt; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling::getCeilIndex</definition>
+        <argsstring>(chrono_t iTime, index_t iNumSamples) const </argsstring>
+        <name>getCeilIndex</name>
+        <param>
+          <type>chrono_t</type>
+          <declname>iTime</declname>
+        </param>
+        <param>
+          <type>index_t</type>
+          <declname>iNumSamples</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Find the smallest valid index that has a time greater than the given time. Invalid to call this with zero samples. If the maximum sample time is less than iTime, index numSamples-1 will be returned. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/TimeSampling.h" line="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a05b94f917f96d28d47a26dfcb9bbbd90" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::pair&lt; index_t, chrono_t &gt;</type>
+        <definition>std::pair&lt;index_t, chrono_t&gt; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling::getNearIndex</definition>
+        <argsstring>(chrono_t iTime, index_t iNumSamples) const </argsstring>
+        <name>getNearIndex</name>
+        <param>
+          <type>chrono_t</type>
+          <declname>iTime</declname>
+        </param>
+        <param>
+          <type>index_t</type>
+          <declname>iNumSamples</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Find the valid index with the closest time to the given time. Invalid to call this with zero samples. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/TimeSampling.h" line="123"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a4026e1815bb107afacd0510c258a8973" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling::init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/TimeSampling.h" line="134"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling" kindref="compound">TimeSampling</ref> class&apos;s whole job is to report information about the time values that are associated with the samples that were written to a property. Most of the time, the sampling will be uniform or cyclic, in which case this is mostly an algorithmic interface to the small sample times buffer. In the case where the sampling is truly acyclic, this class acts as an accessor to that array of times. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="80">
+        <label>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSamplingType</label>
+        <link refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_type"/>
+      </node>
+      <node id="79">
+        <label>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling</label>
+        <link refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling"/>
+        <childnode refid="80" relation="usage">
+          <edgelabel>m_timeSamplingType</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/TimeSampling.h" line="58" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/TimeSampling.h" bodystart="57" bodyend="135"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a1fe72f053fd3f0ddf744056ee0f59c6a" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling</scope><name>getCeilIndex</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a5e6b34c14bafcf2f6e726e020912bc7f" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling</scope><name>getFloorIndex</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a05b94f917f96d28d47a26dfcb9bbbd90" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling</scope><name>getNearIndex</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a0a12be93c0ade9862010762bd53f3cf3" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling</scope><name>getNumStoredTimes</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a50b748866f786f7e56550a32c9ebb1bf" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling</scope><name>getSampleTime</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a93f0ded0da83899b2b89b2caa8b10553" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling</scope><name>getStoredTimes</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1afa62e36bcb1b14ffb90b2d78d63e6446" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling</scope><name>getTimeSamplingType</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a4026e1815bb107afacd0510c258a8973" prot="private" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling</scope><name>init</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a6ef4dbd0e4e6bb32504290c68b07ec64" prot="protected" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling</scope><name>m_sampleTimes</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a55607093cb061bc42d682ad96a678276" prot="protected" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling</scope><name>m_timeSamplingType</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a4eb15e224b1dc162b877cefbaa7b1ac9" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling</scope><name>operator==</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a3f4932848d61aba24ab82ad475d2c63e" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling</scope><name>TimeSampling</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a0a4107b3d1442cda0885ce4deacc636f" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling</scope><name>TimeSampling</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1a6b8263b7ab1d2b9fd37f870813993532" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling</scope><name>TimeSampling</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_1acd5d3f3a5dfea14452b945d2ed4d7263" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling</scope><name>TimeSampling</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

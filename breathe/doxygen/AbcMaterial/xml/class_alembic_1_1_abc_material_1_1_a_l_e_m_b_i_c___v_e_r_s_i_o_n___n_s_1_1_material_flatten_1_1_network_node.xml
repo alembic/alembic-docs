@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node" kind="class" prot="public">
+    <compoundname>Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode</compoundname>
+    <innerclass refid="struct_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1_1_connection" prot="public">Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::Connection</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1ad7e4f8ec5cebfbfe145deb590d4d261c" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="struct_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1_1_connection" kindref="compound">Connection</ref> &gt;</type>
+        <definition>typedef std::vector&lt;Connection&gt; Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::ConnectionVector</definition>
+        <argsstring></argsstring>
+        <name>ConnectionVector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/MaterialFlatten.h" line="194" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/MaterialFlatten.h" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a41f2f70bce01a95925c1691e4f065066" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class MaterialFlatten</definition>
+        <argsstring></argsstring>
+        <name>MaterialFlatten</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/MaterialFlatten.h" line="200" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/MaterialFlatten.h" bodystart="200" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a09c3b0417d23bae80e7c0b857554fdf2" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::m_name</definition>
+        <argsstring></argsstring>
+        <name>m_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/MaterialFlatten.h" line="206" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/MaterialFlatten.h" bodystart="206" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1ac168fb4b7f2cc036d82140aa337be7e5" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node" kindref="compound">IMaterialSchema::NetworkNode</ref> &gt;</type>
+        <definition>std::vector&lt;IMaterialSchema::NetworkNode&gt; Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::m_nodes</definition>
+        <argsstring></argsstring>
+        <name>m_nodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/MaterialFlatten.h" line="207" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/MaterialFlatten.h" bodystart="207" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a4314981ee61fe14d7598eb1b3aa46239" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; Abc::ICompoundProperty &gt;</type>
+        <definition>std::vector&lt;Abc::ICompoundProperty&gt; Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::m_networkParameters</definition>
+        <argsstring></argsstring>
+        <name>m_networkParameters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/MaterialFlatten.h" line="208" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/MaterialFlatten.h" bodystart="208" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1ad289bbce799446ad89f8e124ecdf9131" prot="private" static="no" mutable="no">
+        <type>StringMapPtr</type>
+        <definition>StringMapPtr Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::m_interfaceMappings</definition>
+        <argsstring></argsstring>
+        <name>m_interfaceMappings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/MaterialFlatten.h" line="209" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/MaterialFlatten.h" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a7bc3e856be1eb9ee43c85cad085aed4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::NetworkNode</definition>
+        <argsstring>()</argsstring>
+        <name>NetworkNode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/MaterialFlatten.h" line="162"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a001aaeb26fdcbc12c354ea76158b9260" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::valid</definition>
+        <argsstring>()</argsstring>
+        <name>valid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/MaterialFlatten.h" line="164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a52614b7bfe24de67c5f6752e19ade6dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::getName</definition>
+        <argsstring>()</argsstring>
+        <name>getName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/MaterialFlatten.h" line="166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1ab17835e49778f2411d1e8cb3679fe0e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::getTarget</definition>
+        <argsstring>(std::string &amp;oResult)</argsstring>
+        <name>getTarget</name>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>oResult</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/MaterialFlatten.h" line="167"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a1931bdda9bf94dcdae734fa6e6e3eb10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::getNodeType</definition>
+        <argsstring>(std::string &amp;oResult)</argsstring>
+        <name>getNodeType</name>
+        <param>
+          <type>std::string &amp;</type>
+          <declname>oResult</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/MaterialFlatten.h" line="168"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1ad7cd91f853e3f74f797c5c3a53cc29e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::getParameters</definition>
+        <argsstring>(ParameterEntryVector &amp;oResult)</argsstring>
+        <name>getParameters</name>
+        <param>
+          <type>ParameterEntryVector &amp;</type>
+          <declname>oResult</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/MaterialFlatten.h" line="169"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a4a2d8bcc2dfb61321f6fcd5fa3b89579" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::getConnections</definition>
+        <argsstring>(ConnectionVector &amp;oResult)</argsstring>
+        <name>getConnections</name>
+        <param>
+          <type>ConnectionVector &amp;</type>
+          <declname>oResult</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/MaterialFlatten.h" line="196"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a4ac9a742424a6eb12fb10b61a57f954d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::NetworkNode</definition>
+        <argsstring>(const std::string &amp;iName, SchemaVector &amp;iSchemas, StringMapPtr iInterfaceMappings)</argsstring>
+        <name>NetworkNode</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iName</declname>
+        </param>
+        <param>
+          <type>SchemaVector &amp;</type>
+          <declname>iSchemas</declname>
+        </param>
+        <param>
+          <type>StringMapPtr</type>
+          <declname>iInterfaceMappings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/MaterialFlatten.h" line="204"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/MaterialFlatten.h" line="159" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/MaterialFlatten.h" bodystart="158" bodyend="210"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1ad7e4f8ec5cebfbfe145deb590d4d261c" prot="public" virt="non-virtual"><scope>Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode</scope><name>ConnectionVector</name></member>
+      <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a4a2d8bcc2dfb61321f6fcd5fa3b89579" prot="public" virt="non-virtual"><scope>Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode</scope><name>getConnections</name></member>
+      <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a52614b7bfe24de67c5f6752e19ade6dd" prot="public" virt="non-virtual"><scope>Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode</scope><name>getName</name></member>
+      <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a1931bdda9bf94dcdae734fa6e6e3eb10" prot="public" virt="non-virtual"><scope>Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode</scope><name>getNodeType</name></member>
+      <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1ad7cd91f853e3f74f797c5c3a53cc29e6" prot="public" virt="non-virtual"><scope>Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode</scope><name>getParameters</name></member>
+      <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1ab17835e49778f2411d1e8cb3679fe0e3" prot="public" virt="non-virtual"><scope>Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode</scope><name>getTarget</name></member>
+      <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1ad289bbce799446ad89f8e124ecdf9131" prot="private" virt="non-virtual"><scope>Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode</scope><name>m_interfaceMappings</name></member>
+      <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a09c3b0417d23bae80e7c0b857554fdf2" prot="private" virt="non-virtual"><scope>Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode</scope><name>m_name</name></member>
+      <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a4314981ee61fe14d7598eb1b3aa46239" prot="private" virt="non-virtual"><scope>Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode</scope><name>m_networkParameters</name></member>
+      <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1ac168fb4b7f2cc036d82140aa337be7e5" prot="private" virt="non-virtual"><scope>Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode</scope><name>m_nodes</name></member>
+      <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a41f2f70bce01a95925c1691e4f065066" prot="private" virt="non-virtual"><scope>Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode</scope><name>MaterialFlatten</name></member>
+      <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a7bc3e856be1eb9ee43c85cad085aed4c" prot="public" virt="non-virtual"><scope>Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode</scope><name>NetworkNode</name></member>
+      <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a4ac9a742424a6eb12fb10b61a57f954d" prot="private" virt="non-virtual"><scope>Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode</scope><name>NetworkNode</name></member>
+      <member refid="class_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a001aaeb26fdcbc12c354ea76158b9260" prot="public" virt="non-virtual"><scope>Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

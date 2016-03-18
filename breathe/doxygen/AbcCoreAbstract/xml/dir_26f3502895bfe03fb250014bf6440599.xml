@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="dir_26f3502895bfe03fb250014bf6440599" kind="dir">
+    <compoundname>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/</compoundname>
+    <innerfile refid="_all_8h">All.h</innerfile>
+    <innerfile refid="_archive_reader_8h">ArchiveReader.h</innerfile>
+    <innerfile refid="_archive_writer_8h">ArchiveWriter.h</innerfile>
+    <innerfile refid="_array_property_reader_8h">ArrayPropertyReader.h</innerfile>
+    <innerfile refid="_array_property_writer_8h">ArrayPropertyWriter.h</innerfile>
+    <innerfile refid="_array_sample_8h">ArraySample.h</innerfile>
+    <innerfile refid="_array_sample_key_8h">ArraySampleKey.h</innerfile>
+    <innerfile refid="_base_property_reader_8h">BasePropertyReader.h</innerfile>
+    <innerfile refid="_base_property_writer_8h">BasePropertyWriter.h</innerfile>
+    <innerfile refid="_compound_property_reader_8h">CompoundPropertyReader.h</innerfile>
+    <innerfile refid="_compound_property_writer_8h">CompoundPropertyWriter.h</innerfile>
+    <innerfile refid="_data_type_8h">DataType.h</innerfile>
+    <innerfile refid="_forward_declarations_8h">ForwardDeclarations.h</innerfile>
+    <innerfile refid="_foundation_8h">Foundation.h</innerfile>
+    <innerfile refid="_meta_data_8h">MetaData.h</innerfile>
+    <innerfile refid="_object_header_8h">ObjectHeader.h</innerfile>
+    <innerfile refid="_object_reader_8h">ObjectReader.h</innerfile>
+    <innerfile refid="_object_writer_8h">ObjectWriter.h</innerfile>
+    <innerfile refid="_property_header_8h">PropertyHeader.h</innerfile>
+    <innerfile refid="_read_array_sample_cache_8h">ReadArraySampleCache.h</innerfile>
+    <innerfile refid="_scalar_property_reader_8h">ScalarPropertyReader.h</innerfile>
+    <innerfile refid="_scalar_property_writer_8h">ScalarPropertyWriter.h</innerfile>
+    <innerfile refid="_scalar_sample_8h">ScalarSample.h</innerfile>
+    <innerfile refid="_time_sampling_8h">TimeSampling.h</innerfile>
+    <innerfile refid="_time_sampling_type_8h">TimeSamplingType.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/"/>
+  </compounddef>
+</doxygen>

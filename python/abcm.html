@@ -1,0 +1,714 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>alembic.AbcMaterial &mdash; Alembic 1.5.7 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="Alembic 1.5.7 documentation" href="../index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Alembic
+          
+
+          
+            
+            <img src="../_static/alembic.png" class="logo" />
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.5.7
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <!-- Local TOC -->
+                <div class="local-toc"><ul>
+<li><a class="reference internal" href="#"><code class="docutils literal"><span class="pre">alembic.AbcMaterial</span></code></a></li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Alembic</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+    <li><code class="docutils literal"><span class="pre">alembic.AbcMaterial</span></code></li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/python/abcm.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="alembic-abcmaterial">
+<h1><a class="reference internal" href="#module-alembic.AbcMaterial" title="alembic.AbcMaterial"><code class="xref py py-mod docutils literal"><span class="pre">alembic.AbcMaterial</span></code></a><a class="headerlink" href="#alembic-abcmaterial" title="Permalink to this headline">¶</a></h1>
+<p>AbcMaterial is a module which sits above Abc. It is not dependent upon AbcGeom &#8211;
+nor is AbcGeom currently dependent upon it. It provides schema and object types for
+representing materials and material bindings.</p>
+<p>Explanation of terms</p>
+<p>target: a string representing a target application or renderer by name and agreed-upon
+convention. Examples include &#8220;prman,&#8221; &#8220;arnold&#8221; and &#8220;maya.&#8221; The library could also
+include a document of conventions for interchange via a reserved &#8220;abc&#8221; target value.
+(More on this later).</p>
+<p>shader type: a string representing a shader classification by name and agreed-upon
+convention. Examples include &#8220;surface,&#8221; &#8220;displacement&#8221; and &#8220;light.&#8221; This could also
+express things like &#8220;coshader_taco&#8221; in which the value text following the &#8220;<a href="#id1"><span class="problematic" id="id2">coshader_</span></a>&#8221;
+prefix is used as a coshader instance name.</p>
+<p>shader name: a string identifying a shader object within a specified target and shader
+type. Examples include &#8220;paintedplastic&#8221; and &#8220;spot_light_v12.&#8221;</p>
+<p>assignment: binding of a material object onto another object via an alembic
+object path</p>
+<p>inheritance/flattening: combining the contributions of multiple material definitions.
+The common case is the flattening of a hierarchy of material objects following
+assignment. It can also reference to the combination of a locally defined material
+with that of an assigned material.</p>
+<span class="target" id="module-alembic.AbcMaterial"></span><dl class="class">
+<dt id="alembic.AbcMaterial.ConnectionVector">
+<em class="property">class </em><code class="descclassname">alembic.AbcMaterial.</code><code class="descname">ConnectionVector</code><a class="headerlink" href="#alembic.AbcMaterial.ConnectionVector" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="alembic.AbcMaterial.ConnectionVector.append">
+<code class="descname">append</code><span class="sig-paren">(</span><em>(ConnectionVector)arg1</em>, <em>(object)arg2</em><span class="sig-paren">)</span> &rarr; None<a class="headerlink" href="#alembic.AbcMaterial.ConnectionVector.append" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.ConnectionVector.extend">
+<code class="descname">extend</code><span class="sig-paren">(</span><em>(ConnectionVector)arg1</em>, <em>(object)arg2</em><span class="sig-paren">)</span> &rarr; None<a class="headerlink" href="#alembic.AbcMaterial.ConnectionVector.extend" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="alembic.AbcMaterial.IMaterial">
+<em class="property">class </em><code class="descclassname">alembic.AbcMaterial.</code><code class="descname">IMaterial</code><a class="headerlink" href="#alembic.AbcMaterial.IMaterial" title="Permalink to this definition">¶</a></dt>
+<dd><p>doc</p>
+<dl class="method">
+<dt id="alembic.AbcMaterial.IMaterial.getSchema">
+<code class="descname">getSchema</code><span class="sig-paren">(</span><em>(IMaterial)arg1</em><span class="sig-paren">)</span> &rarr; IMaterialSchema :<a class="headerlink" href="#alembic.AbcMaterial.IMaterial.getSchema" title="Permalink to this definition">¶</a></dt>
+<dd><p>doc</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="alembic.AbcMaterial.IMaterial.getSchemaObjTitle">
+<em class="property">static </em><code class="descname">getSchemaObjTitle</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &rarr; str :<a class="headerlink" href="#alembic.AbcMaterial.IMaterial.getSchemaObjTitle" title="Permalink to this definition">¶</a></dt>
+<dd><p>doc</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="alembic.AbcMaterial.IMaterial.getSchemaTitle">
+<em class="property">static </em><code class="descname">getSchemaTitle</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &rarr; str :<a class="headerlink" href="#alembic.AbcMaterial.IMaterial.getSchemaTitle" title="Permalink to this definition">¶</a></dt>
+<dd><p>doc</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="alembic.AbcMaterial.IMaterial.matches">
+<em class="property">static </em><code class="descname">matches</code><span class="sig-paren">(</span><em>(MetaData)metaData</em><span class="optional">[</span>, <em>(SchemaInterpMatching)matchingSchema=alembic.Abc.SchemaInterpMatching.kStrictMatching</em><span class="optional">]</span><span class="sig-paren">)</span> &rarr; bool<a class="headerlink" href="#alembic.AbcMaterial.IMaterial.matches" title="Permalink to this definition">¶</a></dt>
+<dd><p>matches( (ObjectHeader)metaData [, (SchemaInterpMatching)matchingSchema=alembic.Abc.SchemaInterpMatching.kStrictMatching]) -&gt; bool</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.IMaterial.reset">
+<code class="descname">reset</code><span class="sig-paren">(</span><em>(IMaterial)arg1</em><span class="sig-paren">)</span> &rarr; None<a class="headerlink" href="#alembic.AbcMaterial.IMaterial.reset" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.IMaterial.valid">
+<code class="descname">valid</code><span class="sig-paren">(</span><em>(IMaterial)arg1</em><span class="sig-paren">)</span> &rarr; bool<a class="headerlink" href="#alembic.AbcMaterial.IMaterial.valid" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="alembic.AbcMaterial.IMaterialSchema">
+<em class="property">class </em><code class="descclassname">alembic.AbcMaterial.</code><code class="descname">IMaterialSchema</code><a class="headerlink" href="#alembic.AbcMaterial.IMaterialSchema" title="Permalink to this definition">¶</a></dt>
+<dd><p>The IMaterialSchema class is a xform schema reader</p>
+<dl class="method">
+<dt id="alembic.AbcMaterial.IMaterialSchema.getNetworkInterfaceParameterMapping">
+<code class="descname">getNetworkInterfaceParameterMapping</code><span class="sig-paren">(</span><em>(IMaterialSchema)arg1</em>, <em>(int)arg2</em><span class="sig-paren">)</span> &rarr; dict<a class="headerlink" href="#alembic.AbcMaterial.IMaterialSchema.getNetworkInterfaceParameterMapping" title="Permalink to this definition">¶</a></dt>
+<dd><p>getNetworkInterfaceParameterMapping( (IMaterialSchema)arg1, (str)arg2) -&gt; dict</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.IMaterialSchema.getNetworkInterfaceParameterMappingNames">
+<code class="descname">getNetworkInterfaceParameterMappingNames</code><span class="sig-paren">(</span><em>(IMaterialSchema)arg1</em><span class="sig-paren">)</span> &rarr; object<a class="headerlink" href="#alembic.AbcMaterial.IMaterialSchema.getNetworkInterfaceParameterMappingNames" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.IMaterialSchema.getNetworkInterfaceParameters">
+<code class="descname">getNetworkInterfaceParameters</code><span class="sig-paren">(</span><em>(IMaterialSchema)arg1</em><span class="sig-paren">)</span> &rarr; ICompoundProperty<a class="headerlink" href="#alembic.AbcMaterial.IMaterialSchema.getNetworkInterfaceParameters" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.IMaterialSchema.getNetworkNode">
+<code class="descname">getNetworkNode</code><span class="sig-paren">(</span><em>(IMaterialSchema)arg1</em>, <em>(str)arg2</em><span class="sig-paren">)</span> &rarr; IMaterialSchemaNetworkNode<a class="headerlink" href="#alembic.AbcMaterial.IMaterialSchema.getNetworkNode" title="Permalink to this definition">¶</a></dt>
+<dd><p>getNetworkNode( (IMaterialSchema)arg1, (int)arg2) -&gt; IMaterialSchemaNetworkNode</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.IMaterialSchema.getNetworkNodeNames">
+<code class="descname">getNetworkNodeNames</code><span class="sig-paren">(</span><em>(IMaterialSchema)arg1</em><span class="sig-paren">)</span> &rarr; object<a class="headerlink" href="#alembic.AbcMaterial.IMaterialSchema.getNetworkNodeNames" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.IMaterialSchema.getNetworkTerminal">
+<code class="descname">getNetworkTerminal</code><span class="sig-paren">(</span><em>(IMaterialSchema)arg1</em>, <em>(str)arg2</em>, <em>(str)arg3</em><span class="sig-paren">)</span> &rarr; dict<a class="headerlink" href="#alembic.AbcMaterial.IMaterialSchema.getNetworkTerminal" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.IMaterialSchema.getNetworkTerminalShaderTypesForTarget">
+<code class="descname">getNetworkTerminalShaderTypesForTarget</code><span class="sig-paren">(</span><em>(IMaterialSchema)arg1</em>, <em>(str)arg2</em><span class="sig-paren">)</span> &rarr; object<a class="headerlink" href="#alembic.AbcMaterial.IMaterialSchema.getNetworkTerminalShaderTypesForTarget" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.IMaterialSchema.getNetworkTerminalTargetNames">
+<code class="descname">getNetworkTerminalTargetNames</code><span class="sig-paren">(</span><em>(IMaterialSchema)arg1</em><span class="sig-paren">)</span> &rarr; object<a class="headerlink" href="#alembic.AbcMaterial.IMaterialSchema.getNetworkTerminalTargetNames" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.IMaterialSchema.getNumNetworkInterfaceParameterMappings">
+<code class="descname">getNumNetworkInterfaceParameterMappings</code><span class="sig-paren">(</span><em>(IMaterialSchema)arg1</em><span class="sig-paren">)</span> &rarr; int<a class="headerlink" href="#alembic.AbcMaterial.IMaterialSchema.getNumNetworkInterfaceParameterMappings" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.IMaterialSchema.getNumNetworkNodes">
+<code class="descname">getNumNetworkNodes</code><span class="sig-paren">(</span><em>(IMaterialSchema)arg1</em><span class="sig-paren">)</span> &rarr; int<a class="headerlink" href="#alembic.AbcMaterial.IMaterialSchema.getNumNetworkNodes" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.IMaterialSchema.getShader">
+<code class="descname">getShader</code><span class="sig-paren">(</span><em>(IMaterialSchema)arg1</em>, <em>(str)arg2</em>, <em>(str)arg3</em><span class="sig-paren">)</span> &rarr; str<a class="headerlink" href="#alembic.AbcMaterial.IMaterialSchema.getShader" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.IMaterialSchema.getShaderParameters">
+<code class="descname">getShaderParameters</code><span class="sig-paren">(</span><em>(IMaterialSchema)arg1</em>, <em>(str)arg2</em>, <em>(str)arg3</em><span class="sig-paren">)</span> &rarr; ICompoundProperty<a class="headerlink" href="#alembic.AbcMaterial.IMaterialSchema.getShaderParameters" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.IMaterialSchema.getShaderTypesForTarget">
+<code class="descname">getShaderTypesForTarget</code><span class="sig-paren">(</span><em>(IMaterialSchema)arg1</em>, <em>(str)arg2</em><span class="sig-paren">)</span> &rarr; object<a class="headerlink" href="#alembic.AbcMaterial.IMaterialSchema.getShaderTypesForTarget" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.IMaterialSchema.getTargetNames">
+<code class="descname">getTargetNames</code><span class="sig-paren">(</span><em>(IMaterialSchema)arg1</em><span class="sig-paren">)</span> &rarr; object<a class="headerlink" href="#alembic.AbcMaterial.IMaterialSchema.getTargetNames" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="alembic.AbcMaterial.IMaterialSchemaNetworkNode">
+<em class="property">class </em><code class="descclassname">alembic.AbcMaterial.</code><code class="descname">IMaterialSchemaNetworkNode</code><a class="headerlink" href="#alembic.AbcMaterial.IMaterialSchemaNetworkNode" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="alembic.AbcMaterial.IMaterialSchemaNetworkNode.getConnection">
+<code class="descname">getConnection</code><span class="sig-paren">(</span><em>(IMaterialSchemaNetworkNode)arg1</em>, <em>(int)arg2</em><span class="sig-paren">)</span> &rarr; dict<a class="headerlink" href="#alembic.AbcMaterial.IMaterialSchemaNetworkNode.getConnection" title="Permalink to this definition">¶</a></dt>
+<dd><p>getConnection( (IMaterialSchemaNetworkNode)arg1, (str)arg2) -&gt; dict</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.IMaterialSchemaNetworkNode.getName">
+<code class="descname">getName</code><span class="sig-paren">(</span><em>(IMaterialSchemaNetworkNode)arg1</em><span class="sig-paren">)</span> &rarr; str<a class="headerlink" href="#alembic.AbcMaterial.IMaterialSchemaNetworkNode.getName" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.IMaterialSchemaNetworkNode.getNodeType">
+<code class="descname">getNodeType</code><span class="sig-paren">(</span><em>(IMaterialSchemaNetworkNode)arg1</em><span class="sig-paren">)</span> &rarr; str<a class="headerlink" href="#alembic.AbcMaterial.IMaterialSchemaNetworkNode.getNodeType" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.IMaterialSchemaNetworkNode.getNumConnections">
+<code class="descname">getNumConnections</code><span class="sig-paren">(</span><em>(IMaterialSchemaNetworkNode)arg1</em><span class="sig-paren">)</span> &rarr; int<a class="headerlink" href="#alembic.AbcMaterial.IMaterialSchemaNetworkNode.getNumConnections" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.IMaterialSchemaNetworkNode.getParameters">
+<code class="descname">getParameters</code><span class="sig-paren">(</span><em>(IMaterialSchemaNetworkNode)arg1</em><span class="sig-paren">)</span> &rarr; ICompoundProperty<a class="headerlink" href="#alembic.AbcMaterial.IMaterialSchemaNetworkNode.getParameters" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.IMaterialSchemaNetworkNode.getTarget">
+<code class="descname">getTarget</code><span class="sig-paren">(</span><em>(IMaterialSchemaNetworkNode)arg1</em><span class="sig-paren">)</span> &rarr; str<a class="headerlink" href="#alembic.AbcMaterial.IMaterialSchemaNetworkNode.getTarget" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.IMaterialSchemaNetworkNode.valid">
+<code class="descname">valid</code><span class="sig-paren">(</span><em>(IMaterialSchemaNetworkNode)arg1</em><span class="sig-paren">)</span> &rarr; bool<a class="headerlink" href="#alembic.AbcMaterial.IMaterialSchemaNetworkNode.valid" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="alembic.AbcMaterial.ISchema_Material">
+<em class="property">class </em><code class="descclassname">alembic.AbcMaterial.</code><code class="descname">ISchema_Material</code><a class="headerlink" href="#alembic.AbcMaterial.ISchema_Material" title="Permalink to this definition">¶</a></dt>
+<dd><p>Usually used as a base class, but could also theoretically be used as a standalone.</p>
+<dl class="staticmethod">
+<dt id="alembic.AbcMaterial.ISchema_Material.getDefaultSchemaName">
+<em class="property">static </em><code class="descname">getDefaultSchemaName</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &rarr; str :<a class="headerlink" href="#alembic.AbcMaterial.ISchema_Material.getDefaultSchemaName" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the default name for instances of this schema. Often something like &#8216;.geom&#8217;.</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="alembic.AbcMaterial.ISchema_Material.getSchemaTitle">
+<em class="property">static </em><code class="descname">getSchemaTitle</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &rarr; str :<a class="headerlink" href="#alembic.AbcMaterial.ISchema_Material.getSchemaTitle" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the schema title expected of this property.An empty title matches everything.</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="alembic.AbcMaterial.ISchema_Material.matches">
+<em class="property">static </em><code class="descname">matches</code><span class="sig-paren">(</span><em>(MetaData)metadata</em><span class="optional">[</span>, <em>(SchemaInterpMatching)matchingSchema=alembic.Abc.SchemaInterpMatching.kStrictMatching</em><span class="optional">]</span><span class="sig-paren">)</span> &rarr; bool :<a class="headerlink" href="#alembic.AbcMaterial.ISchema_Material.matches" title="Permalink to this definition">¶</a></dt>
+<dd><p>This will check whether or not a given entity (as represented by a metadata) strictly matches the interpretation of this schema object.</p>
+<dl class="docutils">
+<dt>matches( (PropertyHeader)header [, (SchemaInterpMatching)matchingSchema=alembic.Abc.SchemaInterpMatching.kStrictMatching]) -&gt; bool :</dt>
+<dd>This will check whether or not a given entity (as represented by an object header) strictly matches the interpretation of thisschema object, as well as the datatype.</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="alembic.AbcMaterial.MaterialFlatten">
+<em class="property">class </em><code class="descclassname">alembic.AbcMaterial.</code><code class="descname">MaterialFlatten</code><a class="headerlink" href="#alembic.AbcMaterial.MaterialFlatten" title="Permalink to this definition">¶</a></dt>
+<dd><p>The MaterialFlatten class is a utility class for IMaterial</p>
+<dl class="method">
+<dt id="alembic.AbcMaterial.MaterialFlatten.append">
+<code class="descname">append</code><span class="sig-paren">(</span><em>(MaterialFlatten)arg1</em>, <em>(IMaterialSchema)arg2</em><span class="sig-paren">)</span> &rarr; None<a class="headerlink" href="#alembic.AbcMaterial.MaterialFlatten.append" title="Permalink to this definition">¶</a></dt>
+<dd><p>append( (MaterialFlatten)arg1, (IMaterial)arg2) -&gt; None</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.MaterialFlatten.empty">
+<code class="descname">empty</code><span class="sig-paren">(</span><em>(MaterialFlatten)arg1</em><span class="sig-paren">)</span> &rarr; bool<a class="headerlink" href="#alembic.AbcMaterial.MaterialFlatten.empty" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.MaterialFlatten.getNetworkNode">
+<code class="descname">getNetworkNode</code><span class="sig-paren">(</span><em>(MaterialFlatten)arg1</em>, <em>(int)arg2</em><span class="sig-paren">)</span> &rarr; MaterialFlattenNetworkNode<a class="headerlink" href="#alembic.AbcMaterial.MaterialFlatten.getNetworkNode" title="Permalink to this definition">¶</a></dt>
+<dd><p>getNetworkNode( (MaterialFlatten)arg1, (str)arg2) -&gt; MaterialFlattenNetworkNode</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.MaterialFlatten.getNetworkTerminal">
+<code class="descname">getNetworkTerminal</code><span class="sig-paren">(</span><em>(MaterialFlatten)arg1</em>, <em>(str)arg2</em>, <em>(str)arg3</em><span class="sig-paren">)</span> &rarr; dict<a class="headerlink" href="#alembic.AbcMaterial.MaterialFlatten.getNetworkTerminal" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.MaterialFlatten.getNetworkTerminalShaderTypesForTarget">
+<code class="descname">getNetworkTerminalShaderTypesForTarget</code><span class="sig-paren">(</span><em>(MaterialFlatten)arg1</em>, <em>(str)arg2</em><span class="sig-paren">)</span> &rarr; object<a class="headerlink" href="#alembic.AbcMaterial.MaterialFlatten.getNetworkTerminalShaderTypesForTarget" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.MaterialFlatten.getNetworkTerminalTargetNames">
+<code class="descname">getNetworkTerminalTargetNames</code><span class="sig-paren">(</span><em>(MaterialFlatten)arg1</em><span class="sig-paren">)</span> &rarr; object<a class="headerlink" href="#alembic.AbcMaterial.MaterialFlatten.getNetworkTerminalTargetNames" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.MaterialFlatten.getNumNetworkNodes">
+<code class="descname">getNumNetworkNodes</code><span class="sig-paren">(</span><em>(MaterialFlatten)arg1</em><span class="sig-paren">)</span> &rarr; int<a class="headerlink" href="#alembic.AbcMaterial.MaterialFlatten.getNumNetworkNodes" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.MaterialFlatten.getShader">
+<code class="descname">getShader</code><span class="sig-paren">(</span><em>(MaterialFlatten)arg1</em>, <em>(str)arg2</em>, <em>(str)arg3</em><span class="sig-paren">)</span> &rarr; str<a class="headerlink" href="#alembic.AbcMaterial.MaterialFlatten.getShader" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.MaterialFlatten.getShaderParameters">
+<code class="descname">getShaderParameters</code><span class="sig-paren">(</span><em>(MaterialFlatten)arg1</em>, <em>(str)arg2</em>, <em>(str)arg3</em><span class="sig-paren">)</span> &rarr; ParameterEntryVector<a class="headerlink" href="#alembic.AbcMaterial.MaterialFlatten.getShaderParameters" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.MaterialFlatten.getShaderTypesForTarget">
+<code class="descname">getShaderTypesForTarget</code><span class="sig-paren">(</span><em>(MaterialFlatten)arg1</em>, <em>(str)arg2</em><span class="sig-paren">)</span> &rarr; object<a class="headerlink" href="#alembic.AbcMaterial.MaterialFlatten.getShaderTypesForTarget" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.MaterialFlatten.getTargetNames">
+<code class="descname">getTargetNames</code><span class="sig-paren">(</span><em>(MaterialFlatten)arg1</em><span class="sig-paren">)</span> &rarr; object<a class="headerlink" href="#alembic.AbcMaterial.MaterialFlatten.getTargetNames" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="alembic.AbcMaterial.MaterialFlattenNetworkNode">
+<em class="property">class </em><code class="descclassname">alembic.AbcMaterial.</code><code class="descname">MaterialFlattenNetworkNode</code><a class="headerlink" href="#alembic.AbcMaterial.MaterialFlattenNetworkNode" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="alembic.AbcMaterial.MaterialFlattenNetworkNode.getConnections">
+<code class="descname">getConnections</code><span class="sig-paren">(</span><em>(MaterialFlattenNetworkNode)arg1</em><span class="sig-paren">)</span> &rarr; ConnectionVector<a class="headerlink" href="#alembic.AbcMaterial.MaterialFlattenNetworkNode.getConnections" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.MaterialFlattenNetworkNode.getName">
+<code class="descname">getName</code><span class="sig-paren">(</span><em>(MaterialFlattenNetworkNode)arg1</em><span class="sig-paren">)</span> &rarr; str<a class="headerlink" href="#alembic.AbcMaterial.MaterialFlattenNetworkNode.getName" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.MaterialFlattenNetworkNode.getNodeType">
+<code class="descname">getNodeType</code><span class="sig-paren">(</span><em>(MaterialFlattenNetworkNode)arg1</em><span class="sig-paren">)</span> &rarr; str<a class="headerlink" href="#alembic.AbcMaterial.MaterialFlattenNetworkNode.getNodeType" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.MaterialFlattenNetworkNode.getParameters">
+<code class="descname">getParameters</code><span class="sig-paren">(</span><em>(MaterialFlattenNetworkNode)arg1</em><span class="sig-paren">)</span> &rarr; ParameterEntryVector<a class="headerlink" href="#alembic.AbcMaterial.MaterialFlattenNetworkNode.getParameters" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.MaterialFlattenNetworkNode.getTarget">
+<code class="descname">getTarget</code><span class="sig-paren">(</span><em>(MaterialFlattenNetworkNode)arg1</em><span class="sig-paren">)</span> &rarr; str<a class="headerlink" href="#alembic.AbcMaterial.MaterialFlattenNetworkNode.getTarget" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.MaterialFlattenNetworkNode.valid">
+<code class="descname">valid</code><span class="sig-paren">(</span><em>(MaterialFlattenNetworkNode)arg1</em><span class="sig-paren">)</span> &rarr; bool<a class="headerlink" href="#alembic.AbcMaterial.MaterialFlattenNetworkNode.valid" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="alembic.AbcMaterial.MaterialFlattenNetworkNodeConnection">
+<em class="property">class </em><code class="descclassname">alembic.AbcMaterial.</code><code class="descname">MaterialFlattenNetworkNodeConnection</code><a class="headerlink" href="#alembic.AbcMaterial.MaterialFlattenNetworkNodeConnection" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="attribute">
+<dt id="alembic.AbcMaterial.MaterialFlattenNetworkNodeConnection.connectedNodeName">
+<code class="descname">connectedNodeName</code><a class="headerlink" href="#alembic.AbcMaterial.MaterialFlattenNetworkNodeConnection.connectedNodeName" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="alembic.AbcMaterial.MaterialFlattenNetworkNodeConnection.connectedOutputName">
+<code class="descname">connectedOutputName</code><a class="headerlink" href="#alembic.AbcMaterial.MaterialFlattenNetworkNodeConnection.connectedOutputName" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="alembic.AbcMaterial.MaterialFlattenNetworkNodeConnection.inputName">
+<code class="descname">inputName</code><a class="headerlink" href="#alembic.AbcMaterial.MaterialFlattenNetworkNodeConnection.inputName" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="alembic.AbcMaterial.MaterialFlattenParameterEntry">
+<em class="property">class </em><code class="descclassname">alembic.AbcMaterial.</code><code class="descname">MaterialFlattenParameterEntry</code><a class="headerlink" href="#alembic.AbcMaterial.MaterialFlattenParameterEntry" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="attribute">
+<dt id="alembic.AbcMaterial.MaterialFlattenParameterEntry.header">
+<code class="descname">header</code><a class="headerlink" href="#alembic.AbcMaterial.MaterialFlattenParameterEntry.header" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="alembic.AbcMaterial.MaterialFlattenParameterEntry.name">
+<code class="descname">name</code><a class="headerlink" href="#alembic.AbcMaterial.MaterialFlattenParameterEntry.name" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="alembic.AbcMaterial.MaterialFlattenParameterEntry.parent">
+<code class="descname">parent</code><a class="headerlink" href="#alembic.AbcMaterial.MaterialFlattenParameterEntry.parent" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="alembic.AbcMaterial.OMaterial">
+<em class="property">class </em><code class="descclassname">alembic.AbcMaterial.</code><code class="descname">OMaterial</code><a class="headerlink" href="#alembic.AbcMaterial.OMaterial" title="Permalink to this definition">¶</a></dt>
+<dd><p>doc</p>
+<dl class="method">
+<dt id="alembic.AbcMaterial.OMaterial.getSchema">
+<code class="descname">getSchema</code><span class="sig-paren">(</span><em>(OMaterial)arg1</em><span class="sig-paren">)</span> &rarr; OMaterialSchema :<a class="headerlink" href="#alembic.AbcMaterial.OMaterial.getSchema" title="Permalink to this definition">¶</a></dt>
+<dd><p>doc</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="alembic.AbcMaterial.OMaterial.getSchemaObjTitle">
+<em class="property">static </em><code class="descname">getSchemaObjTitle</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &rarr; str :<a class="headerlink" href="#alembic.AbcMaterial.OMaterial.getSchemaObjTitle" title="Permalink to this definition">¶</a></dt>
+<dd><p>doc</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="alembic.AbcMaterial.OMaterial.getSchemaTitle">
+<em class="property">static </em><code class="descname">getSchemaTitle</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &rarr; str :<a class="headerlink" href="#alembic.AbcMaterial.OMaterial.getSchemaTitle" title="Permalink to this definition">¶</a></dt>
+<dd><p>doc</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="alembic.AbcMaterial.OMaterial.matches">
+<em class="property">static </em><code class="descname">matches</code><span class="sig-paren">(</span><em>(MetaData)metaData</em><span class="optional">[</span>, <em>(SchemaInterpMatching)matchingSchema=alembic.Abc.SchemaInterpMatching.kStrictMatching</em><span class="optional">]</span><span class="sig-paren">)</span> &rarr; bool<a class="headerlink" href="#alembic.AbcMaterial.OMaterial.matches" title="Permalink to this definition">¶</a></dt>
+<dd><p>matches( (ObjectHeader)metaData [, (SchemaInterpMatching)matchingSchema=alembic.Abc.SchemaInterpMatching.kStrictMatching]) -&gt; bool</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.OMaterial.reset">
+<code class="descname">reset</code><span class="sig-paren">(</span><em>(OMaterial)arg1</em><span class="sig-paren">)</span> &rarr; None<a class="headerlink" href="#alembic.AbcMaterial.OMaterial.reset" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.OMaterial.valid">
+<code class="descname">valid</code><span class="sig-paren">(</span><em>(OMaterial)arg1</em><span class="sig-paren">)</span> &rarr; bool<a class="headerlink" href="#alembic.AbcMaterial.OMaterial.valid" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="alembic.AbcMaterial.OMaterialSchema">
+<em class="property">class </em><code class="descclassname">alembic.AbcMaterial.</code><code class="descname">OMaterialSchema</code><a class="headerlink" href="#alembic.AbcMaterial.OMaterialSchema" title="Permalink to this definition">¶</a></dt>
+<dd><p>The OMaterialSchema class is a material schema writer</p>
+<dl class="method">
+<dt id="alembic.AbcMaterial.OMaterialSchema.addNetworkNode">
+<code class="descname">addNetworkNode</code><span class="sig-paren">(</span><em>(OMaterialSchema)arg1</em>, <em>(str)arg2</em>, <em>(str)arg3</em>, <em>(str)arg4</em><span class="sig-paren">)</span> &rarr; None<a class="headerlink" href="#alembic.AbcMaterial.OMaterialSchema.addNetworkNode" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.OMaterialSchema.getNetworkInterfaceParameters">
+<code class="descname">getNetworkInterfaceParameters</code><span class="sig-paren">(</span><em>(OMaterialSchema)arg1</em><span class="sig-paren">)</span> &rarr; OCompoundProperty<a class="headerlink" href="#alembic.AbcMaterial.OMaterialSchema.getNetworkInterfaceParameters" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.OMaterialSchema.getNetworkNodeParameters">
+<code class="descname">getNetworkNodeParameters</code><span class="sig-paren">(</span><em>(OMaterialSchema)arg1</em>, <em>(str)arg2</em><span class="sig-paren">)</span> &rarr; OCompoundProperty<a class="headerlink" href="#alembic.AbcMaterial.OMaterialSchema.getNetworkNodeParameters" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.OMaterialSchema.getShaderParameters">
+<code class="descname">getShaderParameters</code><span class="sig-paren">(</span><em>(OMaterialSchema)arg1</em>, <em>(str)arg2</em>, <em>(str)arg3</em><span class="sig-paren">)</span> &rarr; OCompoundProperty<a class="headerlink" href="#alembic.AbcMaterial.OMaterialSchema.getShaderParameters" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.OMaterialSchema.setNetworkInterfaceParameterMapping">
+<code class="descname">setNetworkInterfaceParameterMapping</code><span class="sig-paren">(</span><em>(OMaterialSchema)arg1</em>, <em>(str)arg2</em>, <em>(str)arg3</em>, <em>(str)arg4</em><span class="sig-paren">)</span> &rarr; None<a class="headerlink" href="#alembic.AbcMaterial.OMaterialSchema.setNetworkInterfaceParameterMapping" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.OMaterialSchema.setNetworkNodeConnection">
+<code class="descname">setNetworkNodeConnection</code><span class="sig-paren">(</span><em>(OMaterialSchema)arg1</em>, <em>(str)arg2</em>, <em>(str)arg3</em>, <em>(str)arg4</em>, <em>(str)arg5</em><span class="sig-paren">)</span> &rarr; None<a class="headerlink" href="#alembic.AbcMaterial.OMaterialSchema.setNetworkNodeConnection" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.OMaterialSchema.setNetworkTerminal">
+<code class="descname">setNetworkTerminal</code><span class="sig-paren">(</span><em>(OMaterialSchema)arg1</em>, <em>(str)arg2</em>, <em>(str)arg3</em>, <em>(str)arg4</em>, <em>(str)arg5</em><span class="sig-paren">)</span> &rarr; None<a class="headerlink" href="#alembic.AbcMaterial.OMaterialSchema.setNetworkTerminal" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.OMaterialSchema.setShader">
+<code class="descname">setShader</code><span class="sig-paren">(</span><em>(OMaterialSchema)arg1</em>, <em>(str)arg2</em>, <em>(str)arg3</em>, <em>(str)arg4</em><span class="sig-paren">)</span> &rarr; None<a class="headerlink" href="#alembic.AbcMaterial.OMaterialSchema.setShader" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="alembic.AbcMaterial.OSchema_Material">
+<em class="property">class </em><code class="descclassname">alembic.AbcMaterial.</code><code class="descname">OSchema_Material</code><a class="headerlink" href="#alembic.AbcMaterial.OSchema_Material" title="Permalink to this definition">¶</a></dt>
+<dd><p>Usually used as a base class, but could also theoretically be used as a standalone.</p>
+<dl class="staticmethod">
+<dt id="alembic.AbcMaterial.OSchema_Material.getDefaultSchemaName">
+<em class="property">static </em><code class="descname">getDefaultSchemaName</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &rarr; str :<a class="headerlink" href="#alembic.AbcMaterial.OSchema_Material.getDefaultSchemaName" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the default name for instances of this schema. Often something like &#8216;.geom&#8217;.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.OSchema_Material.getSchemaBaseType">
+<code class="descname">getSchemaBaseType</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &rarr; str :<a class="headerlink" href="#alembic.AbcMaterial.OSchema_Material.getSchemaBaseType" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the schema base type expected of this property.An empty base type means it&#8217;s the root type.</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="alembic.AbcMaterial.OSchema_Material.getSchemaTitle">
+<em class="property">static </em><code class="descname">getSchemaTitle</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &rarr; str :<a class="headerlink" href="#alembic.AbcMaterial.OSchema_Material.getSchemaTitle" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the schema title expected of this property.An empty title matches everything.</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="alembic.AbcMaterial.OSchema_Material.matches">
+<em class="property">static </em><code class="descname">matches</code><span class="sig-paren">(</span><em>(MetaData)metadata</em><span class="optional">[</span>, <em>(SchemaInterpMatching)matchingSchema=alembic.Abc.SchemaInterpMatching.kStrictMatching</em><span class="optional">]</span><span class="sig-paren">)</span> &rarr; bool :<a class="headerlink" href="#alembic.AbcMaterial.OSchema_Material.matches" title="Permalink to this definition">¶</a></dt>
+<dd><p>This will check whether or not a given entity (as represented by a metadata) strictly matches the interpretation of this schema object.</p>
+<dl class="docutils">
+<dt>matches( (PropertyHeader)header [, (SchemaInterpMatching)matchingSchema=alembic.Abc.SchemaInterpMatching.kStrictMatching]) -&gt; bool :</dt>
+<dd>This will check whether or not a given entity (as represented by an object header) strictly matches the interpretation of thisschema object, as well as the datatype.</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="alembic.AbcMaterial.ParameterEntryVector">
+<em class="property">class </em><code class="descclassname">alembic.AbcMaterial.</code><code class="descname">ParameterEntryVector</code><a class="headerlink" href="#alembic.AbcMaterial.ParameterEntryVector" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="alembic.AbcMaterial.ParameterEntryVector.append">
+<code class="descname">append</code><span class="sig-paren">(</span><em>(ParameterEntryVector)arg1</em>, <em>(object)arg2</em><span class="sig-paren">)</span> &rarr; None<a class="headerlink" href="#alembic.AbcMaterial.ParameterEntryVector.append" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcMaterial.ParameterEntryVector.extend">
+<code class="descname">extend</code><span class="sig-paren">(</span><em>(ParameterEntryVector)arg1</em>, <em>(object)arg2</em><span class="sig-paren">)</span> &rarr; None<a class="headerlink" href="#alembic.AbcMaterial.ParameterEntryVector.extend" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="alembic.AbcMaterial.addMaterial">
+<code class="descclassname">alembic.AbcMaterial.</code><code class="descname">addMaterial</code><span class="sig-paren">(</span><em>(OObject)iObject</em><span class="optional">[</span>, <em>(str)iPropName='.material'</em><span class="optional">]</span><span class="sig-paren">)</span> &rarr; OMaterialSchema<a class="headerlink" href="#alembic.AbcMaterial.addMaterial" title="Permalink to this definition">¶</a></dt>
+<dd><p>addMaterial( (OCompoundProperty)iProp [, (str)iPropName=&#8217;.material&#8217;]) -&gt; OMaterialSchema</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="alembic.AbcMaterial.addMaterialAssignment">
+<code class="descclassname">alembic.AbcMaterial.</code><code class="descname">addMaterialAssignment</code><span class="sig-paren">(</span><em>(OObject)iObject</em>, <em>(str)iValue</em><span class="optional">[</span>, <em>(str)iPropName='.material.assign'</em><span class="optional">]</span><span class="sig-paren">)</span> &rarr; None<a class="headerlink" href="#alembic.AbcMaterial.addMaterialAssignment" title="Permalink to this definition">¶</a></dt>
+<dd><p>addMaterialAssignment( (OCompoundProperty)iProp, (str)iValue [, (str)iPropName=&#8217;.material.assign&#8217;]) -&gt; None</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="alembic.AbcMaterial.getMaterialAssignmentPath">
+<code class="descclassname">alembic.AbcMaterial.</code><code class="descname">getMaterialAssignmentPath</code><span class="sig-paren">(</span><em>(IObject)iObject</em><span class="optional">[</span>, <em>(str)iPropName='.material.assign'</em><span class="optional">]</span><span class="sig-paren">)</span> &rarr; str<a class="headerlink" href="#alembic.AbcMaterial.getMaterialAssignmentPath" title="Permalink to this definition">¶</a></dt>
+<dd><p>getMaterialAssignmentPath( (ICompoundProperty)iProp [, (str)iPropName=&#8217;.material.assign&#8217;]) -&gt; str</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="alembic.AbcMaterial.hasMaterial">
+<code class="descclassname">alembic.AbcMaterial.</code><code class="descname">hasMaterial</code><span class="sig-paren">(</span><em>(IObject)iObject</em><span class="optional">[</span>, <em>(str)iPropName='.material'</em><span class="optional">]</span><span class="sig-paren">)</span> &rarr; IMaterialSchema<a class="headerlink" href="#alembic.AbcMaterial.hasMaterial" title="Permalink to this definition">¶</a></dt>
+<dd><p>hasMaterial( (ICompoundProperty)iProp [, (str)iPropName=&#8217;.material&#8217;]) -&gt; IMaterialSchema</p>
+</dd></dl>
+
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2012-2016, Sony Pictures Imageworks Inc. and Industrial Light &amp; Magic, a division of Lucasfilm Entertainment Company Ltd..
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.5.7',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="namespace_alembic_1_1_abc_core_factory" kind="namespace">
+    <compoundname>Alembic::AbcCoreFactory</compoundname>
+    <innernamespace refid="namespace_alembic_1_1_abc_core_factory_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s">Alembic::AbcCoreFactory::ALEMBIC_VERSION_NS</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreFactory/IFactory.h" line="45"/>
+  </compounddef>
+</doxygen>

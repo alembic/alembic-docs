@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader" kind="class" prot="public">
+    <compoundname>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveReader</compoundname>
+    <includes refid="_archive_reader_8h" local="no">ArchiveReader.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1a70cc61ebdfe326d93ef165a76a1cf8e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveReader::~ArchiveReader</definition>
+        <argsstring>()</argsstring>
+        <name>~ArchiveReader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Virtual destructor ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveReader.h" line="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1a22ea95c39132a9a5a9dd79506b3aa8db" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>const std::string &amp;</type>
+        <definition>virtual const std::string&amp; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveReader::getName</definition>
+        <argsstring>() const =0</argsstring>
+        <name>getName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the archive (file) name. This is the name of the file which the root reader is associated with. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveReader.h" line="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1ac0f699827f0204c46fb969748dc5a097" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> &amp;</type>
+        <definition>virtual const MetaData&amp; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveReader::getMetaData</definition>
+        <argsstring>() const =0</argsstring>
+        <name>getMetaData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The meta data of the archive is the same as the meta data of the top-level object reader. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveReader.h" line="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1adfe058bf0690e50d8fdd7f362f0881d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>ObjectReaderPtr</type>
+        <definition>virtual ObjectReaderPtr Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveReader::getTop</definition>
+        <argsstring>()=0</argsstring>
+        <name>getTop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get (or open) a pointer to the top object reader corresponding to this archive. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveReader.h" line="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1a7eff265ed47b01a80bc2a382f057e177" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>ReadArraySampleCachePtr</type>
+        <definition>virtual ReadArraySampleCachePtr Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveReader::getReadArraySampleCachePtr</definition>
+        <argsstring>()=0</argsstring>
+        <name>getReadArraySampleCachePtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the read array sample cache. It may be a NULL pointer. Caches can be shared amongst separate archives, and caching will is disabled if a NULL cache is returned here. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveReader.h" line="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1ae66749a54d35ae587467bc9f189643be" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveReader::setReadArraySampleCachePtr</definition>
+        <argsstring>(ReadArraySampleCachePtr iPtr)=0</argsstring>
+        <name>setReadArraySampleCachePtr</name>
+        <param>
+          <type>ReadArraySampleCachePtr</type>
+          <declname>iPtr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the read array sample cache. It may also be a NULL pointer. Caches can be shared amongst separate archives, and caching will be disabled if a NULL cache is passed here. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveReader.h" line="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1a6a475f6727dce6b69f0b4a85e9921a0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>TimeSamplingPtr</type>
+        <definition>virtual TimeSamplingPtr Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveReader::getTimeSampling</definition>
+        <argsstring>(uint32_t iIndex)=0</argsstring>
+        <name>getTimeSampling</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>iIndex</declname>
+        </param>
+        <briefdescription>
+<para>Returns the <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling" kindref="compound">TimeSampling</ref> at a given index. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveReader.h" line="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1ad2204ed679f02ea0ea0b829b6cd47cf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>index_t</type>
+        <definition>virtual index_t Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveReader::getMaxNumSamplesForTimeSamplingIndex</definition>
+        <argsstring>(uint32_t iIndex)=0</argsstring>
+        <name>getMaxNumSamplesForTimeSamplingIndex</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>iIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the maximum number of samples written for the <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling" kindref="compound">TimeSampling</ref> at the given index. If an illegal iIndex is specified, or a max number of samplings couldn&apos;t be found for that iIndex (for older archives pre 1.1.3) INDEX_UNKNOWN will be returned. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveReader.h" line="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1a40ca32a1b28e44a867bbcba960f8b526" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>uint32_t</type>
+        <definition>virtual uint32_t Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveReader::getNumTimeSamplings</definition>
+        <argsstring>()=0</argsstring>
+        <name>getNumTimeSamplings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the total number of TimeSamplingPtrs in the Archive <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling" kindref="compound">TimeSampling</ref> pool. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveReader.h" line="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1ab7cf7dc5df814ab08f08ff7f105067ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>int32_t</type>
+        <definition>virtual int32_t Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveReader::getArchiveVersion</definition>
+        <argsstring>()=0</argsstring>
+        <name>getArchiveVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the Alembic library numeric version (see <ref refid="_foundation_8h_source" kindref="compound">Foundation.h</ref>) of this archive file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveReader.h" line="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1a7e291bfdf4a64f36a43964c67e05736f" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>ArchiveReaderPtr</type>
+        <definition>virtual ArchiveReaderPtr Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveReader::asArchivePtr</definition>
+        <argsstring>()=0</argsstring>
+        <name>asArchivePtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return self ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveReader.h" line="128"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The Archive is &quot;the file&quot;. It has a single object, it&apos;s top object. It has no properties, but does have metadata. </para>    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveReader.h" line="77" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveReader.h" bodystart="75" bodyend="129"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1a7e291bfdf4a64f36a43964c67e05736f" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveReader</scope><name>asArchivePtr</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1ab7cf7dc5df814ab08f08ff7f105067ca" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveReader</scope><name>getArchiveVersion</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1ad2204ed679f02ea0ea0b829b6cd47cf4" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveReader</scope><name>getMaxNumSamplesForTimeSamplingIndex</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1ac0f699827f0204c46fb969748dc5a097" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveReader</scope><name>getMetaData</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1a22ea95c39132a9a5a9dd79506b3aa8db" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveReader</scope><name>getName</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1a40ca32a1b28e44a867bbcba960f8b526" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveReader</scope><name>getNumTimeSamplings</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1a7eff265ed47b01a80bc2a382f057e177" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveReader</scope><name>getReadArraySampleCachePtr</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1a6a475f6727dce6b69f0b4a85e9921a0f" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveReader</scope><name>getTimeSampling</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1adfe058bf0690e50d8fdd7f362f0881d6" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveReader</scope><name>getTop</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1ae66749a54d35ae587467bc9f189643be" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveReader</scope><name>setReadArraySampleCachePtr</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader_1a70cc61ebdfe326d93ef165a76a1cf8e5" prot="public" virt="virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveReader</scope><name>~ArchiveReader</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

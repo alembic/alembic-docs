@@ -1,0 +1,464 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property" kind="class" prot="public">
+    <compoundname>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</compoundname>
+    <basecompoundref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t" prot="public" virt="non-virtual">Alembic::Abc::ALEMBIC_VERSION_NS::IBasePropertyT&lt; AbcA::ArrayPropertyReaderPtr &gt;</basecompoundref>
+    <derivedcompoundref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_array_property" prot="public" virt="non-virtual">Alembic::Abc::ALEMBIC_VERSION_NS::ITypedArrayProperty&lt; TRAITS &gt;</derivedcompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1aed737c08c7cd1916092e8d9df8ae4ebe" prot="public" static="no">
+        <type><ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property" kindref="compound">IArrayProperty</ref></type>
+        <definition>typedef IArrayProperty Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty::this_type</definition>
+        <argsstring></argsstring>
+        <name>this_type</name>
+        <reimplements refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1a19b9fb70d595fb2505c47692aee1c461">this_type</reimplements>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_array_property_1a15d63a02f44c24eea37658f205ee5e73">this_type</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>By convention we always define this_type in Abc classes Used by unspecified-bool-type conversion below </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IArrayProperty.h" line="58" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IArrayProperty.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1a70d36d8b2a449107e7710dbad5febafc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty::IArrayProperty</definition>
+        <argsstring>()</argsstring>
+        <name>IArrayProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default constructor creates an empty <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property" kindref="compound">IArrayProperty</ref> function set. ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IArrayProperty.h" line="66" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IArrayProperty.h" bodystart="66" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1af68a7069739e16ab01130b2ac0a56237" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class OBJECT_PTR</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty::IArrayProperty</definition>
+        <argsstring>(OBJECT_PTR iParentObject, const std::string &amp;iName, const Argument &amp;iArg0=Argument(), const Argument &amp;iArg1=Argument())</argsstring>
+        <name>IArrayProperty</name>
+        <param>
+          <type>OBJECT_PTR</type>
+          <declname>iParentObject</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iName</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument" kindref="compound">Argument</ref> &amp;</type>
+          <declname>iArg0</declname>
+          <defval><ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument" kindref="compound">Argument</ref>()</defval>
+        </param>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument" kindref="compound">Argument</ref> &amp;</type>
+          <declname>iArg1</declname>
+          <defval><ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument" kindref="compound">Argument</ref>()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This templated, explicit function creates a new array property reader. The first argument is any Abc (or AbcCoreAbstract) object which can intrusively be converted to a CompoundPropertyReaderPtr to use as a parent, from which the error handler policy for inheritance is also derived. The remaining optional arguments can be used to override the ErrorHandlerPolicy, to specify protocol matching policy, and that&apos;s it. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IArrayProperty.h" line="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1af4fd75965ceb64c593d111141272b9f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty::IArrayProperty</definition>
+        <argsstring>(AbcA::ArrayPropertyReaderPtr iPtr, WrapExistingFlag iWrapFlag, ErrorHandler::Policy iPolicy=ErrorHandler::kThrowPolicy)</argsstring>
+        <name>IArrayProperty</name>
+        <param>
+          <type>AbcA::ArrayPropertyReaderPtr</type>
+          <declname>iPtr</declname>
+          <briefdescription><para>The pointer ... </para></briefdescription>
+        </param>
+        <param>
+          <type>WrapExistingFlag</type>
+          <declname>iWrapFlag</declname>
+          <briefdescription><para>The flag indicating that wrapping is intended. Even though it&apos;s nonambiguous here, we use it anyway for readability </para></briefdescription>
+        </param>
+        <param>
+          <type>ErrorHandler::Policy</type>
+          <declname>iPolicy</declname>
+          <defval>ErrorHandler::kThrowPolicy</defval>
+          <briefdescription><para>Optional error handling policy ... </para></briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This attaches an <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property" kindref="compound">IArrayProperty</ref> wrapper around an existing ArrayPropertyReaderPtr, with an optional error handling policy. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IArrayProperty.h" line="99" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IArrayProperty.h" bodystart="84" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1a1ee088bffbc2632502b3e02907bed975" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty::~IArrayProperty</definition>
+        <argsstring>()</argsstring>
+        <name>~IArrayProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default copy constructor used Default assignment operator used. Destructor ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IArrayProperty.h" line="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1a78c6f167519db74a2bed7e9baab63772" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty::getNumSamples</definition>
+        <argsstring>() const </argsstring>
+        <name>getNumSamples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the number of samples contained in the property. This can be any number, including zero. This returns the number of samples that were written, independently of whether or not they were constant. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IArrayProperty.h" line="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1a6f82579130391653bf4dcd0f4a982110" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty::isConstant</definition>
+        <argsstring>() const </argsstring>
+        <name>isConstant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Ask if we&apos;re constant - no change in value amongst samples, regardless of the time sampling. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IArrayProperty.h" line="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1addce8329928f48fb0c5fcfe96c2684ef" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty::isScalarLike</definition>
+        <argsstring>() const </argsstring>
+        <name>isScalarLike</name>
+        <briefdescription>
+<para>Ask if we are like a scalar - we have 1 and only 1 DataType per sample. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IArrayProperty.h" line="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1a37cd3cbe0c9c7468a2064ba96aba218f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>AbcA::TimeSamplingPtr</type>
+        <definition>AbcA::TimeSamplingPtr Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty::getTimeSampling</definition>
+        <argsstring>() const </argsstring>
+        <name>getTimeSampling</name>
+        <reimplements refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1a3548819926eaf5ef6cd8c1c9c7adbdd6">getTimeSampling</reimplements>
+        <briefdescription>
+<para>Time information. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IArrayProperty.h" line="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1a259aa5b1cc5dcfd43f610bb1e4e6f3b9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty::get</definition>
+        <argsstring>(AbcA::ArraySamplePtr &amp;oSample, const ISampleSelector &amp;iSS=ISampleSelector()) const </argsstring>
+        <name>get</name>
+        <param>
+          <type>AbcA::ArraySamplePtr &amp;</type>
+          <declname>oSample</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector" kindref="compound">ISampleSelector</ref> &amp;</type>
+          <declname>iSS</declname>
+          <defval><ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector" kindref="compound">ISampleSelector</ref>()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get a sample into the address of a datum. ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IArrayProperty.h" line="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1a1af5ba17c73967bbb7763349fed6d500" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty::getAs</definition>
+        <argsstring>(void *oSample, AbcA::PlainOldDataType iPod, const ISampleSelector &amp;iSS=ISampleSelector())</argsstring>
+        <name>getAs</name>
+        <param>
+          <type>void *</type>
+          <declname>oSample</declname>
+        </param>
+        <param>
+          <type>AbcA::PlainOldDataType</type>
+          <declname>iPod</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector" kindref="compound">ISampleSelector</ref> &amp;</type>
+          <declname>iSS</declname>
+          <defval><ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector" kindref="compound">ISampleSelector</ref>()</defval>
+        </param>
+        <briefdescription>
+<para>Get a sample into the address of a datum as a particular POD type. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IArrayProperty.h" line="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1a3f8c372369b5851b50d5dce43394bc00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty::getAs</definition>
+        <argsstring>(void *oSample, const ISampleSelector &amp;iSS=ISampleSelector())</argsstring>
+        <name>getAs</name>
+        <param>
+          <type>void *</type>
+          <declname>oSample</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector" kindref="compound">ISampleSelector</ref> &amp;</type>
+          <declname>iSS</declname>
+          <defval><ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector" kindref="compound">ISampleSelector</ref>()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get a sample into the address of a datum as the POD type of this array property. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IArrayProperty.h" line="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1ade76537d25c01c1eaee266794f8356e0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty::getKey</definition>
+        <argsstring>(AbcA::ArraySampleKey &amp;oKey, const ISampleSelector &amp;iSS=ISampleSelector()) const </argsstring>
+        <name>getKey</name>
+        <param>
+          <type>AbcA::ArraySampleKey &amp;</type>
+          <declname>oKey</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector" kindref="compound">ISampleSelector</ref> &amp;</type>
+          <declname>iSS</declname>
+          <defval><ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector" kindref="compound">ISampleSelector</ref>()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get a key from an address of a datum. ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IArrayProperty.h" line="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1ac1d5ddd9ae0137513f02c80fcb089636" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty::getDimensions</definition>
+        <argsstring>(Util::Dimensions &amp;oDim, const ISampleSelector &amp;iSS=ISampleSelector()) const </argsstring>
+        <name>getDimensions</name>
+        <param>
+          <type>Util::Dimensions &amp;</type>
+          <declname>oDim</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector" kindref="compound">ISampleSelector</ref> &amp;</type>
+          <declname>iSS</declname>
+          <defval><ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector" kindref="compound">ISampleSelector</ref>()</defval>
+        </param>
+        <briefdescription>
+<para>Get the dimensions of the datum. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IArrayProperty.h" line="149"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1a871421e6cedce17765a69cd0a93d2f89" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_compound_property" kindref="compound">ICompoundProperty</ref></type>
+        <definition>ICompoundProperty Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty::getParent</definition>
+        <argsstring>() const </argsstring>
+        <name>getParent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the parent compound property, handily wrapped in a <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_compound_property" kindref="compound">ICompoundProperty</ref> wrapper. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IArrayProperty.h" line="153"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1aee8de6b12133f666d50c43ff6d6c9321" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class CPROP_PTR</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty::IArrayProperty</definition>
+        <argsstring>(CPROP_PTR iParentProp, const std::string &amp;iName, const Argument &amp;iArg0, const Argument &amp;iArg1)</argsstring>
+        <name>IArrayProperty</name>
+        <param>
+          <type>CPROP_PTR</type>
+          <declname>iParentProp</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iName</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument" kindref="compound">Argument</ref> &amp;</type>
+          <declname>iArg0</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument" kindref="compound">Argument</ref> &amp;</type>
+          <declname>iArg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IArrayProperty.h" line="175" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IArrayProperty.h" bodystart="171" bodyend="181"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1ad502febad5d57b3eda4ee131b5a6cc7d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty::init</definition>
+        <argsstring>(AbcA::CompoundPropertyReaderPtr iParentObject, const std::string &amp;iName, ErrorHandler::Policy iParentPolicy, const Argument &amp;iArg0, const Argument &amp;iArg1)</argsstring>
+        <name>init</name>
+        <param>
+          <type>AbcA::CompoundPropertyReaderPtr</type>
+          <declname>iParentObject</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iName</declname>
+        </param>
+        <param>
+          <type>ErrorHandler::Policy</type>
+          <declname>iParentPolicy</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument" kindref="compound">Argument</ref> &amp;</type>
+          <declname>iArg0</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument" kindref="compound">Argument</ref> &amp;</type>
+          <declname>iArg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IArrayProperty.h" line="162"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="48">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::Base</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base"/>
+      </node>
+      <node id="47">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::IBasePropertyT&lt; AbcA::ArrayPropertyReaderPtr &gt;</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t"/>
+        <childnode refid="48" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property"/>
+        <childnode refid="47" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::ITypedArrayProperty&lt; TRAITS &gt;</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_array_property"/>
+        <childnode refid="46" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="52">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::Base</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base"/>
+        <childnode refid="53" relation="usage">
+          <edgelabel>m_errorHandler</edgelabel>
+        </childnode>
+      </node>
+      <node id="51">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::IBasePropertyT&lt; AbcA::ArrayPropertyReaderPtr &gt;</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t"/>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property"/>
+        <childnode refid="51" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::ErrorHandler</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_error_handler"/>
+      </node>
+    </collaborationgraph>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IArrayProperty.h" line="54" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/IArrayProperty.h" bodystart="52" bodyend="163"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1aec217001162584de32ef474d455e0b53" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>ALEMBIC_OPERATOR_BOOL</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1af36435a2f134e3bd7ae9452772bbc359" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>Base</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1aacf050bea2aa2dfb2c83ada9c7f010a1" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>Base</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1a10b8bf6b14e26ea73a88fade1d42f193" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>Base</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1a259aa5b1cc5dcfd43f610bb1e4e6f3b9" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>get</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1a1af5ba17c73967bbb7763349fed6d500" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>getAs</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1a3f8c372369b5851b50d5dce43394bc00" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>getAs</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1a52aac85a858388673cd68d2e2d86b4e7" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>getDataType</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1ac1d5ddd9ae0137513f02c80fcb089636" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>getDimensions</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1af35d99de9b57714c46c454c03e620268" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>getErrorHandler</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1a64d9e1f5ed8dfab78f490d3e7a06643f" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>getErrorHandlerPolicy</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1a162433ed10c2e50fd070a11bcf815a45" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>getHeader</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1ade76537d25c01c1eaee266794f8356e0" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>getKey</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1a0cfc8679604ee1fd2b362c0ce6ff8e21" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>getMetaData</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1ac0ca86335a2e0631adb672adc43f66c1" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>getName</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1a78c6f167519db74a2bed7e9baab63772" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>getNumSamples</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1a24c69ec6da8bb0c52808e50de7b4d857" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>getObject</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1a871421e6cedce17765a69cd0a93d2f89" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>getParent</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1a377375c96f55232a9e7c45090c5387fa" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>getPropertyType</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1a20f8157d7d7386aceb2d67e1c875c53f" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>getPtr</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1a37cd3cbe0c9c7468a2064ba96aba218f" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>getTimeSampling</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1a70d36d8b2a449107e7710dbad5febafc" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>IArrayProperty</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1af68a7069739e16ab01130b2ac0a56237" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>IArrayProperty</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1af4fd75965ceb64c593d111141272b9f9" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>IArrayProperty</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1aee8de6b12133f666d50c43ff6d6c9321" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>IArrayProperty</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1a111babb1e02ee34113e848a59f5c7b63" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>IBasePropertyT</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1a2a4a5bf6cd3a1dcc508e95de4dccd5e0" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>IBasePropertyT</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1ad502febad5d57b3eda4ee131b5a6cc7d" prot="private" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>init</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1aa664245e2e06506ef26f860a9817d8cf" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>isArray</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1a686eeff062071075d7e1d1afa1684c5d" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>isCompound</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1a6f82579130391653bf4dcd0f4a982110" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>isConstant</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1af88eeb152658130d375c1aed23809b41" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>isScalar</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1addce8329928f48fb0c5fcfe96c2684ef" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>isScalarLike</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1a556d9d756ddda6e05be319fbb3c7de93" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>isSimple</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1a3f883e7d77b4b9b6fbfd366a939244b7" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>m_property</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1aba8cb00b70a9ea3bad9957037dbd3cbe" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>operator=</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1acb1c313fc712dd4c7c4b0c0ef7321c02" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>operator_bool_base_type</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1a0e36ddc9d604ed618d7de956a7df8000" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>reset</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1aed737c08c7cd1916092e8d9df8ae4ebe" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>this_type</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1a4a281c54d728ae12ef862c9c5b4e0307" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>valid</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_array_property_1a1ee088bffbc2632502b3e02907bed975" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::IArrayProperty</scope><name>~IArrayProperty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

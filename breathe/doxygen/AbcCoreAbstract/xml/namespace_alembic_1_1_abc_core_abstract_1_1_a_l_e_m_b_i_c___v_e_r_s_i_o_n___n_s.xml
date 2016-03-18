@@ -1,0 +1,411 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s" kind="namespace">
+    <compoundname>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS</compoundname>
+    <innerclass refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveWriter</innerclass>
+    <innerclass refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_reader" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReader</innerclass>
+    <innerclass refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_writer" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyWriter</innerclass>
+    <innerclass refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::BasePropertyWriter</innerclass>
+    <innerclass refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling_type" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSamplingType</innerclass>
+    <innerclass refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArraySampleKey</innerclass>
+    <innerclass refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_equal_to" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArraySampleKeyEqualTo</innerclass>
+    <innerclass refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_std_hash" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArraySampleKeyStdHash</innerclass>
+    <innerclass refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_unordered_map_util" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::UnorderedMapUtil</innerclass>
+    <innerclass refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_writer" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyWriter</innerclass>
+    <innerclass refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReader</innerclass>
+    <innerclass refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ReadArraySampleID</innerclass>
+    <innerclass refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_cache" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ReadArraySampleCache</innerclass>
+    <innerclass refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::MetaData</innerclass>
+    <innerclass refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::BasePropertyReader</innerclass>
+    <innerclass refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarSample</innerclass>
+    <innerclass refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_header" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectHeader</innerclass>
+    <innerclass refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_reader" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyReader</innerclass>
+    <innerclass refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriter</innerclass>
+    <innerclass refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArraySample</innerclass>
+    <innerclass refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_t_array_deleter" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TArrayDeleter</innerclass>
+    <innerclass refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_property_header" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::PropertyHeader</innerclass>
+    <innerclass refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::DataType</innerclass>
+    <innerclass refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSampling</innerclass>
+    <innerclass refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveReader</innerclass>
+    <innerclass refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriter</innerclass>
+    <innerclass refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_reader" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyReader</innerclass>
+    <innernamespace refid="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_illustration_only">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::IllustrationOnly</innernamespace>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1acf59417a2efeaed9e67dff78618f3d53" prot="public" static="no">
+        <name>PropertyType</name>
+        <enumvalue id="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1acf59417a2efeaed9e67dff78618f3d53a40c04d1fecde7a36b1d114e8f6babf02" prot="public">
+          <name>kCompoundProperty</name>
+          <initializer> 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Compound Properties are groups of other properties, with their own unique name and set of <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref>. All objects have a single root compound property as the base of their property description. </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1acf59417a2efeaed9e67dff78618f3d53ad5c526a85d3304ebe0f6c10834a47a3e" prot="public">
+          <name>kScalarProperty</name>
+          <initializer> 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Scalar Properties represent Rank-0 properties, which contain a single element value for any given time sample. </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1acf59417a2efeaed9e67dff78618f3d53aaaa56f57657eba1c1983a2a0b9e988a0" prot="public">
+          <name>kArrayProperty</name>
+          <initializer> 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Array Properties represent Rank-N properties, which contain an array of values for any given time sample. Array properties may have any rank of 1 or higher, but will most often be ranks 1, 2, 3. </para>          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>In Alembic, Objects may have three distinct types of abstract properties. Any fancy type-specific properties are ultimately and instance of one of these three types of properties, identified here by an enum. &quot;Simple&quot; properties are simply &quot;non-compound&quot; properties - the SimpleProperty classes are simply common base classes for Scalar and Array Properties. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/PropertyHeader.h" line="57" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/PropertyHeader.h" bodystart="56" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a4e5f63d661b381ad7d414f0a3166a7af" prot="public" static="no">
+        <type>Alembic::Util::shared_ptr&lt; <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample" kindref="compound">ArraySample</ref> &gt;</type>
+        <definition>typedef Alembic::Util::shared_ptr&lt; ArraySample &gt; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArraySamplePtr</definition>
+        <argsstring></argsstring>
+        <name>ArraySamplePtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Smart Ptrs to Helper types. The Ptr suffix in Alembic _ALWAYS_ refers to a shared_ptr of whatever class name precedes the Ptr suffix.</para><para>The ArraySamplePtr can be used not only to share this <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample" kindref="compound">ArraySample</ref>, but also to manage the data referred to by the memory address in the pointer, by way of a custom deleter. In this manner, <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample" kindref="compound">ArraySample</ref> and ArraySamplePtr can be used both as a reference to data and as an explicit ownership of data. This greatly reduces the redundancy of this library&apos;s code. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ForwardDeclarations.h" line="77" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ForwardDeclarations.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a708ec4136ada329d70a79438b4e3a53f" prot="public" static="no">
+        <type>Alembic::Util::shared_ptr&lt; <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer" kindref="compound">ArchiveWriter</ref> &gt;</type>
+        <definition>typedef Alembic::Util::shared_ptr&lt;ArchiveWriter&gt; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveWriterPtr</definition>
+        <argsstring></argsstring>
+        <name>ArchiveWriterPtr</name>
+        <briefdescription>
+<para>Smart Ptrs to Writers. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ForwardDeclarations.h" line="81" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ForwardDeclarations.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1aa1fd7fd404e741e1c300947eb1593855" prot="public" static="no">
+        <type>Alembic::Util::shared_ptr&lt; <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_writer" kindref="compound">ObjectWriter</ref> &gt;</type>
+        <definition>typedef Alembic::Util::shared_ptr&lt;ObjectWriter&gt; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectWriterPtr</definition>
+        <argsstring></argsstring>
+        <name>ObjectWriterPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ForwardDeclarations.h" line="82" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ForwardDeclarations.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a9bf1b719d941a0e9529050d3313e0ed2" prot="public" static="no">
+        <type>Alembic::Util::shared_ptr&lt; <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_writer" kindref="compound">CompoundPropertyWriter</ref> &gt;</type>
+        <definition>typedef Alembic::Util::shared_ptr&lt;CompoundPropertyWriter&gt; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyWriterPtr</definition>
+        <argsstring></argsstring>
+        <name>CompoundPropertyWriterPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ForwardDeclarations.h" line="83" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ForwardDeclarations.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1acfe04b12a4285d91ce902c196bc75b7d" prot="public" static="no">
+        <type>Alembic::Util::shared_ptr&lt; <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_writer" kindref="compound">ArrayPropertyWriter</ref> &gt;</type>
+        <definition>typedef Alembic::Util::shared_ptr&lt;ArrayPropertyWriter&gt; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyWriterPtr</definition>
+        <argsstring></argsstring>
+        <name>ArrayPropertyWriterPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ForwardDeclarations.h" line="84" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ForwardDeclarations.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1af5443a0fba781acbbdef58939ade36cb" prot="public" static="no">
+        <type>Alembic::Util::shared_ptr&lt; <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_writer" kindref="compound">ScalarPropertyWriter</ref> &gt;</type>
+        <definition>typedef Alembic::Util::shared_ptr&lt;ScalarPropertyWriter&gt; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyWriterPtr</definition>
+        <argsstring></argsstring>
+        <name>ScalarPropertyWriterPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ForwardDeclarations.h" line="85" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ForwardDeclarations.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ae0ebac0aa5a6994959a3d90d1a597ad3" prot="public" static="no">
+        <type>Alembic::Util::shared_ptr&lt; <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_writer" kindref="compound">BasePropertyWriter</ref> &gt;</type>
+        <definition>typedef Alembic::Util::shared_ptr&lt;BasePropertyWriter&gt; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::BasePropertyWriterPtr</definition>
+        <argsstring></argsstring>
+        <name>BasePropertyWriterPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ForwardDeclarations.h" line="86" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ForwardDeclarations.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1af3cbbcfd95ada6ad12ed25eed4516790" prot="public" static="no">
+        <type>Alembic::Util::shared_ptr&lt; <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_reader" kindref="compound">ArchiveReader</ref> &gt;</type>
+        <definition>typedef Alembic::Util::shared_ptr&lt;ArchiveReader&gt; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveReaderPtr</definition>
+        <argsstring></argsstring>
+        <name>ArchiveReaderPtr</name>
+        <briefdescription>
+<para>Smart Ptrs to Readers. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ForwardDeclarations.h" line="90" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ForwardDeclarations.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1aae4c6fa1d7bdf39b02d5318a90ffe843" prot="public" static="no">
+        <type>Alembic::Util::shared_ptr&lt; <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_object_reader" kindref="compound">ObjectReader</ref> &gt;</type>
+        <definition>typedef Alembic::Util::shared_ptr&lt;ObjectReader&gt; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ObjectReaderPtr</definition>
+        <argsstring></argsstring>
+        <name>ObjectReaderPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ForwardDeclarations.h" line="91" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ForwardDeclarations.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ae6c22185c99867cbb744e8114ca83fde" prot="public" static="no">
+        <type>Alembic::Util::shared_ptr&lt; <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_compound_property_reader" kindref="compound">CompoundPropertyReader</ref> &gt;</type>
+        <definition>typedef Alembic::Util::shared_ptr&lt;CompoundPropertyReader&gt; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::CompoundPropertyReaderPtr</definition>
+        <argsstring></argsstring>
+        <name>CompoundPropertyReaderPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ForwardDeclarations.h" line="92" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ForwardDeclarations.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a3e6ed17836cfce1e3842bec579aa0007" prot="public" static="no">
+        <type>Alembic::Util::shared_ptr&lt; <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_property_reader" kindref="compound">ArrayPropertyReader</ref> &gt;</type>
+        <definition>typedef Alembic::Util::shared_ptr&lt;ArrayPropertyReader&gt; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArrayPropertyReaderPtr</definition>
+        <argsstring></argsstring>
+        <name>ArrayPropertyReaderPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ForwardDeclarations.h" line="93" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ForwardDeclarations.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ad26047d84cc2eb1d09b3c85dcf050664" prot="public" static="no">
+        <type>Alembic::Util::shared_ptr&lt; <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_property_reader" kindref="compound">ScalarPropertyReader</ref> &gt;</type>
+        <definition>typedef Alembic::Util::shared_ptr&lt;ScalarPropertyReader&gt; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarPropertyReaderPtr</definition>
+        <argsstring></argsstring>
+        <name>ScalarPropertyReaderPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ForwardDeclarations.h" line="94" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ForwardDeclarations.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a9cba89b3040aeef3894640ca83eb031f" prot="public" static="no">
+        <type>Alembic::Util::shared_ptr&lt; <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_property_reader" kindref="compound">BasePropertyReader</ref> &gt;</type>
+        <definition>typedef Alembic::Util::shared_ptr&lt;BasePropertyReader&gt; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::BasePropertyReaderPtr</definition>
+        <argsstring></argsstring>
+        <name>BasePropertyReaderPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ForwardDeclarations.h" line="95" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ForwardDeclarations.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ad300614adbbce2cbfc6b417a29220bff" prot="public" static="no">
+        <type>Alembic::Util::shared_ptr&lt; <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_cache" kindref="compound">ReadArraySampleCache</ref> &gt;</type>
+        <definition>typedef Alembic::Util::shared_ptr&lt;ReadArraySampleCache&gt; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ReadArraySampleCachePtr</definition>
+        <argsstring></argsstring>
+        <name>ReadArraySampleCachePtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ReadArraySampleCache.h" line="138" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ReadArraySampleCache.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1aadfad31ea93f1f91ac07624cb2d6d068" prot="public" static="no">
+        <type>Alembic::Util::shared_ptr&lt; <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling" kindref="compound">TimeSampling</ref> &gt;</type>
+        <definition>typedef Alembic::Util::shared_ptr&lt;TimeSampling&gt; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TimeSamplingPtr</definition>
+        <argsstring></argsstring>
+        <name>TimeSamplingPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/TimeSampling.h" line="137" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/TimeSampling.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a045b13438b92bd7cc8903f113e89fb86" prot="public" static="no">
+        <type>int64_t</type>
+        <definition>typedef int64_t Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::index_t</definition>
+        <argsstring></argsstring>
+        <name>index_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Index type Just being pedantic. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/Foundation.h" line="62" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/Foundation.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1aa3e9da423ebb177cf425db36ecad0e93" prot="public" static="no">
+        <type>float64_t</type>
+        <definition>typedef float64_t Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::chrono_t</definition>
+        <argsstring></argsstring>
+        <name>chrono_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Chrono type. This is used whenever time values are needed in the library. They are generally assumed to be seconds, but this does not need to be explicitly enforced by the API. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/Foundation.h" line="71" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/Foundation.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ae522bd80a6386011f5edafa71411b036" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::StdHash</definition>
+        <argsstring>(ArraySampleKey const &amp;a)</argsstring>
+        <name>StdHash</name>
+        <param>
+          <type><ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key" kindref="compound">ArraySampleKey</ref> const &amp;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArraySampleKey.h" line="99" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArraySampleKey.h" bodystart="98" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ae68819ceea436e986acfd24c7ede6dee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ALEMBIC_EXPORT ArraySamplePtr</type>
+        <definition>ALEMBIC_EXPORT ArraySamplePtr Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::AllocateArraySample</definition>
+        <argsstring>(const DataType &amp;iDtype, const Dimensions &amp;iDims)</argsstring>
+        <name>AllocateArraySample</name>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type" kindref="compound">DataType</ref> &amp;</type>
+          <declname>iDtype</declname>
+        </param>
+        <param>
+          <type>const Dimensions &amp;</type>
+          <declname>iDims</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>When creating an actual buffer for reading an array sample into, we need to allocate an array of some number of bytes, and then delete it with a special deleter. This function will return an array sample that is managed in this way. Dimensions tells us how many instances of the <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type" kindref="compound">DataType</ref> to create <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type" kindref="compound">DataType</ref> tells us what the instance is - and this works for pretty much every case, including std::string and std::wstring. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArraySample.h" line="150"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a36e3e0202087e21e90db78a9629993bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>ArraySamplePtr</type>
+        <definition>ArraySamplePtr Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::TAllocateArraySample</definition>
+        <argsstring>(size_t iDataTypeExtent, const Dimensions &amp;iDims)</argsstring>
+        <name>TAllocateArraySample</name>
+        <param>
+          <type>size_t</type>
+          <declname>iDataTypeExtent</declname>
+        </param>
+        <param>
+          <type>const Dimensions &amp;</type>
+          <declname>iDims</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArraySample.h" line="183" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArraySample.h" bodystart="181" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a212153b7c8022508a7cc25317eb609f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream&amp; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;ostr, const DataType &amp;a)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>ostr</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type" kindref="compound">DataType</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Outputs <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type" kindref="compound">DataType</ref> to a std::ostream Makes use of PlainOldDataType&apos;s string conversion functions </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/DataType.h" line="134" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/DataType.h" bodystart="133" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a81035893a0474c76d726e242e74f1f16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ALEMBIC_EXPORT std::string</type>
+        <definition>ALEMBIC_EXPORT std::string Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::GetLibraryVersion</definition>
+        <argsstring>()</argsstring>
+        <name>GetLibraryVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Helper function which returns the version and date built in a string e.g. &quot;Alembic 1.0.0 (built Jul  6 2011)&quot; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/Foundation.h" line="88"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1af1921d74cf49040ba080ea6e17422803" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ALEMBIC_EXPORT std::string</type>
+        <definition>ALEMBIC_EXPORT std::string Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::GetLibraryVersionShort</definition>
+        <argsstring>()</argsstring>
+        <name>GetLibraryVersionShort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns just the version number, as a string, of the Alembic library. e.g. &quot;1.0.0&quot; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/Foundation.h" line="91"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveWriter.h" line="47"/>
+  </compounddef>
+</doxygen>

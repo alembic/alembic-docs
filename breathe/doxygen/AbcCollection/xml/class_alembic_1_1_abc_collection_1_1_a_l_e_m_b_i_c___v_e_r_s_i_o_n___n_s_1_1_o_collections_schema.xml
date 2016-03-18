@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema" kind="class" prot="public">
+    <compoundname>Alembic::AbcCollection::ALEMBIC_VERSION_NS::OCollectionsSchema</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1af1555722af9078faccc4af156d4c539e" prot="public" static="no">
+        <type><ref refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema" kindref="compound">OCollectionsSchema</ref></type>
+        <definition>typedef OCollectionsSchema Alembic::AbcCollection::ALEMBIC_VERSION_NS::OCollectionsSchema::this_type</definition>
+        <argsstring></argsstring>
+        <name>this_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/OCollections.h" line="53" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/OCollections.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1ae61e2c28b4b35078e8354a9dabc04e60" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; Abc::OStringArrayProperty &gt;</type>
+        <definition>std::vector&lt; Abc::OStringArrayProperty &gt; Alembic::AbcCollection::ALEMBIC_VERSION_NS::OCollectionsSchema::m_collections</definition>
+        <argsstring></argsstring>
+        <name>m_collections</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/OCollections.h" line="109" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/OCollections.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1af5db6fba2e9ffb778452cc3d790705d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcCollection::ALEMBIC_VERSION_NS::OCollectionsSchema::OCollectionsSchema</definition>
+        <argsstring>()</argsstring>
+        <name>OCollectionsSchema</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/OCollections.h" line="55" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/OCollections.h" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1a2c5fd81ec0026ab4a45d26f0b06b7fd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class CPROP_PTR</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>Alembic::AbcCollection::ALEMBIC_VERSION_NS::OCollectionsSchema::OCollectionsSchema</definition>
+        <argsstring>(CPROP_PTR iParent, const std::string &amp;iName, const Abc::Argument &amp;iArg0=Abc::Argument(), const Abc::Argument &amp;iArg1=Abc::Argument(), const Abc::Argument &amp;iArg2=Abc::Argument())</argsstring>
+        <name>OCollectionsSchema</name>
+        <param>
+          <type>CPROP_PTR</type>
+          <declname>iParent</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iName</declname>
+        </param>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg0</declname>
+          <defval>Abc::Argument()</defval>
+        </param>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg1</declname>
+          <defval>Abc::Argument()</defval>
+        </param>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg2</declname>
+          <defval>Abc::Argument()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/OCollections.h" line="65" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/OCollections.h" bodystart="58" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1a8cfef7cd9de025cac0009e2fe144a4e8" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class CPROP_PTR</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>Alembic::AbcCollection::ALEMBIC_VERSION_NS::OCollectionsSchema::OCollectionsSchema</definition>
+        <argsstring>(CPROP_PTR iParent, const Abc::Argument &amp;iArg0=Abc::Argument(), const Abc::Argument &amp;iArg1=Abc::Argument(), const Abc::Argument &amp;iArg2=Abc::Argument())</argsstring>
+        <name>OCollectionsSchema</name>
+        <param>
+          <type>CPROP_PTR</type>
+          <declname>iParent</declname>
+        </param>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg0</declname>
+          <defval>Abc::Argument()</defval>
+        </param>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg1</declname>
+          <defval>Abc::Argument()</defval>
+        </param>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg2</declname>
+          <defval>Abc::Argument()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/OCollections.h" line="75" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/OCollections.h" bodystart="69" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1ab77c297ac8b1183c03d58f6fa5ac6559" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcCollection::ALEMBIC_VERSION_NS::OCollectionsSchema::OCollectionsSchema</definition>
+        <argsstring>(const OCollectionsSchema &amp;iCopy)</argsstring>
+        <name>OCollectionsSchema</name>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema" kindref="compound">OCollectionsSchema</ref> &amp;</type>
+          <declname>iCopy</declname>
+        </param>
+        <briefdescription>
+<para>Copy constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/OCollections.h" line="81" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/OCollections.h" bodystart="79" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1a9f6433f930649f29d2ca7b80d3d437d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Abc::OStringArrayProperty</type>
+        <definition>Abc::OStringArrayProperty Alembic::AbcCollection::ALEMBIC_VERSION_NS::OCollectionsSchema::createCollection</definition>
+        <argsstring>(const std::string &amp;iName, const Abc::Argument &amp;iArg0=Abc::Argument(), const Abc::Argument &amp;iArg1=Abc::Argument(), const Abc::Argument &amp;iArg2=Abc::Argument())</argsstring>
+        <name>createCollection</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iName</declname>
+        </param>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg0</declname>
+          <defval>Abc::Argument()</defval>
+        </param>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg1</declname>
+          <defval>Abc::Argument()</defval>
+        </param>
+        <param>
+          <type>const Abc::Argument &amp;</type>
+          <declname>iArg2</declname>
+          <defval>Abc::Argument()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a named collection, if the collection already exists return it. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/OCollections.h" line="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1ae6f57026d2734eb50aea9458290fae61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t Alembic::AbcCollection::ALEMBIC_VERSION_NS::OCollectionsSchema::getNumCollections</definition>
+        <argsstring>()</argsstring>
+        <name>getNumCollections</name>
+        <briefdescription>
+<para>Returns the number of collections that we have. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/OCollections.h" line="94" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/OCollections.h" bodystart="94" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1ac2870296eab464f68077e379d384029e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Abc::OStringArrayProperty</type>
+        <definition>Abc::OStringArrayProperty Alembic::AbcCollection::ALEMBIC_VERSION_NS::OCollectionsSchema::getCollection</definition>
+        <argsstring>(size_t i)</argsstring>
+        <name>getCollection</name>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Return a collection by index. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/OCollections.h" line="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1ac81760813bd6219b0e7c4fcb3e1f562c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Abc::OStringArrayProperty</type>
+        <definition>Abc::OStringArrayProperty Alembic::AbcCollection::ALEMBIC_VERSION_NS::OCollectionsSchema::getCollection</definition>
+        <argsstring>(const std::string &amp;iName)</argsstring>
+        <name>getCollection</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iName</declname>
+        </param>
+        <briefdescription>
+<para>Return a collection by name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/OCollections.h" line="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1a13f56499054774ec432fd5e4e0078e33" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcCollection::ALEMBIC_VERSION_NS::OCollectionsSchema::valid</definition>
+        <argsstring>() const </argsstring>
+        <name>valid</name>
+        <briefdescription>
+<para>Returns whether this function set is valid. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/OCollections.h" line="104" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/OCollections.h" bodystart="103" bodyend="106"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/OCollections.h" line="50" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/OCollections.h" bodystart="48" bodyend="111"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1a9f6433f930649f29d2ca7b80d3d437d4" prot="public" virt="non-virtual"><scope>Alembic::AbcCollection::ALEMBIC_VERSION_NS::OCollectionsSchema</scope><name>createCollection</name></member>
+      <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1ac2870296eab464f68077e379d384029e" prot="public" virt="non-virtual"><scope>Alembic::AbcCollection::ALEMBIC_VERSION_NS::OCollectionsSchema</scope><name>getCollection</name></member>
+      <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1ac81760813bd6219b0e7c4fcb3e1f562c" prot="public" virt="non-virtual"><scope>Alembic::AbcCollection::ALEMBIC_VERSION_NS::OCollectionsSchema</scope><name>getCollection</name></member>
+      <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1ae6f57026d2734eb50aea9458290fae61" prot="public" virt="non-virtual"><scope>Alembic::AbcCollection::ALEMBIC_VERSION_NS::OCollectionsSchema</scope><name>getNumCollections</name></member>
+      <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1ae61e2c28b4b35078e8354a9dabc04e60" prot="protected" virt="non-virtual"><scope>Alembic::AbcCollection::ALEMBIC_VERSION_NS::OCollectionsSchema</scope><name>m_collections</name></member>
+      <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1af5db6fba2e9ffb778452cc3d790705d0" prot="public" virt="non-virtual"><scope>Alembic::AbcCollection::ALEMBIC_VERSION_NS::OCollectionsSchema</scope><name>OCollectionsSchema</name></member>
+      <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1a2c5fd81ec0026ab4a45d26f0b06b7fd9" prot="public" virt="non-virtual"><scope>Alembic::AbcCollection::ALEMBIC_VERSION_NS::OCollectionsSchema</scope><name>OCollectionsSchema</name></member>
+      <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1a8cfef7cd9de025cac0009e2fe144a4e8" prot="public" virt="non-virtual"><scope>Alembic::AbcCollection::ALEMBIC_VERSION_NS::OCollectionsSchema</scope><name>OCollectionsSchema</name></member>
+      <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1ab77c297ac8b1183c03d58f6fa5ac6559" prot="public" virt="non-virtual"><scope>Alembic::AbcCollection::ALEMBIC_VERSION_NS::OCollectionsSchema</scope><name>OCollectionsSchema</name></member>
+      <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1af1555722af9078faccc4af156d4c539e" prot="public" virt="non-virtual"><scope>Alembic::AbcCollection::ALEMBIC_VERSION_NS::OCollectionsSchema</scope><name>this_type</name></member>
+      <member refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema_1a13f56499054774ec432fd5e4e0078e33" prot="public" virt="non-virtual"><scope>Alembic::AbcCollection::ALEMBIC_VERSION_NS::OCollectionsSchema</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

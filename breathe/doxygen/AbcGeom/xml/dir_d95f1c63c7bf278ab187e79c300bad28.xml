@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="dir_d95f1c63c7bf278ab187e79c300bad28" kind="dir">
+    <compoundname>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/</compoundname>
+    <innerdir refid="dir_e96ca2ff9d2bfa0cc630f02bac2f647d">/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/"/>
+  </compounddef>
+</doxygen>

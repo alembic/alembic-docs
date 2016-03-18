@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="dir_5548939139359600eeeb759ab3a81558" kind="dir">
+    <compoundname>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/</compoundname>
+    <innerfile refid="_all_8h">All.h</innerfile>
+    <innerfile refid="_i_material_8h">IMaterial.h</innerfile>
+    <innerfile refid="_material_assignment_8h">MaterialAssignment.h</innerfile>
+    <innerfile refid="_material_flatten_8h">MaterialFlatten.h</innerfile>
+    <innerfile refid="_o_material_8h">OMaterial.h</innerfile>
+    <innerfile refid="_schema_info_declarations_8h">SchemaInfoDeclarations.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcMaterial/"/>
+  </compounddef>
+</doxygen>

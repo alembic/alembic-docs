@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="dir_5387e8206ecfaad3a4e6596ee61b8c12" kind="dir">
+    <compoundname>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/</compoundname>
+    <innerfile refid="_all_8h">All.h</innerfile>
+    <innerfile refid="_archive_info_8h">ArchiveInfo.h</innerfile>
+    <innerfile refid="_argument_8h">Argument.h</innerfile>
+    <innerfile refid="_base_8h">Base.h</innerfile>
+    <innerfile refid="_error_handler_8h">ErrorHandler.h</innerfile>
+    <innerfile refid="_foundation_8h">Foundation.h</innerfile>
+    <innerfile refid="_i_archive_8h">IArchive.h</innerfile>
+    <innerfile refid="_i_array_property_8h">IArrayProperty.h</innerfile>
+    <innerfile refid="_i_base_property_8h">IBaseProperty.h</innerfile>
+    <innerfile refid="_i_compound_property_8h">ICompoundProperty.h</innerfile>
+    <innerfile refid="_i_object_8h">IObject.h</innerfile>
+    <innerfile refid="_i_sample_selector_8h">ISampleSelector.h</innerfile>
+    <innerfile refid="_i_scalar_property_8h">IScalarProperty.h</innerfile>
+    <innerfile refid="_i_schema_8h">ISchema.h</innerfile>
+    <innerfile refid="_i_schema_object_8h">ISchemaObject.h</innerfile>
+    <innerfile refid="_i_typed_array_property_8h">ITypedArrayProperty.h</innerfile>
+    <innerfile refid="_i_typed_scalar_property_8h">ITypedScalarProperty.h</innerfile>
+    <innerfile refid="_o_archive_8h">OArchive.h</innerfile>
+    <innerfile refid="_o_array_property_8h">OArrayProperty.h</innerfile>
+    <innerfile refid="_o_base_property_8h">OBaseProperty.h</innerfile>
+    <innerfile refid="_o_compound_property_8h">OCompoundProperty.h</innerfile>
+    <innerfile refid="_o_object_8h">OObject.h</innerfile>
+    <innerfile refid="_o_scalar_property_8h">OScalarProperty.h</innerfile>
+    <innerfile refid="_o_schema_8h">OSchema.h</innerfile>
+    <innerfile refid="_o_schema_object_8h">OSchemaObject.h</innerfile>
+    <innerfile refid="_o_typed_array_property_8h">OTypedArrayProperty.h</innerfile>
+    <innerfile refid="_o_typed_scalar_property_8h">OTypedScalarProperty.h</innerfile>
+    <innerfile refid="_reference_8h">Reference.h</innerfile>
+    <innerfile refid="_source_name_8h">SourceName.h</innerfile>
+    <innerfile refid="_typed_array_sample_8h">TypedArraySample.h</innerfile>
+    <innerfile refid="_typed_property_traits_8h">TypedPropertyTraits.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/"/>
+  </compounddef>
+</doxygen>

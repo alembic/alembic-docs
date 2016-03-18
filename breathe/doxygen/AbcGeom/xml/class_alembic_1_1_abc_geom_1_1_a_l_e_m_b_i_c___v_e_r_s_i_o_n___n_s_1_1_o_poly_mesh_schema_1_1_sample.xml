@@ -1,0 +1,421 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample" kind="class" prot="public">
+    <compoundname>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1ad2d2ac8117fd05370235e6216bf6da8c" prot="protected" static="no" mutable="no">
+        <type>Abc::P3fArraySample</type>
+        <definition>Abc::P3fArraySample Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample::m_positions</definition>
+        <argsstring></argsstring>
+        <name>m_positions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" line="133" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1aeea417332288783a6599919a7a945fca" prot="protected" static="no" mutable="no">
+        <type>Abc::Int32ArraySample</type>
+        <definition>Abc::Int32ArraySample Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample::m_indices</definition>
+        <argsstring></argsstring>
+        <name>m_indices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" line="134" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1aa84520fb0ab374ae9107d5ea5e551288" prot="protected" static="no" mutable="no">
+        <type>Abc::Int32ArraySample</type>
+        <definition>Abc::Int32ArraySample Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample::m_counts</definition>
+        <argsstring></argsstring>
+        <name>m_counts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" line="135" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1a46ada2d4a89dffbb4c847ef1d762191d" prot="protected" static="no" mutable="no">
+        <type>Abc::Box3d</type>
+        <definition>Abc::Box3d Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample::m_selfBounds</definition>
+        <argsstring></argsstring>
+        <name>m_selfBounds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" line="137" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1ae6b30b4482ed41fafec92f892fc4f37a" prot="protected" static="no" mutable="no">
+        <type>Abc::V3fArraySample</type>
+        <definition>Abc::V3fArraySample Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample::m_velocities</definition>
+        <argsstring></argsstring>
+        <name>m_velocities</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" line="139" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1a6a1b098c1b26afb4638f21c6b3f3904f" prot="protected" static="no" mutable="no">
+        <type>OV2fGeomParam::Sample</type>
+        <definition>OV2fGeomParam::Sample Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample::m_uvs</definition>
+        <argsstring></argsstring>
+        <name>m_uvs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" line="140" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1aaf4b9308ed9ba5d45d24f280d504cab9" prot="protected" static="no" mutable="no">
+        <type>ON3fGeomParam::Sample</type>
+        <definition>ON3fGeomParam::Sample Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample::m_normals</definition>
+        <argsstring></argsstring>
+        <name>m_normals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" line="141" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1a9827807ed6f42482a87db5ddd7bd33d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample::Sample</definition>
+        <argsstring>()</argsstring>
+        <name>Sample</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a default sample with no data in it. ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" line="64" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1a25a81c0a9e2d8258e6756963ce21479a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample::Sample</definition>
+        <argsstring>(const Abc::P3fArraySample &amp;iPos)</argsstring>
+        <name>Sample</name>
+        <param>
+          <type>const Abc::P3fArraySample &amp;</type>
+          <declname>iPos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a sample with position data but no index or count data. For specifying samples after the first one </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" line="69" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" bodystart="68" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1a1240ecc967b97680d2175cd073417c06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample::Sample</definition>
+        <argsstring>(const Abc::P3fArraySample &amp;iPos, const Abc::Int32ArraySample &amp;iInd, const Abc::Int32ArraySample &amp;iCnt, const OV2fGeomParam::Sample &amp;iUVs=OV2fGeomParam::Sample(), const ON3fGeomParam::Sample &amp;iNormals=ON3fGeomParam::Sample())</argsstring>
+        <name>Sample</name>
+        <param>
+          <type>const Abc::P3fArraySample &amp;</type>
+          <declname>iPos</declname>
+        </param>
+        <param>
+          <type>const Abc::Int32ArraySample &amp;</type>
+          <declname>iInd</declname>
+        </param>
+        <param>
+          <type>const Abc::Int32ArraySample &amp;</type>
+          <declname>iCnt</declname>
+        </param>
+        <param>
+          <type>const OV2fGeomParam::Sample &amp;</type>
+          <declname>iUVs</declname>
+          <defval>OV2fGeomParam::Sample()</defval>
+        </param>
+        <param>
+          <type>const ON3fGeomParam::Sample &amp;</type>
+          <declname>iNormals</declname>
+          <defval>ON3fGeomParam::Sample()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a sample with position data, index data, count data, and optional UV and Normals data. For specifying samples with an explicit topology. The first sample must be full like this. Subsequent samples may also be full like this, which would indicate a change of topology </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" line="87" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" bodystart="77" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1aaa9c04a675c97a2b22ec39e5853b0795" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const Abc::P3fArraySample &amp;</type>
+        <definition>const Abc::P3fArraySample&amp; Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample::getPositions</definition>
+        <argsstring>() const </argsstring>
+        <name>getPositions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" line="89" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" bodystart="89" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1aa460c13aa12734fe3720eb8d5b3b91e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample::setPositions</definition>
+        <argsstring>(const Abc::P3fArraySample &amp;iSmp)</argsstring>
+        <name>setPositions</name>
+        <param>
+          <type>const Abc::P3fArraySample &amp;</type>
+          <declname>iSmp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" line="91" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" bodystart="90" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1ae814eabd7a4bb2199a73dd07cd3309f5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const Abc::V3fArraySample &amp;</type>
+        <definition>const Abc::V3fArraySample&amp; Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample::getVelocities</definition>
+        <argsstring>() const </argsstring>
+        <name>getVelocities</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" line="94" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" bodystart="94" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1ae1149b7c2a96a67d16a45fa000b0e6ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample::setVelocities</definition>
+        <argsstring>(const Abc::V3fArraySample &amp;iVelocities)</argsstring>
+        <name>setVelocities</name>
+        <param>
+          <type>const Abc::V3fArraySample &amp;</type>
+          <declname>iVelocities</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" line="96" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" bodystart="95" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1a6eeb07ac406ed1fc37615dcfbbfb3503" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const Abc::Int32ArraySample &amp;</type>
+        <definition>const Abc::Int32ArraySample&amp; Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample::getFaceIndices</definition>
+        <argsstring>() const </argsstring>
+        <name>getFaceIndices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" line="98" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" bodystart="98" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1a6c3da95a770f8bdf3c314c2481d14d5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample::setFaceIndices</definition>
+        <argsstring>(const Abc::Int32ArraySample &amp;iSmp)</argsstring>
+        <name>setFaceIndices</name>
+        <param>
+          <type>const Abc::Int32ArraySample &amp;</type>
+          <declname>iSmp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" line="100" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" bodystart="99" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1a3b65630cb7b3a517f9ba7e3abe840a87" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const Abc::Int32ArraySample &amp;</type>
+        <definition>const Abc::Int32ArraySample&amp; Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample::getFaceCounts</definition>
+        <argsstring>() const </argsstring>
+        <name>getFaceCounts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" line="102" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" bodystart="102" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1a279d6d325f02dd594ae2e87f78066f09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample::setFaceCounts</definition>
+        <argsstring>(const Abc::Int32ArraySample &amp;iCnt)</argsstring>
+        <name>setFaceCounts</name>
+        <param>
+          <type>const Abc::Int32ArraySample &amp;</type>
+          <declname>iCnt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" line="104" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" bodystart="103" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1a2b658f6e97211859bc4a673cf21e9a35" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const Abc::Box3d &amp;</type>
+        <definition>const Abc::Box3d&amp; Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample::getSelfBounds</definition>
+        <argsstring>() const </argsstring>
+        <name>getSelfBounds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" line="106" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" bodystart="106" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1acb8d66279b00e4726bd655a480cda4f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample::setSelfBounds</definition>
+        <argsstring>(const Abc::Box3d &amp;iBnds)</argsstring>
+        <name>setSelfBounds</name>
+        <param>
+          <type>const Abc::Box3d &amp;</type>
+          <declname>iBnds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" line="108" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" bodystart="107" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1adf9e41beb0ca1dd49b29543c5d5a7771" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const OV2fGeomParam::Sample &amp;</type>
+        <definition>const OV2fGeomParam::Sample&amp; Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample::getUVs</definition>
+        <argsstring>() const </argsstring>
+        <name>getUVs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" line="110" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" bodystart="110" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1a8f3e235ed3b3cd1d004f8e5f3c75195a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample::setUVs</definition>
+        <argsstring>(const OV2fGeomParam::Sample &amp;iUVs)</argsstring>
+        <name>setUVs</name>
+        <param>
+          <type>const OV2fGeomParam::Sample &amp;</type>
+          <declname>iUVs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" line="112" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" bodystart="111" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1a58a3a3e154f2f78849a88c477c9a26d2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const ON3fGeomParam::Sample &amp;</type>
+        <definition>const ON3fGeomParam::Sample&amp; Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample::getNormals</definition>
+        <argsstring>() const </argsstring>
+        <name>getNormals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" line="114" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" bodystart="114" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1a666b68a1cea3652ff566761f4255ec8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample::setNormals</definition>
+        <argsstring>(const ON3fGeomParam::Sample &amp;iNormals)</argsstring>
+        <name>setNormals</name>
+        <param>
+          <type>const ON3fGeomParam::Sample &amp;</type>
+          <declname>iNormals</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" line="116" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" bodystart="115" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1a45a69dfda2defcab26fef29d98e91efa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" line="119" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" bodystart="118" bodyend="129"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" line="60" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OPolyMesh.h" bodystart="59" bodyend="143"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1a3b65630cb7b3a517f9ba7e3abe840a87" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample</scope><name>getFaceCounts</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1a6eeb07ac406ed1fc37615dcfbbfb3503" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample</scope><name>getFaceIndices</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1a58a3a3e154f2f78849a88c477c9a26d2" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample</scope><name>getNormals</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1aaa9c04a675c97a2b22ec39e5853b0795" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample</scope><name>getPositions</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1a2b658f6e97211859bc4a673cf21e9a35" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample</scope><name>getSelfBounds</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1adf9e41beb0ca1dd49b29543c5d5a7771" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample</scope><name>getUVs</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1ae814eabd7a4bb2199a73dd07cd3309f5" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample</scope><name>getVelocities</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1aa84520fb0ab374ae9107d5ea5e551288" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample</scope><name>m_counts</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1aeea417332288783a6599919a7a945fca" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample</scope><name>m_indices</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1aaf4b9308ed9ba5d45d24f280d504cab9" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample</scope><name>m_normals</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1ad2d2ac8117fd05370235e6216bf6da8c" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample</scope><name>m_positions</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1a46ada2d4a89dffbb4c847ef1d762191d" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample</scope><name>m_selfBounds</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1a6a1b098c1b26afb4638f21c6b3f3904f" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample</scope><name>m_uvs</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1ae6b30b4482ed41fafec92f892fc4f37a" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample</scope><name>m_velocities</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1a45a69dfda2defcab26fef29d98e91efa" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample</scope><name>reset</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1a9827807ed6f42482a87db5ddd7bd33d4" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample</scope><name>Sample</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1a25a81c0a9e2d8258e6756963ce21479a" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample</scope><name>Sample</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1a1240ecc967b97680d2175cd073417c06" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample</scope><name>Sample</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1a279d6d325f02dd594ae2e87f78066f09" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample</scope><name>setFaceCounts</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1a6c3da95a770f8bdf3c314c2481d14d5e" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample</scope><name>setFaceIndices</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1a666b68a1cea3652ff566761f4255ec8e" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample</scope><name>setNormals</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1aa460c13aa12734fe3720eb8d5b3b91e3" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample</scope><name>setPositions</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1acb8d66279b00e4726bd655a480cda4f2" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample</scope><name>setSelfBounds</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1a8f3e235ed3b3cd1d004f8e5f3c75195a" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample</scope><name>setUVs</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_poly_mesh_schema_1_1_sample_1ae1149b7c2a96a67d16a45fa000b0e6ad" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::OPolyMeshSchema::Sample</scope><name>setVelocities</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

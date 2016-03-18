@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.6.1">
+  <compound refid="class_alembic_1_1_abc_core_ogawa_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_archive" kind="class"><name>Alembic::AbcCoreOgawa::ALEMBIC_VERSION_NS::ReadArchive</name>
+    <member refid="class_alembic_1_1_abc_core_ogawa_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_archive_1a808e99fa800ea0a674c23cd3af171c39" kind="variable"><name>m_numStreams</name></member>
+    <member refid="class_alembic_1_1_abc_core_ogawa_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_archive_1a0c16cc4f4a118fa1e94cfcd7d86528ca" kind="variable"><name>m_streams</name></member>
+    <member refid="class_alembic_1_1_abc_core_ogawa_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_archive_1a81da0a096c1a68caf5457f13568e6d40" kind="function"><name>ReadArchive</name></member>
+    <member refid="class_alembic_1_1_abc_core_ogawa_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_archive_1a8827d002977a0a15d7e3f92a67925fe6" kind="function"><name>ReadArchive</name></member>
+    <member refid="class_alembic_1_1_abc_core_ogawa_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_archive_1a347687100358e3c074946d3f58f5a518" kind="function"><name>ReadArchive</name></member>
+    <member refid="class_alembic_1_1_abc_core_ogawa_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_archive_1ab41989fedf61783927034da51bbc0cd8" kind="function"><name>operator()</name></member>
+    <member refid="class_alembic_1_1_abc_core_ogawa_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_archive_1ac040ed139067c378a37f56e5f73051dc" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="class_alembic_1_1_abc_core_ogawa_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_write_archive" kind="class"><name>Alembic::AbcCoreOgawa::ALEMBIC_VERSION_NS::WriteArchive</name>
+    <member refid="class_alembic_1_1_abc_core_ogawa_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_write_archive_1af5591442ea88a456a9bcb6b8a736174b" kind="function"><name>WriteArchive</name></member>
+    <member refid="class_alembic_1_1_abc_core_ogawa_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_write_archive_1acc3c5db93aad19317ec8e180c5389fdd" kind="function"><name>operator()</name></member>
+    <member refid="class_alembic_1_1_abc_core_ogawa_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_write_archive_1a49ec9e27ac5f6c7a813eecec299670b0" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="namespace_alembic" kind="namespace"><name>Alembic</name>
+  </compound>
+  <compound refid="namespace_alembic_1_1_abc_core_ogawa" kind="namespace"><name>Alembic::AbcCoreOgawa</name>
+  </compound>
+  <compound refid="namespace_alembic_1_1_abc_core_ogawa_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s" kind="namespace"><name>Alembic::AbcCoreOgawa::ALEMBIC_VERSION_NS</name>
+  </compound>
+  <compound refid="_all_8h" kind="file"><name>All.h</name>
+  </compound>
+  <compound refid="_read_write_8h" kind="file"><name>ReadWrite.h</name>
+  </compound>
+  <compound refid="dir_0b9c6063f33f12a7bec60808e16cbeeb" kind="dir"><name>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreOgawa/</name>
+  </compound>
+  <compound refid="dir_d95f1c63c7bf278ab187e79c300bad28" kind="dir"><name>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/</name>
+  </compound>
+  <compound refid="dir_fb21a19169ae945afa1853fbab170fa8" kind="dir"><name>/var/tmp/doNotRemove/local/alembic-1.6.0/</name>
+  </compound>
+  <compound refid="dir_cc2aaca40dc87c9830d07544fb1eec8d" kind="dir"><name>/var/tmp/doNotRemove/</name>
+  </compound>
+  <compound refid="dir_f153bcc636200749934ad997aee2cad4" kind="dir"><name>/var/tmp/doNotRemove/local/alembic-1.6.0/include/</name>
+  </compound>
+  <compound refid="dir_a8ba750eb1c877acf140a99b46e04652" kind="dir"><name>/var/tmp/doNotRemove/local/</name>
+  </compound>
+  <compound refid="dir_b16804dff21b756ae8295d79ca0885bf" kind="dir"><name>/var/tmp/</name>
+  </compound>
+  <compound refid="dir_2d402fa29e6cd3b6ca13957b8f90c436" kind="dir"><name>/var/</name>
+  </compound>
+</doxygenindex>

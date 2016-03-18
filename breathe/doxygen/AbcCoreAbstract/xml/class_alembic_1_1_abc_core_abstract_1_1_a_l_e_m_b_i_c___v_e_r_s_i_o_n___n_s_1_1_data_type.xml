@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type" kind="class" prot="public">
+    <compoundname>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::DataType</compoundname>
+    <includes refid="_data_type_8h" local="no">DataType.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1ab503211243b8e5695322f3efc8c19947" prot="private" static="no" mutable="no">
+        <type>PlainOldDataType</type>
+        <definition>PlainOldDataType Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::DataType::m_pod</definition>
+        <argsstring></argsstring>
+        <name>m_pod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>An Enum indicating which PlainOldDataType is our super-storage-class. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/DataType.h" line="123" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/DataType.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1a8da79b96af5f239fb40571b6a6b61ed6" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::DataType::m_extent</definition>
+        <argsstring></argsstring>
+        <name>m_extent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>An 8-bit extent indicating the cardinality of a single element of data. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/DataType.h" line="127" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/DataType.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1aee5222e8854b29f6a581eb936445f04a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::DataType::DataType</definition>
+        <argsstring>()</argsstring>
+        <name>DataType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default constructor Sets the <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type" kindref="compound">DataType</ref> to an unknown <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type" kindref="compound">DataType</ref> with extent 0. This is obviously an invalid storage description, and is used in cases where we need to indicated that a <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type" kindref="compound">DataType</ref> could not be determined. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/DataType.h" line="60" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/DataType.h" bodystart="59" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1a622aa9724cedf4d0a518c56d47d5066c" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::DataType::DataType</definition>
+        <argsstring>(PlainOldDataType iPod, uint8_t iExtent=1)</argsstring>
+        <name>DataType</name>
+        <param>
+          <type>PlainOldDataType</type>
+          <declname>iPod</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>iExtent</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Explicit constructor. Takes a pod and an extent. By default the extent is 1. For String and Wstring types, the extent _must_ be 1. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/DataType.h" line="67" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/DataType.h" bodystart="66" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1a1dec4180c68c20d40903e9ca1400e591" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>PlainOldDataType</type>
+        <definition>PlainOldDataType Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::DataType::getPod</definition>
+        <argsstring>() const </argsstring>
+        <name>getPod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default copy constructor used. Default assignment operator used. Return the PlainOldDataType enum ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/DataType.h" line="74" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/DataType.h" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1a4ade6d128daf67d12b29b1e9cb5239cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::DataType::setPod</definition>
+        <argsstring>(PlainOldDataType iPod)</argsstring>
+        <name>setPod</name>
+        <param>
+          <type>PlainOldDataType</type>
+          <declname>iPod</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the PlainOldDataType ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/DataType.h" line="78" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/DataType.h" bodystart="78" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1acd023b7b96c1afcdffda3ac74f8b4518" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::DataType::getExtent</definition>
+        <argsstring>() const </argsstring>
+        <name>getExtent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the 8-bit extent ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/DataType.h" line="82" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/DataType.h" bodystart="82" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1aa1a4dffafa148d3ebfcd43e34e323414" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::DataType::setExtent</definition>
+        <argsstring>(uint8_t iExtent)</argsstring>
+        <name>setExtent</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>iExtent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the 8-bit extent ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/DataType.h" line="86" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/DataType.h" bodystart="86" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1ac1a9ac28b3d1a7bb0064e96680f67ae5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::DataType::getNumBytes</definition>
+        <argsstring>() const </argsstring>
+        <name>getNumBytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the number of bytes occupied by a single datum. (element) The assumption that each element has a fixed size in memory is a core assumption in Alembic.</para><para>String DataTypes are a troublesome problem. A single string datum does not have a fixed number of bytes associated with it. So we are returning, here, the size of the std::string and std::wstring datatypes, respectively. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/DataType.h" line="97" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/DataType.h" bodystart="96" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1a57d5f69c2a841881274c1f0b1e73b368" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::DataType::operator==</definition>
+        <argsstring>(const DataType &amp;b) const </argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type" kindref="compound">DataType</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Equality operator ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/DataType.h" line="104" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/DataType.h" bodystart="103" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1a31b28ddf6e7477597f09021a4a16150f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::DataType::operator&lt;</definition>
+        <argsstring>(const DataType &amp;b) const </argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type" kindref="compound">DataType</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns whether one datatype is lexigraphically &quot;less&quot; than another - this has meaning only so that <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type" kindref="compound">DataType</ref> instances can be meaningfully sorted. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/DataType.h" line="114" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/DataType.h" bodystart="113" bodyend="118"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type" kindref="compound">DataType</ref> class is a description of how an element of a sample in a Scalar or an Array property is stored. It does not contain an interpretation this is left to the metadata of the properties themselves. </para>    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/DataType.h" line="52" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/DataType.h" bodystart="50" bodyend="128"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1aee5222e8854b29f6a581eb936445f04a" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::DataType</scope><name>DataType</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1a622aa9724cedf4d0a518c56d47d5066c" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::DataType</scope><name>DataType</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1acd023b7b96c1afcdffda3ac74f8b4518" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::DataType</scope><name>getExtent</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1ac1a9ac28b3d1a7bb0064e96680f67ae5" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::DataType</scope><name>getNumBytes</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1a1dec4180c68c20d40903e9ca1400e591" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::DataType</scope><name>getPod</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1a8da79b96af5f239fb40571b6a6b61ed6" prot="private" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::DataType</scope><name>m_extent</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1ab503211243b8e5695322f3efc8c19947" prot="private" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::DataType</scope><name>m_pod</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1a31b28ddf6e7477597f09021a4a16150f" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::DataType</scope><name>operator&lt;</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1a57d5f69c2a841881274c1f0b1e73b368" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::DataType</scope><name>operator==</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1aa1a4dffafa148d3ebfcd43e34e323414" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::DataType</scope><name>setExtent</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_data_type_1a4ade6d128daf67d12b29b1e9cb5239cf" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::DataType</scope><name>setPod</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

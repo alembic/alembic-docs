@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="dir_fb21a19169ae945afa1853fbab170fa8" kind="dir">
+    <compoundname>/var/tmp/doNotRemove/local/alembic-1.6.0/</compoundname>
+    <innerdir refid="dir_f153bcc636200749934ad997aee2cad4">/var/tmp/doNotRemove/local/alembic-1.6.0/include/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/"/>
+  </compounddef>
+</doxygen>

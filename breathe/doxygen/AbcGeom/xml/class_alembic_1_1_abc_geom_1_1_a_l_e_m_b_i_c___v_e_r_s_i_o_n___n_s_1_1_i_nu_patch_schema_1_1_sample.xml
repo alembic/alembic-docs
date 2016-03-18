@@ -1,0 +1,696 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample" kind="class" prot="public">
+    <compoundname>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1afcbd905c32c7896b4818f71e0cd6f8b7" prot="public" static="no">
+        <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample" kindref="compound">Sample</ref></type>
+        <definition>typedef Sample Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::this_type</definition>
+        <argsstring></argsstring>
+        <name>this_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="57" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1af1d07932cb68263e6e9c04b227f48bf0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class INuPatchSchema</definition>
+        <argsstring></argsstring>
+        <name>INuPatchSchema</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="128" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1ab04c7b45df37861748577679478f7b59" prot="protected" static="no" mutable="no">
+        <type>Abc::P3fArraySamplePtr</type>
+        <definition>Abc::P3fArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::m_positions</definition>
+        <argsstring></argsstring>
+        <name>m_positions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="130" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1ae0753342f619213d2b65632690c3ae01" prot="protected" static="no" mutable="no">
+        <type>Abc::V3fArraySamplePtr</type>
+        <definition>Abc::V3fArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::m_velocities</definition>
+        <argsstring></argsstring>
+        <name>m_velocities</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="131" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1aa583ed460cc0993384b9c32847518b74" prot="protected" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::m_numU</definition>
+        <argsstring></argsstring>
+        <name>m_numU</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="132" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a52dbf6b23ff067f2ea50c1d37ec28b6e" prot="protected" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::m_numV</definition>
+        <argsstring></argsstring>
+        <name>m_numV</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="133" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1ac7bc316a003233b1d69dc93ca7809a3e" prot="protected" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::m_uOrder</definition>
+        <argsstring></argsstring>
+        <name>m_uOrder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="134" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a7c15812a40516249cabd4f0f7793347c" prot="protected" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::m_vOrder</definition>
+        <argsstring></argsstring>
+        <name>m_vOrder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="135" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1afd038baa4e09f9fa89cfe7dceabed8d4" prot="protected" static="no" mutable="no">
+        <type>Abc::FloatArraySamplePtr</type>
+        <definition>Abc::FloatArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::m_uKnot</definition>
+        <argsstring></argsstring>
+        <name>m_uKnot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="136" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a3180a19fdc815a8f9b020bd91ece0afc" prot="protected" static="no" mutable="no">
+        <type>Abc::FloatArraySamplePtr</type>
+        <definition>Abc::FloatArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::m_vKnot</definition>
+        <argsstring></argsstring>
+        <name>m_vKnot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="137" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a95b08343f0e993f8f1dc42550b6a050e" prot="protected" static="no" mutable="no">
+        <type>Abc::FloatArraySamplePtr</type>
+        <definition>Abc::FloatArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::m_positionWeights</definition>
+        <argsstring></argsstring>
+        <name>m_positionWeights</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="138" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1aab9e61b97febe689c0c253f1d2143ea4" prot="protected" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::m_trimNumLoops</definition>
+        <argsstring></argsstring>
+        <name>m_trimNumLoops</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="141" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1ad8ef8efbac485f6d165517e27c1a29ec" prot="protected" static="no" mutable="no">
+        <type>Abc::Int32ArraySamplePtr</type>
+        <definition>Abc::Int32ArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::m_trimNumCurves</definition>
+        <argsstring></argsstring>
+        <name>m_trimNumCurves</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="142" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1aadb7df1f9e25b5ea8b27c9c338ca281c" prot="protected" static="no" mutable="no">
+        <type>Abc::Int32ArraySamplePtr</type>
+        <definition>Abc::Int32ArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::m_trimNumVertices</definition>
+        <argsstring></argsstring>
+        <name>m_trimNumVertices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="143" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a6945edbedb6f9aa068fe09ff28ae76f1" prot="protected" static="no" mutable="no">
+        <type>Abc::Int32ArraySamplePtr</type>
+        <definition>Abc::Int32ArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::m_trimOrder</definition>
+        <argsstring></argsstring>
+        <name>m_trimOrder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="144" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a8a6b75df651948faec90bbb967ea774f" prot="protected" static="no" mutable="no">
+        <type>Abc::FloatArraySamplePtr</type>
+        <definition>Abc::FloatArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::m_trimKnot</definition>
+        <argsstring></argsstring>
+        <name>m_trimKnot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="145" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1ae9a4e705ebb00905d45c3e86c5727042" prot="protected" static="no" mutable="no">
+        <type>Abc::FloatArraySamplePtr</type>
+        <definition>Abc::FloatArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::m_trimMin</definition>
+        <argsstring></argsstring>
+        <name>m_trimMin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="146" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a5271473b14eaf4a6410783b2a7877b7c" prot="protected" static="no" mutable="no">
+        <type>Abc::FloatArraySamplePtr</type>
+        <definition>Abc::FloatArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::m_trimMax</definition>
+        <argsstring></argsstring>
+        <name>m_trimMax</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="147" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1af236219f5524cff0cc73c924da9ddcd4" prot="protected" static="no" mutable="no">
+        <type>Abc::FloatArraySamplePtr</type>
+        <definition>Abc::FloatArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::m_trimU</definition>
+        <argsstring></argsstring>
+        <name>m_trimU</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="148" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1af52b997858fe0bb4f1ada090f4384d8e" prot="protected" static="no" mutable="no">
+        <type>Abc::FloatArraySamplePtr</type>
+        <definition>Abc::FloatArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::m_trimV</definition>
+        <argsstring></argsstring>
+        <name>m_trimV</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="149" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a42fa09bee5c17a65b19b9e24741656f3" prot="protected" static="no" mutable="no">
+        <type>Abc::FloatArraySamplePtr</type>
+        <definition>Abc::FloatArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::m_trimW</definition>
+        <argsstring></argsstring>
+        <name>m_trimW</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="150" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a5e12a9d420c95aab623a80bd058007a1" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::m_hasTrimCurve</definition>
+        <argsstring></argsstring>
+        <name>m_hasTrimCurve</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="151" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1aa262ea320cb30619e54bba1cb5f6e701" prot="protected" static="no" mutable="no">
+        <type>Abc::Box3d</type>
+        <definition>Abc::Box3d Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::m_selfBounds</definition>
+        <argsstring></argsstring>
+        <name>m_selfBounds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="154" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1ad5469da99be0a2e12158fd1c89333128" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::Sample</definition>
+        <argsstring>()</argsstring>
+        <name>Sample</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="60" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a7a9e1a991c41b115be8f4d40a3499fea" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::P3fArraySamplePtr</type>
+        <definition>Abc::P3fArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::getPositions</definition>
+        <argsstring>() const </argsstring>
+        <name>getPositions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="62" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a05e15cf7adf4d74a2e6c57f272196ca8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::V3fArraySamplePtr</type>
+        <definition>Abc::V3fArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::getVelocities</definition>
+        <argsstring>() const </argsstring>
+        <name>getVelocities</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="63" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="63" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a21eb5f34e3bc9401775557dfcc2648a1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int32_t</type>
+        <definition>int32_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::getNumU</definition>
+        <argsstring>() const </argsstring>
+        <name>getNumU</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="64" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a1d2aae70e3f91f3255ec6732c834f84f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int32_t</type>
+        <definition>int32_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::getNumV</definition>
+        <argsstring>() const </argsstring>
+        <name>getNumV</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="65" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1ac64ca2a5a5a258723d7535b681b7a44e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int32_t</type>
+        <definition>int32_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::getUOrder</definition>
+        <argsstring>() const </argsstring>
+        <name>getUOrder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="66" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="66" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1afe678cea4e92721b7248292cc0ddc395" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int32_t</type>
+        <definition>int32_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::getVOrder</definition>
+        <argsstring>() const </argsstring>
+        <name>getVOrder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="67" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a7e73a0e110b833c9061df3184eed86a5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::FloatArraySamplePtr</type>
+        <definition>Abc::FloatArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::getUKnot</definition>
+        <argsstring>() const </argsstring>
+        <name>getUKnot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="68" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="68" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a90627305a1e7407b642771fbd38a4c42" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::FloatArraySamplePtr</type>
+        <definition>Abc::FloatArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::getVKnot</definition>
+        <argsstring>() const </argsstring>
+        <name>getVKnot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="69" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="69" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1afe0ad6f1266430b387e646b2bc5c3b21" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::FloatArraySamplePtr</type>
+        <definition>Abc::FloatArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::getPositionWeights</definition>
+        <argsstring>() const </argsstring>
+        <name>getPositionWeights</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="73" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="73" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1aa35419a62b36550ce6cbe841dac06c0f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int32_t</type>
+        <definition>int32_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::getTrimNumLoops</definition>
+        <argsstring>() const </argsstring>
+        <name>getTrimNumLoops</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="76" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="76" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a7c4992c1815aa5288e4d96d4f608212e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::Int32ArraySamplePtr</type>
+        <definition>Abc::Int32ArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::getTrimNumVertices</definition>
+        <argsstring>() const </argsstring>
+        <name>getTrimNumVertices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="77" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="77" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1afe7d6ed37a3b705e98fcdd1bcae1f175" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::Int32ArraySamplePtr</type>
+        <definition>Abc::Int32ArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::getTrimNumCurves</definition>
+        <argsstring>() const </argsstring>
+        <name>getTrimNumCurves</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="78" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="78" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a56b72acccc0f0dd24db4b5794003be75" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::Int32ArraySamplePtr</type>
+        <definition>Abc::Int32ArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::getTrimOrders</definition>
+        <argsstring>() const </argsstring>
+        <name>getTrimOrders</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="79" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="79" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1af67955fd199f6592d48c6e73aa094109" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::FloatArraySamplePtr</type>
+        <definition>Abc::FloatArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::getTrimKnots</definition>
+        <argsstring>() const </argsstring>
+        <name>getTrimKnots</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="80" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="80" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1ac0998a919375ffec875cd826de01a232" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::FloatArraySamplePtr</type>
+        <definition>Abc::FloatArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::getTrimMins</definition>
+        <argsstring>() const </argsstring>
+        <name>getTrimMins</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="81" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="81" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a1c139fc63c2fa53dfb7b9b835586e4b6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::FloatArraySamplePtr</type>
+        <definition>Abc::FloatArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::getTrimMaxes</definition>
+        <argsstring>() const </argsstring>
+        <name>getTrimMaxes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="82" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="82" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1afac9ac5c151968486d49d6db9e5c110f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::FloatArraySamplePtr</type>
+        <definition>Abc::FloatArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::getTrimU</definition>
+        <argsstring>() const </argsstring>
+        <name>getTrimU</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="83" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="83" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a3994b5662461cefbe14af5332e3d1429" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::FloatArraySamplePtr</type>
+        <definition>Abc::FloatArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::getTrimV</definition>
+        <argsstring>() const </argsstring>
+        <name>getTrimV</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="84" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1ac4376b2c2415f40c9ba78197cf639e02" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::FloatArraySamplePtr</type>
+        <definition>Abc::FloatArraySamplePtr Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::getTrimW</definition>
+        <argsstring>() const </argsstring>
+        <name>getTrimW</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="85" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="85" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1adebe1e9d1914644ba517685206870b39" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::hasTrimCurve</definition>
+        <argsstring>() const </argsstring>
+        <name>hasTrimCurve</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="87" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="87" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a230140740d27643a8b9457a2c558f61b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::valid</definition>
+        <argsstring>() const </argsstring>
+        <name>valid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="90" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="89" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a4f79c2e4214e22884ef8ec196ddbecff" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::Box3d</type>
+        <definition>Abc::Box3d Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::getSelfBounds</definition>
+        <argsstring>() const </argsstring>
+        <name>getSelfBounds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="95" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="95" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a7934e8f4103535c0d273f016ecbdbb0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="98" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="97" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a6d75cf3c0dbee6645c7af09a62a452f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample::ALEMBIC_OPERATOR_BOOL</definition>
+        <argsstring>(valid())</argsstring>
+        <name>ALEMBIC_OPERATOR_BOOL</name>
+        <param>
+          <type>valid()</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="124"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" line="55" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/INuPatch.h" bodystart="54" bodyend="156"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a6d75cf3c0dbee6645c7af09a62a452f6" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>ALEMBIC_OPERATOR_BOOL</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a21eb5f34e3bc9401775557dfcc2648a1" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>getNumU</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a1d2aae70e3f91f3255ec6732c834f84f" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>getNumV</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a7a9e1a991c41b115be8f4d40a3499fea" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>getPositions</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1afe0ad6f1266430b387e646b2bc5c3b21" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>getPositionWeights</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a4f79c2e4214e22884ef8ec196ddbecff" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>getSelfBounds</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1af67955fd199f6592d48c6e73aa094109" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>getTrimKnots</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a1c139fc63c2fa53dfb7b9b835586e4b6" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>getTrimMaxes</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1ac0998a919375ffec875cd826de01a232" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>getTrimMins</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1afe7d6ed37a3b705e98fcdd1bcae1f175" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>getTrimNumCurves</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1aa35419a62b36550ce6cbe841dac06c0f" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>getTrimNumLoops</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a7c4992c1815aa5288e4d96d4f608212e" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>getTrimNumVertices</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a56b72acccc0f0dd24db4b5794003be75" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>getTrimOrders</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1afac9ac5c151968486d49d6db9e5c110f" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>getTrimU</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a3994b5662461cefbe14af5332e3d1429" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>getTrimV</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1ac4376b2c2415f40c9ba78197cf639e02" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>getTrimW</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a7e73a0e110b833c9061df3184eed86a5" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>getUKnot</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1ac64ca2a5a5a258723d7535b681b7a44e" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>getUOrder</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a05e15cf7adf4d74a2e6c57f272196ca8" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>getVelocities</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a90627305a1e7407b642771fbd38a4c42" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>getVKnot</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1afe678cea4e92721b7248292cc0ddc395" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>getVOrder</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1adebe1e9d1914644ba517685206870b39" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>hasTrimCurve</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1af1d07932cb68263e6e9c04b227f48bf0" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>INuPatchSchema</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a5e12a9d420c95aab623a80bd058007a1" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>m_hasTrimCurve</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1aa583ed460cc0993384b9c32847518b74" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>m_numU</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a52dbf6b23ff067f2ea50c1d37ec28b6e" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>m_numV</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1ab04c7b45df37861748577679478f7b59" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>m_positions</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a95b08343f0e993f8f1dc42550b6a050e" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>m_positionWeights</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1aa262ea320cb30619e54bba1cb5f6e701" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>m_selfBounds</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a8a6b75df651948faec90bbb967ea774f" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>m_trimKnot</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a5271473b14eaf4a6410783b2a7877b7c" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>m_trimMax</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1ae9a4e705ebb00905d45c3e86c5727042" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>m_trimMin</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1ad8ef8efbac485f6d165517e27c1a29ec" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>m_trimNumCurves</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1aab9e61b97febe689c0c253f1d2143ea4" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>m_trimNumLoops</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1aadb7df1f9e25b5ea8b27c9c338ca281c" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>m_trimNumVertices</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a6945edbedb6f9aa068fe09ff28ae76f1" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>m_trimOrder</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1af236219f5524cff0cc73c924da9ddcd4" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>m_trimU</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1af52b997858fe0bb4f1ada090f4384d8e" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>m_trimV</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a42fa09bee5c17a65b19b9e24741656f3" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>m_trimW</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1afd038baa4e09f9fa89cfe7dceabed8d4" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>m_uKnot</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1ac7bc316a003233b1d69dc93ca7809a3e" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>m_uOrder</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1ae0753342f619213d2b65632690c3ae01" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>m_velocities</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a3180a19fdc815a8f9b020bd91ece0afc" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>m_vKnot</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a7c15812a40516249cabd4f0f7793347c" prot="protected" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>m_vOrder</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a7934e8f4103535c0d273f016ecbdbb0f" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>reset</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1ad5469da99be0a2e12158fd1c89333128" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>Sample</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1afcbd905c32c7896b4818f71e0cd6f8b7" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>this_type</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_nu_patch_schema_1_1_sample_1a230140740d27643a8b9457a2c558f61b" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::INuPatchSchema::Sample</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

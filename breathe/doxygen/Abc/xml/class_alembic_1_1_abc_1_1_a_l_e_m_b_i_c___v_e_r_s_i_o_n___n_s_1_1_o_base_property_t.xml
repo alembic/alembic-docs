@@ -1,0 +1,393 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t" kind="class" prot="public">
+    <compoundname>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT</compoundname>
+    <basecompoundref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base" prot="public" virt="non-virtual">Alembic::Abc::ALEMBIC_VERSION_NS::Base</basecompoundref>
+    <includes refid="_o_base_property_8h" local="no">OBaseProperty.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class</type>
+        <declname>PROP_PTR</declname>
+        <defname>PROP_PTR</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a9057283e164e6aca50bfaeb775d430c2" prot="public" static="no">
+        <type><ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t" kindref="compound">OBasePropertyT</ref>&lt; PROP_PTR &gt;</type>
+        <definition>typedef OBasePropertyT&lt;PROP_PTR&gt; Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT&lt; PROP_PTR &gt;::this_type</definition>
+        <argsstring></argsstring>
+        <name>this_type</name>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_scalar_property_1a7e22193e4a754d49c25af7bf860ab73f">this_type</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_compound_property_1ac7ea83d5836164057b9bfb141d5ba1b6">this_type</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_array_property_1abfa872b16a64df1b5ecbbb4b85de28ba">this_type</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_array_property_1a7231683ce4615b31b73b3ca507091d1a">this_type</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_schema_1adbe7e210c51bf982691cb744f046219a">this_type</reimplementedby>
+        <reimplementedby refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_scalar_property_1ae573f14fa4496b5f341ced2e3444c3c8">this_type</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>By convention we always define this_type in Abc classes Used by unspecified-bool-type conversion below </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" line="62" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a6d9c6cb32c023202b1ee1d198f336192" prot="public" static="no">
+        <type><ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t" kindref="compound">OBasePropertyT</ref>&lt; PROP_PTR &gt;</type>
+        <definition>typedef OBasePropertyT&lt;PROP_PTR&gt; Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT&lt; PROP_PTR &gt;::operator_bool_base_type</definition>
+        <argsstring></argsstring>
+        <name>operator_bool_base_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" line="63" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a38bad9e76d0a67db8816a3ab1d4d53c1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class OCompoundProperty</definition>
+        <argsstring></argsstring>
+        <name>OCompoundProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" line="66" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a27ea21c75dee49af089775487f2e88d8" prot="protected" static="no" mutable="no">
+        <type>PROP_PTR</type>
+        <definition>PROP_PTR Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT&lt; PROP_PTR &gt;::m_property</definition>
+        <argsstring></argsstring>
+        <name>m_property</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" line="184" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a0efdcc0c097ef2440ee410a00679a10f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT&lt; PROP_PTR &gt;::OBasePropertyT</definition>
+        <argsstring>()</argsstring>
+        <name>OBasePropertyT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default constructor creates an empty OBaseProperty function set. ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" line="74" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a5a9b89231f69041efb05b87bac8f6fea" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT&lt; PROP_PTR &gt;::OBasePropertyT</definition>
+        <argsstring>(PROP_PTR iPtr, WrapExistingFlag, ErrorHandler::Policy iPolicy)</argsstring>
+        <name>OBasePropertyT</name>
+        <param>
+          <type>PROP_PTR</type>
+          <declname>iPtr</declname>
+          <briefdescription><para>The pointer ... </para></briefdescription>
+        </param>
+        <param>
+          <type>WrapExistingFlag</type>
+        </param>
+        <param>
+          <type>ErrorHandler::Policy</type>
+          <declname>iPolicy</declname>
+          <briefdescription><para>The error handling. ... </para></briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This attaches an OBaseProperty wrapper around an existing PROP_PTR, with the given error handler policy </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" line="90" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" bodystart="197" bodyend="204"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1aaa52ea351d4bf3fa296a619b752476f0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const AbcA::PropertyHeader &amp;</type>
+        <definition>const AbcA::PropertyHeader &amp; Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT&lt; PROP_PTR &gt;::getHeader</definition>
+        <argsstring>() const </argsstring>
+        <name>getHeader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default copy constructor used Default assignment operator used. Return the property&apos;s header. ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" line="102" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" bodystart="210" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a54e96572abb02a3ecb6cdf31264dfd21" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::string &amp;</type>
+        <definition>const std::string&amp; Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT&lt; PROP_PTR &gt;::getName</definition>
+        <argsstring>() const </argsstring>
+        <name>getName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns the property&apos;s local name ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" line="107" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" bodystart="106" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a9913393a5670368effc3f6bbe894bac0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>AbcA::PropertyType</type>
+        <definition>AbcA::PropertyType Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT&lt; PROP_PTR &gt;::getPropertyType</definition>
+        <argsstring>() const </argsstring>
+        <name>getPropertyType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns the property&apos;s type ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" line="112" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" bodystart="111" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a93ac80178d68adf93952ee93b9320600" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT&lt; PROP_PTR &gt;::isScalar</definition>
+        <argsstring>() const </argsstring>
+        <name>isScalar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convenience to return whether the property is scalar. Same as <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a9913393a5670368effc3f6bbe894bac0" kindref="member">getPropertyType()</ref> == kScalarProperty </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" line="116" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" bodystart="116" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a213293cd8d5ee95f1f884bf79f9e1abb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT&lt; PROP_PTR &gt;::isArray</definition>
+        <argsstring>() const </argsstring>
+        <name>isArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convenience to return whether the property is array. Same as <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a9913393a5670368effc3f6bbe894bac0" kindref="member">getPropertyType()</ref> == kArrayProperty </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" line="120" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" bodystart="120" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1ae2faab0e4364ec54384a986c6a94302b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT&lt; PROP_PTR &gt;::isCompound</definition>
+        <argsstring>() const </argsstring>
+        <name>isCompound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convenience to return whether the property is compound. Same as <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a9913393a5670368effc3f6bbe894bac0" kindref="member">getPropertyType()</ref> == kCompoundProperty </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" line="124" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" bodystart="124" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a9db744ba4a57f9f1f53ebed4ee7817fa" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT&lt; PROP_PTR &gt;::isSimple</definition>
+        <argsstring>() const </argsstring>
+        <name>isSimple</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Convenience to return whether the property is simple (non-compound) Same as <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a9913393a5670368effc3f6bbe894bac0" kindref="member">getPropertyType()</ref> != kCompoundProperty </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" line="129" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" bodystart="129" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1ad475a461622add945b742e2e2a49b044" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const AbcA::MetaData &amp;</type>
+        <definition>const AbcA::MetaData&amp; Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT&lt; PROP_PTR &gt;::getMetaData</definition>
+        <argsstring>() const </argsstring>
+        <name>getMetaData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>All properties have MetaData. This just returns the MetaData portion of the header that was used in creation. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" line="134" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" bodystart="133" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a0f1a4cb13f68108491552813bb88696e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const AbcA::DataType &amp;</type>
+        <definition>const AbcA::DataType&amp; Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT&lt; PROP_PTR &gt;::getDataType</definition>
+        <argsstring>() const </argsstring>
+        <name>getDataType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Non-compound properties have a DataType. It is an error to call this function for CompoundProperties, and an exception will be thrown. This is a convenience function which just returns the DataType from the header that was used in creation. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" line="141" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" bodystart="140" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1aa70c0279ef6d27d5028f9eee728b1703" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>AbcA::TimeSamplingPtr</type>
+        <definition>AbcA::TimeSamplingPtr Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT&lt; PROP_PTR &gt;::getTimeSampling</definition>
+        <argsstring>() const </argsstring>
+        <name>getTimeSampling</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Non-compound properties have a TimeSamplingPtr. It is an error to call this function for CompoundProperties, and an exception will be thrown. This is a convenience function which just returns the TimeSamplingPtr from the header that was used in creation. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" line="148" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" bodystart="147" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1ab5e045f6ffdb8ca0b6678cdf24220257" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_object" kindref="compound">OObject</ref></type>
+        <definition>OObject Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT&lt; PROP_PTR &gt;::getObject</definition>
+        <argsstring>() const </argsstring>
+        <name>getObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns the property&apos;s object, handily wrapped in an <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_object" kindref="compound">OObject</ref> wrapper. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" line="152" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" bodystart="225" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1ab19409ecf0eed2b355ee2163f24d013e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>PROP_PTR</type>
+        <definition>PROP_PTR Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT&lt; PROP_PTR &gt;::getPtr</definition>
+        <argsstring>() const </argsstring>
+        <name>getPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Can&apos;t wrap <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_compound_property" kindref="compound">OCompoundProperty</ref> getParent(); getPtr, as usual, returns a shared ptr to the underlying AbcCoreAbstract object, in this case the PROP_PTR. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" line="166" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" bodystart="166" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a5a6f8b2b676658168fdb842780caa304" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT&lt; PROP_PTR &gt;::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <reimplements refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1ad5b1f06443aba3059f084aed110c6d96">reset</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reset returns this function set to an empty, default state. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" line="170" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" bodystart="170" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1ab729da97825eefa51ec8ac51d6a38b5f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT&lt; PROP_PTR &gt;::valid</definition>
+        <argsstring>() const </argsstring>
+        <name>valid</name>
+        <reimplements refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1af5d3e83a6ffd138a68554c72946c9cd9">valid</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Valid returns whether this function set is valid. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" line="175" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" bodystart="174" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a60f48919bb320e49380f1ff64c571985" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT&lt; PROP_PTR &gt;::ALEMBIC_OPERATOR_BOOL</definition>
+        <argsstring>(valid())</argsstring>
+        <name>ALEMBIC_OPERATOR_BOOL</name>
+        <param>
+          <type>valid()</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The unspecified-bool-type operator casts the object to &quot;true&quot; if it is valid, and &quot;false&quot; otherwise. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" line="181"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Most of the functionality of properties (getting information about the properties and so on) is common to all property types, so we create a base class to contain all that functionality. This is purely a base class for other properties to derive from, it will never be created directly. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="131">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT&lt; PROP_PTR &gt;</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t"/>
+        <childnode refid="132" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="132">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::Base</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="136">
+        <label>PROP_PTR</label>
+      </node>
+      <node id="133">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT&lt; PROP_PTR &gt;</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t"/>
+        <childnode refid="134" relation="public-inheritance">
+        </childnode>
+        <childnode refid="136" relation="usage">
+          <edgelabel>m_property</edgelabel>
+        </childnode>
+      </node>
+      <node id="134">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::Base</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base"/>
+        <childnode refid="135" relation="usage">
+          <edgelabel>m_errorHandler</edgelabel>
+        </childnode>
+      </node>
+      <node id="135">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::ErrorHandler</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_error_handler"/>
+      </node>
+    </collaborationgraph>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" line="58" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" bodystart="57" bodyend="185"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a60f48919bb320e49380f1ff64c571985" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT</scope><name>ALEMBIC_OPERATOR_BOOL</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1af36435a2f134e3bd7ae9452772bbc359" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT</scope><name>Base</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1aacf050bea2aa2dfb2c83ada9c7f010a1" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT</scope><name>Base</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1a10b8bf6b14e26ea73a88fade1d42f193" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT</scope><name>Base</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a0f1a4cb13f68108491552813bb88696e" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT</scope><name>getDataType</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1af35d99de9b57714c46c454c03e620268" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT</scope><name>getErrorHandler</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1a64d9e1f5ed8dfab78f490d3e7a06643f" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT</scope><name>getErrorHandlerPolicy</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1aaa52ea351d4bf3fa296a619b752476f0" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT</scope><name>getHeader</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1ad475a461622add945b742e2e2a49b044" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT</scope><name>getMetaData</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a54e96572abb02a3ecb6cdf31264dfd21" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT</scope><name>getName</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1ab5e045f6ffdb8ca0b6678cdf24220257" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT</scope><name>getObject</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a9913393a5670368effc3f6bbe894bac0" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT</scope><name>getPropertyType</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1ab19409ecf0eed2b355ee2163f24d013e" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT</scope><name>getPtr</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1aa70c0279ef6d27d5028f9eee728b1703" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT</scope><name>getTimeSampling</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a213293cd8d5ee95f1f884bf79f9e1abb" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT</scope><name>isArray</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1ae2faab0e4364ec54384a986c6a94302b" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT</scope><name>isCompound</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a93ac80178d68adf93952ee93b9320600" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT</scope><name>isScalar</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a9db744ba4a57f9f1f53ebed4ee7817fa" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT</scope><name>isSimple</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a27ea21c75dee49af089775487f2e88d8" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT</scope><name>m_property</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a0efdcc0c097ef2440ee410a00679a10f" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT</scope><name>OBasePropertyT</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a5a9b89231f69041efb05b87bac8f6fea" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT</scope><name>OBasePropertyT</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a38bad9e76d0a67db8816a3ab1d4d53c1" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT</scope><name>OCompoundProperty</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1aba8cb00b70a9ea3bad9957037dbd3cbe" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT</scope><name>operator=</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a6d9c6cb32c023202b1ee1d198f336192" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT</scope><name>operator_bool_base_type</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a5a6f8b2b676658168fdb842780caa304" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT</scope><name>reset</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a9057283e164e6aca50bfaeb775d430c2" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT</scope><name>this_type</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1ab729da97825eefa51ec8ac51d6a38b5f" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OBasePropertyT</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="union_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument_1_1_argument_variant" kind="union" prot="private">
+    <compoundname>Alembic::Abc::ALEMBIC_VERSION_NS::Argument::ArgumentVariant</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="union_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument_1_1_argument_variant_1abaedfaa51149428b18596b998bcc8369" prot="public" static="no" mutable="no">
+        <type>ErrorHandler::Policy</type>
+        <definition>ErrorHandler::Policy Alembic::Abc::ALEMBIC_VERSION_NS::Argument::ArgumentVariant::policy</definition>
+        <argsstring></argsstring>
+        <name>policy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Argument.h" line="205" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Argument.h" bodystart="205" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="union_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument_1_1_argument_variant_1a54e21ae3c11f55eaae3a8ee0f0b81700" prot="public" static="no" mutable="no">
+        <type>Alembic::Util::uint32_t</type>
+        <definition>Alembic::Util::uint32_t Alembic::Abc::ALEMBIC_VERSION_NS::Argument::ArgumentVariant::timeSamplingIndex</definition>
+        <argsstring></argsstring>
+        <name>timeSamplingIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Argument.h" line="206" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Argument.h" bodystart="206" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="union_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument_1_1_argument_variant_1af81501a9986f3a9b899d7a1ee7cf4061" prot="public" static="no" mutable="no">
+        <type>const AbcA::MetaData *</type>
+        <definition>const AbcA::MetaData* Alembic::Abc::ALEMBIC_VERSION_NS::Argument::ArgumentVariant::metaData</definition>
+        <argsstring></argsstring>
+        <name>metaData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Argument.h" line="207" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Argument.h" bodystart="207" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="union_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument_1_1_argument_variant_1a6b5bf34b5771e9df5e2c3b0841ed3fc2" prot="public" static="no" mutable="no">
+        <type>const AbcA::TimeSamplingPtr *</type>
+        <definition>const AbcA::TimeSamplingPtr* Alembic::Abc::ALEMBIC_VERSION_NS::Argument::ArgumentVariant::timeSamplingPtr</definition>
+        <argsstring></argsstring>
+        <name>timeSamplingPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Argument.h" line="208" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Argument.h" bodystart="208" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="union_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument_1_1_argument_variant_1a4ebeb2c24375c8dcd2dd85c7d377cded" prot="public" static="no" mutable="no">
+        <type>SchemaInterpMatching</type>
+        <definition>SchemaInterpMatching Alembic::Abc::ALEMBIC_VERSION_NS::Argument::ArgumentVariant::schemaInterpMatching</definition>
+        <argsstring></argsstring>
+        <name>schemaInterpMatching</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Argument.h" line="209" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Argument.h" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="union_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument_1_1_argument_variant_1a756812e1d145e1d4da5364182f79a9b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Abc::ALEMBIC_VERSION_NS::Argument::ArgumentVariant::ArgumentVariant</definition>
+        <argsstring>()</argsstring>
+        <name>ArgumentVariant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Argument.h" line="188" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Argument.h" bodystart="188" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="union_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument_1_1_argument_variant_1a11cc0cd2924c9db80d1f24ced368383d" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Abc::ALEMBIC_VERSION_NS::Argument::ArgumentVariant::ArgumentVariant</definition>
+        <argsstring>(ErrorHandler::Policy iPolicy)</argsstring>
+        <name>ArgumentVariant</name>
+        <param>
+          <type>ErrorHandler::Policy</type>
+          <declname>iPolicy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Argument.h" line="191" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Argument.h" bodystart="190" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="union_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument_1_1_argument_variant_1a674f39eefe7d5c50ac010f6ae1a318b1" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Abc::ALEMBIC_VERSION_NS::Argument::ArgumentVariant::ArgumentVariant</definition>
+        <argsstring>(Alembic::Util::uint32_t iTsIndex)</argsstring>
+        <name>ArgumentVariant</name>
+        <param>
+          <type>Alembic::Util::uint32_t</type>
+          <declname>iTsIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Argument.h" line="194" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Argument.h" bodystart="193" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="union_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument_1_1_argument_variant_1a982b97453b712c3a0330fdd0860b5bbf" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Abc::ALEMBIC_VERSION_NS::Argument::ArgumentVariant::ArgumentVariant</definition>
+        <argsstring>(const AbcA::MetaData *iMetaData)</argsstring>
+        <name>ArgumentVariant</name>
+        <param>
+          <type>const AbcA::MetaData *</type>
+          <declname>iMetaData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Argument.h" line="197" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Argument.h" bodystart="196" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="union_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument_1_1_argument_variant_1a52d44fa5e8e0e3f64ba1d768e5e5d3b5" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Abc::ALEMBIC_VERSION_NS::Argument::ArgumentVariant::ArgumentVariant</definition>
+        <argsstring>(const AbcA::TimeSamplingPtr *iTsPtr)</argsstring>
+        <name>ArgumentVariant</name>
+        <param>
+          <type>const AbcA::TimeSamplingPtr *</type>
+          <declname>iTsPtr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Argument.h" line="200" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Argument.h" bodystart="199" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="union_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument_1_1_argument_variant_1aca5231af726a1a4a1280530ec863ac2a" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Abc::ALEMBIC_VERSION_NS::Argument::ArgumentVariant::ArgumentVariant</definition>
+        <argsstring>(SchemaInterpMatching iMatch)</argsstring>
+        <name>ArgumentVariant</name>
+        <param>
+          <type>SchemaInterpMatching</type>
+          <declname>iMatch</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Argument.h" line="203" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Argument.h" bodystart="202" bodyend="203"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Argument.h" line="187" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/Argument.h" bodystart="186" bodyend="210"/>
+    <listofallmembers>
+      <member refid="union_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument_1_1_argument_variant_1a756812e1d145e1d4da5364182f79a9b9" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::Argument::ArgumentVariant</scope><name>ArgumentVariant</name></member>
+      <member refid="union_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument_1_1_argument_variant_1a11cc0cd2924c9db80d1f24ced368383d" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::Argument::ArgumentVariant</scope><name>ArgumentVariant</name></member>
+      <member refid="union_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument_1_1_argument_variant_1a674f39eefe7d5c50ac010f6ae1a318b1" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::Argument::ArgumentVariant</scope><name>ArgumentVariant</name></member>
+      <member refid="union_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument_1_1_argument_variant_1a982b97453b712c3a0330fdd0860b5bbf" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::Argument::ArgumentVariant</scope><name>ArgumentVariant</name></member>
+      <member refid="union_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument_1_1_argument_variant_1a52d44fa5e8e0e3f64ba1d768e5e5d3b5" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::Argument::ArgumentVariant</scope><name>ArgumentVariant</name></member>
+      <member refid="union_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument_1_1_argument_variant_1aca5231af726a1a4a1280530ec863ac2a" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::Argument::ArgumentVariant</scope><name>ArgumentVariant</name></member>
+      <member refid="union_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument_1_1_argument_variant_1af81501a9986f3a9b899d7a1ee7cf4061" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::Argument::ArgumentVariant</scope><name>metaData</name></member>
+      <member refid="union_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument_1_1_argument_variant_1abaedfaa51149428b18596b998bcc8369" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::Argument::ArgumentVariant</scope><name>policy</name></member>
+      <member refid="union_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument_1_1_argument_variant_1a4ebeb2c24375c8dcd2dd85c7d377cded" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::Argument::ArgumentVariant</scope><name>schemaInterpMatching</name></member>
+      <member refid="union_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument_1_1_argument_variant_1a54e21ae3c11f55eaae3a8ee0f0b81700" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::Argument::ArgumentVariant</scope><name>timeSamplingIndex</name></member>
+      <member refid="union_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument_1_1_argument_variant_1a6b5bf34b5771e9df5e2c3b0841ed3fc2" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::Argument::ArgumentVariant</scope><name>timeSamplingPtr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

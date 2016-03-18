@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive" kind="class" prot="public">
+    <compoundname>Alembic::Abc::ALEMBIC_VERSION_NS::OArchive</compoundname>
+    <basecompoundref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base" prot="public" virt="non-virtual">Alembic::Abc::ALEMBIC_VERSION_NS::Base</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1abf487ffe32406795ed9cd8f5926f17bc" prot="public" static="no">
+        <type><ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive" kindref="compound">OArchive</ref></type>
+        <definition>typedef OArchive Alembic::Abc::ALEMBIC_VERSION_NS::OArchive::this_type</definition>
+        <argsstring></argsstring>
+        <name>this_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>By convention, we always define &quot;this_type&quot; in every Abc class. This convention is relied upon by the unspecified-bool-type conversion. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OArchive.h" line="58" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OArchive.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1a5b50d460e1d11680bd3b7c41497d48ea" prot="private" static="no" mutable="no">
+        <type>AbcA::ArchiveWriterPtr</type>
+        <definition>AbcA::ArchiveWriterPtr Alembic::Abc::ALEMBIC_VERSION_NS::OArchive::m_archive</definition>
+        <argsstring></argsstring>
+        <name>m_archive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OArchive.h" line="180" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OArchive.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1a3f730b4c8f82f089415694179b924e4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Abc::ALEMBIC_VERSION_NS::OArchive::OArchive</definition>
+        <argsstring>()</argsstring>
+        <name>OArchive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The default constructor creates an empty <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive" kindref="compound">OArchive</ref> function set. ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OArchive.h" line="66" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OArchive.h" bodystart="66" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1aaa31319cb0d454dd92dedc3d9199cc3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class ARCHIVE_CTOR</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>Alembic::Abc::ALEMBIC_VERSION_NS::OArchive::OArchive</definition>
+        <argsstring>(ARCHIVE_CTOR iCtor, const std::string &amp;iFileName, const Argument &amp;iArg0=Argument(), const Argument &amp;iArg1=Argument())</argsstring>
+        <name>OArchive</name>
+        <param>
+          <type>ARCHIVE_CTOR</type>
+          <declname>iCtor</declname>
+          <briefdescription><para>We need to pass in a constructor which provides an explicit link to the concrete implementation of AbcCoreAbstract that we&apos;re using. </para></briefdescription>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iFileName</declname>
+          <briefdescription><para>File name </para></briefdescription>
+        </param>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument" kindref="compound">Argument</ref> &amp;</type>
+          <declname>iArg0</declname>
+          <defval><ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument" kindref="compound">Argument</ref>()</defval>
+          <briefdescription><para>Optionally could be the error handling policy, or the meta data. </para></briefdescription>
+        </param>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument" kindref="compound">Argument</ref> &amp;</type>
+          <declname>iArg1</declname>
+          <defval><ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_argument" kindref="compound">Argument</ref>()</defval>
+          <briefdescription><para>Optionally could be the error handling policy, or the meta data. </para></briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The explicit constructor creates an archive with the given file name. Additional arguments that may be passed are the error handling policy and meta data. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OArchive.h" line="85" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OArchive.h" bodystart="192" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1a8e7563aa3a140b2dc958f061d594959b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Abc::ALEMBIC_VERSION_NS::OArchive::OArchive</definition>
+        <argsstring>(AbcA::ArchiveWriterPtr iPtr, WrapExistingFlag, ErrorHandler::Policy iPolicy=ErrorHandler::kThrowPolicy)</argsstring>
+        <name>OArchive</name>
+        <param>
+          <type>AbcA::ArchiveWriterPtr</type>
+          <declname>iPtr</declname>
+          <briefdescription><para>The pointer ... </para></briefdescription>
+        </param>
+        <param>
+          <type>WrapExistingFlag</type>
+        </param>
+        <param>
+          <type>ErrorHandler::Policy</type>
+          <declname>iPolicy</declname>
+          <defval>ErrorHandler::kThrowPolicy</defval>
+          <briefdescription><para>Optional error handling policy ... </para></briefdescription>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This attaches an <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive" kindref="compound">OArchive</ref> wrapper around an existing ArchiveWriterPtr, with an optional error handling policy. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OArchive.h" line="103" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OArchive.h" bodystart="89" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1a730a71e4be7ee51d4a9c72313bebd1ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Abc::ALEMBIC_VERSION_NS::OArchive::~OArchive</definition>
+        <argsstring>()</argsstring>
+        <name>~OArchive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Destructor ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OArchive.h" line="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1a8013ea4008771ac53584554e505a1615" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Alembic::Abc::ALEMBIC_VERSION_NS::OArchive::getName</definition>
+        <argsstring>() const </argsstring>
+        <name>getName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default copy constructor Default assignment operator Returns the file name. It is an error to do so with an invalid object. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OArchive.h" line="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1ae79b324f828ab105f39cf72b09f67f9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_object" kindref="compound">OObject</ref></type>
+        <definition>OObject Alembic::Abc::ALEMBIC_VERSION_NS::OArchive::getTop</definition>
+        <argsstring>()</argsstring>
+        <name>getTop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This returns the single top-level <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_object" kindref="compound">OObject</ref> that exists automatically as part of the archive. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OArchive.h" line="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1a017e0809d8c6574b6578ee9637cfe8be" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int8_t</type>
+        <definition>int8_t Alembic::Abc::ALEMBIC_VERSION_NS::OArchive::getCompressionHint</definition>
+        <argsstring>() const </argsstring>
+        <name>getCompressionHint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the compression applied to array properties. The value will be -1 for uncompressed, and 0-9 for weak through strong gzip compression. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OArchive.h" line="130"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1a147a799e8e63a2d3ee230de593a12d81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::Abc::ALEMBIC_VERSION_NS::OArchive::setCompressionHint</definition>
+        <argsstring>(int8_t iCh)</argsstring>
+        <name>setCompressionHint</name>
+        <param>
+          <type>int8_t</type>
+          <declname>iCh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the compression applied to array properties. Value of -1 means uncompressed, and values of 0-9 indicate increasingly compressed data, at the expense of time. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OArchive.h" line="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1ae45b40ac8d1a29f94cf8269a4a3f2f7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t Alembic::Abc::ALEMBIC_VERSION_NS::OArchive::addTimeSampling</definition>
+        <argsstring>(const AbcA::TimeSampling &amp;iTs)</argsstring>
+        <name>addTimeSampling</name>
+        <param>
+          <type>const AbcA::TimeSampling &amp;</type>
+          <declname>iTs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds the TimeSampling to the Archive TimeSampling pool. If the TimeSampling already exists in the pool, the index for the match should be returned. index 0 is automatically reserved for uniform time sampling with a start time of 0 and time per cycle of 1 (aka identity sampling) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OArchive.h" line="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1a8eecb1f58ce8c95a52bb8025142964d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>AbcA::TimeSamplingPtr</type>
+        <definition>AbcA::TimeSamplingPtr Alembic::Abc::ALEMBIC_VERSION_NS::OArchive::getTimeSampling</definition>
+        <argsstring>(uint32_t iIndex)</argsstring>
+        <name>getTimeSampling</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>iIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the TimeSampling at a given index. index 0 is automatically reserved for uniform time sampling with a start time of 0 and time per cycle of 1 (aka identity sampling) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OArchive.h" line="147"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1a0374663548bc1f47943548bd180ad832" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t Alembic::Abc::ALEMBIC_VERSION_NS::OArchive::getNumTimeSamplings</definition>
+        <argsstring>()</argsstring>
+        <name>getNumTimeSamplings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the total number of TimeSamplingPtrs in the Archive TimeSampling pool. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OArchive.h" line="151"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1ad963efbcb2397d6295a26e7a56cf2a49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>AbcA::ArchiveWriterPtr</type>
+        <definition>AbcA::ArchiveWriterPtr Alembic::Abc::ALEMBIC_VERSION_NS::OArchive::getPtr</definition>
+        <argsstring>()</argsstring>
+        <name>getPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getPtr, as usual, returns a shared ptr to the underlying AbcCoreAbstract object, in this case the ArchiveWriterPtr. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OArchive.h" line="162" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OArchive.h" bodystart="162" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1afe750eda18c389e9fbc70a311f298344" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::Abc::ALEMBIC_VERSION_NS::OArchive::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <reimplements refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1ad5b1f06443aba3059f084aed110c6d96">reset</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reset returns this function set to an empty, default state. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OArchive.h" line="166" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OArchive.h" bodystart="166" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1ad33dab997ba01cac4867b93694550c9d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::Abc::ALEMBIC_VERSION_NS::OArchive::valid</definition>
+        <argsstring>() const </argsstring>
+        <name>valid</name>
+        <reimplements refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1af5d3e83a6ffd138a68554c72946c9cd9">valid</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Valid returns whether this function set is valid. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OArchive.h" line="171" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OArchive.h" bodystart="170" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1aa12dac13e08d2d595174aadf67074de2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Abc::ALEMBIC_VERSION_NS::OArchive::ALEMBIC_OPERATOR_BOOL</definition>
+        <argsstring>(valid())</argsstring>
+        <name>ALEMBIC_OPERATOR_BOOL</name>
+        <param>
+          <type>valid()</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The unspecified-bool-type operator casts the object to &quot;true&quot; if it is valid, and &quot;false&quot; otherwise. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OArchive.h" line="177"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="119">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::Base</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base"/>
+      </node>
+      <node id="118">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::OArchive</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive"/>
+        <childnode refid="119" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="121">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::Base</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base"/>
+        <childnode refid="122" relation="usage">
+          <edgelabel>m_errorHandler</edgelabel>
+        </childnode>
+      </node>
+      <node id="120">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::OArchive</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive"/>
+        <childnode refid="121" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="122">
+        <label>Alembic::Abc::ALEMBIC_VERSION_NS::ErrorHandler</label>
+        <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_error_handler"/>
+      </node>
+    </collaborationgraph>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OArchive.h" line="53" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OArchive.h" bodystart="52" bodyend="181"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1ae45b40ac8d1a29f94cf8269a4a3f2f7b" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OArchive</scope><name>addTimeSampling</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1aa12dac13e08d2d595174aadf67074de2" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OArchive</scope><name>ALEMBIC_OPERATOR_BOOL</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1af36435a2f134e3bd7ae9452772bbc359" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OArchive</scope><name>Base</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1aacf050bea2aa2dfb2c83ada9c7f010a1" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OArchive</scope><name>Base</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1a10b8bf6b14e26ea73a88fade1d42f193" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OArchive</scope><name>Base</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1a017e0809d8c6574b6578ee9637cfe8be" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OArchive</scope><name>getCompressionHint</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1af35d99de9b57714c46c454c03e620268" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OArchive</scope><name>getErrorHandler</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1a64d9e1f5ed8dfab78f490d3e7a06643f" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OArchive</scope><name>getErrorHandlerPolicy</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1a8013ea4008771ac53584554e505a1615" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OArchive</scope><name>getName</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1a0374663548bc1f47943548bd180ad832" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OArchive</scope><name>getNumTimeSamplings</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1ad963efbcb2397d6295a26e7a56cf2a49" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OArchive</scope><name>getPtr</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1a8eecb1f58ce8c95a52bb8025142964d1" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OArchive</scope><name>getTimeSampling</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1ae79b324f828ab105f39cf72b09f67f9b" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OArchive</scope><name>getTop</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1a5b50d460e1d11680bd3b7c41497d48ea" prot="private" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OArchive</scope><name>m_archive</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1a3f730b4c8f82f089415694179b924e4e" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OArchive</scope><name>OArchive</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1aaa31319cb0d454dd92dedc3d9199cc3c" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OArchive</scope><name>OArchive</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1a8e7563aa3a140b2dc958f061d594959b" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OArchive</scope><name>OArchive</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1aba8cb00b70a9ea3bad9957037dbd3cbe" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OArchive</scope><name>operator=</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1afe750eda18c389e9fbc70a311f298344" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OArchive</scope><name>reset</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1a147a799e8e63a2d3ee230de593a12d81" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OArchive</scope><name>setCompressionHint</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1abf487ffe32406795ed9cd8f5926f17bc" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OArchive</scope><name>this_type</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1ad33dab997ba01cac4867b93694550c9d" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OArchive</scope><name>valid</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_archive_1a730a71e4be7ee51d4a9c72313bebd1ff" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OArchive</scope><name>~OArchive</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

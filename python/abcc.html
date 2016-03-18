@@ -1,0 +1,391 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>alembic.AbcCollection &mdash; Alembic 1.5.7 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="Alembic 1.5.7 documentation" href="../index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Alembic
+          
+
+          
+            
+            <img src="../_static/alembic.png" class="logo" />
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.5.7
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <!-- Local TOC -->
+                <div class="local-toc"><ul>
+<li><a class="reference internal" href="#"><code class="docutils literal"><span class="pre">alembic.AbcCollection</span></code></a></li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Alembic</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+    <li><code class="docutils literal"><span class="pre">alembic.AbcCollection</span></code></li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/python/abcc.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-alembic.AbcCollection">
+<span id="alembic-abccollection"></span><h1><a class="reference internal" href="#module-alembic.AbcCollection" title="alembic.AbcCollection"><code class="xref py py-mod docutils literal"><span class="pre">alembic.AbcCollection</span></code></a><a class="headerlink" href="#module-alembic.AbcCollection" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="alembic.AbcCollection.ICollections">
+<em class="property">class </em><code class="descclassname">alembic.AbcCollection.</code><code class="descname">ICollections</code><a class="headerlink" href="#alembic.AbcCollection.ICollections" title="Permalink to this definition">¶</a></dt>
+<dd><p>doc</p>
+<dl class="method">
+<dt id="alembic.AbcCollection.ICollections.getSchema">
+<code class="descname">getSchema</code><span class="sig-paren">(</span><em>(ICollections)arg1</em><span class="sig-paren">)</span> &rarr; ICollectionsSchema :<a class="headerlink" href="#alembic.AbcCollection.ICollections.getSchema" title="Permalink to this definition">¶</a></dt>
+<dd><p>doc</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="alembic.AbcCollection.ICollections.getSchemaObjTitle">
+<em class="property">static </em><code class="descname">getSchemaObjTitle</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &rarr; str :<a class="headerlink" href="#alembic.AbcCollection.ICollections.getSchemaObjTitle" title="Permalink to this definition">¶</a></dt>
+<dd><p>doc</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="alembic.AbcCollection.ICollections.getSchemaTitle">
+<em class="property">static </em><code class="descname">getSchemaTitle</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &rarr; str :<a class="headerlink" href="#alembic.AbcCollection.ICollections.getSchemaTitle" title="Permalink to this definition">¶</a></dt>
+<dd><p>doc</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="alembic.AbcCollection.ICollections.matches">
+<em class="property">static </em><code class="descname">matches</code><span class="sig-paren">(</span><em>(MetaData)metaData</em><span class="optional">[</span>, <em>(SchemaInterpMatching)matchingSchema=alembic.Abc.SchemaInterpMatching.kStrictMatching</em><span class="optional">]</span><span class="sig-paren">)</span> &rarr; bool<a class="headerlink" href="#alembic.AbcCollection.ICollections.matches" title="Permalink to this definition">¶</a></dt>
+<dd><p>matches( (ObjectHeader)metaData [, (SchemaInterpMatching)matchingSchema=alembic.Abc.SchemaInterpMatching.kStrictMatching]) -&gt; bool</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcCollection.ICollections.reset">
+<code class="descname">reset</code><span class="sig-paren">(</span><em>(ICollections)arg1</em><span class="sig-paren">)</span> &rarr; None<a class="headerlink" href="#alembic.AbcCollection.ICollections.reset" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcCollection.ICollections.valid">
+<code class="descname">valid</code><span class="sig-paren">(</span><em>(ICollections)arg1</em><span class="sig-paren">)</span> &rarr; bool<a class="headerlink" href="#alembic.AbcCollection.ICollections.valid" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="alembic.AbcCollection.ICollectionsSchema">
+<em class="property">class </em><code class="descclassname">alembic.AbcCollection.</code><code class="descname">ICollectionsSchema</code><a class="headerlink" href="#alembic.AbcCollection.ICollectionsSchema" title="Permalink to this definition">¶</a></dt>
+<dd><p>The ICollectionsSchema class is a collections schema reader.</p>
+<dl class="method">
+<dt id="alembic.AbcCollection.ICollectionsSchema.getCollection">
+<code class="descname">getCollection</code><span class="sig-paren">(</span><em>(ICollectionsSchema)arg1</em>, <em>(int)index</em><span class="sig-paren">)</span> &rarr; IStringArrayProperty<a class="headerlink" href="#alembic.AbcCollection.ICollectionsSchema.getCollection" title="Permalink to this definition">¶</a></dt>
+<dd><p>getCollection( (ICollectionsSchema)arg1, (str)name) -&gt; IStringArrayProperty</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcCollection.ICollectionsSchema.getCollectionName">
+<code class="descname">getCollectionName</code><span class="sig-paren">(</span><em>(ICollectionsSchema)arg1</em>, <em>(int)index</em><span class="sig-paren">)</span> &rarr; str<a class="headerlink" href="#alembic.AbcCollection.ICollectionsSchema.getCollectionName" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcCollection.ICollectionsSchema.getNumCollections">
+<code class="descname">getNumCollections</code><span class="sig-paren">(</span><em>(ICollectionsSchema)arg1</em><span class="sig-paren">)</span> &rarr; int<a class="headerlink" href="#alembic.AbcCollection.ICollectionsSchema.getNumCollections" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcCollection.ICollectionsSchema.valid">
+<code class="descname">valid</code><span class="sig-paren">(</span><em>(ICollectionsSchema)arg1</em><span class="sig-paren">)</span> &rarr; bool<a class="headerlink" href="#alembic.AbcCollection.ICollectionsSchema.valid" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="alembic.AbcCollection.ISchema_Collections">
+<em class="property">class </em><code class="descclassname">alembic.AbcCollection.</code><code class="descname">ISchema_Collections</code><a class="headerlink" href="#alembic.AbcCollection.ISchema_Collections" title="Permalink to this definition">¶</a></dt>
+<dd><p>Usually used as a base class, but could also theoretically be used as a standalone.</p>
+<dl class="staticmethod">
+<dt id="alembic.AbcCollection.ISchema_Collections.getDefaultSchemaName">
+<em class="property">static </em><code class="descname">getDefaultSchemaName</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &rarr; str :<a class="headerlink" href="#alembic.AbcCollection.ISchema_Collections.getDefaultSchemaName" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the default name for instances of this schema. Often something like &#8216;.geom&#8217;.</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="alembic.AbcCollection.ISchema_Collections.getSchemaTitle">
+<em class="property">static </em><code class="descname">getSchemaTitle</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &rarr; str :<a class="headerlink" href="#alembic.AbcCollection.ISchema_Collections.getSchemaTitle" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the schema title expected of this property.An empty title matches everything.</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="alembic.AbcCollection.ISchema_Collections.matches">
+<em class="property">static </em><code class="descname">matches</code><span class="sig-paren">(</span><em>(MetaData)metadata</em><span class="optional">[</span>, <em>(SchemaInterpMatching)matchingSchema=alembic.Abc.SchemaInterpMatching.kStrictMatching</em><span class="optional">]</span><span class="sig-paren">)</span> &rarr; bool :<a class="headerlink" href="#alembic.AbcCollection.ISchema_Collections.matches" title="Permalink to this definition">¶</a></dt>
+<dd><p>This will check whether or not a given entity (as represented by a metadata) strictly matches the interpretation of this schema object.</p>
+<dl class="docutils">
+<dt>matches( (PropertyHeader)header [, (SchemaInterpMatching)matchingSchema=alembic.Abc.SchemaInterpMatching.kStrictMatching]) -&gt; bool :</dt>
+<dd>This will check whether or not a given entity (as represented by an object header) strictly matches the interpretation of thisschema object, as well as the datatype.</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="alembic.AbcCollection.OCollections">
+<em class="property">class </em><code class="descclassname">alembic.AbcCollection.</code><code class="descname">OCollections</code><a class="headerlink" href="#alembic.AbcCollection.OCollections" title="Permalink to this definition">¶</a></dt>
+<dd><p>doc</p>
+<dl class="method">
+<dt id="alembic.AbcCollection.OCollections.getSchema">
+<code class="descname">getSchema</code><span class="sig-paren">(</span><em>(OCollections)arg1</em><span class="sig-paren">)</span> &rarr; OCollectionsSchema :<a class="headerlink" href="#alembic.AbcCollection.OCollections.getSchema" title="Permalink to this definition">¶</a></dt>
+<dd><p>doc</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="alembic.AbcCollection.OCollections.getSchemaObjTitle">
+<em class="property">static </em><code class="descname">getSchemaObjTitle</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &rarr; str :<a class="headerlink" href="#alembic.AbcCollection.OCollections.getSchemaObjTitle" title="Permalink to this definition">¶</a></dt>
+<dd><p>doc</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="alembic.AbcCollection.OCollections.getSchemaTitle">
+<em class="property">static </em><code class="descname">getSchemaTitle</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &rarr; str :<a class="headerlink" href="#alembic.AbcCollection.OCollections.getSchemaTitle" title="Permalink to this definition">¶</a></dt>
+<dd><p>doc</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="alembic.AbcCollection.OCollections.matches">
+<em class="property">static </em><code class="descname">matches</code><span class="sig-paren">(</span><em>(MetaData)metaData</em><span class="optional">[</span>, <em>(SchemaInterpMatching)matchingSchema=alembic.Abc.SchemaInterpMatching.kStrictMatching</em><span class="optional">]</span><span class="sig-paren">)</span> &rarr; bool<a class="headerlink" href="#alembic.AbcCollection.OCollections.matches" title="Permalink to this definition">¶</a></dt>
+<dd><p>matches( (ObjectHeader)metaData [, (SchemaInterpMatching)matchingSchema=alembic.Abc.SchemaInterpMatching.kStrictMatching]) -&gt; bool</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcCollection.OCollections.reset">
+<code class="descname">reset</code><span class="sig-paren">(</span><em>(OCollections)arg1</em><span class="sig-paren">)</span> &rarr; None<a class="headerlink" href="#alembic.AbcCollection.OCollections.reset" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcCollection.OCollections.valid">
+<code class="descname">valid</code><span class="sig-paren">(</span><em>(OCollections)arg1</em><span class="sig-paren">)</span> &rarr; bool<a class="headerlink" href="#alembic.AbcCollection.OCollections.valid" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="alembic.AbcCollection.OCollectionsSchema">
+<em class="property">class </em><code class="descclassname">alembic.AbcCollection.</code><code class="descname">OCollectionsSchema</code><a class="headerlink" href="#alembic.AbcCollection.OCollectionsSchema" title="Permalink to this definition">¶</a></dt>
+<dd><p>The OCollectionsSchema class is a collections schema writer.</p>
+<dl class="method">
+<dt id="alembic.AbcCollection.OCollectionsSchema.createCollection">
+<code class="descname">createCollection</code><span class="sig-paren">(</span><em>(OCollectionsSchema)arg1</em>, <em>(str)name</em><span class="optional">[</span>, <em>(Argument)argument=&lt;alembic.Abc.Argument object at 0x2ec2938&gt;</em><span class="optional">[</span>, <em>(Argument)argument=&lt;alembic.Abc.Argument object at 0x2ec28c0&gt;</em><span class="optional">[</span>, <em>(Argument)argument=&lt;alembic.Abc.Argument object at 0x2ec2848&gt;</em><span class="optional">]</span><span class="optional">]</span><span class="optional">]</span><span class="sig-paren">)</span> &rarr; OStringArrayProperty<a class="headerlink" href="#alembic.AbcCollection.OCollectionsSchema.createCollection" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcCollection.OCollectionsSchema.getCollection">
+<code class="descname">getCollection</code><span class="sig-paren">(</span><em>(OCollectionsSchema)arg1</em>, <em>(int)index</em><span class="sig-paren">)</span> &rarr; OStringArrayProperty<a class="headerlink" href="#alembic.AbcCollection.OCollectionsSchema.getCollection" title="Permalink to this definition">¶</a></dt>
+<dd><p>getCollection( (OCollectionsSchema)arg1, (str)name) -&gt; OStringArrayProperty</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcCollection.OCollectionsSchema.getNumCollections">
+<code class="descname">getNumCollections</code><span class="sig-paren">(</span><em>(OCollectionsSchema)arg1</em><span class="sig-paren">)</span> &rarr; int<a class="headerlink" href="#alembic.AbcCollection.OCollectionsSchema.getNumCollections" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcCollection.OCollectionsSchema.valid">
+<code class="descname">valid</code><span class="sig-paren">(</span><em>(OCollectionsSchema)arg1</em><span class="sig-paren">)</span> &rarr; bool<a class="headerlink" href="#alembic.AbcCollection.OCollectionsSchema.valid" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="alembic.AbcCollection.OSchema_Collections">
+<em class="property">class </em><code class="descclassname">alembic.AbcCollection.</code><code class="descname">OSchema_Collections</code><a class="headerlink" href="#alembic.AbcCollection.OSchema_Collections" title="Permalink to this definition">¶</a></dt>
+<dd><p>Usually used as a base class, but could also theoretically be used as a standalone.</p>
+<dl class="staticmethod">
+<dt id="alembic.AbcCollection.OSchema_Collections.getDefaultSchemaName">
+<em class="property">static </em><code class="descname">getDefaultSchemaName</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &rarr; str :<a class="headerlink" href="#alembic.AbcCollection.OSchema_Collections.getDefaultSchemaName" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the default name for instances of this schema. Often something like &#8216;.geom&#8217;.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="alembic.AbcCollection.OSchema_Collections.getSchemaBaseType">
+<code class="descname">getSchemaBaseType</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &rarr; str :<a class="headerlink" href="#alembic.AbcCollection.OSchema_Collections.getSchemaBaseType" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the schema base type expected of this property.An empty base type means it&#8217;s the root type.</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="alembic.AbcCollection.OSchema_Collections.getSchemaTitle">
+<em class="property">static </em><code class="descname">getSchemaTitle</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &rarr; str :<a class="headerlink" href="#alembic.AbcCollection.OSchema_Collections.getSchemaTitle" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the schema title expected of this property.An empty title matches everything.</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="alembic.AbcCollection.OSchema_Collections.matches">
+<em class="property">static </em><code class="descname">matches</code><span class="sig-paren">(</span><em>(MetaData)metadata</em><span class="optional">[</span>, <em>(SchemaInterpMatching)matchingSchema=alembic.Abc.SchemaInterpMatching.kStrictMatching</em><span class="optional">]</span><span class="sig-paren">)</span> &rarr; bool :<a class="headerlink" href="#alembic.AbcCollection.OSchema_Collections.matches" title="Permalink to this definition">¶</a></dt>
+<dd><p>This will check whether or not a given entity (as represented by a metadata) strictly matches the interpretation of this schema object.</p>
+<dl class="docutils">
+<dt>matches( (PropertyHeader)header [, (SchemaInterpMatching)matchingSchema=alembic.Abc.SchemaInterpMatching.kStrictMatching]) -&gt; bool :</dt>
+<dd>This will check whether or not a given entity (as represented by an object header) strictly matches the interpretation of thisschema object, as well as the datatype.</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2012-2016, Sony Pictures Imageworks Inc. and Industrial Light &amp; Magic, a division of Lucasfilm Entertainment Company Ltd..
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.5.7',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

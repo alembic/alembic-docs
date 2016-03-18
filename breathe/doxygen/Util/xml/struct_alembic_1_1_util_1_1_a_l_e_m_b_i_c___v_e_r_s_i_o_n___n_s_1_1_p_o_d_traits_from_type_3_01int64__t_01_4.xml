@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="struct_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_p_o_d_traits_from_type_3_01int64__t_01_4" kind="struct" prot="public">
+    <compoundname>Alembic::Util::ALEMBIC_VERSION_NS::PODTraitsFromType&lt; int64_t &gt;</compoundname>
+    <templateparamlist>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/PlainOldDataType.h" line="320" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/PlainOldDataType.h" bodystart="320" bodyend="320"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

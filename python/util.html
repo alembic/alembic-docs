@@ -1,0 +1,315 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>alembic.Util &mdash; Alembic 1.5.7 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="Alembic 1.5.7 documentation" href="../index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Alembic
+          
+
+          
+            
+            <img src="../_static/alembic.png" class="logo" />
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.5.7
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <!-- Local TOC -->
+                <div class="local-toc"><ul>
+<li><a class="reference internal" href="#"><code class="docutils literal"><span class="pre">alembic.Util</span></code></a></li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Alembic</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+    <li><code class="docutils literal"><span class="pre">alembic.Util</span></code></li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/python/util.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-alembic.Util">
+<span id="alembic-util"></span><h1><a class="reference internal" href="#module-alembic.Util" title="alembic.Util"><code class="xref py py-mod docutils literal"><span class="pre">alembic.Util</span></code></a><a class="headerlink" href="#module-alembic.Util" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="alembic.Util.Dimensions">
+<em class="property">class </em><code class="descclassname">alembic.Util.</code><code class="descname">Dimensions</code><a class="headerlink" href="#alembic.Util.Dimensions" title="Permalink to this definition">¶</a></dt>
+<dd><p>The Dimensions class describes the dimensional layout of an array  sample in Array Property</p>
+<dl class="method">
+<dt id="alembic.Util.Dimensions.numPoints">
+<code class="descname">numPoints</code><span class="sig-paren">(</span><em>(Dimensions)arg1</em><span class="sig-paren">)</span> &rarr; int :<a class="headerlink" href="#alembic.Util.Dimensions.numPoints" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the number of total points in a dimensional container described by this Dimensions</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="alembic.Util.Dimensions.rank">
+<code class="descname">rank</code><span class="sig-paren">(</span><em>(Dimensions)arg1</em><span class="sig-paren">)</span> &rarr; int :<a class="headerlink" href="#alembic.Util.Dimensions.rank" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the rank of this Dimensions</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="alembic.Util.Dimensions.setRank">
+<code class="descname">setRank</code><span class="sig-paren">(</span><em>(Dimensions)arg1</em>, <em>(int)rank</em><span class="sig-paren">)</span> &rarr; None :<a class="headerlink" href="#alembic.Util.Dimensions.setRank" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set Dimensions to have the given rank</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="alembic.Util.POD">
+<em class="property">class </em><code class="descclassname">alembic.Util.</code><code class="descname">POD</code><a class="headerlink" href="#alembic.Util.POD" title="Permalink to this definition">¶</a></dt>
+<dd><p>Plain Old Data Types which are suppored in a Simple Property</p>
+<dl class="attribute">
+<dt id="alembic.Util.POD.kBooleanPOD">
+<code class="descname">kBooleanPOD</code><em class="property"> = alembic.Util.POD.kBooleanPOD</em><a class="headerlink" href="#alembic.Util.POD.kBooleanPOD" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="alembic.Util.POD.kFloat16POD">
+<code class="descname">kFloat16POD</code><em class="property"> = alembic.Util.POD.kFloat16POD</em><a class="headerlink" href="#alembic.Util.POD.kFloat16POD" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="alembic.Util.POD.kFloat32POD">
+<code class="descname">kFloat32POD</code><em class="property"> = alembic.Util.POD.kFloat32POD</em><a class="headerlink" href="#alembic.Util.POD.kFloat32POD" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="alembic.Util.POD.kFloat64POD">
+<code class="descname">kFloat64POD</code><em class="property"> = alembic.Util.POD.kFloat64POD</em><a class="headerlink" href="#alembic.Util.POD.kFloat64POD" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="alembic.Util.POD.kInt16POD">
+<code class="descname">kInt16POD</code><em class="property"> = alembic.Util.POD.kInt16POD</em><a class="headerlink" href="#alembic.Util.POD.kInt16POD" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="alembic.Util.POD.kInt32POD">
+<code class="descname">kInt32POD</code><em class="property"> = alembic.Util.POD.kInt32POD</em><a class="headerlink" href="#alembic.Util.POD.kInt32POD" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="alembic.Util.POD.kInt64POD">
+<code class="descname">kInt64POD</code><em class="property"> = alembic.Util.POD.kInt64POD</em><a class="headerlink" href="#alembic.Util.POD.kInt64POD" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="alembic.Util.POD.kInt8POD">
+<code class="descname">kInt8POD</code><em class="property"> = alembic.Util.POD.kInt8POD</em><a class="headerlink" href="#alembic.Util.POD.kInt8POD" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="alembic.Util.POD.kNumPlainOldDataTypes">
+<code class="descname">kNumPlainOldDataTypes</code><em class="property"> = alembic.Util.POD.kNumPlainOldDataTypes</em><a class="headerlink" href="#alembic.Util.POD.kNumPlainOldDataTypes" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="alembic.Util.POD.kStringPOD">
+<code class="descname">kStringPOD</code><em class="property"> = alembic.Util.POD.kStringPOD</em><a class="headerlink" href="#alembic.Util.POD.kStringPOD" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="alembic.Util.POD.kUint16POD">
+<code class="descname">kUint16POD</code><em class="property"> = alembic.Util.POD.kUint16POD</em><a class="headerlink" href="#alembic.Util.POD.kUint16POD" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="alembic.Util.POD.kUint32POD">
+<code class="descname">kUint32POD</code><em class="property"> = alembic.Util.POD.kUint32POD</em><a class="headerlink" href="#alembic.Util.POD.kUint32POD" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="alembic.Util.POD.kUint64POD">
+<code class="descname">kUint64POD</code><em class="property"> = alembic.Util.POD.kUint64POD</em><a class="headerlink" href="#alembic.Util.POD.kUint64POD" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="alembic.Util.POD.kUint8POD">
+<code class="descname">kUint8POD</code><em class="property"> = alembic.Util.POD.kUint8POD</em><a class="headerlink" href="#alembic.Util.POD.kUint8POD" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="alembic.Util.POD.kUnknownPOD">
+<code class="descname">kUnknownPOD</code><em class="property"> = alembic.Util.POD.kUnknownPOD</em><a class="headerlink" href="#alembic.Util.POD.kUnknownPOD" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="alembic.Util.POD.kWstringPOD">
+<code class="descname">kWstringPOD</code><em class="property"> = alembic.Util.POD.kWstringPOD</em><a class="headerlink" href="#alembic.Util.POD.kWstringPOD" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="alembic.Util.POD.names">
+<code class="descname">names</code><em class="property"> = {'kUint64POD': alembic.Util.POD.kUint64POD, 'kInt8POD': alembic.Util.POD.kInt8POD, 'kInt16POD': alembic.Util.POD.kInt16POD, 'kWstringPOD': alembic.Util.POD.kWstringPOD, 'kInt64POD': alembic.Util.POD.kInt64POD, 'kFloat16POD': alembic.Util.POD.kFloat16POD, 'kInt32POD': alembic.Util.POD.kInt32POD, 'kUint16POD': alembic.Util.POD.kUint16POD, 'kUint8POD': alembic.Util.POD.kUint8POD, 'kBooleanPOD': alembic.Util.POD.kBooleanPOD, 'kFloat32POD': alembic.Util.POD.kFloat32POD, 'kUnknownPOD': alembic.Util.POD.kUnknownPOD, 'kStringPOD': alembic.Util.POD.kStringPOD, 'kNumPlainOldDataTypes': alembic.Util.POD.kNumPlainOldDataTypes, 'kUint32POD': alembic.Util.POD.kUint32POD, 'kFloat64POD': alembic.Util.POD.kFloat64POD}</em><a class="headerlink" href="#alembic.Util.POD.names" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="alembic.Util.POD.values">
+<code class="descname">values</code><em class="property"> = {0: alembic.Util.POD.kBooleanPOD, 1: alembic.Util.POD.kUint8POD, 2: alembic.Util.POD.kInt8POD, 3: alembic.Util.POD.kUint16POD, 4: alembic.Util.POD.kInt16POD, 5: alembic.Util.POD.kUint32POD, 6: alembic.Util.POD.kInt32POD, 7: alembic.Util.POD.kUint64POD, 8: alembic.Util.POD.kInt64POD, 9: alembic.Util.POD.kFloat16POD, 10: alembic.Util.POD.kFloat32POD, 11: alembic.Util.POD.kFloat64POD, 12: alembic.Util.POD.kStringPOD, 13: alembic.Util.POD.kWstringPOD, 14: alembic.Util.POD.kNumPlainOldDataTypes, 127: alembic.Util.POD.kUnknownPOD}</em><a class="headerlink" href="#alembic.Util.POD.values" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2012-2016, Sony Pictures Imageworks Inc. and Industrial Light &amp; Magic, a division of Lucasfilm Entertainment Company Ltd..
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.5.7',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

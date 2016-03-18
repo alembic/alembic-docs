@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="namespace_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_illustration_only" kind="namespace">
+    <compoundname>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::IllustrationOnly</compoundname>
+    <innerclass refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_illustration_on9f6b00cccf79f0d041c11ed2d2ceee99" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::IllustrationOnly::ArchiveWriterConstructor</innerclass>
+    <innerclass refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_illustration_on137ee7d0a264727f43ef7ed4bdcfea65" prot="public">Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::IllustrationOnly::ArchiveReaderConstructor</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>In order for an implementation to concretely provide a starting point for using the abstract API, a single &quot;explicitly linked&quot; function to start from is necessary. That function will return, in the case of writing, an ArchiveWriterPtr. This typedef provides a signature that such a function should adhere to. This idiom is a workaround for the lack of virtual constructors in C++, and to avoid creating another class (such as &quot;Implementation&quot; or something similar)</para><para>In order for an implementation to concretely provide a starting point for using the abstract API, a single &quot;explicitly linked&quot; function to start from is necessary. That function will return, in the case of reading, an ArchiveReaderPtr. This typedef provides a signature that such a function should adhere to. This idiom is a workaround for the lack of virtual constructors in C++, and to avoid creating another class (such as &quot;Implementation&quot; or something similar) This is provided here as an illustration. It does not need to be derived from explicitly. </para>    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveWriter.h" line="57"/>
+  </compounddef>
+</doxygen>

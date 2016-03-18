@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1mutex" kind="class" prot="public">
+    <compoundname>Alembic::Util::ALEMBIC_VERSION_NS::mutex</compoundname>
+    <basecompoundref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1noncopyable" prot="private" virt="non-virtual">Alembic::Util::ALEMBIC_VERSION_NS::noncopyable</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1mutex_1a7b07b28fb398544f362a568cfaa93911" prot="private" static="no" mutable="no">
+        <type>pthread_mutex_t</type>
+        <definition>pthread_mutex_t Alembic::Util::ALEMBIC_VERSION_NS::mutex::m</definition>
+        <argsstring></argsstring>
+        <name>m</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="236" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="236" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1mutex_1a6a4ed53fa9dcbc4fa9e8008f27edfa74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Util::ALEMBIC_VERSION_NS::mutex::mutex</definition>
+        <argsstring>()</argsstring>
+        <name>mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="216" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="215" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1mutex_1adde9940b67012f2befeee411608975cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Util::ALEMBIC_VERSION_NS::mutex::~mutex</definition>
+        <argsstring>()</argsstring>
+        <name>~mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="221" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="220" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1mutex_1ad977f349f54e70c749a7af7441a260ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::Util::ALEMBIC_VERSION_NS::mutex::lock</definition>
+        <argsstring>()</argsstring>
+        <name>lock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="226" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="225" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1mutex_1aa903e28154b61ca9dd3f9d60f40354ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::Util::ALEMBIC_VERSION_NS::mutex::unlock</definition>
+        <argsstring>()</argsstring>
+        <name>unlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="231" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="230" bodyend="233"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="10">
+        <label>Alembic::Util::ALEMBIC_VERSION_NS::mutex</label>
+        <link refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1mutex"/>
+        <childnode refid="11" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>Alembic::Util::ALEMBIC_VERSION_NS::noncopyable</label>
+        <link refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1noncopyable"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="12">
+        <label>Alembic::Util::ALEMBIC_VERSION_NS::mutex</label>
+        <link refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1mutex"/>
+        <childnode refid="13" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>Alembic::Util::ALEMBIC_VERSION_NS::noncopyable</label>
+        <link refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1noncopyable"/>
+      </node>
+    </collaborationgraph>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="213" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="212" bodyend="237"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1mutex_1ad977f349f54e70c749a7af7441a260ed" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::mutex</scope><name>lock</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1mutex_1a7b07b28fb398544f362a568cfaa93911" prot="private" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::mutex</scope><name>m</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1mutex_1a6a4ed53fa9dcbc4fa9e8008f27edfa74" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::mutex</scope><name>mutex</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1noncopyable_1a2bdd863c2bf4fe5ff977bf5708f3e054" prot="private" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::mutex</scope><name>noncopyable</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1mutex_1aa903e28154b61ca9dd3f9d60f40354ef" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::mutex</scope><name>unlock</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1mutex_1adde9940b67012f2befeee411608975cd" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::mutex</scope><name>~mutex</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1noncopyable_1a4b69858f6289f2b5a18c0553f1bb92de" prot="private" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::mutex</scope><name>~noncopyable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

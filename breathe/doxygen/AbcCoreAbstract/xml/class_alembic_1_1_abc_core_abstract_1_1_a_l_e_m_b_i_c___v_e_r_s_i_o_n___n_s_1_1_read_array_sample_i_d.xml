@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d" kind="class" prot="public">
+    <compoundname>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ReadArraySampleID</compoundname>
+    <includes refid="_read_array_sample_cache_8h" local="no">ReadArraySampleCache.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d_1a00f918d178d81766c7e197e342d37077" prot="public" static="no">
+        <type><ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d" kindref="compound">ReadArraySampleID</ref></type>
+        <definition>typedef ReadArraySampleID Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ReadArraySampleID::this_type</definition>
+        <argsstring></argsstring>
+        <name>this_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>By convention, we define the typedef this_type. This is used by the unspecified-bool-type cast below. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ReadArraySampleCache.h" line="56" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ReadArraySampleCache.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d_1ae43a8e52ed81962a5f2140ce96df1543" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key" kindref="compound">ArraySample::Key</ref></type>
+        <definition>ArraySample::Key Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ReadArraySampleID::m_sampleKey</definition>
+        <argsstring></argsstring>
+        <name>m_sampleKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ReadArraySampleCache.h" line="93" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ReadArraySampleCache.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d_1ae1971668ca3a7ebec537f1c6cdebe387" prot="private" static="no" mutable="no">
+        <type>ArraySamplePtr</type>
+        <definition>ArraySamplePtr Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ReadArraySampleID::m_sample</definition>
+        <argsstring></argsstring>
+        <name>m_sample</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ReadArraySampleCache.h" line="94" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ReadArraySampleCache.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d_1a02967385765d690c91ae06cf51b3e8bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ReadArraySampleID::ReadArraySampleID</definition>
+        <argsstring>()</argsstring>
+        <name>ReadArraySampleID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default constructor creates empty ID ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ReadArraySampleCache.h" line="60" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ReadArraySampleCache.h" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d_1a42ccc67dab5b88170811034517751ddf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ReadArraySampleID::ReadArraySampleID</definition>
+        <argsstring>(const ArraySample::Key &amp;iSampleKey, ArraySamplePtr iSample)</argsstring>
+        <name>ReadArraySampleID</name>
+        <param>
+          <type>const <ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key" kindref="compound">ArraySample::Key</ref> &amp;</type>
+          <declname>iSampleKey</declname>
+        </param>
+        <param>
+          <type>ArraySamplePtr</type>
+          <declname>iSample</declname>
+        </param>
+        <briefdescription>
+<para>Explicit constructor creates ID with key and sample. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ReadArraySampleCache.h" line="66" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ReadArraySampleCache.h" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d_1a0d290b77494bfdd7dc5470f5d8e30857" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key" kindref="compound">ArraySample::Key</ref> &amp;</type>
+        <definition>const ArraySample::Key&amp; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ReadArraySampleID::getKey</definition>
+        <argsstring>() const </argsstring>
+        <name>getKey</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default copy constructor Default assignment operator. Return the sample key ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ReadArraySampleCache.h" line="74" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ReadArraySampleCache.h" bodystart="73" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d_1a2d8dfcca0256784d3089522d38a1798f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ArraySamplePtr</type>
+        <definition>ArraySamplePtr Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ReadArraySampleID::getSample</definition>
+        <argsstring>() const </argsstring>
+        <name>getSample</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the sample itself. ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ReadArraySampleCache.h" line="79" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ReadArraySampleCache.h" bodystart="78" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d_1ab1bd9b63b1005749bce4dc28ca891cb1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ReadArraySampleID::valid</definition>
+        <argsstring>() const </argsstring>
+        <name>valid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return whether or not this read sample is valid ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ReadArraySampleCache.h" line="84" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ReadArraySampleCache.h" bodystart="83" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d_1a17e9d3782120e4ff343c2741f21f99b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ReadArraySampleID::ALEMBIC_OPERATOR_BOOL</definition>
+        <argsstring>(valid())</argsstring>
+        <name>ALEMBIC_OPERATOR_BOOL</name>
+        <param>
+          <type>valid()</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Unspecified bool type cast ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ReadArraySampleCache.h" line="90"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d" kindref="compound">ReadArraySampleID</ref> is a bundle that contains a pointer to the <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample" kindref="compound">ArraySample</ref> itself, along with the sample&apos;s key. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="63">
+        <label>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ReadArraySampleID</label>
+        <link refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d"/>
+        <childnode refid="64" relation="usage">
+          <edgelabel>m_sampleKey</edgelabel>
+        </childnode>
+      </node>
+      <node id="64">
+        <label>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArraySampleKey</label>
+        <link refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key"/>
+      </node>
+    </collaborationgraph>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ReadArraySampleCache.h" line="52" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ReadArraySampleCache.h" bodystart="51" bodyend="95"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d_1a17e9d3782120e4ff343c2741f21f99b0" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ReadArraySampleID</scope><name>ALEMBIC_OPERATOR_BOOL</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d_1a0d290b77494bfdd7dc5470f5d8e30857" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ReadArraySampleID</scope><name>getKey</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d_1a2d8dfcca0256784d3089522d38a1798f" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ReadArraySampleID</scope><name>getSample</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d_1ae1971668ca3a7ebec537f1c6cdebe387" prot="private" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ReadArraySampleID</scope><name>m_sample</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d_1ae43a8e52ed81962a5f2140ce96df1543" prot="private" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ReadArraySampleID</scope><name>m_sampleKey</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d_1a02967385765d690c91ae06cf51b3e8bf" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ReadArraySampleID</scope><name>ReadArraySampleID</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d_1a42ccc67dab5b88170811034517751ddf" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ReadArraySampleID</scope><name>ReadArraySampleID</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d_1a00f918d178d81766c7e197e342d37077" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ReadArraySampleID</scope><name>this_type</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d_1ab1bd9b63b1005749bce4dc28ca891cb1" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ReadArraySampleID</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

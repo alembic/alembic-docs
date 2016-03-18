@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer" kind="class" prot="public">
+    <compoundname>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveWriter</compoundname>
+    <includes refid="_archive_writer_8h" local="no">ArchiveWriter.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1a8a78d6f2d40610226df04df99420fc6e" prot="private" static="no" mutable="no">
+        <type>int8_t</type>
+        <definition>int8_t Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveWriter::m_compressionHint</definition>
+        <argsstring></argsstring>
+        <name>m_compressionHint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveWriter.h" line="143" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveWriter.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1abea624964c1f2bbe768830925e1c6d20" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveWriter::ArchiveWriter</definition>
+        <argsstring>()</argsstring>
+        <name>ArchiveWriter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveWriter.h" line="74" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveWriter.h" bodystart="73" bodyend="74"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1acb76958aaf59fe96a10dd4799d1dc5d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveWriter::~ArchiveWriter</definition>
+        <argsstring>()</argsstring>
+        <name>~ArchiveWriter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Virtual destructor ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveWriter.h" line="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1ac86a682a5d35f6ab414f5813b0db1acb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>const std::string &amp;</type>
+        <definition>virtual const std::string&amp; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveWriter::getName</definition>
+        <argsstring>() const =0</argsstring>
+        <name>getName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return the archive (file) name. This is the name of the file which the archive writer is associated with. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveWriter.h" line="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1a3e9cbbda377d9a9b98bbb33bdffa21ce" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_meta_data" kindref="compound">MetaData</ref> &amp;</type>
+        <definition>virtual const MetaData&amp; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveWriter::getMetaData</definition>
+        <argsstring>() const =0</argsstring>
+        <name>getMetaData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The meta data of the archive is the same as the meta data of the top-level object writer. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveWriter.h" line="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1a00785506b1aad4fe4d237067eaba4efa" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>ObjectWriterPtr</type>
+        <definition>virtual ObjectWriterPtr Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveWriter::getTop</definition>
+        <argsstring>()=0</argsstring>
+        <name>getTop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the top object writer. Archives always have this single top-level object created automatically. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveWriter.h" line="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1a1e36d58943127a1abff1a63d616451d9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int8_t</type>
+        <definition>int8_t Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveWriter::getCompressionHint</definition>
+        <argsstring>() const </argsstring>
+        <name>getCompressionHint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the compression applied to array properties. Implementations are free to disregard this. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveWriter.h" line="100" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveWriter.h" bodystart="100" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1a4daa83a19d478a752369a0ea4b4252e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveWriter::setCompressionHint</definition>
+        <argsstring>(int8_t iCh)</argsstring>
+        <name>setCompressionHint</name>
+        <param>
+          <type>int8_t</type>
+          <declname>iCh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the compression applied to array properties. Implementations are free to disregard this. -1 means off, 0 means &quot;litte&quot;, where 9 means &quot;alot&quot; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveWriter.h" line="106" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveWriter.h" bodystart="105" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1ac045d9ef414a7988e9d83af0c6c48d78" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>ArchiveWriterPtr</type>
+        <definition>virtual ArchiveWriterPtr Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveWriter::asArchivePtr</definition>
+        <argsstring>()=0</argsstring>
+        <name>asArchivePtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return self May sometimes be spoofed. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveWriter.h" line="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1a4878d5ecfc0e225f70982d7abc283b3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>uint32_t</type>
+        <definition>virtual uint32_t Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveWriter::addTimeSampling</definition>
+        <argsstring>(const TimeSampling &amp;iTs)=0</argsstring>
+        <name>addTimeSampling</name>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling" kindref="compound">TimeSampling</ref> &amp;</type>
+          <declname>iTs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds the <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling" kindref="compound">TimeSampling</ref> to the Archive <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling" kindref="compound">TimeSampling</ref> pool. If the <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling" kindref="compound">TimeSampling</ref> already exists in the pool, the index for the match should be returned. index 0 is automatically reserved for uniform time sampling with a start time of 0 and time per cycle of 1 (aka identity sampling) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveWriter.h" line="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1afc8b633eb04d5b776290bd037a227f1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>TimeSamplingPtr</type>
+        <definition>virtual TimeSamplingPtr Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveWriter::getTimeSampling</definition>
+        <argsstring>(uint32_t iIndex)=0</argsstring>
+        <name>getTimeSampling</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>iIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling" kindref="compound">TimeSampling</ref> at a given index. index 0 is automatically reserved for uniform time sampling with a start time of 0 and time per cycle of 1 (aka identity sampling) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveWriter.h" line="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1adfbbd4828b2fcf0adf184626aff8a08e" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>uint32_t</type>
+        <definition>virtual uint32_t Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveWriter::getNumTimeSamplings</definition>
+        <argsstring>()=0</argsstring>
+        <name>getNumTimeSamplings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the total number of TimeSamplingPtrs in the Archive <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling" kindref="compound">TimeSampling</ref> pool. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveWriter.h" line="129"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1aa1dc10017176739a85568fae79921247" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>index_t</type>
+        <definition>virtual index_t Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveWriter::getMaxNumSamplesForTimeSamplingIndex</definition>
+        <argsstring>(uint32_t iIndex)=0</argsstring>
+        <name>getMaxNumSamplesForTimeSamplingIndex</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>iIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the maximum number of samples written for the <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling" kindref="compound">TimeSampling</ref> at the given index. If an illegal iIndex is specified, INDEX_UNKNOWN will be returned. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveWriter.h" line="134"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1a7683a7c85be34878f313f84d6288b412" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveWriter::setMaxNumSamplesForTimeSamplingIndex</definition>
+        <argsstring>(uint32_t iIndex, index_t iMaxIndex)=0</argsstring>
+        <name>setMaxNumSamplesForTimeSamplingIndex</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>iIndex</declname>
+        </param>
+        <param>
+          <type>index_t</type>
+          <declname>iMaxIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the maximum number of samples written for the <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_time_sampling" kindref="compound">TimeSampling</ref> at the given index. You normally don&apos;t need to call this as the properties will call it at the appropriate time. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveWriter.h" line="140"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The Archive is &quot;the file&quot;. It has a single object, it&apos;s top object. It has no properties, but does have metadata. </para>    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveWriter.h" line="71" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArchiveWriter.h" bodystart="69" bodyend="144"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1a4878d5ecfc0e225f70982d7abc283b3c" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveWriter</scope><name>addTimeSampling</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1abea624964c1f2bbe768830925e1c6d20" prot="protected" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveWriter</scope><name>ArchiveWriter</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1ac045d9ef414a7988e9d83af0c6c48d78" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveWriter</scope><name>asArchivePtr</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1a1e36d58943127a1abff1a63d616451d9" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveWriter</scope><name>getCompressionHint</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1aa1dc10017176739a85568fae79921247" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveWriter</scope><name>getMaxNumSamplesForTimeSamplingIndex</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1a3e9cbbda377d9a9b98bbb33bdffa21ce" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveWriter</scope><name>getMetaData</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1ac86a682a5d35f6ab414f5813b0db1acb" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveWriter</scope><name>getName</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1adfbbd4828b2fcf0adf184626aff8a08e" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveWriter</scope><name>getNumTimeSamplings</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1afc8b633eb04d5b776290bd037a227f1e" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveWriter</scope><name>getTimeSampling</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1a00785506b1aad4fe4d237067eaba4efa" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveWriter</scope><name>getTop</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1a8a78d6f2d40610226df04df99420fc6e" prot="private" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveWriter</scope><name>m_compressionHint</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1a4daa83a19d478a752369a0ea4b4252e4" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveWriter</scope><name>setCompressionHint</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1a7683a7c85be34878f313f84d6288b412" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveWriter</scope><name>setMaxNumSamplesForTimeSamplingIndex</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_archive_writer_1acb76958aaf59fe96a10dd4799d1dc5d3" prot="public" virt="virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArchiveWriter</scope><name>~ArchiveWriter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

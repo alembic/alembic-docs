@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="dir_cc2aaca40dc87c9830d07544fb1eec8d" kind="dir">
+    <compoundname>/var/tmp/doNotRemove/</compoundname>
+    <innerdir refid="dir_a8ba750eb1c877acf140a99b46e04652">/var/tmp/doNotRemove/local/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/"/>
+  </compounddef>
+</doxygen>

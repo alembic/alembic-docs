@@ -1,0 +1,593 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash" kind="class" prot="public">
+    <compoundname>Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1ab960d63132825a8550000db84e65d3d0" prot="private" static="yes" mutable="no">
+        <type>const size_t</type>
+        <definition>const size_t Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash::sc_numVars</definition>
+        <argsstring></argsstring>
+        <name>sc_numVars</name>
+        <initializer> 12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" line="304" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" bodystart="304" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1aeddddc7a6b01baee1d785e523cdcc5ee" prot="private" static="yes" mutable="no">
+        <type>const size_t</type>
+        <definition>const size_t Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash::sc_blockSize</definition>
+        <argsstring></argsstring>
+        <name>sc_blockSize</name>
+        <initializer> sc_numVars*8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" line="307" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" bodystart="307" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1a6c2886976594c4c18ab110348bf38898" prot="private" static="yes" mutable="no">
+        <type>const size_t</type>
+        <definition>const size_t Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash::sc_bufSize</definition>
+        <argsstring></argsstring>
+        <name>sc_bufSize</name>
+        <initializer> 2*sc_blockSize</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" line="310" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" bodystart="310" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1a28b6bc44a7cbd614873948012404f1dc" prot="private" static="yes" mutable="no">
+        <type>const uint64_t</type>
+        <definition>const uint64_t Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash::sc_const</definition>
+        <argsstring></argsstring>
+        <name>sc_const</name>
+        <initializer> 0xdeadbeefdeadbeefLL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" line="319" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" bodystart="319" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1ad76dbb81ad9df00a0da3614ff81d94a1" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash::m_data[2 *sc_numVars]</definition>
+        <argsstring>[2 *sc_numVars]</argsstring>
+        <name>m_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" line="321" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" bodystart="321" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1a763f6985a96f12871c024714fcbaff2c" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash::m_state[sc_numVars]</definition>
+        <argsstring>[sc_numVars]</argsstring>
+        <name>m_state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" line="322" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" bodystart="322" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1aff18e3793b1a6aaa65a730ee8d4532cc" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash::m_length</definition>
+        <argsstring></argsstring>
+        <name>m_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" line="323" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" bodystart="323" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1af222c311d3522b7e975aebd38dbca127" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash::m_remainder</definition>
+        <argsstring></argsstring>
+        <name>m_remainder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" line="324" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" bodystart="324" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1ad9102978c112e6d7c25e437b04fda697" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash::Hash128</definition>
+        <argsstring>(const void *message, size_t length, uint64_t *hash1, uint64_t *hash2)</argsstring>
+        <name>Hash128</name>
+        <param>
+          <type>const void *</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>length</declname>
+        </param>
+        <param>
+          <type>uint64_t *</type>
+          <declname>hash1</declname>
+        </param>
+        <param>
+          <type>uint64_t *</type>
+          <declname>hash2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" line="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1a83768856abc843392d2dc45fa8f9fee3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint64_t</type>
+        <definition>static uint64_t Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash::Hash64</definition>
+        <argsstring>(const void *message, size_t length, uint64_t seed)</argsstring>
+        <name>Hash64</name>
+        <param>
+          <type>const void *</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>length</declname>
+        </param>
+        <param>
+          <type>uint64_t</type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" line="93" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" bodystart="89" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1a876b488f4146c3e6b10c0e047198ae5b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>static uint32_t Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash::Hash32</definition>
+        <argsstring>(const void *message, size_t length, uint32_t seed)</argsstring>
+        <name>Hash32</name>
+        <param>
+          <type>const void *</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>length</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>seed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" line="106" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" bodystart="102" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1a1002d6a5449277014234ae6a71e1e081" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint64_t</type>
+        <definition>static uint64_t Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash::Rot64</definition>
+        <argsstring>(uint64_t x, int k)</argsstring>
+        <name>Rot64</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>k</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" line="143" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" bodystart="142" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1aaab95dcdaa77198c5d16353f26cebf01" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash::Mix</definition>
+        <argsstring>(const uint64_t *data, uint64_t &amp;s0, uint64_t &amp;s1, uint64_t &amp;s2, uint64_t &amp;s3, uint64_t &amp;s4, uint64_t &amp;s5, uint64_t &amp;s6, uint64_t &amp;s7, uint64_t &amp;s8, uint64_t &amp;s9, uint64_t &amp;s10, uint64_t &amp;s11)</argsstring>
+        <name>Mix</name>
+        <param>
+          <type>const uint64_t *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>s0</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>s1</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>s2</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>s3</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>s4</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>s5</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>s6</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>s7</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>s8</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>s9</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>s10</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>s11</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" line="165" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" bodystart="160" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1a94cc41c4f20fd500430dc2443d563cd1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash::EndPartial</definition>
+        <argsstring>(uint64_t &amp;h0, uint64_t &amp;h1, uint64_t &amp;h2, uint64_t &amp;h3, uint64_t &amp;h4, uint64_t &amp;h5, uint64_t &amp;h6, uint64_t &amp;h7, uint64_t &amp;h8, uint64_t &amp;h9, uint64_t &amp;h10, uint64_t &amp;h11)</argsstring>
+        <name>EndPartial</name>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>h0</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>h1</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>h2</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>h3</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>h4</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>h5</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>h6</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>h7</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>h8</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>h9</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>h10</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>h11</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" line="200" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" bodystart="196" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1a9fac533fac12fb6e173d1477fb208a7a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash::End</definition>
+        <argsstring>(const uint64_t *data, uint64_t &amp;h0, uint64_t &amp;h1, uint64_t &amp;h2, uint64_t &amp;h3, uint64_t &amp;h4, uint64_t &amp;h5, uint64_t &amp;h6, uint64_t &amp;h7, uint64_t &amp;h8, uint64_t &amp;h9, uint64_t &amp;h10, uint64_t &amp;h11)</argsstring>
+        <name>End</name>
+        <param>
+          <type>const uint64_t *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>h0</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>h1</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>h2</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>h3</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>h4</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>h5</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>h6</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>h7</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>h8</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>h9</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>h10</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>h11</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" line="220" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" bodystart="215" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1a352d6fc05715f3f3b3b4c5332591e966" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash::ShortMix</definition>
+        <argsstring>(uint64_t &amp;h0, uint64_t &amp;h1, uint64_t &amp;h2, uint64_t &amp;h3)</argsstring>
+        <name>ShortMix</name>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>h0</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>h1</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>h2</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>h3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" line="246" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" bodystart="244" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1af4a6f1b1877786f515dbec56ec8cde7f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash::ShortEnd</definition>
+        <argsstring>(uint64_t &amp;h0, uint64_t &amp;h1, uint64_t &amp;h2, uint64_t &amp;h3)</argsstring>
+        <name>ShortEnd</name>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>h0</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>h1</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>h2</declname>
+        </param>
+        <param>
+          <type>uint64_t &amp;</type>
+          <declname>h3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" line="275" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" bodystart="273" bodyend="287"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1a9226d14cb76fe3f4028ba4c4dd4a0d5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash::Init</definition>
+        <argsstring>(uint64_t seed1, uint64_t seed2)</argsstring>
+        <name>Init</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>seed1</declname>
+        </param>
+        <param>
+          <type>uint64_t</type>
+          <declname>seed2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" line="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1ade6d14a2dc5cec09f19dcb6e904ebfe9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash::Update</definition>
+        <argsstring>(const void *message, size_t length)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>const void *</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" line="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1a29a6c631e648306b1e3111de48021396" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash::Final</definition>
+        <argsstring>(uint64_t *hash1, uint64_t *hash2)</argsstring>
+        <name>Final</name>
+        <param>
+          <type>uint64_t *</type>
+          <declname>hash1</declname>
+        </param>
+        <param>
+          <type>uint64_t *</type>
+          <declname>hash2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" line="137"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1a1719e35a3be17a3cd04da00410ed3b3e" prot="private" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash::Short</definition>
+        <argsstring>(const void *message, size_t length, uint64_t *hash1, uint64_t *hash2)</argsstring>
+        <name>Short</name>
+        <param>
+          <type>const void *</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>length</declname>
+        </param>
+        <param>
+          <type>uint64_t *</type>
+          <declname>hash1</declname>
+        </param>
+        <param>
+          <type>uint64_t *</type>
+          <declname>hash2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" line="301"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" line="75" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h" bodystart="74" bodyend="325"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1a9fac533fac12fb6e173d1477fb208a7a" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash</scope><name>End</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1a94cc41c4f20fd500430dc2443d563cd1" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash</scope><name>EndPartial</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1a29a6c631e648306b1e3111de48021396" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash</scope><name>Final</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1ad9102978c112e6d7c25e437b04fda697" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash</scope><name>Hash128</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1a876b488f4146c3e6b10c0e047198ae5b" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash</scope><name>Hash32</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1a83768856abc843392d2dc45fa8f9fee3" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash</scope><name>Hash64</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1a9226d14cb76fe3f4028ba4c4dd4a0d5d" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash</scope><name>Init</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1ad76dbb81ad9df00a0da3614ff81d94a1" prot="private" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash</scope><name>m_data</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1aff18e3793b1a6aaa65a730ee8d4532cc" prot="private" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash</scope><name>m_length</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1af222c311d3522b7e975aebd38dbca127" prot="private" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash</scope><name>m_remainder</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1a763f6985a96f12871c024714fcbaff2c" prot="private" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash</scope><name>m_state</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1aaab95dcdaa77198c5d16353f26cebf01" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash</scope><name>Mix</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1a1002d6a5449277014234ae6a71e1e081" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash</scope><name>Rot64</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1aeddddc7a6b01baee1d785e523cdcc5ee" prot="private" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash</scope><name>sc_blockSize</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1a6c2886976594c4c18ab110348bf38898" prot="private" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash</scope><name>sc_bufSize</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1a28b6bc44a7cbd614873948012404f1dc" prot="private" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash</scope><name>sc_const</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1ab960d63132825a8550000db84e65d3d0" prot="private" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash</scope><name>sc_numVars</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1a1719e35a3be17a3cd04da00410ed3b3e" prot="private" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash</scope><name>Short</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1af4a6f1b1877786f515dbec56ec8cde7f" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash</scope><name>ShortEnd</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1a352d6fc05715f3f3b3b4c5332591e966" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash</scope><name>ShortMix</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash_1ade6d14a2dc5cec09f19dcb6e904ebfe9" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

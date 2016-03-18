@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_cache" kind="class" prot="public">
+    <compoundname>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ReadArraySampleCache</compoundname>
+    <includes refid="_read_array_sample_cache_8h" local="no">ReadArraySampleCache.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_cache_1a06fe8346f334e64256d2ecd1a8deaf95" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ReadArraySampleCache::~ReadArraySampleCache</definition>
+        <argsstring>()</argsstring>
+        <name>~ReadArraySampleCache</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Virtual destructor ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ReadArraySampleCache.h" line="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_cache_1a1deb387f86e45204dcb666136a6ba841" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d" kindref="compound">ReadArraySampleID</ref></type>
+        <definition>virtual ReadArraySampleID Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ReadArraySampleCache::find</definition>
+        <argsstring>(const ArraySample::Key &amp;iKey)=0</argsstring>
+        <name>find</name>
+        <param>
+          <type>const <ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key" kindref="compound">ArraySample::Key</ref> &amp;</type>
+          <declname>iKey</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If it finds the entry, return a valid pointer to it which is expected to lock the entry in the cache until the pointer is dereferenced. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ReadArraySampleCache.h" line="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_cache_1aa07994eb88d386aee566300545955652" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_i_d" kindref="compound">ReadArraySampleID</ref></type>
+        <definition>virtual ReadArraySampleID Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ReadArraySampleCache::store</definition>
+        <argsstring>(const ArraySample::Key &amp;iKey, ArraySamplePtr iSamp)=0</argsstring>
+        <name>store</name>
+        <param>
+          <type>const <ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key" kindref="compound">ArraySample::Key</ref> &amp;</type>
+          <declname>iKey</declname>
+        </param>
+        <param>
+          <type>ArraySamplePtr</type>
+          <declname>iSamp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Store an entry given an explicit set of storage. The magnificent flexibility of the shared_ptr class makes it possible for an ArraySamplePtr to contain its own destructor as a custom deleter, and thus we can use ArraySamplePtrs for both reference and ownership, depending on the deleter. In this case, it is assumed that iSamp represents &quot;owned&quot; data, rather than a reference. The data will not be copied, but rather this sample will be stored directly using the passed shared_ptr. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ReadArraySampleCache.h" line="134"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Alembic caches array samples based on a Murmur3 128bit checksum key. This is an abstract interface to these caches, which can be implemented in any number of ways. </para>    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ReadArraySampleCache.h" line="113" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ReadArraySampleCache.h" bodystart="110" bodyend="135"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_cache_1a1deb387f86e45204dcb666136a6ba841" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ReadArraySampleCache</scope><name>find</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_cache_1aa07994eb88d386aee566300545955652" prot="public" virt="pure-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ReadArraySampleCache</scope><name>store</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_read_array_sample_cache_1a06fe8346f334e64256d2ecd1a8deaf95" prot="public" virt="virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ReadArraySampleCache</scope><name>~ReadArraySampleCache</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

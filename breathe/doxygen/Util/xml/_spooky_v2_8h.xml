@@ -1,0 +1,493 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="_spooky_v2_8h" kind="file">
+    <compoundname>SpookyV2.h</compoundname>
+    <includes refid="_export_8h" local="no">Alembic/Util/Export.h</includes>
+    <includes refid="_plain_old_data_type_8h" local="no">Alembic/Util/PlainOldDataType.h</includes>
+    <includedby refid="_all_8h" local="no">/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/All.h</includedby>
+    <incdepgraph>
+      <node id="265">
+        <label>iomanip</label>
+      </node>
+      <node id="269">
+        <label>limits</label>
+      </node>
+      <node id="260">
+        <label>Alembic/Util/Foundation.h</label>
+        <link refid="_foundation_8h_source"/>
+        <childnode refid="261" relation="include">
+        </childnode>
+        <childnode refid="262" relation="include">
+        </childnode>
+        <childnode refid="263" relation="include">
+        </childnode>
+        <childnode refid="264" relation="include">
+        </childnode>
+        <childnode refid="265" relation="include">
+        </childnode>
+        <childnode refid="266" relation="include">
+        </childnode>
+        <childnode refid="267" relation="include">
+        </childnode>
+        <childnode refid="268" relation="include">
+        </childnode>
+        <childnode refid="269" relation="include">
+        </childnode>
+        <childnode refid="270" relation="include">
+        </childnode>
+        <childnode refid="271" relation="include">
+        </childnode>
+        <childnode refid="272" relation="include">
+        </childnode>
+        <childnode refid="273" relation="include">
+        </childnode>
+        <childnode refid="274" relation="include">
+        </childnode>
+        <childnode refid="275" relation="include">
+        </childnode>
+        <childnode refid="276" relation="include">
+        </childnode>
+        <childnode refid="258" relation="include">
+        </childnode>
+        <childnode refid="277" relation="include">
+        </childnode>
+      </node>
+      <node id="276">
+        <label>assert.h</label>
+      </node>
+      <node id="279">
+        <label>stdint.h</label>
+      </node>
+      <node id="274">
+        <label>stdlib.h</label>
+      </node>
+      <node id="271">
+        <label>string</label>
+      </node>
+      <node id="270">
+        <label>map</label>
+      </node>
+      <node id="259">
+        <label>Alembic/Util/PlainOldDataType.h</label>
+        <link refid="_plain_old_data_type_8h_source"/>
+        <childnode refid="260" relation="include">
+        </childnode>
+        <childnode refid="278" relation="include">
+        </childnode>
+        <childnode refid="279" relation="include">
+        </childnode>
+      </node>
+      <node id="268">
+        <label>exception</label>
+      </node>
+      <node id="257">
+        <label>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h</label>
+        <link refid="SpookyV2.h"/>
+        <childnode refid="258" relation="include">
+        </childnode>
+        <childnode refid="259" relation="include">
+        </childnode>
+      </node>
+      <node id="275">
+        <label>string.h</label>
+      </node>
+      <node id="258">
+        <label>Alembic/Util/Export.h</label>
+        <link refid="_export_8h_source"/>
+      </node>
+      <node id="272">
+        <label>vector</label>
+      </node>
+      <node id="264">
+        <label>half.h</label>
+      </node>
+      <node id="267">
+        <label>sstream</label>
+      </node>
+      <node id="261">
+        <label>Alembic/Util/Config.h</label>
+        <link refid="_config_8h_source"/>
+      </node>
+      <node id="266">
+        <label>iostream</label>
+      </node>
+      <node id="262">
+        <label>unordered_map</label>
+      </node>
+      <node id="278">
+        <label>Alembic/Util/Exception.h</label>
+        <link refid="_exception_8h"/>
+        <childnode refid="260" relation="include">
+        </childnode>
+      </node>
+      <node id="277">
+        <label>algorithm</label>
+      </node>
+      <node id="273">
+        <label>stdio.h</label>
+      </node>
+      <node id="263">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="280">
+        <label>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h</label>
+        <link refid="SpookyV2.h"/>
+        <childnode refid="281" relation="include">
+        </childnode>
+      </node>
+      <node id="281">
+        <label>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/All.h</label>
+        <link refid="_all_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash" prot="public">Alembic::Util::ALEMBIC_VERSION_NS::SpookyHash</innerclass>
+    <innernamespace refid="namespace_alembic">Alembic</innernamespace>
+    <innernamespace refid="namespace_alembic_1_1_util">Alembic::Util</innernamespace>
+    <innernamespace refid="namespace_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s">Alembic::Util::ALEMBIC_VERSION_NS</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//-*****************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Copyright<sp/>(c)<sp/>2013-2015,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Sony<sp/>Pictures<sp/>Imageworks<sp/>Inc.<sp/>and</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/>Industrial<sp/>Light<sp/>&amp;<sp/>Magic,<sp/>a<sp/>division<sp/>of<sp/>Lucasfilm<sp/>Entertainment<sp/>Company<sp/>Ltd.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Redistribution<sp/>and<sp/>use<sp/>in<sp/>source<sp/>and<sp/>binary<sp/>forms,<sp/>with<sp/>or<sp/>without</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>modification,<sp/>are<sp/>permitted<sp/>provided<sp/>that<sp/>the<sp/>following<sp/>conditions<sp/>are</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>met:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>Redistributions<sp/>of<sp/>source<sp/>code<sp/>must<sp/>retain<sp/>the<sp/>above<sp/>copyright</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>Redistributions<sp/>in<sp/>binary<sp/>form<sp/>must<sp/>reproduce<sp/>the<sp/>above</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>copyright<sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/>in<sp/>the<sp/>documentation<sp/>and/or<sp/>other<sp/>materials<sp/>provided<sp/>with<sp/>the</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>distribution.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>Neither<sp/>the<sp/>name<sp/>of<sp/>Industrial<sp/>Light<sp/>&amp;<sp/>Magic<sp/>nor<sp/>the<sp/>names<sp/>of</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>its<sp/>contributors<sp/>may<sp/>be<sp/>used<sp/>to<sp/>endorse<sp/>or<sp/>promote<sp/>products<sp/>derived</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/>from<sp/>this<sp/>software<sp/>without<sp/>specific<sp/>prior<sp/>written<sp/>permission.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>THIS<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>BY<sp/>THE<sp/>COPYRIGHT<sp/>HOLDERS<sp/>AND<sp/>CONTRIBUTORS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/>&quot;AS<sp/>IS&quot;<sp/>AND<sp/>ANY<sp/>EXPRESS<sp/>OR<sp/>IMPLIED<sp/>WARRANTIES,<sp/>INCLUDING,<sp/>BUT<sp/>NOT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>LIMITED<sp/>TO,<sp/>THE<sp/>IMPLIED<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY<sp/>AND<sp/>FITNESS<sp/>FOR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/>A<sp/>PARTICULAR<sp/>PURPOSE<sp/>ARE<sp/>DISCLAIMED.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE<sp/>COPYRIGHT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>OWNER<sp/>OR<sp/>CONTRIBUTORS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>DIRECT,<sp/>INDIRECT,<sp/>INCIDENTAL,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/>SPECIAL,<sp/>EXEMPLARY,<sp/>OR<sp/>CONSEQUENTIAL<sp/>DAMAGES<sp/>(INCLUDING,<sp/>BUT<sp/>NOT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>LIMITED<sp/>TO,<sp/>PROCUREMENT<sp/>OF<sp/>SUBSTITUTE<sp/>GOODS<sp/>OR<sp/>SERVICES;<sp/>LOSS<sp/>OF<sp/>USE,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//<sp/>DATA,<sp/>OR<sp/>PROFITS;<sp/>OR<sp/>BUSINESS<sp/>INTERRUPTION)<sp/>HOWEVER<sp/>CAUSED<sp/>AND<sp/>ON<sp/>ANY</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//<sp/>THEORY<sp/>OF<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>CONTRACT,<sp/>STRICT<sp/>LIABILITY,<sp/>OR<sp/>TORT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//<sp/>(INCLUDING<sp/>NEGLIGENCE<sp/>OR<sp/>OTHERWISE)<sp/>ARISING<sp/>IN<sp/>ANY<sp/>WAY<sp/>OUT<sp/>OF<sp/>THE<sp/>USE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>OF<sp/>THIS<sp/>SOFTWARE,<sp/>EVEN<sp/>IF<sp/>ADVISED<sp/>OF<sp/>THE<sp/>POSSIBILITY<sp/>OF<sp/>SUCH<sp/>DAMAGE.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">//-*****************************************************************************</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="comment">//<sp/>SpookyHash:<sp/>a<sp/>128-bit<sp/>noncryptographic<sp/>hash<sp/>function</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">//<sp/>By<sp/>Bob<sp/>Jenkins,<sp/>public<sp/>domain</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>Oct<sp/>31<sp/>2010:<sp/>alpha,<sp/>framework<sp/>+<sp/>SpookyHash::Mix<sp/>appears<sp/>right</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>Oct<sp/>31<sp/>2011:<sp/>alpha<sp/>again,<sp/>Mix<sp/>only<sp/>good<sp/>to<sp/>2^^69<sp/>but<sp/>rest<sp/>appears<sp/>right</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>Dec<sp/>31<sp/>2011:<sp/>beta,<sp/>improved<sp/>Mix,<sp/>tested<sp/>it<sp/>for<sp/>2-bit<sp/>deltas</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>Feb<sp/><sp/>2<sp/>2012:<sp/>production,<sp/>same<sp/>bits<sp/>as<sp/>beta</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>Feb<sp/><sp/>5<sp/>2012:<sp/>adjusted<sp/>definitions<sp/>of<sp/>uint*<sp/>to<sp/>be<sp/>more<sp/>portable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>Mar<sp/>30<sp/>2012:<sp/>3<sp/>bytes/cycle,<sp/>not<sp/>4.<sp/><sp/>Alpha<sp/>was<sp/>4<sp/>but<sp/>wasn&apos;t<sp/>thorough<sp/>enough.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>August<sp/>5<sp/>2012:<sp/>SpookyV2<sp/>(different<sp/>results)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Up<sp/>to<sp/>3<sp/>bytes/cycle<sp/>for<sp/>long<sp/>messages.<sp/><sp/>Reasonably<sp/>fast<sp/>for<sp/>short<sp/>messages.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="comment">//<sp/>All<sp/>1<sp/>or<sp/>2<sp/>bit<sp/>deltas<sp/>achieve<sp/>avalanche<sp/>within<sp/>1%<sp/>bias<sp/>per<sp/>output<sp/>bit.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>was<sp/>developed<sp/>for<sp/>and<sp/>tested<sp/>on<sp/>64-bit<sp/>x86-compatible<sp/>processors.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="comment">//<sp/>It<sp/>assumes<sp/>the<sp/>processor<sp/>is<sp/>little-endian.<sp/><sp/>There<sp/>is<sp/>a<sp/>macro</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment">//<sp/>controlling<sp/>whether<sp/>unaligned<sp/>reads<sp/>are<sp/>allowed<sp/>(by<sp/>default<sp/>they<sp/>are).</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>should<sp/>be<sp/>an<sp/>equally<sp/>good<sp/>hash<sp/>on<sp/>big-endian<sp/>machines,<sp/>but<sp/>it<sp/>will</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment">//<sp/>compute<sp/>different<sp/>results<sp/>on<sp/>them<sp/>than<sp/>on<sp/>little-endian<sp/>machines.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Google&apos;s<sp/>CityHash<sp/>has<sp/>similar<sp/>specs<sp/>to<sp/>SpookyHash,<sp/>and<sp/>CityHash<sp/>is<sp/>faster</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="comment">//<sp/>on<sp/>new<sp/>Intel<sp/>boxes.<sp/><sp/>MD4<sp/>and<sp/>MD5<sp/>also<sp/>have<sp/>similar<sp/>specs,<sp/>but<sp/>they<sp/>are<sp/>orders</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">//<sp/>of<sp/>magnitude<sp/>slower.<sp/><sp/>CRCs<sp/>are<sp/>two<sp/>or<sp/>more<sp/>times<sp/>slower,<sp/>but<sp/>unlike</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="comment">//<sp/>SpookyHash,<sp/>they<sp/>have<sp/>nice<sp/>math<sp/>for<sp/>combining<sp/>the<sp/>CRCs<sp/>of<sp/>pieces<sp/>to<sp/>form</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="comment">//<sp/>the<sp/>CRCs<sp/>of<sp/>wholes.<sp/><sp/>There<sp/>are<sp/>also<sp/>cryptographic<sp/>hashes,<sp/>but<sp/>those<sp/>are<sp/>even</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">//<sp/>slower<sp/>than<sp/>MD5.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_Alembic_Util_SpookyV2_h_</highlight></codeline>
+<codeline lineno="65"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_Alembic_Util_SpookyV2_h_</highlight></codeline>
+<codeline lineno="66"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;Alembic/Util/Export.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;Alembic/Util/PlainOldDataType.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Alembic<sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Util<sp/>{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">ALEMBIC_VERSION_NS<sp/>{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ALEMBIC_EXPORT<sp/><ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_spooky_hash" kindref="compound">SpookyHash</ref></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>SpookyHash:<sp/>hash<sp/>a<sp/>single<sp/>message<sp/>in<sp/>one<sp/>call,<sp/>produce<sp/>128-bit<sp/>output</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Hash128(</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*message,<sp/><sp/></highlight><highlight class="comment">//<sp/>message<sp/>to<sp/>hash</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>length,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>length<sp/>of<sp/>message<sp/>in<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>*hash1,<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>in/out:<sp/>in<sp/>seed<sp/>1,<sp/>out<sp/>hash<sp/>value<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>*hash2);<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>in/out:<sp/>in<sp/>seed<sp/>2,<sp/>out<sp/>hash<sp/>value<sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Hash64:<sp/>hash<sp/>a<sp/>single<sp/>message<sp/>in<sp/>one<sp/>call,<sp/>return<sp/>64-bit<sp/>output</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>uint64_t<sp/>Hash64(</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*message,<sp/><sp/></highlight><highlight class="comment">//<sp/>message<sp/>to<sp/>hash</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>length,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>length<sp/>of<sp/>message<sp/>in<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>seed)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>seed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>hash1<sp/>=<sp/>seed;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Hash128(message,<sp/>length,<sp/>&amp;hash1,<sp/>&amp;seed);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>hash1;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Hash32:<sp/>hash<sp/>a<sp/>single<sp/>message<sp/>in<sp/>one<sp/>call,<sp/>produce<sp/>32-bit<sp/>output</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>uint32_t<sp/>Hash32(</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*message,<sp/><sp/></highlight><highlight class="comment">//<sp/>message<sp/>to<sp/>hash</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>length,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>length<sp/>of<sp/>message<sp/>in<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>seed)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>seed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>hash1<sp/>=<sp/>seed,<sp/>hash2<sp/>=<sp/>seed;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Hash128(message,<sp/>length,<sp/>&amp;hash1,<sp/>&amp;hash2);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(uint32_t)hash1;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Init:<sp/>initialize<sp/>the<sp/>context<sp/>of<sp/>a<sp/>SpookyHash</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Init(</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>seed1,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>any<sp/>64-bit<sp/>value<sp/>will<sp/>do,<sp/>including<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>seed2);<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>different<sp/>seeds<sp/>produce<sp/>independent<sp/>hashes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Update:<sp/>add<sp/>a<sp/>piece<sp/>of<sp/>a<sp/>message<sp/>to<sp/>a<sp/>SpookyHash<sp/>state</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Update(</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*message,<sp/><sp/></highlight><highlight class="comment">//<sp/>message<sp/>fragment</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>length);<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>length<sp/>of<sp/>message<sp/>fragment<sp/>in<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Final:<sp/>compute<sp/>the<sp/>hash<sp/>for<sp/>the<sp/>current<sp/>SpookyHash<sp/>state</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>does<sp/>not<sp/>modify<sp/>the<sp/>state;<sp/>you<sp/>can<sp/>keep<sp/>updating<sp/>it<sp/>afterward</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>result<sp/>is<sp/>the<sp/>same<sp/>as<sp/>if<sp/>SpookyHash()<sp/>had<sp/>been<sp/>called<sp/>with</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>all<sp/>the<sp/>pieces<sp/>concatenated<sp/>into<sp/>one<sp/>message.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Final(</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>*hash1,<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>out<sp/>only:<sp/>first<sp/>64<sp/>bits<sp/>of<sp/>hash<sp/>value.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>*hash2);<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>out<sp/>only:<sp/>second<sp/>64<sp/>bits<sp/>of<sp/>hash<sp/>value.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>left<sp/>rotate<sp/>a<sp/>64-bit<sp/>value<sp/>by<sp/>k<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>uint64_t<sp/>Rot64(uint64_t<sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>k)</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(x<sp/>&lt;&lt;<sp/>k)<sp/>|<sp/>(x<sp/>&gt;&gt;<sp/>(64<sp/>-<sp/>k));</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>used<sp/>if<sp/>the<sp/>input<sp/>is<sp/>96<sp/>bytes<sp/>long<sp/>or<sp/>longer.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>internal<sp/>state<sp/>is<sp/>fully<sp/>overwritten<sp/>every<sp/>96<sp/>bytes.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Every<sp/>input<sp/>bit<sp/>appears<sp/>to<sp/>cause<sp/>at<sp/>least<sp/>128<sp/>bits<sp/>of<sp/>entropy</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>before<sp/>96<sp/>other<sp/>bytes<sp/>are<sp/>combined,<sp/>when<sp/>run<sp/>forward<sp/>or<sp/>backward</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/>For<sp/>every<sp/>input<sp/>bit,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/>Two<sp/>inputs<sp/>differing<sp/>in<sp/>just<sp/>that<sp/>input<sp/>bit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/>Where<sp/>&quot;differ&quot;<sp/>means<sp/>xor<sp/>or<sp/>subtraction</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/>And<sp/>the<sp/>base<sp/>value<sp/>is<sp/>random</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/>When<sp/>run<sp/>forward<sp/>or<sp/>backwards<sp/>one<sp/>Mix</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>I<sp/>tried<sp/>3<sp/>pairs<sp/>of<sp/>each;<sp/>they<sp/>all<sp/>differed<sp/>by<sp/>at<sp/>least<sp/>212<sp/>bits.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Mix(</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64_t<sp/>*data,</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>&amp;s0,<sp/>uint64_t<sp/>&amp;s1,<sp/>uint64_t<sp/>&amp;s2,<sp/>uint64_t<sp/>&amp;s3,</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>&amp;s4,<sp/>uint64_t<sp/>&amp;s5,<sp/>uint64_t<sp/>&amp;s6,<sp/>uint64_t<sp/>&amp;s7,</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>&amp;s8,<sp/>uint64_t<sp/>&amp;s9,<sp/>uint64_t<sp/>&amp;s10,uint64_t<sp/>&amp;s11)</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>s0<sp/>+=<sp/>data[0];<sp/><sp/><sp/><sp/>s2<sp/>^=<sp/>s10;<sp/><sp/><sp/><sp/>s11<sp/>^=<sp/>s0;<sp/><sp/><sp/><sp/>s0<sp/>=<sp/>Rot64(s0,11);<sp/><sp/><sp/><sp/>s11<sp/>+=<sp/>s1;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>s1<sp/>+=<sp/>data[1];<sp/><sp/><sp/><sp/>s3<sp/>^=<sp/>s11;<sp/><sp/><sp/><sp/>s0<sp/>^=<sp/>s1;<sp/><sp/><sp/><sp/>s1<sp/>=<sp/>Rot64(s1,32);<sp/><sp/><sp/><sp/>s0<sp/>+=<sp/>s2;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>s2<sp/>+=<sp/>data[2];<sp/><sp/><sp/><sp/>s4<sp/>^=<sp/>s0;<sp/><sp/><sp/><sp/>s1<sp/>^=<sp/>s2;<sp/><sp/><sp/><sp/>s2<sp/>=<sp/>Rot64(s2,43);<sp/><sp/><sp/><sp/>s1<sp/>+=<sp/>s3;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>s3<sp/>+=<sp/>data[3];<sp/><sp/><sp/><sp/>s5<sp/>^=<sp/>s1;<sp/><sp/><sp/><sp/>s2<sp/>^=<sp/>s3;<sp/><sp/><sp/><sp/>s3<sp/>=<sp/>Rot64(s3,31);<sp/><sp/><sp/><sp/>s2<sp/>+=<sp/>s4;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>s4<sp/>+=<sp/>data[4];<sp/><sp/><sp/><sp/>s6<sp/>^=<sp/>s2;<sp/><sp/><sp/><sp/>s3<sp/>^=<sp/>s4;<sp/><sp/><sp/><sp/>s4<sp/>=<sp/>Rot64(s4,17);<sp/><sp/><sp/><sp/>s3<sp/>+=<sp/>s5;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>s5<sp/>+=<sp/>data[5];<sp/><sp/><sp/><sp/>s7<sp/>^=<sp/>s3;<sp/><sp/><sp/><sp/>s4<sp/>^=<sp/>s5;<sp/><sp/><sp/><sp/>s5<sp/>=<sp/>Rot64(s5,28);<sp/><sp/><sp/><sp/>s4<sp/>+=<sp/>s6;</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>s6<sp/>+=<sp/>data[6];<sp/><sp/><sp/><sp/>s8<sp/>^=<sp/>s4;<sp/><sp/><sp/><sp/>s5<sp/>^=<sp/>s6;<sp/><sp/><sp/><sp/>s6<sp/>=<sp/>Rot64(s6,39);<sp/><sp/><sp/><sp/>s5<sp/>+=<sp/>s7;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>s7<sp/>+=<sp/>data[7];<sp/><sp/><sp/><sp/>s9<sp/>^=<sp/>s5;<sp/><sp/><sp/><sp/>s6<sp/>^=<sp/>s7;<sp/><sp/><sp/><sp/>s7<sp/>=<sp/>Rot64(s7,57);<sp/><sp/><sp/><sp/>s6<sp/>+=<sp/>s8;</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>s8<sp/>+=<sp/>data[8];<sp/><sp/><sp/><sp/>s10<sp/>^=<sp/>s6;<sp/><sp/><sp/><sp/>s7<sp/>^=<sp/>s8;<sp/><sp/><sp/><sp/>s8<sp/>=<sp/>Rot64(s8,55);<sp/><sp/><sp/><sp/>s7<sp/>+=<sp/>s9;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>s9<sp/>+=<sp/>data[9];<sp/><sp/><sp/><sp/>s11<sp/>^=<sp/>s7;<sp/><sp/><sp/><sp/>s8<sp/>^=<sp/>s9;<sp/><sp/><sp/><sp/>s9<sp/>=<sp/>Rot64(s9,54);<sp/><sp/><sp/><sp/>s8<sp/>+=<sp/>s10;</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>s10<sp/>+=<sp/>data[10];<sp/><sp/><sp/><sp/>s0<sp/>^=<sp/>s8;<sp/><sp/><sp/><sp/>s9<sp/>^=<sp/>s10;<sp/><sp/><sp/><sp/>s10<sp/>=<sp/>Rot64(s10,22);<sp/><sp/><sp/><sp/>s9<sp/>+=<sp/>s11;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>s11<sp/>+=<sp/>data[11];<sp/><sp/><sp/><sp/>s1<sp/>^=<sp/>s9;<sp/><sp/><sp/><sp/>s10<sp/>^=<sp/>s11;<sp/><sp/><sp/><sp/>s11<sp/>=<sp/>Rot64(s11,46);<sp/><sp/><sp/><sp/>s10<sp/>+=<sp/>s0;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Mix<sp/>all<sp/>12<sp/>inputs<sp/>together<sp/>so<sp/>that<sp/>h0,<sp/>h1<sp/>are<sp/>a<sp/>hash<sp/>of<sp/>them<sp/>all.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>For<sp/>two<sp/>inputs<sp/>differing<sp/>in<sp/>just<sp/>the<sp/>input<sp/>bits</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Where<sp/>&quot;differ&quot;<sp/>means<sp/>xor<sp/>or<sp/>subtraction</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>And<sp/>the<sp/>base<sp/>value<sp/>is<sp/>random,<sp/>or<sp/>a<sp/>counting<sp/>value<sp/>starting<sp/>at<sp/>that<sp/>bit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>final<sp/>result<sp/>will<sp/>have<sp/>each<sp/>bit<sp/>of<sp/>h0,<sp/>h1<sp/>flip</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>For<sp/>every<sp/>input<sp/>bit,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>with<sp/>probability<sp/>50<sp/>+-<sp/>.3%</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>For<sp/>every<sp/>pair<sp/>of<sp/>input<sp/>bits,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>with<sp/>probability<sp/>50<sp/>+-<sp/>3%</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>This<sp/>does<sp/>not<sp/>rely<sp/>on<sp/>the<sp/>last<sp/>Mix()<sp/>call<sp/>having<sp/>already<sp/>mixed<sp/>some.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Two<sp/>iterations<sp/>was<sp/>almost<sp/>good<sp/>enough<sp/>for<sp/>a<sp/>64-bit<sp/>result,<sp/>but<sp/>a</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>128-bit<sp/>result<sp/>is<sp/>reported,<sp/>so<sp/>End()<sp/>does<sp/>three<sp/>iterations.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EndPartial(</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>&amp;h0,<sp/>uint64_t<sp/>&amp;h1,<sp/>uint64_t<sp/>&amp;h2,<sp/>uint64_t<sp/>&amp;h3,</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>&amp;h4,<sp/>uint64_t<sp/>&amp;h5,<sp/>uint64_t<sp/>&amp;h6,<sp/>uint64_t<sp/>&amp;h7,</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>&amp;h8,<sp/>uint64_t<sp/>&amp;h9,<sp/>uint64_t<sp/>&amp;h10,uint64_t<sp/>&amp;h11)</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h11+=<sp/>h1;<sp/><sp/><sp/><sp/>h2<sp/>^=<sp/>h11;<sp/><sp/><sp/>h1<sp/>=<sp/>Rot64(h1,44);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h0<sp/>+=<sp/>h2;<sp/><sp/><sp/><sp/>h3<sp/>^=<sp/>h0;<sp/><sp/><sp/><sp/>h2<sp/>=<sp/>Rot64(h2,15);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h1<sp/>+=<sp/>h3;<sp/><sp/><sp/><sp/>h4<sp/>^=<sp/>h1;<sp/><sp/><sp/><sp/>h3<sp/>=<sp/>Rot64(h3,34);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h2<sp/>+=<sp/>h4;<sp/><sp/><sp/><sp/>h5<sp/>^=<sp/>h2;<sp/><sp/><sp/><sp/>h4<sp/>=<sp/>Rot64(h4,21);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h3<sp/>+=<sp/>h5;<sp/><sp/><sp/><sp/>h6<sp/>^=<sp/>h3;<sp/><sp/><sp/><sp/>h5<sp/>=<sp/>Rot64(h5,38);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h4<sp/>+=<sp/>h6;<sp/><sp/><sp/><sp/>h7<sp/>^=<sp/>h4;<sp/><sp/><sp/><sp/>h6<sp/>=<sp/>Rot64(h6,33);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h5<sp/>+=<sp/>h7;<sp/><sp/><sp/><sp/>h8<sp/>^=<sp/>h5;<sp/><sp/><sp/><sp/>h7<sp/>=<sp/>Rot64(h7,10);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h6<sp/>+=<sp/>h8;<sp/><sp/><sp/><sp/>h9<sp/>^=<sp/>h6;<sp/><sp/><sp/><sp/>h8<sp/>=<sp/>Rot64(h8,13);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h7<sp/>+=<sp/>h9;<sp/><sp/><sp/><sp/>h10^=<sp/>h7;<sp/><sp/><sp/><sp/>h9<sp/>=<sp/>Rot64(h9,38);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h8<sp/>+=<sp/>h10;<sp/><sp/><sp/>h11^=<sp/>h8;<sp/><sp/><sp/><sp/>h10=<sp/>Rot64(h10,53);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h9<sp/>+=<sp/>h11;<sp/><sp/><sp/>h0<sp/>^=<sp/>h9;<sp/><sp/><sp/><sp/>h11=<sp/>Rot64(h11,42);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h10+=<sp/>h0;<sp/><sp/><sp/><sp/>h1<sp/>^=<sp/>h10;<sp/><sp/><sp/>h0<sp/>=<sp/>Rot64(h0,54);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>End(</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64_t<sp/>*data,</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>&amp;h0,<sp/>uint64_t<sp/>&amp;h1,<sp/>uint64_t<sp/>&amp;h2,<sp/>uint64_t<sp/>&amp;h3,</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>&amp;h4,<sp/>uint64_t<sp/>&amp;h5,<sp/>uint64_t<sp/>&amp;h6,<sp/>uint64_t<sp/>&amp;h7,</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>&amp;h8,<sp/>uint64_t<sp/>&amp;h9,<sp/>uint64_t<sp/>&amp;h10,uint64_t<sp/>&amp;h11)</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h0<sp/>+=<sp/>data[0];<sp/><sp/><sp/>h1<sp/>+=<sp/>data[1];<sp/><sp/><sp/>h2<sp/>+=<sp/>data[2];<sp/><sp/><sp/>h3<sp/>+=<sp/>data[3];</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h4<sp/>+=<sp/>data[4];<sp/><sp/><sp/>h5<sp/>+=<sp/>data[5];<sp/><sp/><sp/>h6<sp/>+=<sp/>data[6];<sp/><sp/><sp/>h7<sp/>+=<sp/>data[7];</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h8<sp/>+=<sp/>data[8];<sp/><sp/><sp/>h9<sp/>+=<sp/>data[9];<sp/><sp/><sp/>h10<sp/>+=<sp/>data[10];<sp/>h11<sp/>+=<sp/>data[11];</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EndPartial(h0,h1,h2,h3,h4,h5,h6,h7,h8,h9,h10,h11);</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EndPartial(h0,h1,h2,h3,h4,h5,h6,h7,h8,h9,h10,h11);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EndPartial(h0,h1,h2,h3,h4,h5,h6,h7,h8,h9,h10,h11);</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>goal<sp/>is<sp/>for<sp/>each<sp/>bit<sp/>of<sp/>the<sp/>input<sp/>to<sp/>expand<sp/>into<sp/>128<sp/>bits<sp/>of</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/>apparent<sp/>entropy<sp/>before<sp/>it<sp/>is<sp/>fully<sp/>overwritten.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>n<sp/>trials<sp/>both<sp/>set<sp/>and<sp/>cleared<sp/>at<sp/>least<sp/>m<sp/>bits<sp/>of<sp/>h0<sp/>h1<sp/>h2<sp/>h3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/>n:<sp/>2<sp/><sp/><sp/>m:<sp/>29</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/>n:<sp/>3<sp/><sp/><sp/>m:<sp/>46</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/>n:<sp/>4<sp/><sp/><sp/>m:<sp/>57</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/>n:<sp/>5<sp/><sp/><sp/>m:<sp/>107</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/>n:<sp/>6<sp/><sp/><sp/>m:<sp/>146</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/><sp/>n:<sp/>7<sp/><sp/><sp/>m:<sp/>152</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>when<sp/>run<sp/>forwards<sp/>or<sp/>backwards</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>for<sp/>all<sp/>1-bit<sp/>and<sp/>2-bit<sp/>diffs</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>with<sp/>diffs<sp/>defined<sp/>by<sp/>either<sp/>xor<sp/>or<sp/>subtraction</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>with<sp/>a<sp/>base<sp/>of<sp/>all<sp/>zeros<sp/>plus<sp/>a<sp/>counter,<sp/>or<sp/>plus<sp/>another<sp/>bit,<sp/>or<sp/>random</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ShortMix(</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>&amp;h0,<sp/>uint64_t<sp/>&amp;h1,<sp/>uint64_t<sp/>&amp;h2,<sp/>uint64_t<sp/>&amp;h3)</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h2<sp/>=<sp/>Rot64(h2,50);<sp/><sp/>h2<sp/>+=<sp/>h3;<sp/><sp/>h0<sp/>^=<sp/>h2;</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h3<sp/>=<sp/>Rot64(h3,52);<sp/><sp/>h3<sp/>+=<sp/>h0;<sp/><sp/>h1<sp/>^=<sp/>h3;</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h0<sp/>=<sp/>Rot64(h0,30);<sp/><sp/>h0<sp/>+=<sp/>h1;<sp/><sp/>h2<sp/>^=<sp/>h0;</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h1<sp/>=<sp/>Rot64(h1,41);<sp/><sp/>h1<sp/>+=<sp/>h2;<sp/><sp/>h3<sp/>^=<sp/>h1;</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h2<sp/>=<sp/>Rot64(h2,54);<sp/><sp/>h2<sp/>+=<sp/>h3;<sp/><sp/>h0<sp/>^=<sp/>h2;</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h3<sp/>=<sp/>Rot64(h3,48);<sp/><sp/>h3<sp/>+=<sp/>h0;<sp/><sp/>h1<sp/>^=<sp/>h3;</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h0<sp/>=<sp/>Rot64(h0,38);<sp/><sp/>h0<sp/>+=<sp/>h1;<sp/><sp/>h2<sp/>^=<sp/>h0;</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h1<sp/>=<sp/>Rot64(h1,37);<sp/><sp/>h1<sp/>+=<sp/>h2;<sp/><sp/>h3<sp/>^=<sp/>h1;</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h2<sp/>=<sp/>Rot64(h2,62);<sp/><sp/>h2<sp/>+=<sp/>h3;<sp/><sp/>h0<sp/>^=<sp/>h2;</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h3<sp/>=<sp/>Rot64(h3,34);<sp/><sp/>h3<sp/>+=<sp/>h0;<sp/><sp/>h1<sp/>^=<sp/>h3;</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h0<sp/>=<sp/>Rot64(h0,5);<sp/><sp/><sp/>h0<sp/>+=<sp/>h1;<sp/><sp/>h2<sp/>^=<sp/>h0;</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h1<sp/>=<sp/>Rot64(h1,36);<sp/><sp/>h1<sp/>+=<sp/>h2;<sp/><sp/>h3<sp/>^=<sp/>h1;</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Mix<sp/>all<sp/>4<sp/>inputs<sp/>together<sp/>so<sp/>that<sp/>h0,<sp/>h1<sp/>are<sp/>a<sp/>hash<sp/>of<sp/>them<sp/>all.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>For<sp/>two<sp/>inputs<sp/>differing<sp/>in<sp/>just<sp/>the<sp/>input<sp/>bits</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Where<sp/>&quot;differ&quot;<sp/>means<sp/>xor<sp/>or<sp/>subtraction</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>And<sp/>the<sp/>base<sp/>value<sp/>is<sp/>random,<sp/>or<sp/>a<sp/>counting<sp/>value<sp/>starting<sp/>at<sp/>that<sp/>bit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>final<sp/>result<sp/>will<sp/>have<sp/>each<sp/>bit<sp/>of<sp/>h0,<sp/>h1<sp/>flip</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>For<sp/>every<sp/>input<sp/>bit,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>with<sp/>probability<sp/>50<sp/>+-<sp/>.3%<sp/>(it<sp/>is<sp/>probably<sp/>better<sp/>than<sp/>that)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>For<sp/>every<sp/>pair<sp/>of<sp/>input<sp/>bits,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>with<sp/>probability<sp/>50<sp/>+-<sp/>.75%<sp/>(the<sp/>worst<sp/>case<sp/>is<sp/>approximately<sp/>that)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ShortEnd(</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>&amp;h0,<sp/>uint64_t<sp/>&amp;h1,<sp/>uint64_t<sp/>&amp;h2,<sp/>uint64_t<sp/>&amp;h3)</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h3<sp/>^=<sp/>h2;<sp/><sp/>h2<sp/>=<sp/>Rot64(h2,15);<sp/><sp/>h3<sp/>+=<sp/>h2;</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h0<sp/>^=<sp/>h3;<sp/><sp/>h3<sp/>=<sp/>Rot64(h3,52);<sp/><sp/>h0<sp/>+=<sp/>h3;</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h1<sp/>^=<sp/>h0;<sp/><sp/>h0<sp/>=<sp/>Rot64(h0,26);<sp/><sp/>h1<sp/>+=<sp/>h0;</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h2<sp/>^=<sp/>h1;<sp/><sp/>h1<sp/>=<sp/>Rot64(h1,51);<sp/><sp/>h2<sp/>+=<sp/>h1;</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h3<sp/>^=<sp/>h2;<sp/><sp/>h2<sp/>=<sp/>Rot64(h2,28);<sp/><sp/>h3<sp/>+=<sp/>h2;</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h0<sp/>^=<sp/>h3;<sp/><sp/>h3<sp/>=<sp/>Rot64(h3,9);<sp/><sp/><sp/>h0<sp/>+=<sp/>h3;</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h1<sp/>^=<sp/>h0;<sp/><sp/>h0<sp/>=<sp/>Rot64(h0,47);<sp/><sp/>h1<sp/>+=<sp/>h0;</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h2<sp/>^=<sp/>h1;<sp/><sp/>h1<sp/>=<sp/>Rot64(h1,54);<sp/><sp/>h2<sp/>+=<sp/>h1;</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h3<sp/>^=<sp/>h2;<sp/><sp/>h2<sp/>=<sp/>Rot64(h2,32);<sp/><sp/>h3<sp/>+=<sp/>h2;</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h0<sp/>^=<sp/>h3;<sp/><sp/>h3<sp/>=<sp/>Rot64(h3,25);<sp/><sp/>h0<sp/>+=<sp/>h3;</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>h1<sp/>^=<sp/>h0;<sp/><sp/>h0<sp/>=<sp/>Rot64(h0,63);<sp/><sp/>h1<sp/>+=<sp/>h0;</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Short<sp/>is<sp/>used<sp/>for<sp/>messages<sp/>under<sp/>192<sp/>bytes<sp/>in<sp/>length</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Short<sp/>has<sp/>a<sp/>low<sp/>startup<sp/>cost,<sp/>the<sp/>normal<sp/>mode<sp/>is<sp/>good<sp/>for<sp/>long</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>keys,<sp/>the<sp/>cost<sp/>crossover<sp/>is<sp/>at<sp/>about<sp/>192<sp/>bytes.<sp/><sp/>The<sp/>two<sp/>modes<sp/>were</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>held<sp/>to<sp/>the<sp/>same<sp/>quality<sp/>bar.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Short(</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*message,<sp/><sp/></highlight><highlight class="comment">//<sp/>message<sp/>(array<sp/>of<sp/>bytes,<sp/>not<sp/>necessarily<sp/>aligned)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>length,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>length<sp/>of<sp/>message<sp/>(in<sp/>bytes)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>*hash1,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>in/out:<sp/>in<sp/>the<sp/>seed,<sp/>out<sp/>the<sp/>hash<sp/>value</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>*hash2);<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>in/out:<sp/>in<sp/>the<sp/>seed,<sp/>out<sp/>the<sp/>hash<sp/>value</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>number<sp/>of<sp/>uint64&apos;s<sp/>in<sp/>internal<sp/>state</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>sc_numVars<sp/>=<sp/>12;</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>size<sp/>of<sp/>the<sp/>internal<sp/>state</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>sc_blockSize<sp/>=<sp/>sc_numVars*8;</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"></highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>size<sp/>of<sp/>buffer<sp/>of<sp/>unhashed<sp/>data,<sp/>in<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>sc_bufSize<sp/>=<sp/>2*sc_blockSize;</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>sc_const:<sp/>a<sp/>constant<sp/>which:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>*<sp/>is<sp/>not<sp/>zero</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>*<sp/>is<sp/>odd</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>*<sp/>is<sp/>a<sp/>not-very-regular<sp/>mix<sp/>of<sp/>1&apos;s<sp/>and<sp/>0&apos;s</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>*<sp/>does<sp/>not<sp/>need<sp/>any<sp/>other<sp/>special<sp/>mathematical<sp/>properties</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint64_t<sp/>sc_const<sp/>=<sp/>0xdeadbeefdeadbeefLL;</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"></highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>m_data[2*sc_numVars];<sp/></highlight><highlight class="comment">//<sp/>unhashed<sp/>data,<sp/>for<sp/>partial<sp/>messages</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>m_state[sc_numVars];<sp/><sp/></highlight><highlight class="comment">//<sp/>internal<sp/>state<sp/>of<sp/>the<sp/>hash</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>m_length;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>total<sp/>length<sp/>of<sp/>the<sp/>input<sp/>so<sp/>far</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/><sp/>m_remainder;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>length<sp/>of<sp/>unhashed<sp/>data<sp/>stashed<sp/>in<sp/>m_data</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="325"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327"><highlight class="normal"></highlight></codeline>
+<codeline lineno="328"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>End<sp/>namespace<sp/>ALEMBIC_VERSION_NS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="330"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">ALEMBIC_VERSION_NS;</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>End<sp/>namespace<sp/>Util</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="333"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>End<sp/>namespace<sp/>Alembic</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="334"><highlight class="normal"></highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="336"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/SpookyV2.h"/>
+  </compounddef>
+</doxygen>

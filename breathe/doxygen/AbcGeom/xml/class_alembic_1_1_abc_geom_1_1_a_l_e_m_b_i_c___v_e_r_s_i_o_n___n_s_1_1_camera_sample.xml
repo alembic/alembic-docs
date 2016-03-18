@@ -1,0 +1,1047 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample" kind="class" prot="public">
+    <compoundname>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a643eea20f46669a550dd6cc7d5f3b0c9" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::m_focalLength</definition>
+        <argsstring></argsstring>
+        <name>m_focalLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="237" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a3ba94b9a33effa28709cb721d2dbd9d8" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::m_horizontalAperture</definition>
+        <argsstring></argsstring>
+        <name>m_horizontalAperture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="238" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a2ecfee5c5b3bce7c4126e065d99c1c95" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::m_horizontalFilmOffset</definition>
+        <argsstring></argsstring>
+        <name>m_horizontalFilmOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="239" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="239" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a21ff5dfedd561f0c3847f6e69da4944c" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::m_verticalAperture</definition>
+        <argsstring></argsstring>
+        <name>m_verticalAperture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="240" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a19f5fe0af6a7c77ff9cda2cd3f3dad36" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::m_verticalFilmOffset</definition>
+        <argsstring></argsstring>
+        <name>m_verticalFilmOffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="241" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1aff62378286234004a64358e08cb893f0" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::m_lensSqueezeRatio</definition>
+        <argsstring></argsstring>
+        <name>m_lensSqueezeRatio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="242" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1ac8c81cad10a71ab078f025f68064a55b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::m_overscanLeft</definition>
+        <argsstring></argsstring>
+        <name>m_overscanLeft</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="244" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a7d4538ec38fe3faf607deb526d93e2f2" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::m_overscanRight</definition>
+        <argsstring></argsstring>
+        <name>m_overscanRight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="245" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a11ee2bf45d603d676e7d5454f764c64f" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::m_overscanTop</definition>
+        <argsstring></argsstring>
+        <name>m_overscanTop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="246" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a24c8b6e231e14ce48cfc85f15ff97795" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::m_overscanBottom</definition>
+        <argsstring></argsstring>
+        <name>m_overscanBottom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="247" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a05461e8c632f33be719f9ab4a9fdf394" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::m_fStop</definition>
+        <argsstring></argsstring>
+        <name>m_fStop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="249" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="249" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1ad1eebf6ff80ff61bb80499e338aa0e89" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::m_focusDistance</definition>
+        <argsstring></argsstring>
+        <name>m_focusDistance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="250" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a843e9596f7cde7fad4657e0ec3e2df40" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::m_shutterOpen</definition>
+        <argsstring></argsstring>
+        <name>m_shutterOpen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="251" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="251" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a194932389599fac9abcb98ac721b7857" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::m_shutterClose</definition>
+        <argsstring></argsstring>
+        <name>m_shutterClose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="252" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="252" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a6ff3b00773c1bdff14a6b6c96d500aed" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::m_nearClippingPlane</definition>
+        <argsstring></argsstring>
+        <name>m_nearClippingPlane</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="254" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1ac8a4122599b4d97e7b6f567cbdd1d4bb" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::m_farClippingPlane</definition>
+        <argsstring></argsstring>
+        <name>m_farClippingPlane</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="255" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a4265f162768e36b1422b8f3ca17101af" prot="private" static="no" mutable="no">
+        <type>Abc::Box3d</type>
+        <definition>Abc::Box3d Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::m_childBounds</definition>
+        <argsstring></argsstring>
+        <name>m_childBounds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="257" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="257" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a88157c212a5b3c33bd84a8995c71e108" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op" kindref="compound">FilmBackXformOp</ref> &gt;</type>
+        <definition>std::vector&lt;FilmBackXformOp&gt; Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::m_ops</definition>
+        <argsstring></argsstring>
+        <name>m_ops</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="259" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="259" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a4747b993937b810c2e850495cd32a126" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::CameraSample</definition>
+        <argsstring>()</argsstring>
+        <name>CameraSample</name>
+        <briefdescription>
+<para>Creates a default sample with a bunch of defaults set. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="54" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a146f6c8ffa3af6f92dc5c42f0363914e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::CameraSample</definition>
+        <argsstring>(double iTop, double iBottom, double iLeft, double iRight)</argsstring>
+        <name>CameraSample</name>
+        <param>
+          <type>double</type>
+          <declname>iTop</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>iBottom</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>iLeft</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>iRight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a default sample and set the defaults so that they calculate the provided screen window. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a9fd5a9184ff48a1602f4655e856cf7da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::getScreenWindow</definition>
+        <argsstring>(double &amp;oTop, double &amp;oBottom, double &amp;oLeft, double &amp;oRight)</argsstring>
+        <name>getScreenWindow</name>
+        <param>
+          <type>double &amp;</type>
+          <declname>oTop</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>oBottom</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>oLeft</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>oRight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a56d5aa162f26168a82ea969b8c29084a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::getFocalLength</definition>
+        <argsstring>() const </argsstring>
+        <name>getFocalLength</name>
+        <briefdescription>
+<para>get the camera focal length in millimeters. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="64" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1aad7aad785c5ed545a3ec99a4957edc90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::setFocalLength</definition>
+        <argsstring>(double iVal)</argsstring>
+        <name>setFocalLength</name>
+        <param>
+          <type>double</type>
+          <declname>iVal</declname>
+        </param>
+        <briefdescription>
+<para>set the camera focal length in millimeters. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="67" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1af34312ea1ef519c34700b16b63f27e20" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::getHorizontalAperture</definition>
+        <argsstring>() const </argsstring>
+        <name>getHorizontalAperture</name>
+        <briefdescription>
+<para>get the horizontal camera film back in centimeters </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="70" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a1c3cab8c28fe4eb9a50827446ff2c21e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::setHorizontalAperture</definition>
+        <argsstring>(double iVal)</argsstring>
+        <name>setHorizontalAperture</name>
+        <param>
+          <type>double</type>
+          <declname>iVal</declname>
+        </param>
+        <briefdescription>
+<para>set the horizontal camera film back in centimeters </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="73" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="73" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a3d0983cc6d4f4f05973c899e3ac4d52e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::getHorizontalFilmOffset</definition>
+        <argsstring>() const </argsstring>
+        <name>getHorizontalFilmOffset</name>
+        <briefdescription>
+<para>get the horizontal film back offset in centimeters </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="76" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="76" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1aa178ecc130d9dc1855446ebc570b6991" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::setHorizontalFilmOffset</definition>
+        <argsstring>(double iVal)</argsstring>
+        <name>setHorizontalFilmOffset</name>
+        <param>
+          <type>double</type>
+          <declname>iVal</declname>
+        </param>
+        <briefdescription>
+<para>set the horizontal film back offset in centimeters </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="80" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="79" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1afb08e315ccaad92c12f388f14069ad25" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::getVerticalAperture</definition>
+        <argsstring>() const </argsstring>
+        <name>getVerticalAperture</name>
+        <briefdescription>
+<para>get the vertical camera film back in centimeters </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="83" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="83" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1ad7eb4d26f309799ce34aa75089960e0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::setVerticalAperture</definition>
+        <argsstring>(double iVal)</argsstring>
+        <name>setVerticalAperture</name>
+        <param>
+          <type>double</type>
+          <declname>iVal</declname>
+        </param>
+        <briefdescription>
+<para>set the vertical camera film back in centimeters </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="86" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="86" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1af9e8069ab3bddc6288d2465d1f27f6aa" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::getVerticalFilmOffset</definition>
+        <argsstring>() const </argsstring>
+        <name>getVerticalFilmOffset</name>
+        <briefdescription>
+<para>get the vertical film back offset in centimeters </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="89" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="89" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1afff729159d7cea3f77c5a1a9206aaf88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::setVerticalFilmOffset</definition>
+        <argsstring>(double iVal)</argsstring>
+        <name>setVerticalFilmOffset</name>
+        <param>
+          <type>double</type>
+          <declname>iVal</declname>
+        </param>
+        <briefdescription>
+<para>set the vertical film back offset in centimeters </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="92" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="92" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a9020615a1fc4f1808f6ff3933236dfdc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::getLensSqueezeRatio</definition>
+        <argsstring>() const </argsstring>
+        <name>getLensSqueezeRatio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get the amount the camera&apos;s lens compresses the image horizontally (width / height aspect ratio) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="96" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="96" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1acd35197aa4a5584e8483bf46068f6201" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::setLensSqueezeRatio</definition>
+        <argsstring>(double iVal)</argsstring>
+        <name>setLensSqueezeRatio</name>
+        <param>
+          <type>double</type>
+          <declname>iVal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set the amount the camera&apos;s lens compresses the image horizontally (width / height aspect ratio) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="101" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="100" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a40c47c0755287912432935788c99af79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::getOverScanLeft</definition>
+        <argsstring>()</argsstring>
+        <name>getOverScanLeft</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get over scan fractional percentage for the left part of the screen window </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="105" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="105" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1afe31f9b60c475ccd535c18b16b92363c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::setOverScanLeft</definition>
+        <argsstring>(double iVal)</argsstring>
+        <name>setOverScanLeft</name>
+        <param>
+          <type>double</type>
+          <declname>iVal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set over scan fractional percentage for the left part of the screen window </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="109" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="109" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a4eb9c9b6961252e83b05bb5f3a7f3648" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::getOverScanRight</definition>
+        <argsstring>() const </argsstring>
+        <name>getOverScanRight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get over scan fractional percentage for the right part of the screen window </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="113" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="113" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a0219388ddb696650b48e878f8ab44000" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::setOverScanRight</definition>
+        <argsstring>(double iVal)</argsstring>
+        <name>setOverScanRight</name>
+        <param>
+          <type>double</type>
+          <declname>iVal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set over scan fractional percentage for the right part of the screen window </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="117" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="117" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a3f040603408c66ffc3f9187abad0d841" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::getOverScanTop</definition>
+        <argsstring>() const </argsstring>
+        <name>getOverScanTop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get over scan fractional percentage for the top part of the screen window </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="121" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="121" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a8a5c5eafa184aec85757c093aff81dc8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::setOverScanTop</definition>
+        <argsstring>(double iVal)</argsstring>
+        <name>setOverScanTop</name>
+        <param>
+          <type>double</type>
+          <declname>iVal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get over scan fractional percentage for the top part of the screen window </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="125" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="125" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1ad9db1c909c80ad3b7189be6934e5f84b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::getOverScanBottom</definition>
+        <argsstring>() const </argsstring>
+        <name>getOverScanBottom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get over scan fractional percentage for the bottom part of the screen window </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="129" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="129" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a2a7a2f2570861eea5ba0c8e55ea0bbb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::setOverScanBottom</definition>
+        <argsstring>(double iVal)</argsstring>
+        <name>setOverScanBottom</name>
+        <param>
+          <type>double</type>
+          <declname>iVal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set over scan fractional percentage for the bottom part of the screen window </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="133" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="133" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a2ee4a124d1a2292b61d45082ba63308e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::getFStop</definition>
+        <argsstring>() const </argsstring>
+        <name>getFStop</name>
+        <briefdescription>
+<para>get the f-stop (focal length divided by &quot;effective&quot; lens diameter) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="136" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="136" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1aa5a2c54b1d15aa84c8d82ec15ba4491b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::setFStop</definition>
+        <argsstring>(double iVal)</argsstring>
+        <name>setFStop</name>
+        <param>
+          <type>double</type>
+          <declname>iVal</declname>
+        </param>
+        <briefdescription>
+<para>set the f-stop (focal length divided by &quot;effective&quot; lens diameter) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="139" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="139" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a727628c42ba7995d8ed83e97ae3ad4af" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::getFocusDistance</definition>
+        <argsstring>() const </argsstring>
+        <name>getFocusDistance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get the distance from the camera to the object being focused on in centimeters </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="143" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="143" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1aeb0077789031389e3fafabb37e51da50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::setFocusDistance</definition>
+        <argsstring>(double iVal)</argsstring>
+        <name>setFocusDistance</name>
+        <param>
+          <type>double</type>
+          <declname>iVal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set the distance from the camera to the object being focused on in centimeters </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="147" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="147" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1ae50a44a20ed4ef0fdeb0aaae31110993" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::getShutterOpen</definition>
+        <argsstring>() const </argsstring>
+        <name>getShutterOpen</name>
+        <briefdescription>
+<para>get the frame relative shutter open time in seconds. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="150" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="150" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1ac4973492c311e605ac435241b02a3765" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::setShutterOpen</definition>
+        <argsstring>(double iVal)</argsstring>
+        <name>setShutterOpen</name>
+        <param>
+          <type>double</type>
+          <declname>iVal</declname>
+        </param>
+        <briefdescription>
+<para>set the frame relative shutter open time in seconds. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="153" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="153" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1ad30639b9e927a8fc9cf2c515750f9399" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::getShutterClose</definition>
+        <argsstring>() const </argsstring>
+        <name>getShutterClose</name>
+        <briefdescription>
+<para>get the frame relative shutter close time in seconds. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="156" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="156" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a95bd97cdab232dfdc00685de2b9451d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::setShutterClose</definition>
+        <argsstring>(double iVal)</argsstring>
+        <name>setShutterClose</name>
+        <param>
+          <type>double</type>
+          <declname>iVal</declname>
+        </param>
+        <briefdescription>
+<para>set the frame relative shutter open time in seconds. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="159" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="159" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1ab02047e0d8ed3c57d088c4d0381d449f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::getNearClippingPlane</definition>
+        <argsstring>() const </argsstring>
+        <name>getNearClippingPlane</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get the distance from the camera to the near clipping plane in centimeters </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="163" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="163" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a7d72f9d18146b0d2248e272f767eaa5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::setNearClippingPlane</definition>
+        <argsstring>(double iVal)</argsstring>
+        <name>setNearClippingPlane</name>
+        <param>
+          <type>double</type>
+          <declname>iVal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set the distance from the camera to the near clipping plane in centimeters </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="167" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="167" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a200e262726e7f14b4766aaa0c3be0323" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::getFarClippingPlane</definition>
+        <argsstring>() const </argsstring>
+        <name>getFarClippingPlane</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get the distance from the camera to the far clipping plane in centimeters </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="171" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="171" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a806ec4742865dc793b9391358431381a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::setFarClippingPlane</definition>
+        <argsstring>(double iVal)</argsstring>
+        <name>setFarClippingPlane</name>
+        <param>
+          <type>double</type>
+          <declname>iVal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set the distance from the camera to the near clipping plane in centimeters </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="175" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="175" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a7075e93a53a2625e6295a7d5a27c145b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::Box3d</type>
+        <definition>Abc::Box3d Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::getChildBounds</definition>
+        <argsstring>() const </argsstring>
+        <name>getChildBounds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="177" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="177" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a61850bb2aa512183a35032d32ffbeeda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::setChildBounds</definition>
+        <argsstring>(const Abc::Box3d &amp;iBounds)</argsstring>
+        <name>setChildBounds</name>
+        <param>
+          <type>const Abc::Box3d &amp;</type>
+          <declname>iBounds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="179" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="178" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1aa3dc745d4e620c46f17163ad4394dc04" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::getCoreValue</definition>
+        <argsstring>(std::size_t iIndex) const </argsstring>
+        <name>getCoreValue</name>
+        <param>
+          <type>std::size_t</type>
+          <declname>iIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="184"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a64f8d074af48e722e412d3bc70409521" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::getFieldOfView</definition>
+        <argsstring>() const </argsstring>
+        <name>getFieldOfView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="187"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a2dcf698ed34186a81cf79dc0a33ae4e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::size_t</type>
+        <definition>std::size_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::addOp</definition>
+        <argsstring>(FilmBackXformOp iOp)</argsstring>
+        <name>addOp</name>
+        <param>
+          <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op" kindref="compound">FilmBackXformOp</ref></type>
+          <declname>iOp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="190"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a3d347a671ce4639f0010d65a95e9a851" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op" kindref="compound">FilmBackXformOp</ref></type>
+        <definition>FilmBackXformOp Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::getOp</definition>
+        <argsstring>(std::size_t iIndex) const </argsstring>
+        <name>getOp</name>
+        <param>
+          <type>std::size_t</type>
+          <declname>iIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="192"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a18d54a17e50f1b608763c23a304b5957" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op" kindref="compound">FilmBackXformOp</ref> &amp;</type>
+        <definition>FilmBackXformOp&amp; Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::operator[]</definition>
+        <argsstring>(const std::size_t &amp;iIndex)</argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>const std::size_t &amp;</type>
+          <declname>iIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="193"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a31f49cb9b529a00e27f4d9df1da70421" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op" kindref="compound">FilmBackXformOp</ref> &amp;</type>
+        <definition>const FilmBackXformOp&amp; Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::operator[]</definition>
+        <argsstring>(const std::size_t &amp;iIndex) const </argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>const std::size_t &amp;</type>
+          <declname>iIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="194"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a12cc6cc9b335ca9eefea1dfcd8ce3402" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Abc::M33d</type>
+        <definition>Abc::M33d Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::getFilmBackMatrix</definition>
+        <argsstring>() const </argsstring>
+        <name>getFilmBackMatrix</name>
+        <briefdescription>
+<para>Returns the concatenated 3x3 film back matrix. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="197"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a7d32b2a4c9af08f45dc19246d62f1c63" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::size_t</type>
+        <definition>std::size_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::getNumOps</definition>
+        <argsstring>() const </argsstring>
+        <name>getNumOps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="199"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1aa0b2c9d338a24c8844f85bb7a22517c2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::size_t</type>
+        <definition>std::size_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::getNumOpChannels</definition>
+        <argsstring>() const </argsstring>
+        <name>getNumOpChannels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="200"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1aa67bc2336857f632f9e229962c5bd4ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="203" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="202" bodyend="234"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" line="50" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/CameraSample.h" bodystart="49" bodyend="260"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a2dcf698ed34186a81cf79dc0a33ae4e6" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>addOp</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a4747b993937b810c2e850495cd32a126" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>CameraSample</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a146f6c8ffa3af6f92dc5c42f0363914e" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>CameraSample</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a7075e93a53a2625e6295a7d5a27c145b" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>getChildBounds</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1aa3dc745d4e620c46f17163ad4394dc04" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>getCoreValue</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a200e262726e7f14b4766aaa0c3be0323" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>getFarClippingPlane</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a64f8d074af48e722e412d3bc70409521" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>getFieldOfView</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a12cc6cc9b335ca9eefea1dfcd8ce3402" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>getFilmBackMatrix</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a56d5aa162f26168a82ea969b8c29084a" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>getFocalLength</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a727628c42ba7995d8ed83e97ae3ad4af" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>getFocusDistance</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a2ee4a124d1a2292b61d45082ba63308e" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>getFStop</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1af34312ea1ef519c34700b16b63f27e20" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>getHorizontalAperture</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a3d0983cc6d4f4f05973c899e3ac4d52e" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>getHorizontalFilmOffset</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a9020615a1fc4f1808f6ff3933236dfdc" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>getLensSqueezeRatio</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1ab02047e0d8ed3c57d088c4d0381d449f" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>getNearClippingPlane</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1aa0b2c9d338a24c8844f85bb7a22517c2" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>getNumOpChannels</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a7d32b2a4c9af08f45dc19246d62f1c63" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>getNumOps</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a3d347a671ce4639f0010d65a95e9a851" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>getOp</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1ad9db1c909c80ad3b7189be6934e5f84b" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>getOverScanBottom</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a40c47c0755287912432935788c99af79" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>getOverScanLeft</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a4eb9c9b6961252e83b05bb5f3a7f3648" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>getOverScanRight</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a3f040603408c66ffc3f9187abad0d841" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>getOverScanTop</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a9fd5a9184ff48a1602f4655e856cf7da" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>getScreenWindow</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1ad30639b9e927a8fc9cf2c515750f9399" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>getShutterClose</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1ae50a44a20ed4ef0fdeb0aaae31110993" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>getShutterOpen</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1afb08e315ccaad92c12f388f14069ad25" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>getVerticalAperture</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1af9e8069ab3bddc6288d2465d1f27f6aa" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>getVerticalFilmOffset</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a4265f162768e36b1422b8f3ca17101af" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>m_childBounds</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1ac8a4122599b4d97e7b6f567cbdd1d4bb" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>m_farClippingPlane</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a643eea20f46669a550dd6cc7d5f3b0c9" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>m_focalLength</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1ad1eebf6ff80ff61bb80499e338aa0e89" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>m_focusDistance</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a05461e8c632f33be719f9ab4a9fdf394" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>m_fStop</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a3ba94b9a33effa28709cb721d2dbd9d8" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>m_horizontalAperture</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a2ecfee5c5b3bce7c4126e065d99c1c95" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>m_horizontalFilmOffset</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1aff62378286234004a64358e08cb893f0" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>m_lensSqueezeRatio</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a6ff3b00773c1bdff14a6b6c96d500aed" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>m_nearClippingPlane</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a88157c212a5b3c33bd84a8995c71e108" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>m_ops</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a24c8b6e231e14ce48cfc85f15ff97795" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>m_overscanBottom</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1ac8c81cad10a71ab078f025f68064a55b" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>m_overscanLeft</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a7d4538ec38fe3faf607deb526d93e2f2" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>m_overscanRight</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a11ee2bf45d603d676e7d5454f764c64f" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>m_overscanTop</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a194932389599fac9abcb98ac721b7857" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>m_shutterClose</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a843e9596f7cde7fad4657e0ec3e2df40" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>m_shutterOpen</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a21ff5dfedd561f0c3847f6e69da4944c" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>m_verticalAperture</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a19f5fe0af6a7c77ff9cda2cd3f3dad36" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>m_verticalFilmOffset</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a18d54a17e50f1b608763c23a304b5957" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>operator[]</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a31f49cb9b529a00e27f4d9df1da70421" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>operator[]</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1aa67bc2336857f632f9e229962c5bd4ae" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>reset</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a61850bb2aa512183a35032d32ffbeeda" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>setChildBounds</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a806ec4742865dc793b9391358431381a" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>setFarClippingPlane</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1aad7aad785c5ed545a3ec99a4957edc90" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>setFocalLength</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1aeb0077789031389e3fafabb37e51da50" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>setFocusDistance</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1aa5a2c54b1d15aa84c8d82ec15ba4491b" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>setFStop</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a1c3cab8c28fe4eb9a50827446ff2c21e" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>setHorizontalAperture</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1aa178ecc130d9dc1855446ebc570b6991" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>setHorizontalFilmOffset</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1acd35197aa4a5584e8483bf46068f6201" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>setLensSqueezeRatio</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a7d72f9d18146b0d2248e272f767eaa5c" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>setNearClippingPlane</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a2a7a2f2570861eea5ba0c8e55ea0bbb8" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>setOverScanBottom</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1afe31f9b60c475ccd535c18b16b92363c" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>setOverScanLeft</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a0219388ddb696650b48e878f8ab44000" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>setOverScanRight</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a8a5c5eafa184aec85757c093aff81dc8" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>setOverScanTop</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1a95bd97cdab232dfdc00685de2b9451d0" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>setShutterClose</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1ac4973492c311e605ac435241b02a3765" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>setShutterOpen</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1ad7eb4d26f309799ce34aa75089960e0b" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>setVerticalAperture</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_camera_sample_1afff729159d7cea3f77c5a1a9206aaf88" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::CameraSample</scope><name>setVerticalFilmOffset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

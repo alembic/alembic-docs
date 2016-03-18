@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="namespace_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s" kind="namespace">
+    <compoundname>Alembic::AbcCollection::ALEMBIC_VERSION_NS</compoundname>
+    <innerclass refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_collections_schema" prot="public">Alembic::AbcCollection::ALEMBIC_VERSION_NS::ICollectionsSchema</innerclass>
+    <innerclass refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema" prot="public">Alembic::AbcCollection::ALEMBIC_VERSION_NS::OCollectionsSchema</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespace_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a34fe3c18aa3383324c1cbb7f9cff35c0" prot="public" static="no">
+        <type>Abc::ISchemaObject&lt; <ref refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_collections_schema" kindref="compound">ICollectionsSchema</ref> &gt;</type>
+        <definition>typedef Abc::ISchemaObject&lt;ICollectionsSchema&gt; Alembic::AbcCollection::ALEMBIC_VERSION_NS::ICollections</definition>
+        <argsstring></argsstring>
+        <name>ICollections</name>
+        <briefdescription>
+<para>Object declaration. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/ICollections.h" line="124" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/ICollections.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1af05a519a9aba54f0872803c97a946256" prot="public" static="no">
+        <type>Util::shared_ptr&lt; ICollections &gt;</type>
+        <definition>typedef Util::shared_ptr&lt; ICollections &gt; Alembic::AbcCollection::ALEMBIC_VERSION_NS::ICollectionsPtr</definition>
+        <argsstring></argsstring>
+        <name>ICollectionsPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/ICollections.h" line="126" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/ICollections.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a533d25f107576c100c9402bee4cf6c50" prot="public" static="no">
+        <type>Abc::OSchemaObject&lt; <ref refid="class_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_collections_schema" kindref="compound">OCollectionsSchema</ref> &gt;</type>
+        <definition>typedef Abc::OSchemaObject&lt;OCollectionsSchema&gt; Alembic::AbcCollection::ALEMBIC_VERSION_NS::OCollections</definition>
+        <argsstring></argsstring>
+        <name>OCollections</name>
+        <briefdescription>
+<para>Object declaration. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/OCollections.h" line="114" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/OCollections.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a2bde8d39250d5bdba6dbe4daaf85a29d" prot="public" static="no">
+        <type>Util::shared_ptr&lt; OCollections &gt;</type>
+        <definition>typedef Util::shared_ptr&lt; OCollections &gt; Alembic::AbcCollection::ALEMBIC_VERSION_NS::OCollectionsPtr</definition>
+        <argsstring></argsstring>
+        <name>OCollectionsPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/OCollections.h" line="116" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/OCollections.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_alembic_1_1_abc_collection_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a08f1daf8c9e931846a4bf29d43e1178e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcCollection::ALEMBIC_VERSION_NS::ALEMBIC_ABC_DECLARE_SCHEMA_INFO</definition>
+        <argsstring>(&quot;AbcCollection_Collections_v1&quot;,&quot;&quot;,&quot;.collection&quot;, CollectionsSchemaInfo)</argsstring>
+        <name>ALEMBIC_ABC_DECLARE_SCHEMA_INFO</name>
+        <param>
+          <type>&quot;AbcCollection_Collections_v1&quot;</type>
+        </param>
+        <param>
+          <type>&quot;&quot;</type>
+        </param>
+        <param>
+          <type>&quot;.collection&quot;</type>
+        </param>
+        <param>
+          <type>CollectionsSchemaInfo</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/SchemaInfoDeclarations.h" line="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCollection/ICollections.h" line="46"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1bool__t" kind="class" prot="public">
+    <compoundname>Alembic::Util::ALEMBIC_VERSION_NS::bool_t</compoundname>
+    <includes refid="_plain_old_data_type_8h" local="no">PlainOldDataType.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1bool__t_1a544ec6b9ddf0afeffc92518895438e34" prot="private" static="no" mutable="no">
+        <type>byte_t</type>
+        <definition>byte_t Alembic::Util::ALEMBIC_VERSION_NS::bool_t::m_byte</definition>
+        <argsstring></argsstring>
+        <name>m_byte</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/PlainOldDataType.h" line="100" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/PlainOldDataType.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1bool__t_1a5ae71c9e8a18b949bf26c3870565fd9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Util::ALEMBIC_VERSION_NS::bool_t::bool_t</definition>
+        <argsstring>()</argsstring>
+        <name>bool_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/PlainOldDataType.h" line="67" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/PlainOldDataType.h" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1bool__t_1a6d6156a4293cb78adca3165ebfdfeeb9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Util::ALEMBIC_VERSION_NS::bool_t::bool_t</definition>
+        <argsstring>(bool tf)</argsstring>
+        <name>bool_t</name>
+        <param>
+          <type>bool</type>
+          <declname>tf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/PlainOldDataType.h" line="69" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/PlainOldDataType.h" bodystart="69" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1bool__t_1adf74dc57e178b3f05b294fd6e2298a80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Util::ALEMBIC_VERSION_NS::bool_t::bool_t</definition>
+        <argsstring>(byte_t b)</argsstring>
+        <name>bool_t</name>
+        <param>
+          <type>byte_t</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/PlainOldDataType.h" line="70" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/PlainOldDataType.h" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1bool__t_1ae262c8e83bfab9d9f349b6b419064b5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1bool__t" kindref="compound">bool_t</ref> &amp;</type>
+        <definition>bool_t&amp; Alembic::Util::ALEMBIC_VERSION_NS::bool_t::operator=</definition>
+        <argsstring>(bool tf)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>bool</type>
+          <declname>tf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Using default copy constructor ... Using default assignment operator ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/PlainOldDataType.h" line="80" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/PlainOldDataType.h" bodystart="79" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1bool__t_1a6fea9e4945e234af8ef4eee4c3c11b2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1bool__t" kindref="compound">bool_t</ref> &amp;</type>
+        <definition>bool_t&amp; Alembic::Util::ALEMBIC_VERSION_NS::bool_t::operator=</definition>
+        <argsstring>(byte_t b)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>byte_t</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/PlainOldDataType.h" line="86" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/PlainOldDataType.h" bodystart="85" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1bool__t_1a87a1a4c1bfde239318305bc53af3752f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1bool__t" kindref="compound">bool_t</ref></type>
+        <definition>bool_t Alembic::Util::ALEMBIC_VERSION_NS::bool_t::operator!</definition>
+        <argsstring>(void)</argsstring>
+        <name>operator!</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/PlainOldDataType.h" line="92" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/PlainOldDataType.h" bodystart="91" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1bool__t_1ae6decf2fafd08e4a8805c0a5535b6017" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::Util::ALEMBIC_VERSION_NS::bool_t::asBool</definition>
+        <argsstring>() const </argsstring>
+        <name>asBool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/PlainOldDataType.h" line="96" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/PlainOldDataType.h" bodystart="96" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1bool__t_1aa809ef43ec0aede89c8ab55ff719296e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Util::ALEMBIC_VERSION_NS::bool_t::operator bool</definition>
+        <argsstring>() const </argsstring>
+        <name>operator bool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/PlainOldDataType.h" line="97" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/PlainOldDataType.h" bodystart="97" bodyend="97"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>BOOLEAN BASE TYPE - since C++ doesn&apos;t explicitly demand that bool be a given bit depth, but we need it to be here, we make our own bool type, which is a bit silly. This is purely for storage reasons. </para>    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/PlainOldDataType.h" line="65" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/PlainOldDataType.h" bodystart="64" bodyend="101"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1bool__t_1ae6decf2fafd08e4a8805c0a5535b6017" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::bool_t</scope><name>asBool</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1bool__t_1a5ae71c9e8a18b949bf26c3870565fd9a" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::bool_t</scope><name>bool_t</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1bool__t_1a6d6156a4293cb78adca3165ebfdfeeb9" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::bool_t</scope><name>bool_t</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1bool__t_1adf74dc57e178b3f05b294fd6e2298a80" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::bool_t</scope><name>bool_t</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1bool__t_1a544ec6b9ddf0afeffc92518895438e34" prot="private" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::bool_t</scope><name>m_byte</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1bool__t_1aa809ef43ec0aede89c8ab55ff719296e" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::bool_t</scope><name>operator bool</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1bool__t_1a87a1a4c1bfde239318305bc53af3752f" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::bool_t</scope><name>operator!</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1bool__t_1ae262c8e83bfab9d9f349b6b419064b5c" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::bool_t</scope><name>operator=</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1bool__t_1a6fea9e4945e234af8ef4eee4c3c11b2f" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::bool_t</scope><name>operator=</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,688 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample" kind="class" prot="public">
+    <compoundname>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</compoundname>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1ac3a505cdafd5c7b49ad9e550262be84b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class OXformSchema</definition>
+        <argsstring></argsstring>
+        <name>OXformSchema</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="129" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1ad60c92080325014388e47f4b73374e28" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class IXformSchema</definition>
+        <argsstring></argsstring>
+        <name>IXformSchema</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="130" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1ae1b5d6f8c925019c7e4dfd9959228de4" prot="private" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::m_setWithOpStack</definition>
+        <argsstring></argsstring>
+        <name>m_setWithOpStack</name>
+        <briefdescription>
+<para>0 is unset; 1 is set via addOp; 2 is set via non-op-based methods </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="138" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a4117a09d7db7cef8bd28f502e0b93ab1" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op" kindref="compound">XformOp</ref> &gt;</type>
+        <definition>std::vector&lt;XformOp&gt; Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::m_ops</definition>
+        <argsstring></argsstring>
+        <name>m_ops</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="140" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a8575c869f774877d751c19e7c2fcafe0" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::m_inherits</definition>
+        <argsstring></argsstring>
+        <name>m_inherits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="142" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a9f8d48f2a7e595f3bdb076f95336f34d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::m_hasBeenRead</definition>
+        <argsstring></argsstring>
+        <name>m_hasBeenRead</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This starts out false, but is set to true by the OXform and controls whether or not addOp() changes the topology of the Sample, in the form of the layout of the m_opsArray. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="147" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a5ed7441692e86b482948e53f64182d78" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::m_opIndex</definition>
+        <argsstring></argsstring>
+        <name>m_opIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="149" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1ace5c456553d855623d5a117ba0fb2816" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::XformSample</definition>
+        <argsstring>()</argsstring>
+        <name>XformSample</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a9a579a1b7b11eb2456d0340272d9426e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::size_t</type>
+        <definition>std::size_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::addOp</definition>
+        <argsstring>(XformOp iTransOrScaleOp, const Abc::V3d &amp;iVal)</argsstring>
+        <name>addOp</name>
+        <param>
+          <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op" kindref="compound">XformOp</ref></type>
+          <declname>iTransOrScaleOp</declname>
+        </param>
+        <param>
+          <type>const Abc::V3d &amp;</type>
+          <declname>iVal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1af3955d33587d72e2dc0472345f631a48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::size_t</type>
+        <definition>std::size_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::addOp</definition>
+        <argsstring>(XformOp iRotateOp, const Abc::V3d &amp;iAxis, const double iAngleInDegrees)</argsstring>
+        <name>addOp</name>
+        <param>
+          <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op" kindref="compound">XformOp</ref></type>
+          <declname>iRotateOp</declname>
+        </param>
+        <param>
+          <type>const Abc::V3d &amp;</type>
+          <declname>iAxis</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>iAngleInDegrees</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1ae15bda1658aeac0a4f12615c47d9bdc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::size_t</type>
+        <definition>std::size_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::addOp</definition>
+        <argsstring>(XformOp iMatrixOp, const Abc::M44d &amp;iMatrix)</argsstring>
+        <name>addOp</name>
+        <param>
+          <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op" kindref="compound">XformOp</ref></type>
+          <declname>iMatrixOp</declname>
+        </param>
+        <param>
+          <type>const Abc::M44d &amp;</type>
+          <declname>iMatrix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a1ca718ffb2baa782791d68f1a3a573b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::size_t</type>
+        <definition>std::size_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::addOp</definition>
+        <argsstring>(XformOp iSingleRotateOp, const double iSingleAxisRotationInDegrees)</argsstring>
+        <name>addOp</name>
+        <param>
+          <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op" kindref="compound">XformOp</ref></type>
+          <declname>iSingleRotateOp</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>iSingleAxisRotationInDegrees</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a6a8ae2c10cee8651819347831a2dcc01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::size_t</type>
+        <definition>std::size_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::addOp</definition>
+        <argsstring>(const XformOp &amp;iOp)</argsstring>
+        <name>addOp</name>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op" kindref="compound">XformOp</ref> &amp;</type>
+          <declname>iOp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a8eb84cb61dc121b05e3ae1ba0fca1746" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op" kindref="compound">XformOp</ref></type>
+        <definition>XformOp Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::getOp</definition>
+        <argsstring>(const std::size_t iIndex) const </argsstring>
+        <name>getOp</name>
+        <param>
+          <type>const std::size_t</type>
+          <declname>iIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1adbbe3f0b605603b3a4a7edac621459a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op" kindref="compound">XformOp</ref> &amp;</type>
+        <definition>XformOp&amp; Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::operator[]</definition>
+        <argsstring>(const std::size_t &amp;iIndex)</argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>const std::size_t &amp;</type>
+          <declname>iIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a384b5b487d97c0a985fb5ccbed9575b7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_op" kindref="compound">XformOp</ref> &amp;</type>
+        <definition>const XformOp&amp; Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::operator[]</definition>
+        <argsstring>(const std::size_t &amp;iIndex) const </argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>const std::size_t &amp;</type>
+          <declname>iIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1ab259094369fe328aeaa41bc8f96a8dec" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::size_t</type>
+        <definition>std::size_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::getNumOps</definition>
+        <argsstring>() const </argsstring>
+        <name>getNumOps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1ad40a2bcd4689c1d12365ad3e67092fee" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::size_t</type>
+        <definition>std::size_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::getNumOpChannels</definition>
+        <argsstring>() const </argsstring>
+        <name>getNumOpChannels</name>
+        <briefdescription>
+<para>The sum of the number of channels of all the ops in this Sample. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a2c5f9d1c5be875dcb7e96b2d4a1ba744" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::setInheritsXforms</definition>
+        <argsstring>(bool iInherits)</argsstring>
+        <name>setInheritsXforms</name>
+        <param>
+          <type>bool</type>
+          <declname>iInherits</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&quot;Inherits xforms&quot; means, &quot;Does this xform concatenate to or ignore the
+        transforms of its parents?&quot; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a1a9be06340d1d0a9d0e9e34f40d74029" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::getInheritsXforms</definition>
+        <argsstring>() const </argsstring>
+        <name>getInheritsXforms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1ac5782623c1ba659f75bc61444a8bba84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::setTranslation</definition>
+        <argsstring>(const Abc::V3d &amp;iTrans)</argsstring>
+        <name>setTranslation</name>
+        <param>
+          <type>const Abc::V3d &amp;</type>
+          <declname>iTrans</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Order matters when calling different setFoo() methods; callstack of methods must be the same for each call to OXformSchmea::set() with a given Sample. For example, a Sample with calls to <ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1ac5782623c1ba659f75bc61444a8bba84" kindref="member">setTranslation()</ref> and setRotation() must make thgose same calls in the same order between each use of OXforSchema::set(). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1ad57795777f96eb332a10d5a66317a4c4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Abc::V3d</type>
+        <definition>Abc::V3d Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::getTranslation</definition>
+        <argsstring>() const </argsstring>
+        <name>getTranslation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a17462d623175d0c7324d3e29fb61b7a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::setRotation</definition>
+        <argsstring>(const Abc::V3d &amp;iAxis, const double iAngleInDegress)</argsstring>
+        <name>setRotation</name>
+        <param>
+          <type>const Abc::V3d &amp;</type>
+          <declname>iAxis</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>iAngleInDegress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a7ac046c7e6dc791e6ceb19be2d318c43" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Abc::V3d</type>
+        <definition>Abc::V3d Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::getAxis</definition>
+        <argsstring>() const </argsstring>
+        <name>getAxis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1aa5d48415cf59fbd2defd3ca1c21ea3f3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::getAngle</definition>
+        <argsstring>() const </argsstring>
+        <name>getAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a2148feddc6b6c07b842519521dd6fd4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::setXRotation</definition>
+        <argsstring>(const double iAngleInDegrees)</argsstring>
+        <name>setXRotation</name>
+        <param>
+          <type>const double</type>
+          <declname>iAngleInDegrees</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1aae09079d2bca6cb2ddada80c749414db" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::getXRotation</definition>
+        <argsstring>() const </argsstring>
+        <name>getXRotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a913a2b8b359a98239b532163ceee0e47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::setYRotation</definition>
+        <argsstring>(const double iAngleInDegrees)</argsstring>
+        <name>setYRotation</name>
+        <param>
+          <type>const double</type>
+          <declname>iAngleInDegrees</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1ab66f1b6aaaf2c9099615274178fd3bb1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::getYRotation</definition>
+        <argsstring>() const </argsstring>
+        <name>getYRotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1af4e931c6d724aa3f0cc731afb4177470" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::setZRotation</definition>
+        <argsstring>(const double iAngleInDegrees)</argsstring>
+        <name>setZRotation</name>
+        <param>
+          <type>const double</type>
+          <declname>iAngleInDegrees</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a6257e7ecdd7efca21da1db1df5fefbf9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::getZRotation</definition>
+        <argsstring>() const </argsstring>
+        <name>getZRotation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="112"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a131e63e75d9860272191a695d4669a39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::setScale</definition>
+        <argsstring>(const Abc::V3d &amp;iScale)</argsstring>
+        <name>setScale</name>
+        <param>
+          <type>const Abc::V3d &amp;</type>
+          <declname>iScale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a6f2159fe20d5df08156753b9229b8ee9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Abc::V3d</type>
+        <definition>Abc::V3d Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::getScale</definition>
+        <argsstring>() const </argsstring>
+        <name>getScale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a29b0c460656239429c6d89cd3843c4bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::setMatrix</definition>
+        <argsstring>(const Abc::M44d &amp;iMatrix)</argsstring>
+        <name>setMatrix</name>
+        <param>
+          <type>const Abc::M44d &amp;</type>
+          <declname>iMatrix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1aacaca9afaddb489c9516e216528f96d2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Abc::M44d</type>
+        <definition>Abc::M44d Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::getMatrix</definition>
+        <argsstring>() const </argsstring>
+        <name>getMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a16d354284cb9143db67b453cd3a2f658" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::isTopologyEqual</definition>
+        <argsstring>(const XformSample &amp;iSample)</argsstring>
+        <name>isTopologyEqual</name>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample" kindref="compound">XformSample</ref> &amp;</type>
+          <declname>iSample</declname>
+        </param>
+        <briefdescription>
+<para>Tests whether this sample has the same topology as iSample. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1abce527eedfe88fa6fa79db9b6434d09c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::getIsTopologyFrozen</definition>
+        <argsstring>() const </argsstring>
+        <name>getIsTopologyFrozen</name>
+        <briefdescription>
+<para>Has this Sample been used in a call to <ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_xform_schema_1a06348beb26c67b7ecf6dd1bbbda0db60" kindref="member">OXformSchema::set()</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="124" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" bodystart="124" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1ac191f63612b7099299cd03e9b411fc35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="126"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1aa6f8dd4afb09ca83e730feae6a253b0f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::freezeTopology</definition>
+        <argsstring>()</argsstring>
+        <name>freezeTopology</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a5b38f49a989a5373b82a890c7fe2abcd" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const std::vector&lt; Alembic::Util::uint8_t &gt; &amp;</type>
+        <definition>const std::vector&lt;Alembic::Util::uint8_t&gt;&amp; Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::getOpsArray</definition>
+        <argsstring>() const </argsstring>
+        <name>getOpsArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a67b84becab62d2452a24f91609927c9a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="133"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" line="51" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/XformSample.h" bodystart="50" bodyend="150"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a9a579a1b7b11eb2456d0340272d9426e" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>addOp</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1af3955d33587d72e2dc0472345f631a48" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>addOp</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1ae15bda1658aeac0a4f12615c47d9bdc8" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>addOp</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a1ca718ffb2baa782791d68f1a3a573b3" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>addOp</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a6a8ae2c10cee8651819347831a2dcc01" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>addOp</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a67b84becab62d2452a24f91609927c9a" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>clear</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1aa6f8dd4afb09ca83e730feae6a253b0f" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>freezeTopology</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1aa5d48415cf59fbd2defd3ca1c21ea3f3" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>getAngle</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a7ac046c7e6dc791e6ceb19be2d318c43" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>getAxis</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a1a9be06340d1d0a9d0e9e34f40d74029" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>getInheritsXforms</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1abce527eedfe88fa6fa79db9b6434d09c" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>getIsTopologyFrozen</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1aacaca9afaddb489c9516e216528f96d2" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>getMatrix</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1ad40a2bcd4689c1d12365ad3e67092fee" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>getNumOpChannels</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1ab259094369fe328aeaa41bc8f96a8dec" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>getNumOps</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a8eb84cb61dc121b05e3ae1ba0fca1746" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>getOp</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a5b38f49a989a5373b82a890c7fe2abcd" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>getOpsArray</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a6f2159fe20d5df08156753b9229b8ee9" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>getScale</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1ad57795777f96eb332a10d5a66317a4c4" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>getTranslation</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1aae09079d2bca6cb2ddada80c749414db" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>getXRotation</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1ab66f1b6aaaf2c9099615274178fd3bb1" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>getYRotation</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a6257e7ecdd7efca21da1db1df5fefbf9" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>getZRotation</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a16d354284cb9143db67b453cd3a2f658" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>isTopologyEqual</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1ad60c92080325014388e47f4b73374e28" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>IXformSchema</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a9f8d48f2a7e595f3bdb076f95336f34d" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>m_hasBeenRead</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a8575c869f774877d751c19e7c2fcafe0" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>m_inherits</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a5ed7441692e86b482948e53f64182d78" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>m_opIndex</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a4117a09d7db7cef8bd28f502e0b93ab1" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>m_ops</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1ae1b5d6f8c925019c7e4dfd9959228de4" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>m_setWithOpStack</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1adbbe3f0b605603b3a4a7edac621459a6" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>operator[]</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a384b5b487d97c0a985fb5ccbed9575b7" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>operator[]</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1ac3a505cdafd5c7b49ad9e550262be84b" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>OXformSchema</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1ac191f63612b7099299cd03e9b411fc35" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>reset</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a2c5f9d1c5be875dcb7e96b2d4a1ba744" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>setInheritsXforms</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a29b0c460656239429c6d89cd3843c4bc" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>setMatrix</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a17462d623175d0c7324d3e29fb61b7a8" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>setRotation</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a131e63e75d9860272191a695d4669a39" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>setScale</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1ac5782623c1ba659f75bc61444a8bba84" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>setTranslation</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a2148feddc6b6c07b842519521dd6fd4d" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>setXRotation</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1a913a2b8b359a98239b532163ceee0e47" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>setYRotation</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1af4e931c6d724aa3f0cc731afb4177470" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>setZRotation</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_xform_sample_1ace5c456553d855623d5a117ba0fb2816" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::XformSample</scope><name>XformSample</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

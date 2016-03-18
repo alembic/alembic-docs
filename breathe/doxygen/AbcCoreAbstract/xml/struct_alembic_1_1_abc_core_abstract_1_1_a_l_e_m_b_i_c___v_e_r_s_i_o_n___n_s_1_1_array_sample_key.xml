@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key" kind="struct" prot="public">
+    <compoundname>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArraySampleKey</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a110acb5f8720bd83b329efb1ae4e48fa" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArraySampleKey::numBytes</definition>
+        <argsstring></argsstring>
+        <name>numBytes</name>
+        <briefdescription>
+<para>total number of bytes of the sample as originally stored </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArraySampleKey.h" line="50" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArraySampleKey.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a14be52957c1391a0a11a1a4e7f5450be" prot="public" static="no" mutable="no">
+        <type>PlainOldDataType</type>
+        <definition>PlainOldDataType Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArraySampleKey::origPOD</definition>
+        <argsstring></argsstring>
+        <name>origPOD</name>
+        <briefdescription>
+<para>Original POD as stored. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArraySampleKey.h" line="53" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArraySampleKey.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a57152426f9d10c46c5b01322515265a7" prot="public" static="no" mutable="no">
+        <type>PlainOldDataType</type>
+        <definition>PlainOldDataType Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArraySampleKey::readPOD</definition>
+        <argsstring></argsstring>
+        <name>readPOD</name>
+        <briefdescription>
+<para>POD used at read time. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArraySampleKey.h" line="56" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArraySampleKey.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a3293c863c68dc20b633430f271811eb7" prot="public" static="no" mutable="no">
+        <type>Digest</type>
+        <definition>Digest Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArraySampleKey::digest</definition>
+        <argsstring></argsstring>
+        <name>digest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArraySampleKey.h" line="58" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArraySampleKey.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a1efecfa28218315a32124c24556b4db2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArraySampleKey::operator==</definition>
+        <argsstring>(const ArraySampleKey &amp;iRhs) const </argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key" kindref="compound">ArraySampleKey</ref> &amp;</type>
+          <declname>iRhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArraySampleKey.h" line="61" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArraySampleKey.h" bodystart="60" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a1ab009da9c44a9e5b54628ed3066d7c5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArraySampleKey::operator&lt;</definition>
+        <argsstring>(const ArraySampleKey &amp;iRhs) const </argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key" kindref="compound">ArraySampleKey</ref> &amp;</type>
+          <declname>iRhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArraySampleKey.h" line="69" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArraySampleKey.h" bodystart="68" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArraySampleKey.h" line="48" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ArraySampleKey.h" bodystart="47" bodyend="82"/>
+    <listofallmembers>
+      <member refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a3293c863c68dc20b633430f271811eb7" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArraySampleKey</scope><name>digest</name></member>
+      <member refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a110acb5f8720bd83b329efb1ae4e48fa" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArraySampleKey</scope><name>numBytes</name></member>
+      <member refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a1ab009da9c44a9e5b54628ed3066d7c5" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArraySampleKey</scope><name>operator&lt;</name></member>
+      <member refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a1efecfa28218315a32124c24556b4db2" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArraySampleKey</scope><name>operator==</name></member>
+      <member refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a14be52957c1391a0a11a1a4e7f5450be" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArraySampleKey</scope><name>origPOD</name></member>
+      <member refid="struct_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_array_sample_key_1a57152426f9d10c46c5b01322515265a7" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ArraySampleKey</scope><name>readPOD</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector" kind="class" prot="public">
+    <compoundname>Alembic::Abc::ALEMBIC_VERSION_NS::ISampleSelector</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector_1adca62abfc583b3034080f561097736c8" prot="public" static="no">
+        <name>TimeIndexType</name>
+        <enumvalue id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector_1adca62abfc583b3034080f561097736c8ad50fb0977d3b13e6aef61895cb0418de" prot="public">
+          <name>kFloorIndex</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector_1adca62abfc583b3034080f561097736c8a976b5e28333ae55c009f3a75a9d09ada" prot="public">
+          <name>kCeilIndex</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector_1adca62abfc583b3034080f561097736c8aec81a7f9bbb559868be90343a3b51102" prot="public">
+          <name>kNearIndex</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISampleSelector.h" line="52" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISampleSelector.h" bodystart="51" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector_1a8c6cf77e469e9ca3e21d50dad0a77dec" prot="private" static="no" mutable="no">
+        <type>index_t</type>
+        <definition>index_t Alembic::Abc::ALEMBIC_VERSION_NS::ISampleSelector::m_requestedIndex</definition>
+        <argsstring></argsstring>
+        <name>m_requestedIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISampleSelector.h" line="83" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISampleSelector.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector_1a38a3c8af72123b31d948c5c1b6864cb5" prot="private" static="no" mutable="no">
+        <type>chrono_t</type>
+        <definition>chrono_t Alembic::Abc::ALEMBIC_VERSION_NS::ISampleSelector::m_requestedTime</definition>
+        <argsstring></argsstring>
+        <name>m_requestedTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISampleSelector.h" line="84" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISampleSelector.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector_1a25aaced45d04fb436eb8e3271a7343e1" prot="private" static="no" mutable="no">
+        <type>TimeIndexType</type>
+        <definition>TimeIndexType Alembic::Abc::ALEMBIC_VERSION_NS::ISampleSelector::m_requestedTimeIndexType</definition>
+        <argsstring></argsstring>
+        <name>m_requestedTimeIndexType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISampleSelector.h" line="85" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISampleSelector.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector_1a354b05a280fc8c03aecf1cf96129fc08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Abc::ALEMBIC_VERSION_NS::ISampleSelector::ISampleSelector</definition>
+        <argsstring>()</argsstring>
+        <name>ISampleSelector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISampleSelector.h" line="61" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISampleSelector.h" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector_1afed50e86df73d252bc9c7ead82838213" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Abc::ALEMBIC_VERSION_NS::ISampleSelector::ISampleSelector</definition>
+        <argsstring>(index_t iReqIdx)</argsstring>
+        <name>ISampleSelector</name>
+        <param>
+          <type>index_t</type>
+          <declname>iReqIdx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISampleSelector.h" line="66" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISampleSelector.h" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector_1aa32062ca591aa304a07ea1bb3249f6fd" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Abc::ALEMBIC_VERSION_NS::ISampleSelector::ISampleSelector</definition>
+        <argsstring>(chrono_t iReqTime, TimeIndexType iReqIdxType=kNearIndex)</argsstring>
+        <name>ISampleSelector</name>
+        <param>
+          <type>chrono_t</type>
+          <declname>iReqTime</declname>
+        </param>
+        <param>
+          <type>TimeIndexType</type>
+          <declname>iReqIdxType</declname>
+          <defval>kNearIndex</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISampleSelector.h" line="72" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISampleSelector.h" bodystart="68" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector_1a21c6a0291544e6cfe941e4cf0f50256f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>index_t</type>
+        <definition>index_t Alembic::Abc::ALEMBIC_VERSION_NS::ISampleSelector::getRequestedIndex</definition>
+        <argsstring>() const </argsstring>
+        <name>getRequestedIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISampleSelector.h" line="74" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISampleSelector.h" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector_1a25280af87d41824aeab9b68f0eb027a9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>chrono_t</type>
+        <definition>chrono_t Alembic::Abc::ALEMBIC_VERSION_NS::ISampleSelector::getRequestedTime</definition>
+        <argsstring>() const </argsstring>
+        <name>getRequestedTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISampleSelector.h" line="75" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISampleSelector.h" bodystart="75" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector_1a31a4376da838c4f80dc3f2ab2aa7c4f4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>TimeIndexType</type>
+        <definition>TimeIndexType Alembic::Abc::ALEMBIC_VERSION_NS::ISampleSelector::getRequestedTimeIndexType</definition>
+        <argsstring>() const </argsstring>
+        <name>getRequestedTimeIndexType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISampleSelector.h" line="77" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISampleSelector.h" bodystart="76" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector_1a95f06383e6d291587b5b7ca75e0f378b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>index_t</type>
+        <definition>index_t Alembic::Abc::ALEMBIC_VERSION_NS::ISampleSelector::getIndex</definition>
+        <argsstring>(const AbcA::TimeSamplingPtr &amp;iTsmp, index_t iNumSamples) const </argsstring>
+        <name>getIndex</name>
+        <param>
+          <type>const AbcA::TimeSamplingPtr &amp;</type>
+          <declname>iTsmp</declname>
+        </param>
+        <param>
+          <type>index_t</type>
+          <declname>iNumSamples</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISampleSelector.h" line="80"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISampleSelector.h" line="49" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISampleSelector.h" bodystart="48" bodyend="86"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector_1a95f06383e6d291587b5b7ca75e0f378b" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::ISampleSelector</scope><name>getIndex</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector_1a21c6a0291544e6cfe941e4cf0f50256f" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::ISampleSelector</scope><name>getRequestedIndex</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector_1a25280af87d41824aeab9b68f0eb027a9" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::ISampleSelector</scope><name>getRequestedTime</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector_1a31a4376da838c4f80dc3f2ab2aa7c4f4" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::ISampleSelector</scope><name>getRequestedTimeIndexType</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector_1a354b05a280fc8c03aecf1cf96129fc08" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::ISampleSelector</scope><name>ISampleSelector</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector_1afed50e86df73d252bc9c7ead82838213" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::ISampleSelector</scope><name>ISampleSelector</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector_1aa32062ca591aa304a07ea1bb3249f6fd" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::ISampleSelector</scope><name>ISampleSelector</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector_1adca62abfc583b3034080f561097736c8a976b5e28333ae55c009f3a75a9d09ada" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::ISampleSelector</scope><name>kCeilIndex</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector_1adca62abfc583b3034080f561097736c8ad50fb0977d3b13e6aef61895cb0418de" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::ISampleSelector</scope><name>kFloorIndex</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector_1adca62abfc583b3034080f561097736c8aec81a7f9bbb559868be90343a3b51102" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::ISampleSelector</scope><name>kNearIndex</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector_1a8c6cf77e469e9ca3e21d50dad0a77dec" prot="private" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::ISampleSelector</scope><name>m_requestedIndex</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector_1a38a3c8af72123b31d948c5c1b6864cb5" prot="private" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::ISampleSelector</scope><name>m_requestedTime</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector_1a25aaced45d04fb436eb8e3271a7343e1" prot="private" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::ISampleSelector</scope><name>m_requestedTimeIndexType</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_sample_selector_1adca62abfc583b3034080f561097736c8" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::ISampleSelector</scope><name>TimeIndexType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

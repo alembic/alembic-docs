@@ -1,0 +1,550 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map" kind="class" prot="public">
+    <compoundname>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap</compoundname>
+    <includes refid="_token_map_8h" local="no">TokenMap.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a7627fa507c839e25eb6ab23b74dfb482" prot="public" static="no">
+        <type>std::map&lt; std::string, std::string &gt;</type>
+        <definition>typedef std::map&lt;std::string,std::string&gt; Alembic::Util::ALEMBIC_VERSION_NS::TokenMap::map_type</definition>
+        <argsstring></argsstring>
+        <name>map_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The map_type is std::map&lt;std::string,std::string&gt; ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" line="68" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1af1a6d50f270f52b7551f55a9ae95c781" prot="public" static="no">
+        <type>map_type::key_type</type>
+        <definition>typedef map_type::key_type Alembic::Util::ALEMBIC_VERSION_NS::TokenMap::key_type</definition>
+        <argsstring></argsstring>
+        <name>key_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>key_type promoted from map_type::key_type, which is std::string ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" line="72" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1aeb3635634216f2326917e96e5b2c2431" prot="public" static="no">
+        <type>std::string</type>
+        <definition>typedef std::string Alembic::Util::ALEMBIC_VERSION_NS::TokenMap::data_type</definition>
+        <argsstring></argsstring>
+        <name>data_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>data_type promoted from map_type::data_type, which is std::string ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" line="77" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1ac41d683f211091f0dbbba0bb82bf1302" prot="public" static="no">
+        <type>map_type::value_type</type>
+        <definition>typedef map_type::value_type Alembic::Util::ALEMBIC_VERSION_NS::TokenMap::value_type</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>value_type promoted from map_type::value_type, which is std::pair&lt;std::string, std::string&gt; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" line="81" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a69c9a9778be381c57a2fc6e29e4815e4" prot="public" static="no">
+        <type>map_type::iterator</type>
+        <definition>typedef map_type::iterator Alembic::Util::ALEMBIC_VERSION_NS::TokenMap::iterator</definition>
+        <argsstring></argsstring>
+        <name>iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>iterator promoted from map_type::iterator ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" line="85" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a09f5d860e221affa88870cd4080eaf7c" prot="public" static="no">
+        <type>map_type::const_iterator</type>
+        <definition>typedef map_type::const_iterator Alembic::Util::ALEMBIC_VERSION_NS::TokenMap::const_iterator</definition>
+        <argsstring></argsstring>
+        <name>const_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>const_iterator promoted from map_type::iterator ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" line="89" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a2ed34426ad646b20133c583ccde1a00f" prot="public" static="no">
+        <type>map_type::reverse_iterator</type>
+        <definition>typedef map_type::reverse_iterator Alembic::Util::ALEMBIC_VERSION_NS::TokenMap::reverse_iterator</definition>
+        <argsstring></argsstring>
+        <name>reverse_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>reverse_iterator promoted from map_type::reverse_iterator ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" line="93" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a0f373a75224373bf75550f26023647e3" prot="public" static="no">
+        <type>map_type::const_reverse_iterator</type>
+        <definition>typedef map_type::const_reverse_iterator Alembic::Util::ALEMBIC_VERSION_NS::TokenMap::const_reverse_iterator</definition>
+        <argsstring></argsstring>
+        <name>const_reverse_iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>const_reverse_iterator promoted from map_type::const_reverse_iterator ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" line="97" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a4b7aa85b7eaf6da515e56ae298e983a1" prot="public" static="no">
+        <type>map_type::reference</type>
+        <definition>typedef map_type::reference Alembic::Util::ALEMBIC_VERSION_NS::TokenMap::reference</definition>
+        <argsstring></argsstring>
+        <name>reference</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>reference promoted from map_type::reference ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" line="101" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a74617804639aa715e9896bbfdeebe78a" prot="public" static="no">
+        <type>map_type::const_reference</type>
+        <definition>typedef map_type::const_reference Alembic::Util::ALEMBIC_VERSION_NS::TokenMap::const_reference</definition>
+        <argsstring></argsstring>
+        <name>const_reference</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>const_reference promoted from map_type::const_reference ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" line="105" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a449d8a15b9b59b35908c52587f792384" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a7627fa507c839e25eb6ab23b74dfb482" kindref="member">map_type</ref></type>
+        <definition>map_type Alembic::Util::ALEMBIC_VERSION_NS::TokenMap::m_map</definition>
+        <argsstring></argsstring>
+        <name>m_map</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" line="304" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" bodystart="304" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a7ab7678037d12b8d655abf0ff523becd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap::TokenMap</definition>
+        <argsstring>()</argsstring>
+        <name>TokenMap</name>
+        <briefdescription>
+<para>Default constructor Map is initialized with no entries. Values can be added using The <ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1af04fae648478c9bc4eb656e104db8250" kindref="member">set</ref> and <ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a2e8729ba09f4268078ffb988a0188e4f" kindref="member">setUnique</ref> member functions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" line="113" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" bodystart="113" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1aaefbbdfac5b7c1092471c41e8db94e65" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap::TokenMap</definition>
+        <argsstring>(const std::string &amp;config, char pairSeparator= &apos;;&apos;, char assignSeparator= &apos;=&apos;, bool unique=false, bool quiet=true)</argsstring>
+        <name>TokenMap</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>config</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>pairSeparator</declname>
+          <defval>&apos;;&apos;</defval>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>assignSeparator</declname>
+          <defval>&apos;=&apos;</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>unique</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>quiet</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Explicit constructor Map is initialized from given string, using the delimiter scheme as presented. If the &apos;unique&apos; bool is &apos;true&apos;, it will use the <ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a2e8729ba09f4268078ffb988a0188e4f" kindref="member">setUnique</ref> function, obeying the &apos;quiet&apos; bool accordingly. Otherwise it will use the <ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1af04fae648478c9bc4eb656e104db8250" kindref="member">set</ref> function. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" line="126" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" bodystart="121" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1af04fae648478c9bc4eb656e104db8250" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::Util::ALEMBIC_VERSION_NS::TokenMap::set</definition>
+        <argsstring>(const std::string &amp;config, char pairSeparator= &apos;;&apos;, char assignSeparator= &apos;=&apos;)</argsstring>
+        <name>set</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>config</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>pairSeparator</declname>
+          <defval>&apos;;&apos;</defval>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>assignSeparator</declname>
+          <defval>&apos;=&apos;</defval>
+        </param>
+        <briefdescription>
+<para>This function sets the token/value pairs in the map by deserializing them from a doubly-delimited string. </para>        </briefdescription>
+        <detaileddescription>
+<para>Using default copy constructor ... Using default assignment operator. ...</para><para>The delimiter scheme defaults to: &quot;token=value;token=value;token=value&quot; but may be overridden using the optional separator arguments. Values are added to the map one-by-one, overwriting any values that were there before. To avoid overwriting, use the <ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a2e8729ba09f4268078ffb988a0188e4f" kindref="member">setUnique</ref> function, which can silently or rigidly deal with conflicts </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" line="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a2e8729ba09f4268078ffb988a0188e4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::Util::ALEMBIC_VERSION_NS::TokenMap::setUnique</definition>
+        <argsstring>(const std::string &amp;config, char pairSeparator= &apos;;&apos;, char assignSeparator= &apos;=&apos;, bool quiet=true)</argsstring>
+        <name>setUnique</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>config</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>pairSeparator</declname>
+          <defval>&apos;;&apos;</defval>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>assignSeparator</declname>
+          <defval>&apos;=&apos;</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>quiet</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>This function sets only unique (not already stored) token/value pairs by deserializing them from a doubly-delimited string. </para>        </briefdescription>
+        <detaileddescription>
+<para>The delimiter scheme and rules are the same as <ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1af04fae648478c9bc4eb656e104db8250" kindref="member">set</ref> , the main difference here is that the class will not overwrite values that already exist. If the function is called with the default value of &apos;true&apos; for the &apos;quiet&apos; parameter, it will simply not write those values. Otherwise, it will throw a Alembic::Util::Exception </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" line="174"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a9df351e3df3d66b0b225186cf5b833ff" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Alembic::Util::ALEMBIC_VERSION_NS::TokenMap::get</definition>
+        <argsstring>(char pairSeparator= &apos;;&apos;, char assignSeparator= &apos;=&apos;, bool check=false) const </argsstring>
+        <name>get</name>
+        <param>
+          <type>char</type>
+          <declname>pairSeparator</declname>
+          <defval>&apos;;&apos;</defval>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>assignSeparator</declname>
+          <defval>&apos;=&apos;</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>check</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>This function turns the map back into a doubly-tokenized string. </para>        </briefdescription>
+        <detaileddescription>
+<para>The passed delimiters are used to delimit the string, and they have default values. Checking is optionally performed (based on the &apos;check&apos; bool) to make sure neither the tokens nor values contain the delimiter characters, and an Alembic::Util::Exception is thrown if a conflict is detected. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" line="188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a4eac9dde4ecb3a60503c149618259c30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::Util::ALEMBIC_VERSION_NS::TokenMap::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" line="193" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" bodystart="193" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1abfae898c6dc86b66127a761e4adb5d9f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t Alembic::Util::ALEMBIC_VERSION_NS::TokenMap::size</definition>
+        <argsstring>() const </argsstring>
+        <name>size</name>
+        <briefdescription>
+<para>This function returns the number of pairs. ... </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" line="201" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" bodystart="201" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1afba3bb59c66bc68dd0ae7e3b7a5e7b5a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::Util::ALEMBIC_VERSION_NS::TokenMap::tokenExists</definition>
+        <argsstring>(const std::string &amp;token) const </argsstring>
+        <name>tokenExists</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>This function returns whether the map contains an entry for a particular token. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" line="206" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" bodystart="205" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a1b1073df84d2fc73601a282fcaf106c7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Alembic::Util::ALEMBIC_VERSION_NS::TokenMap::value</definition>
+        <argsstring>(const std::string &amp;token) const </argsstring>
+        <name>value</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>This function returns the string value associated with a particular token, or the empty string &quot;&quot; if the map does not contain this token-value pair. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" line="214" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" bodystart="213" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1ae1490418b73de05cfd307be78649d576" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Alembic::Util::ALEMBIC_VERSION_NS::TokenMap::operator[]</definition>
+        <argsstring>(const std::string &amp;token) const </argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>token</declname>
+        </param>
+        <briefdescription>
+<para>This function is a shorthand for <ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a1b1073df84d2fc73601a282fcaf106c7" kindref="member">value</ref> It will not return a modifiable entry. To modify, <ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a8a88031e719b28448e424d28d3651e7a" kindref="member">setValue</ref> must be used. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" line="230" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" bodystart="229" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a8a88031e719b28448e424d28d3651e7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::Util::ALEMBIC_VERSION_NS::TokenMap::setValue</definition>
+        <argsstring>(const std::string &amp;keyStr, const std::string &amp;valueStr)</argsstring>
+        <name>setValue</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>keyStr</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>valueStr</declname>
+        </param>
+        <briefdescription>
+<para>This function sets the value of a token. It will either add a new token-value pair if the map does not already contain this token, or it will overwrite the value for this token if it already exists. You can use the <ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1afba3bb59c66bc68dd0ae7e3b7a5e7b5a" kindref="member">tokenExists</ref> function to manage uniqueness guarantees. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" line="241" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" bodystart="239" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1ae222584caa9ea9666a3f656321dd2f10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a69c9a9778be381c57a2fc6e29e4815e4" kindref="member">iterator</ref></type>
+        <definition>iterator Alembic::Util::ALEMBIC_VERSION_NS::TokenMap::begin</definition>
+        <argsstring>()</argsstring>
+        <name>begin</name>
+        <briefdescription>
+<para>same as std::map begin Returns an <ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a69c9a9778be381c57a2fc6e29e4815e4" kindref="member">iterator</ref> corresponding to the beginning of the map or the end of the map if the map is empty. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" line="252" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" bodystart="252" bodyend="252"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1aafe572ea669ed570ad55c8b41f89f930" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a09f5d860e221affa88870cd4080eaf7c" kindref="member">const_iterator</ref></type>
+        <definition>const_iterator Alembic::Util::ALEMBIC_VERSION_NS::TokenMap::begin</definition>
+        <argsstring>() const </argsstring>
+        <name>begin</name>
+        <briefdescription>
+<para>same as std::map begin const Returns a <ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a09f5d860e221affa88870cd4080eaf7c" kindref="member">const_iterator</ref> corresponding to the beginning of the map or the end of the map if the map is empty. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" line="257" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" bodystart="257" bodyend="257"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a87542053d155b16734ae5329fea78445" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a69c9a9778be381c57a2fc6e29e4815e4" kindref="member">iterator</ref></type>
+        <definition>iterator Alembic::Util::ALEMBIC_VERSION_NS::TokenMap::end</definition>
+        <argsstring>()</argsstring>
+        <name>end</name>
+        <briefdescription>
+<para>same as std::map end Returns an <ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a69c9a9778be381c57a2fc6e29e4815e4" kindref="member">iterator</ref> corresponding to the end of the map. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" line="261" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" bodystart="261" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1ae4ee696a890474a9affc71080dba7e7b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a09f5d860e221affa88870cd4080eaf7c" kindref="member">const_iterator</ref></type>
+        <definition>const_iterator Alembic::Util::ALEMBIC_VERSION_NS::TokenMap::end</definition>
+        <argsstring>() const </argsstring>
+        <name>end</name>
+        <briefdescription>
+<para>same as std::map end const Returns an <ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a09f5d860e221affa88870cd4080eaf7c" kindref="member">const_iterator</ref> corresponding to the end of the map. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" line="265" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" bodystart="265" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1aa1e2091af3ee71cdc02addb9d525df76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a2ed34426ad646b20133c583ccde1a00f" kindref="member">reverse_iterator</ref></type>
+        <definition>reverse_iterator Alembic::Util::ALEMBIC_VERSION_NS::TokenMap::rbegin</definition>
+        <argsstring>()</argsstring>
+        <name>rbegin</name>
+        <briefdescription>
+<para>same as std::map rbegin Returns an <ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a2ed34426ad646b20133c583ccde1a00f" kindref="member">reverse_iterator</ref> corresponding to the reverse_beginning of the map or the reverse_end of the map if the map is empty. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" line="275" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" bodystart="275" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1aee19a61b49b406f6b40a9bc8db97cef3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a0f373a75224373bf75550f26023647e3" kindref="member">const_reverse_iterator</ref></type>
+        <definition>const_reverse_iterator Alembic::Util::ALEMBIC_VERSION_NS::TokenMap::rbegin</definition>
+        <argsstring>() const </argsstring>
+        <name>rbegin</name>
+        <briefdescription>
+<para>same as std::map rbegin const Returns a <ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a0f373a75224373bf75550f26023647e3" kindref="member">const_reverse_iterator</ref> corresponding to the beginning of the map or the end of the map if the map is empty. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" line="280" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" bodystart="280" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a09549542fba72e6accaa88c352655e48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a2ed34426ad646b20133c583ccde1a00f" kindref="member">reverse_iterator</ref></type>
+        <definition>reverse_iterator Alembic::Util::ALEMBIC_VERSION_NS::TokenMap::rend</definition>
+        <argsstring>()</argsstring>
+        <name>rend</name>
+        <briefdescription>
+<para>same as std::map rend Returns an <ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a2ed34426ad646b20133c583ccde1a00f" kindref="member">reverse_iterator</ref> corresponding to the reverse end of the map. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" line="285" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" bodystart="285" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1ac19ed9b490dad53d56f157965e4eb48e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a0f373a75224373bf75550f26023647e3" kindref="member">const_reverse_iterator</ref></type>
+        <definition>const_reverse_iterator Alembic::Util::ALEMBIC_VERSION_NS::TokenMap::rend</definition>
+        <argsstring>() const </argsstring>
+        <name>rend</name>
+        <briefdescription>
+<para>same as std::map rend const Returns an <ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a0f373a75224373bf75550f26023647e3" kindref="member">const_reverse_iterator</ref> corresponding to the end of the map. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" line="290" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" bodystart="290" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1ad5bd2e6203ec7d895024b0de810dd078" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::Util::ALEMBIC_VERSION_NS::TokenMap::exactMatch</definition>
+        <argsstring>(const TokenMap &amp;iOther) const </argsstring>
+        <name>exactMatch</name>
+        <param>
+          <type>const <ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map" kindref="compound">TokenMap</ref> &amp;</type>
+          <declname>iOther</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Return an exact match ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" line="299" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" bodystart="298" bodyend="301"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A wrapper around std::map that serializes and deserializes the map into a doubly-tokenized string, usually of the form token=value;token=value;token=value;. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" line="61" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/TokenMap.h" bodystart="60" bodyend="305"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1ae222584caa9ea9666a3f656321dd2f10" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap</scope><name>begin</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1aafe572ea669ed570ad55c8b41f89f930" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap</scope><name>begin</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a4eac9dde4ecb3a60503c149618259c30" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap</scope><name>clear</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a09f5d860e221affa88870cd4080eaf7c" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap</scope><name>const_iterator</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a74617804639aa715e9896bbfdeebe78a" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap</scope><name>const_reference</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a0f373a75224373bf75550f26023647e3" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap</scope><name>const_reverse_iterator</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1aeb3635634216f2326917e96e5b2c2431" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap</scope><name>data_type</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a87542053d155b16734ae5329fea78445" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap</scope><name>end</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1ae4ee696a890474a9affc71080dba7e7b" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap</scope><name>end</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1ad5bd2e6203ec7d895024b0de810dd078" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap</scope><name>exactMatch</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a9df351e3df3d66b0b225186cf5b833ff" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap</scope><name>get</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a69c9a9778be381c57a2fc6e29e4815e4" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap</scope><name>iterator</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1af1a6d50f270f52b7551f55a9ae95c781" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap</scope><name>key_type</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a449d8a15b9b59b35908c52587f792384" prot="protected" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap</scope><name>m_map</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a7627fa507c839e25eb6ab23b74dfb482" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap</scope><name>map_type</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1ae1490418b73de05cfd307be78649d576" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap</scope><name>operator[]</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1aa1e2091af3ee71cdc02addb9d525df76" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap</scope><name>rbegin</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1aee19a61b49b406f6b40a9bc8db97cef3" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap</scope><name>rbegin</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a4b7aa85b7eaf6da515e56ae298e983a1" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap</scope><name>reference</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a09549542fba72e6accaa88c352655e48" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap</scope><name>rend</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1ac19ed9b490dad53d56f157965e4eb48e" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap</scope><name>rend</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a2ed34426ad646b20133c583ccde1a00f" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap</scope><name>reverse_iterator</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1af04fae648478c9bc4eb656e104db8250" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap</scope><name>set</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a2e8729ba09f4268078ffb988a0188e4f" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap</scope><name>setUnique</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a8a88031e719b28448e424d28d3651e7a" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap</scope><name>setValue</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1abfae898c6dc86b66127a761e4adb5d9f" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap</scope><name>size</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1afba3bb59c66bc68dd0ae7e3b7a5e7b5a" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap</scope><name>tokenExists</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a7ab7678037d12b8d655abf0ff523becd" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap</scope><name>TokenMap</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1aaefbbdfac5b7c1092471c41e8db94e65" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap</scope><name>TokenMap</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1a1b1073df84d2fc73601a282fcaf106c7" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap</scope><name>value</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_token_map_1ac41d683f211091f0dbbba0bb82bf1302" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::TokenMap</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

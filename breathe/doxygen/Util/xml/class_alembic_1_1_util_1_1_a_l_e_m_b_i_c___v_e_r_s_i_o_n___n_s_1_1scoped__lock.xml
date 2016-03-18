@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1scoped__lock" kind="class" prot="public">
+    <compoundname>Alembic::Util::ALEMBIC_VERSION_NS::scoped_lock</compoundname>
+    <basecompoundref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1noncopyable" prot="private" virt="non-virtual">Alembic::Util::ALEMBIC_VERSION_NS::noncopyable</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1scoped__lock_1a8cabfd9880378a37e73388b20d9971fb" prot="private" static="no" mutable="no">
+        <type><ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1mutex" kindref="compound">mutex</ref> &amp;</type>
+        <definition>mutex&amp; Alembic::Util::ALEMBIC_VERSION_NS::scoped_lock::m</definition>
+        <argsstring></argsstring>
+        <name>m</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="255" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1scoped__lock_1acb1513ba66eaaef8ca2d3e2f922f3e1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Util::ALEMBIC_VERSION_NS::scoped_lock::scoped_lock</definition>
+        <argsstring>(mutex &amp;l)</argsstring>
+        <name>scoped_lock</name>
+        <param>
+          <type><ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1mutex" kindref="compound">mutex</ref> &amp;</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="245" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="244" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1scoped__lock_1adc7ddf975bcbfecd2adb264b6269d8f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::Util::ALEMBIC_VERSION_NS::scoped_lock::~scoped_lock</definition>
+        <argsstring>()</argsstring>
+        <name>~scoped_lock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="250" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="249" bodyend="252"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="80">
+        <label>Alembic::Util::ALEMBIC_VERSION_NS::scoped_lock</label>
+        <link refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1scoped__lock"/>
+        <childnode refid="81" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="81">
+        <label>Alembic::Util::ALEMBIC_VERSION_NS::noncopyable</label>
+        <link refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1noncopyable"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="82">
+        <label>Alembic::Util::ALEMBIC_VERSION_NS::scoped_lock</label>
+        <link refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1scoped__lock"/>
+        <childnode refid="83" relation="private-inheritance">
+        </childnode>
+        <childnode refid="84" relation="usage">
+          <edgelabel>m</edgelabel>
+        </childnode>
+      </node>
+      <node id="84">
+        <label>Alembic::Util::ALEMBIC_VERSION_NS::mutex</label>
+        <link refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1mutex"/>
+        <childnode refid="83" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="83">
+        <label>Alembic::Util::ALEMBIC_VERSION_NS::noncopyable</label>
+        <link refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1noncopyable"/>
+      </node>
+    </collaborationgraph>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="242" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="241" bodyend="256"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1scoped__lock_1a8cabfd9880378a37e73388b20d9971fb" prot="private" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::scoped_lock</scope><name>m</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1noncopyable_1a2bdd863c2bf4fe5ff977bf5708f3e054" prot="private" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::scoped_lock</scope><name>noncopyable</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1scoped__lock_1acb1513ba66eaaef8ca2d3e2f922f3e1b" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::scoped_lock</scope><name>scoped_lock</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1noncopyable_1a4b69858f6289f2b5a18c0553f1bb92de" prot="private" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::scoped_lock</scope><name>~noncopyable</name></member>
+      <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1scoped__lock_1adc7ddf975bcbfecd2adb264b6269d8f0" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::scoped_lock</scope><name>~scoped_lock</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

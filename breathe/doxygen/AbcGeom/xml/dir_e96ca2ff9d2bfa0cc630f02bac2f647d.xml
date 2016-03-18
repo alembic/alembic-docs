@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="dir_e96ca2ff9d2bfa0cc630f02bac2f647d" kind="dir">
+    <compoundname>/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/</compoundname>
+    <innerfile refid="_all_8h">All.h</innerfile>
+    <innerfile refid="_archive_bounds_8h">ArchiveBounds.h</innerfile>
+    <innerfile refid="_basis_8h">Basis.h</innerfile>
+    <innerfile refid="_camera_sample_8h">CameraSample.h</innerfile>
+    <innerfile refid="_curve_type_8h">CurveType.h</innerfile>
+    <innerfile refid="_face_set_exclusivity_8h">FaceSetExclusivity.h</innerfile>
+    <innerfile refid="_film_back_xform_op_8h">FilmBackXformOp.h</innerfile>
+    <innerfile refid="_foundation_8h">Foundation.h</innerfile>
+    <innerfile refid="_geometry_scope_8h">GeometryScope.h</innerfile>
+    <innerfile refid="_i_camera_8h">ICamera.h</innerfile>
+    <innerfile refid="_i_curves_8h">ICurves.h</innerfile>
+    <innerfile refid="_i_face_set_8h">IFaceSet.h</innerfile>
+    <innerfile refid="_i_geom_base_8h">IGeomBase.h</innerfile>
+    <innerfile refid="_i_geom_param_8h">IGeomParam.h</innerfile>
+    <innerfile refid="_i_light_8h">ILight.h</innerfile>
+    <innerfile refid="_i_nu_patch_8h">INuPatch.h</innerfile>
+    <innerfile refid="_i_points_8h">IPoints.h</innerfile>
+    <innerfile refid="_i_poly_mesh_8h">IPolyMesh.h</innerfile>
+    <innerfile refid="_i_sub_d_8h">ISubD.h</innerfile>
+    <innerfile refid="_i_xform_8h">IXform.h</innerfile>
+    <innerfile refid="_o_camera_8h">OCamera.h</innerfile>
+    <innerfile refid="_o_curves_8h">OCurves.h</innerfile>
+    <innerfile refid="_o_face_set_8h">OFaceSet.h</innerfile>
+    <innerfile refid="_o_geom_base_8h">OGeomBase.h</innerfile>
+    <innerfile refid="_o_geom_param_8h">OGeomParam.h</innerfile>
+    <innerfile refid="_o_light_8h">OLight.h</innerfile>
+    <innerfile refid="_o_nu_patch_8h">ONuPatch.h</innerfile>
+    <innerfile refid="_o_points_8h">OPoints.h</innerfile>
+    <innerfile refid="_o_poly_mesh_8h">OPolyMesh.h</innerfile>
+    <innerfile refid="_o_sub_d_8h">OSubD.h</innerfile>
+    <innerfile refid="_o_xform_8h">OXform.h</innerfile>
+    <innerfile refid="_schema_info_declarations_8h">SchemaInfoDeclarations.h</innerfile>
+    <innerfile refid="_visibility_8h">Visibility.h</innerfile>
+    <innerfile refid="_xform_op_8h">XformOp.h</innerfile>
+    <innerfile refid="_xform_sample_8h">XformSample.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/"/>
+  </compounddef>
+</doxygen>

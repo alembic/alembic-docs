@@ -1,0 +1,366 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.6.1">
+  <compounddef id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op" kind="class" prot="public">
+    <compoundname>Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp</compoundname>
+    <includes refid="_film_back_xform_op_8h" local="no">FilmBackXformOp.h</includes>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1a24dbb7cd482fd2bac3bc845dd9b844be" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class ICameraSchema</definition>
+        <argsstring></argsstring>
+        <name>ICameraSchema</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/FilmBackXformOp.h" line="103" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/FilmBackXformOp.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1a71baa0ac19740d606fad47b2c38028ec" prot="private" static="no" mutable="no">
+        <type>FilmBackXformOperationType</type>
+        <definition>FilmBackXformOperationType Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp::m_type</definition>
+        <argsstring></argsstring>
+        <name>m_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/FilmBackXformOp.h" line="106" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/FilmBackXformOp.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1ad97964969d147c723935669aa50b9c14" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp::m_hint</definition>
+        <argsstring></argsstring>
+        <name>m_hint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/FilmBackXformOp.h" line="107" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/FilmBackXformOp.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1aec28cea9352d4aff4538f3b7676df588" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp::m_channels</definition>
+        <argsstring></argsstring>
+        <name>m_channels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/FilmBackXformOp.h" line="109" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/FilmBackXformOp.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1a868590b2315f9177abc77a92c97fc585" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp::FilmBackXformOp</definition>
+        <argsstring>()</argsstring>
+        <name>FilmBackXformOp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/FilmBackXformOp.h" line="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1abe5bc2101e0c30011e16275c191be540" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp::FilmBackXformOp</definition>
+        <argsstring>(const FilmBackXformOperationType iType, const std::string &amp;iHint)</argsstring>
+        <name>FilmBackXformOp</name>
+        <param>
+          <type>const FilmBackXformOperationType</type>
+          <declname>iType</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iHint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/FilmBackXformOp.h" line="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1aa8667b0427bbad02b170b688e935dc74" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>FilmBackXformOperationType</type>
+        <definition>FilmBackXformOperationType Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp::getType</definition>
+        <argsstring>() const </argsstring>
+        <name>getType</name>
+        <briefdescription>
+<para>Get the type of transform operation. (Translate, Scale, Matrix). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/FilmBackXformOp.h" line="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1abac72ea2c273b936c2f11e5a9aae487a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp::getHint</definition>
+        <argsstring>() const </argsstring>
+        <name>getHint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the hint to help disambiguate certain options that may have the same type. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/FilmBackXformOp.h" line="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1ad4f70fd9d347b4f5daeefda5ed559482" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp::getTypeAndHint</definition>
+        <argsstring>() const </argsstring>
+        <name>getTypeAndHint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the type and hint, where the first character is the type (t for translate, s for scale, m for matrix) and the rest of the returned string is the optional hint value. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/FilmBackXformOp.h" line="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1a6d7ef32e33ee3cf101a08e912c54abf2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::size_t</type>
+        <definition>std::size_t Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp::getNumChannels</definition>
+        <argsstring>() const </argsstring>
+        <name>getNumChannels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get the number of components that this operation has based on the type. Translate and Scale have 2, and Matrix has 9. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/FilmBackXformOp.h" line="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1a658315304524a20a81a0927b4aa9fe13" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp::getChannelValue</definition>
+        <argsstring>(std::size_t iIndex) const </argsstring>
+        <name>getChannelValue</name>
+        <param>
+          <type>std::size_t</type>
+          <declname>iIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get a single channel, 0 will be returned if iIndex is greater than numChannels - 1 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/FilmBackXformOp.h" line="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1aec2641d63e3f2fb588078e350ecc205b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp::setChannelValue</definition>
+        <argsstring>(std::size_t iIndex, double iVal)</argsstring>
+        <name>setChannelValue</name>
+        <param>
+          <type>std::size_t</type>
+          <declname>iIndex</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>iVal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set a single channel; nothing will be set if iIndex is greater than numChannels - 1. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/FilmBackXformOp.h" line="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1acb4a96ed267eb027d67a97b5d74933a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp::setTranslate</definition>
+        <argsstring>(const Abc::V2d &amp;iTrans)</argsstring>
+        <name>setTranslate</name>
+        <param>
+          <type>const Abc::V2d &amp;</type>
+          <declname>iTrans</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/FilmBackXformOp.h" line="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1af91c382adf518605e9955731c6678671" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp::setScale</definition>
+        <argsstring>(const Abc::V2d &amp;iScale)</argsstring>
+        <name>setScale</name>
+        <param>
+          <type>const Abc::V2d &amp;</type>
+          <declname>iScale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/FilmBackXformOp.h" line="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1a748c45ac30a46a063128c4ec0bf9b1a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp::setMatrix</definition>
+        <argsstring>(const Abc::M33d &amp;iMatrix)</argsstring>
+        <name>setMatrix</name>
+        <param>
+          <type>const Abc::M33d &amp;</type>
+          <declname>iMatrix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/FilmBackXformOp.h" line="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1af16364d3b6d2217a601ed3ac18a49ac0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Abc::V2d</type>
+        <definition>Abc::V2d Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp::getTranslate</definition>
+        <argsstring>() const </argsstring>
+        <name>getTranslate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/FilmBackXformOp.h" line="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1a1662fcf4722053fa04850bd648833125" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Abc::V2d</type>
+        <definition>Abc::V2d Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp::getScale</definition>
+        <argsstring>() const </argsstring>
+        <name>getScale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/FilmBackXformOp.h" line="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1a5e48d80408bf0d9e22330b8443ff3f60" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>Abc::M33d</type>
+        <definition>Abc::M33d Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp::getMatrix</definition>
+        <argsstring>() const </argsstring>
+        <name>getMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/FilmBackXformOp.h" line="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1ae8b8e760f17982cac9ee854382de9db1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp::isTranslateOp</definition>
+        <argsstring>() const </argsstring>
+        <name>isTranslateOp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/FilmBackXformOp.h" line="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1a1157395bd6dcd9915f13099ba5adcea4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp::isScaleOp</definition>
+        <argsstring>() const </argsstring>
+        <name>isScaleOp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/FilmBackXformOp.h" line="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1ad67c93746c04504661eb85a45ac154e9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp::isMatrixOp</definition>
+        <argsstring>() const </argsstring>
+        <name>isMatrixOp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/FilmBackXformOp.h" line="98"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1a143d7bc6cec1fd8d29a2eb62890cab88" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp::FilmBackXformOp</definition>
+        <argsstring>(const std::string &amp;iTypeAndHint)</argsstring>
+        <name>FilmBackXformOp</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>iTypeAndHint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/FilmBackXformOp.h" line="104"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>FilmBack Xform Operation This class holds the data about a particular transform operation, but does not hold the actual data to calculate a 3x3 matrix. It holds the type of operation (Translate, Scale, Matrix), a hint about the type which can be interpreted by packages like Maya, and what particular parts of the operations can change over time. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/FilmBackXformOp.h" line="54" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/FilmBackXformOp.h" bodystart="53" bodyend="111"/>
+    <listofallmembers>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1a868590b2315f9177abc77a92c97fc585" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp</scope><name>FilmBackXformOp</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1abe5bc2101e0c30011e16275c191be540" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp</scope><name>FilmBackXformOp</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1a143d7bc6cec1fd8d29a2eb62890cab88" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp</scope><name>FilmBackXformOp</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1a658315304524a20a81a0927b4aa9fe13" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp</scope><name>getChannelValue</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1abac72ea2c273b936c2f11e5a9aae487a" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp</scope><name>getHint</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1a5e48d80408bf0d9e22330b8443ff3f60" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp</scope><name>getMatrix</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1a6d7ef32e33ee3cf101a08e912c54abf2" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp</scope><name>getNumChannels</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1a1662fcf4722053fa04850bd648833125" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp</scope><name>getScale</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1af16364d3b6d2217a601ed3ac18a49ac0" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp</scope><name>getTranslate</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1aa8667b0427bbad02b170b688e935dc74" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp</scope><name>getType</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1ad4f70fd9d347b4f5daeefda5ed559482" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp</scope><name>getTypeAndHint</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1a24dbb7cd482fd2bac3bc845dd9b844be" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp</scope><name>ICameraSchema</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1ad67c93746c04504661eb85a45ac154e9" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp</scope><name>isMatrixOp</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1a1157395bd6dcd9915f13099ba5adcea4" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp</scope><name>isScaleOp</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1ae8b8e760f17982cac9ee854382de9db1" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp</scope><name>isTranslateOp</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1aec28cea9352d4aff4538f3b7676df588" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp</scope><name>m_channels</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1ad97964969d147c723935669aa50b9c14" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp</scope><name>m_hint</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1a71baa0ac19740d606fad47b2c38028ec" prot="private" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp</scope><name>m_type</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1aec2641d63e3f2fb588078e350ecc205b" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp</scope><name>setChannelValue</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1a748c45ac30a46a063128c4ec0bf9b1a2" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp</scope><name>setMatrix</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1af91c382adf518605e9955731c6678671" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp</scope><name>setScale</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_film_back_xform_op_1acb4a96ed267eb027d67a97b5d74933a5" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::FilmBackXformOp</scope><name>setTranslate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
