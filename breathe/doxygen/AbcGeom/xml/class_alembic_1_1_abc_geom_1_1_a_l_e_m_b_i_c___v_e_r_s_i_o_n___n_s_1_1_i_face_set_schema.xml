@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" line="231" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" bodystart="231" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" line="236" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" bodystart="236" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -261,6 +261,19 @@
         </inbodydescription>
         <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" line="199"/>
       </memberdef>
+      <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1acda9290fb77a44dad29cb869d676f8f7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Abc::IInt32ArrayProperty</type>
+        <definition>Abc::IInt32ArrayProperty Alembic::AbcGeom::ALEMBIC_VERSION_NS::IFaceSetSchema::getFacesProperty</definition>
+        <argsstring>() const </argsstring>
+        <name>getFacesProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" line="202" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" bodystart="201" bodyend="204"/>
+      </memberdef>
       <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1ab62aacd1f2191919013f8934b4a0f65f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type>void</type>
         <definition>void Alembic::AbcGeom::ALEMBIC_VERSION_NS::IFaceSetSchema::reset</definition>
@@ -273,7 +286,7 @@
 <para>Reset returns this function set to an empty, default state. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" line="210" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" bodystart="209" bodyend="214"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" line="215" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" bodystart="214" bodyend="219"/>
       </memberdef>
       <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1ab8f16b84ce33891f96279bb8901e0702" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
         <type>bool</type>
@@ -287,7 +300,7 @@
 <para>Valid returns whether this function set is valid. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" line="219" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" bodystart="218" bodyend="222"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" line="224" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" bodystart="223" bodyend="227"/>
       </memberdef>
       <memberdef kind="function" id="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1a36954e3825a684c71862735046dcff6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -305,7 +318,7 @@
 <para>unspecified-bool-type operator overload. ... </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" line="226"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" line="231"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -329,7 +342,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" line="229"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" line="234"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -372,13 +385,14 @@
         <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema"/>
       </node>
     </collaborationgraph>
-    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" line="53" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" bodystart="52" bodyend="232"/>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" line="53" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" bodystart="52" bodyend="237"/>
     <listofallmembers>
       <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1a36954e3825a684c71862735046dcff6a" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IFaceSetSchema</scope><name>ALEMBIC_OVERRIDE_OPERATOR_BOOL</name></member>
       <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1ace01f461086b19e1274561467678e2b0" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IFaceSetSchema</scope><name>get</name></member>
       <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a9736726f547c000bdf9baf62206aaf8a" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IFaceSetSchema</scope><name>getArbGeomParams</name></member>
       <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1a00553f71ee5c5db700c72761e991d89f" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IFaceSetSchema</scope><name>getChildBoundsProperty</name></member>
       <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1a5d0dd5d98c6d3c31f8b15040a188b9a7" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IFaceSetSchema</scope><name>getFaceExclusivity</name></member>
+      <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1acda9290fb77a44dad29cb869d676f8f7" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IFaceSetSchema</scope><name>getFacesProperty</name></member>
       <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1a785c96a396dcc753f2926a00c66d1748" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IFaceSetSchema</scope><name>getNumSamples</name></member>
       <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_geom_base_schema_1ab0d3bc72027537d6c0ecd94480335bcd" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IFaceSetSchema</scope><name>getSelfBoundsProperty</name></member>
       <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1ab5175dc984d279ef457cb1d4410287ff" prot="public" virt="non-virtual"><scope>Alembic::AbcGeom::ALEMBIC_VERSION_NS::IFaceSetSchema</scope><name>getTimeSampling</name></member>

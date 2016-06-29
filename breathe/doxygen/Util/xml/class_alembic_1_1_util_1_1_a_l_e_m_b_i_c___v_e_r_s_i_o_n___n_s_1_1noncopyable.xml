@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="145" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="145" bodyend="145"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="116" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="116" bodyend="116"/>
       </memberdef>
       <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1noncopyable_1a4b69858f6289f2b5a18c0553f1bb92de" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="146" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="146" bodyend="146"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="117" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="117" bodyend="117"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="149"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="120"/>
       </memberdef>
       <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1noncopyable_1a5b756ef2e6bec39f7f05819dfe3dfd18" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1noncopyable" kindref="compound">noncopyable</ref> &amp;</type>
@@ -63,7 +63,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="150"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="121"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -88,7 +88,7 @@
         <link refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1noncopyable"/>
       </node>
     </inheritancegraph>
-    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="143" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="142" bodyend="151"/>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="114" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="113" bodyend="122"/>
     <listofallmembers>
       <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1noncopyable_1a2bdd863c2bf4fe5ff977bf5708f3e054" prot="protected" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::noncopyable</scope><name>noncopyable</name></member>
       <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1noncopyable_1a77305a344c8093e4395892221fc81191" prot="private" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::noncopyable</scope><name>noncopyable</name></member>

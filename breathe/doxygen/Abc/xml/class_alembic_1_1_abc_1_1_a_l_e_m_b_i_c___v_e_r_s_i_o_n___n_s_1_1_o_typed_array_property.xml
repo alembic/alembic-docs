@@ -64,9 +64,9 @@
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_array_property_1a73a917cf60a34bb18f3e5fccc82abf35" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>const std::string &amp;</type>
-        <definition>static const std::string&amp; Alembic::Abc::ALEMBIC_VERSION_NS::OTypedArrayProperty&lt; TRAITS &gt;::getInterpretation</definition>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_array_property_1a83a3684a4e7fc7794ee5fb669d6cf2bd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>static const char* Alembic::Abc::ALEMBIC_VERSION_NS::OTypedArrayProperty&lt; TRAITS &gt;::getInterpretation</definition>
         <argsstring>()</argsstring>
         <name>getInterpretation</name>
         <briefdescription>
@@ -75,7 +75,7 @@
 <para>Return the interpretation expected of this property. An empty interpretation matches everything </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedArrayProperty.h" line="64" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedArrayProperty.h" bodystart="63" bodyend="67"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedArrayProperty.h" line="64" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedArrayProperty.h" bodystart="63" bodyend="66"/>
       </memberdef>
       <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_array_property_1a40aa53b424f04bb7394abe3ff6498fd6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -97,7 +97,7 @@
 <para>This will check whether or not a given entity (as represented by a metadata) strictly matches the interpretation of this typed property </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedArrayProperty.h" line="74" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedArrayProperty.h" bodystart="72" bodyend="77"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedArrayProperty.h" line="73" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedArrayProperty.h" bodystart="71" bodyend="76"/>
       </memberdef>
       <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_array_property_1ac8963749923c824cc8ee4cce9ad50028" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -119,7 +119,7 @@
 <para>This will check whether or not a given object (as represented by an property header) strictly matches the interpretation of this typed property, as well as the data type. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedArrayProperty.h" line="84" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedArrayProperty.h" bodystart="82" bodyend="92"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedArrayProperty.h" line="83" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedArrayProperty.h" bodystart="81" bodyend="91"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -134,7 +134,7 @@
 <para>Create a default (empty) TypedArrayProperty ... </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedArrayProperty.h" line="100" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedArrayProperty.h" bodystart="100" bodyend="100"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedArrayProperty.h" line="99" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedArrayProperty.h" bodystart="99" bodyend="99"/>
       </memberdef>
       <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_array_property_1a6b0b84d5c6d753ec3e81aacb9a661700" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -175,7 +175,7 @@
 <para>Create a new TypedArrayProperty as a child of the passed COMPOUND_PTR <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_arguments" kindref="compound">Arguments</ref> can specify metadata, timesampling, and error handling. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedArrayProperty.h" line="112" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedArrayProperty.h" bodystart="142" bodyend="186"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedArrayProperty.h" line="111" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedArrayProperty.h" bodystart="141" bodyend="185"/>
       </memberdef>
       <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_array_property_1a8098afa1591b3c8165f5c670d1995333" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -206,7 +206,7 @@
 <para>Wrap an existing property. This will check to make sure it can wrap. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedArrayProperty.h" line="120" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedArrayProperty.h" bodystart="190" bodyend="216"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedArrayProperty.h" line="119" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedArrayProperty.h" bodystart="189" bodyend="215"/>
       </memberdef>
       <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_array_property_1ac71e6ccdf9c76a2d0e1164df0aeb49e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -223,7 +223,7 @@
 <para>Set a sample using a reference to a typed array sample-type, instead of a void* ArraySample </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedArrayProperty.h" line="129" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedArrayProperty.h" bodystart="128" bodyend="131"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedArrayProperty.h" line="128" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedArrayProperty.h" bodystart="127" bodyend="130"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -285,7 +285,7 @@
         <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_error_handler"/>
       </node>
     </collaborationgraph>
-    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedArrayProperty.h" line="51" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedArrayProperty.h" bodystart="50" bodyend="132"/>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedArrayProperty.h" line="51" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedArrayProperty.h" bodystart="50" bodyend="131"/>
     <listofallmembers>
       <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a60f48919bb320e49380f1ff64c571985" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OTypedArrayProperty</scope><name>ALEMBIC_OPERATOR_BOOL</name></member>
       <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1af36435a2f134e3bd7ae9452772bbc359" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OTypedArrayProperty</scope><name>Base</name></member>
@@ -295,7 +295,7 @@
       <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1af35d99de9b57714c46c454c03e620268" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OTypedArrayProperty</scope><name>getErrorHandler</name></member>
       <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1a64d9e1f5ed8dfab78f490d3e7a06643f" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OTypedArrayProperty</scope><name>getErrorHandlerPolicy</name></member>
       <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1aaa52ea351d4bf3fa296a619b752476f0" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OTypedArrayProperty</scope><name>getHeader</name></member>
-      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_array_property_1a73a917cf60a34bb18f3e5fccc82abf35" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OTypedArrayProperty</scope><name>getInterpretation</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_array_property_1a83a3684a4e7fc7794ee5fb669d6cf2bd" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OTypedArrayProperty</scope><name>getInterpretation</name></member>
       <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1ad475a461622add945b742e2e2a49b044" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OTypedArrayProperty</scope><name>getMetaData</name></member>
       <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a54e96572abb02a3ecb6cdf31264dfd21" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OTypedArrayProperty</scope><name>getName</name></member>
       <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_array_property_1a0955b711961bbef687ca33d10a82773e" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OTypedArrayProperty</scope><name>getNumSamples</name></member>

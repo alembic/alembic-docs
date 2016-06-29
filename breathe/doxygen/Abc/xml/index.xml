@@ -237,8 +237,8 @@
   <compound refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema" kind="class"><name>Alembic::Abc::ALEMBIC_VERSION_NS::ISchema</name>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_1a8193e44ebdb1b80942c69e6c61403c0c" kind="typedef"><name>info_type</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_1a5bb0fc471ca5523b90130d6be7a5232f" kind="typedef"><name>this_type</name></member>
-    <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_1ae87ad2c3f0f1456086d80020ccda6dd6" kind="function"><name>getSchemaTitle</name></member>
-    <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_1a90ef29812ad15ae826c500b106572ef1" kind="function"><name>getDefaultSchemaName</name></member>
+    <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_1a183ae18784d5870f33c601b7fcc0fa43" kind="function"><name>getSchemaTitle</name></member>
+    <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_1a1349e2ca92dfcf17e8f468718116459c" kind="function"><name>getDefaultSchemaName</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_1a42611e09c476d4292350bfc49ab4d952" kind="function"><name>matches</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_1a134a14381b48be0012e7c13d8cbcb464" kind="function"><name>matches</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_1ab50abb0361f8d396a88a72c844e8630b" kind="function"><name>ISchema</name></member>
@@ -253,8 +253,8 @@
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_object_1ad3a09a78e0c73722b67810e2a228674d" kind="typedef"><name>schema_type</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_object_1a1d6304e47ab1f38a9ba3f6629910c51f" kind="typedef"><name>this_type</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_object_1ae2c561515925f4eaee54ae8988e99e07" kind="variable"><name>m_schema</name></member>
-    <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_object_1a4b7016d09d70197584aac05757eebbf7" kind="function"><name>getSchemaObjTitle</name></member>
-    <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_object_1ae1d7a0e0233d98ac3bff7eaa46b8d242" kind="function"><name>getSchemaTitle</name></member>
+    <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_object_1a5c94747753a186de3f50670221cc5b78" kind="function"><name>getSchemaObjTitle</name></member>
+    <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_object_1aa942cf19f2d8714b16131ba5b12183da" kind="function"><name>getSchemaTitle</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_object_1ac8f5e2b6087e9554626a8c759aa78324" kind="function"><name>matches</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_object_1afe5dbeb1333398433d256de702bd265b" kind="function"><name>matches</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_object_1adba70864313b42a9a66bd7db94342ba4" kind="function"><name>ISchemaObject</name></member>
@@ -272,7 +272,7 @@
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_array_property_1a0be8f81cf2aa54cabcd5da6b29df43e2" kind="typedef"><name>value_type</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_array_property_1ab2cefc4c573d082391b1eb77878be493" kind="typedef"><name>sample_type</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_array_property_1a208ac4893e6010432b9462346bd094db" kind="typedef"><name>sample_ptr_type</name></member>
-    <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_array_property_1a5194b2a340866d32b31a51b7c741c679" kind="function"><name>getInterpretation</name></member>
+    <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_array_property_1ad42319bc75447a1c47e7afb0b1feef61" kind="function"><name>getInterpretation</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_array_property_1a46ee888ba6d1bbc497f043dd9057b4ca" kind="function"><name>matches</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_array_property_1a64b830771d5a0691603df428e6b85fb9" kind="function"><name>matches</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_array_property_1acf1eee887876d5ae3c03e8de1fd0f17d" kind="function"><name>ITypedArrayProperty</name></member>
@@ -285,7 +285,7 @@
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_scalar_property_1a035ffd11b938b894cdbfddc5b7d43b99" kind="typedef"><name>traits_type</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_scalar_property_1afb0dc485cc5a6f4cbeb3e2a43eee5800" kind="typedef"><name>this_type</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_scalar_property_1a126f5bd59d930c646e5117ea783649c2" kind="typedef"><name>value_type</name></member>
-    <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_scalar_property_1a33a21ae5342be980f5ee442a2c9d1e05" kind="function"><name>getInterpretation</name></member>
+    <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_scalar_property_1ab527985e2035cbfdd1a9cf83bf1dca51" kind="function"><name>getInterpretation</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_scalar_property_1a872510707e78eca22347397f3dd269ca" kind="function"><name>matches</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_scalar_property_1a9a539410de16084f6bbaefb122c59faf" kind="function"><name>matches</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_scalar_property_1ac5f9c9f840ab5804a47cd91653d6d2d2" kind="function"><name>ITypedScalarProperty</name></member>
@@ -412,9 +412,9 @@
   <compound refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_schema" kind="class"><name>Alembic::Abc::ALEMBIC_VERSION_NS::OSchema</name>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_schema_1aab36ae9c16345557127ed800deab2e23" kind="typedef"><name>info_type</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_schema_1adbe7e210c51bf982691cb744f046219a" kind="typedef"><name>this_type</name></member>
-    <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_schema_1aca475fb374b89cc2647fcbb15dae8f32" kind="function"><name>getSchemaTitle</name></member>
-    <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_schema_1ab680a02a12463e5f4d5232b16a18aa0b" kind="function"><name>getSchemaBaseType</name></member>
-    <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_schema_1a9d761492c395676d5537732cad7ba258" kind="function"><name>getDefaultSchemaName</name></member>
+    <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_schema_1a7526292dba7e673140873327e58e2bc8" kind="function"><name>getSchemaTitle</name></member>
+    <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_schema_1ae525954a8566929404265922c99bb28e" kind="function"><name>getSchemaBaseType</name></member>
+    <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_schema_1ac8e9a31ebd00d74ba74a9d4312595bbe" kind="function"><name>getDefaultSchemaName</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_schema_1a84cafb8d71c7eb428c0f0ae94d6251be" kind="function"><name>matches</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_schema_1ab0383f487493910551963801ade06d0c" kind="function"><name>matches</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_schema_1ac98b458f0ec20c1040e439336c47b662" kind="function"><name>OSchema</name></member>
@@ -427,8 +427,8 @@
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_schema_object_1aebc8bdded9ea9150249b36fb9bc37acf" kind="typedef"><name>schema_type</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_schema_object_1a0ad57c2ef9f0f805b682859234e17aa5" kind="typedef"><name>this_type</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_schema_object_1a6975265bcee47e10508e903543e9d967" kind="variable"><name>m_schema</name></member>
-    <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_schema_object_1a004c4ca18691283551a13b1d38a06b44" kind="function"><name>getSchemaObjTitle</name></member>
-    <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_schema_object_1a947022728b06f8de7f8be1c8d1a1f19b" kind="function"><name>getSchemaTitle</name></member>
+    <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_schema_object_1a5e8ecff2df1a2b7d0fba4d28eaab2a45" kind="function"><name>getSchemaObjTitle</name></member>
+    <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_schema_object_1a4650ef713f83a21f00aecf1b97ce626a" kind="function"><name>getSchemaTitle</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_schema_object_1aab8b0906f97a2c218e87b6337c9cc829" kind="function"><name>matches</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_schema_object_1a60beb7c3a21e040495c36f9582ce612c" kind="function"><name>matches</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_schema_object_1a3e7d551d093a4370841264fd3a22afe4" kind="function"><name>OSchemaObject</name></member>
@@ -444,7 +444,7 @@
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_array_property_1a7231683ce4615b31b73b3ca507091d1a" kind="typedef"><name>this_type</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_array_property_1ac64685ebe2a55d844c6011c66b7f1b08" kind="typedef"><name>value_type</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_array_property_1a09d0f37f59b8167ad144f5ef8a44b822" kind="typedef"><name>sample_type</name></member>
-    <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_array_property_1a73a917cf60a34bb18f3e5fccc82abf35" kind="function"><name>getInterpretation</name></member>
+    <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_array_property_1a83a3684a4e7fc7794ee5fb669d6cf2bd" kind="function"><name>getInterpretation</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_array_property_1a40aa53b424f04bb7394abe3ff6498fd6" kind="function"><name>matches</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_array_property_1ac8963749923c824cc8ee4cce9ad50028" kind="function"><name>matches</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_array_property_1a514697cbd37f51fef92815364620c2b3" kind="function"><name>OTypedArrayProperty</name></member>
@@ -456,7 +456,7 @@
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_scalar_property_1acc3aca89cbb9ff237d1db4f40ea6493a" kind="typedef"><name>traits_type</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_scalar_property_1a7e22193e4a754d49c25af7bf860ab73f" kind="typedef"><name>this_type</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_scalar_property_1a065fbd22bbc00ca2fcd49fa79195ec74" kind="typedef"><name>value_type</name></member>
-    <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_scalar_property_1a989b880f863bc77b3ed027ad693ccdd1" kind="function"><name>getInterpretation</name></member>
+    <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_scalar_property_1ab725fa0078a4896f0f2e42931e85784a" kind="function"><name>getInterpretation</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_scalar_property_1af760b760342b4d4366387cadb4246294" kind="function"><name>matches</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_scalar_property_1aa5dbb98901df7b775935266841354d44" kind="function"><name>matches</name></member>
     <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_scalar_property_1aba863d9c93b1590fbcdde1e33e6375f1" kind="function"><name>OTypedScalarProperty</name></member>
@@ -921,6 +921,8 @@
     <member refid="namespace_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1af3b2f5b34ed66d7222aef240f89ff478" kind="function"><name>GetErrorHandlerPolicy</name></member>
     <member refid="namespace_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a6c38b3c610946d145b11ebb7b80d9751" kind="function"><name>GetErrorHandlerPolicy</name></member>
     <member refid="namespace_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a85df265c412fd9aa2703cc831e45f889" kind="function"><name>GetErrorHandlerPolicy</name></member>
+  </compound>
+  <compound refid="namespace_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1@18" kind="namespace"><name>Alembic::Abc::ALEMBIC_VERSION_NS::@18</name>
   </compound>
   <compound refid="_all_8h" kind="file"><name>All.h</name>
   </compound>

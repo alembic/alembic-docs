@@ -308,7 +308,7 @@
   </compound>
   <compound refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample" kind="class"><name>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarSample</name>
     <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1a97525375912a4b065f0c7916632add05" kind="variable"><name>m_dataType</name></member>
-    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1ab58858661747769eddd73eb775eddc17" kind="variable"><name>m_data</name></member>
+    <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1a899535689e515e4b03e6277c577afc64" kind="variable"><name>m_data</name></member>
     <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1a8bbd76caa1bcfa0d3b4e148492bbb627" kind="function"><name>ScalarSample</name></member>
     <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1a1187e485215347cc226192b2f62b6bc5" kind="function"><name>copyFrom</name></member>
     <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1ad4b114f33af5ce136553bb91b92cd130" kind="function"><name>getDataType</name></member>

@@ -128,7 +128,7 @@
 <para>Default copy constructor used Default assignment operator used. Return the property&apos;s header. ... </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" line="102" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" bodystart="210" bodyend="221"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" line="102" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" bodystart="216" bodyend="226"/>
       </memberdef>
       <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a54e96572abb02a3ecb6cdf31264dfd21" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>const std::string &amp;</type>
@@ -258,7 +258,7 @@
 <para>This function returns the property&apos;s object, handily wrapped in an <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_object" kindref="compound">OObject</ref> wrapper. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" line="152" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" bodystart="225" bodyend="237"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" line="152" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OBaseProperty.h" bodystart="230" bodyend="242"/>
       </memberdef>
       <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1ab19409ecf0eed2b355ee2163f24d013e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>PROP_PTR</type>

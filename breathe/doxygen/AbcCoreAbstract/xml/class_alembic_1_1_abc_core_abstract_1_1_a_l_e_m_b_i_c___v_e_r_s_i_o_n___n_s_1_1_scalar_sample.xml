@@ -18,9 +18,9 @@
         </inbodydescription>
         <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ScalarSample.h" line="184" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcCoreAbstract/ScalarSample.h" bodystart="184" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1ab58858661747769eddd73eb775eddc17" prot="private" static="no" mutable="no">
-        <type>Alembic::Util::auto_ptr&lt; <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1_1_data" kindref="compound">Data</ref> &gt;</type>
-        <definition>Alembic::Util::auto_ptr&lt;Data&gt; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarSample::m_data</definition>
+      <memberdef kind="variable" id="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1a899535689e515e4b03e6277c577afc64" prot="private" static="no" mutable="no">
+        <type>Alembic::Util::unique_ptr&lt; <ref refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1_1_data" kindref="compound">Data</ref> &gt;</type>
+        <definition>Alembic::Util::unique_ptr&lt;Data&gt; Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarSample::m_data</definition>
         <argsstring></argsstring>
         <name>m_data</name>
         <briefdescription>
@@ -241,7 +241,7 @@
       <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1a6c9f951c71440922c659298a248a1155" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarSample</scope><name>equalWithRelAbsError</name></member>
       <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1acfbff1940cfe6d0c6ff91018e072cbcb" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarSample</scope><name>getData</name></member>
       <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1ad4b114f33af5ce136553bb91b92cd130" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarSample</scope><name>getDataType</name></member>
-      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1ab58858661747769eddd73eb775eddc17" prot="private" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarSample</scope><name>m_data</name></member>
+      <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1a899535689e515e4b03e6277c577afc64" prot="private" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarSample</scope><name>m_data</name></member>
       <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1a97525375912a4b065f0c7916632add05" prot="private" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarSample</scope><name>m_dataType</name></member>
       <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1ae7ffa09ba4aeea8932cf045883fc369f" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarSample</scope><name>operator&lt;</name></member>
       <member refid="class_alembic_1_1_abc_core_abstract_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_scalar_sample_1a3a5881ea1783d493641f377370b48853" prot="public" virt="non-virtual"><scope>Alembic::AbcCoreAbstract::ALEMBIC_VERSION_NS::ScalarSample</scope><name>operator&lt;</name></member>

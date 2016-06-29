@@ -4,7 +4,9 @@
     <compoundname>Alembic::Abc::ALEMBIC_VERSION_NS::TypedArraySample</compoundname>
     <templateparamlist>
       <param>
-        <type>class TRAITS</type>
+        <type>class</type>
+        <declname>TRAITS</declname>
+        <defname>TRAITS</defname>
       </param>
     </templateparamlist>
       <sectiondef kind="public-type">
@@ -261,7 +263,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/TypedArraySample.h" line="143"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/TypedArraySample.h" line="142"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -276,7 +278,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/TypedArraySample.h" line="137" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/TypedArraySample.h" bodystart="136" bodyend="140"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/TypedArraySample.h" line="137" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/TypedArraySample.h" bodystart="136" bodyend="139"/>
       </memberdef>
       </sectiondef>
     <briefdescription>

@@ -39,9 +39,9 @@
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_1ae87ad2c3f0f1456086d80020ccda6dd6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>const std::string &amp;</type>
-        <definition>static const std::string&amp; Alembic::Abc::ALEMBIC_VERSION_NS::ISchema&lt; INFO &gt;::getSchemaTitle</definition>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_1a183ae18784d5870f33c601b7fcc0fa43" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>static const char* Alembic::Abc::ALEMBIC_VERSION_NS::ISchema&lt; INFO &gt;::getSchemaTitle</definition>
         <argsstring>()</argsstring>
         <name>getSchemaTitle</name>
         <briefdescription>
@@ -50,11 +50,11 @@
 <para>Return the schema title expected of this property. An empty title matches everything </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" line="69" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" bodystart="68" bodyend="72"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" line="69" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" bodystart="68" bodyend="71"/>
       </memberdef>
-      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_1a90ef29812ad15ae826c500b106572ef1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>const std::string &amp;</type>
-        <definition>static const std::string&amp; Alembic::Abc::ALEMBIC_VERSION_NS::ISchema&lt; INFO &gt;::getDefaultSchemaName</definition>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_1a1349e2ca92dfcf17e8f468718116459c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>static const char* Alembic::Abc::ALEMBIC_VERSION_NS::ISchema&lt; INFO &gt;::getDefaultSchemaName</definition>
         <argsstring>()</argsstring>
         <name>getDefaultSchemaName</name>
         <briefdescription>
@@ -63,7 +63,7 @@
 <para>Return the default name for instances of this schema. Often something like &quot;.geom&quot; </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" line="77" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" bodystart="76" bodyend="80"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" line="76" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" bodystart="75" bodyend="78"/>
       </memberdef>
       <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_1a42611e09c476d4292350bfc49ab4d952" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -85,7 +85,7 @@
 <para>This will check whether or not a given entity (as represented by a metadata) strictly matches the interpretation of this schema object </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" line="87" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" bodystart="85" bodyend="97"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" line="85" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" bodystart="83" bodyend="95"/>
       </memberdef>
       <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_1a134a14381b48be0012e7c13d8cbcb464" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -107,7 +107,7 @@
 <para>This will check whether or not a given object (as represented by an object header) strictly matches the interpretation of this schema object, as well as the data type. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" line="104" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" bodystart="102" bodyend="106"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" line="102" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" bodystart="100" bodyend="104"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -122,7 +122,7 @@
 <para>The default constructor creates an empty <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema" kindref="compound">ISchema</ref> function set. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" line="114" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" bodystart="114" bodyend="114"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" line="112" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" bodystart="112" bodyend="112"/>
       </memberdef>
       <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_1a7c54d1c2bd2105f678063e046bb74836" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -158,7 +158,7 @@
 <para>Creates a new Compound Property Reader with the schema information added to the metadata. arguments count include error handling, strictness matching. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" line="125" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" bodystart="120" bodyend="127"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" line="123" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" bodystart="118" bodyend="125"/>
       </memberdef>
       <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_1ad25d7751a00c20476a1dd37ab70538df" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -190,7 +190,7 @@
 <para>Creates a new Compound Property Reader with the schema information and also the default name. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" line="136" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" bodystart="132" bodyend="140"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" line="134" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" bodystart="130" bodyend="138"/>
       </memberdef>
       <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_1a2bf9ff99fa6e1388090f04cff3bc5c90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -226,7 +226,7 @@
 <para>Wrap an existing compound property, checking that it matches the schema title info, if strict matching has been selected. <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_arguments" kindref="compound">Arguments</ref> allow selection of error handling and matching strictness </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" line="149"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" line="147"/>
       </memberdef>
       <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_1a1ad5780d7bfd839c0d1c97516609583d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type></type>
@@ -239,7 +239,7 @@
 <para>Default copy constructor used Default assignment operator used. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" line="154" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" bodystart="154" bodyend="154"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" line="152" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" bodystart="152" bodyend="152"/>
       </memberdef>
       <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_1a047fdd9a0b1d3d04c5305463e7a1abee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -273,7 +273,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" line="220" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" bodystart="211" bodyend="235"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" line="218" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" bodystart="209" bodyend="233"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -309,7 +309,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" line="161" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" bodystart="169" bodyend="206"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" line="159" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" bodystart="167" bodyend="204"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -371,14 +371,14 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" line="58" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" bodystart="57" bodyend="162"/>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" line="58" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/ISchema.h" bodystart="57" bodyend="160"/>
     <listofallmembers>
       <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1aec217001162584de32ef474d455e0b53" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::ISchema</scope><name>ALEMBIC_OPERATOR_BOOL</name></member>
       <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1af36435a2f134e3bd7ae9452772bbc359" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::ISchema</scope><name>Base</name></member>
       <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1aacf050bea2aa2dfb2c83ada9c7f010a1" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::ISchema</scope><name>Base</name></member>
       <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1a10b8bf6b14e26ea73a88fade1d42f193" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::ISchema</scope><name>Base</name></member>
       <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1a52aac85a858388673cd68d2e2d86b4e7" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::ISchema</scope><name>getDataType</name></member>
-      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_1a90ef29812ad15ae826c500b106572ef1" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::ISchema</scope><name>getDefaultSchemaName</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_1a1349e2ca92dfcf17e8f468718116459c" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::ISchema</scope><name>getDefaultSchemaName</name></member>
       <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1af35d99de9b57714c46c454c03e620268" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::ISchema</scope><name>getErrorHandler</name></member>
       <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1a64d9e1f5ed8dfab78f490d3e7a06643f" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::ISchema</scope><name>getErrorHandlerPolicy</name></member>
       <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1a162433ed10c2e50fd070a11bcf815a45" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::ISchema</scope><name>getHeader</name></member>
@@ -391,7 +391,7 @@
       <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_compound_property_1a75134a488bc9cd3ba4b2525bde692603" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::ISchema</scope><name>getPropertyHeader</name></member>
       <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1a377375c96f55232a9e7c45090c5387fa" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::ISchema</scope><name>getPropertyType</name></member>
       <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1a20f8157d7d7386aceb2d67e1c875c53f" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::ISchema</scope><name>getPtr</name></member>
-      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_1ae87ad2c3f0f1456086d80020ccda6dd6" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::ISchema</scope><name>getSchemaTitle</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_schema_1a183ae18784d5870f33c601b7fcc0fa43" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::ISchema</scope><name>getSchemaTitle</name></member>
       <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1a3548819926eaf5ef6cd8c1c9c7adbdd6" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::ISchema</scope><name>getTimeSampling</name></member>
       <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1a111babb1e02ee34113e848a59f5c7b63" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::ISchema</scope><name>IBasePropertyT</name></member>
       <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_base_property_t_1a2a4a5bf6cd3a1dcc508e95de4dccd5e0" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::ISchema</scope><name>IBasePropertyT</name></member>

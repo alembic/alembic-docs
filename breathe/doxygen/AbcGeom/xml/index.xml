@@ -169,6 +169,7 @@
     <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1ace01f461086b19e1274561467678e2b0" kind="function"><name>get</name></member>
     <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1a0034eaca2b5704b9b02240708fbb8648" kind="function"><name>getValue</name></member>
     <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1a5d0dd5d98c6d3c31f8b15040a188b9a7" kind="function"><name>getFaceExclusivity</name></member>
+    <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1acda9290fb77a44dad29cb869d676f8f7" kind="function"><name>getFacesProperty</name></member>
     <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1ab62aacd1f2191919013f8934b4a0f65f" kind="function"><name>reset</name></member>
     <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1ab8f16b84ce33891f96279bb8901e0702" kind="function"><name>valid</name></member>
     <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_face_set_schema_1a36954e3825a684c71862735046dcff6a" kind="function"><name>ALEMBIC_OVERRIDE_OPERATOR_BOOL</name></member>
@@ -417,7 +418,7 @@
     <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param_1a5bfdc980ba7742c4c26a7a952c2dd11a" kind="variable"><name>m_indicesProperty</name></member>
     <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param_1ac2be212b14c07abf2fbd3d469797cdf8" kind="variable"><name>m_cprop</name></member>
     <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param_1ac75c53d6ae07ba72bb344b9542367686" kind="variable"><name>m_isIndexed</name></member>
-    <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param_1a0de9f4526e7d518bc1373b69427a306f" kind="function"><name>getInterpretation</name></member>
+    <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param_1a24d12ac7de04ec2b3bc73e7965149295" kind="function"><name>getInterpretation</name></member>
     <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param_1a40207d2798f781793c32d846736abac4" kind="function"><name>matches</name></member>
     <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param_1a5fa93add205db05f252153d7f5f47f00" kind="function"><name>ITypedGeomParam</name></member>
     <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param_1a290d9ebb9e9d4a225e8a8350e00c10dc" kind="function"><name>ITypedGeomParam</name></member>
@@ -746,7 +747,7 @@
     <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1a024ba1410c2646bc684504b23ffc2ffc" kind="variable"><name>m_isIndexed</name></member>
     <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1ae888239b62582292554061ea5567fe10" kind="variable"><name>m_scope</name></member>
     <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1a4510474fe03944c93d6a7193d23bb277" kind="variable"><name>m_cprop</name></member>
-    <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1a6a002cade2e0a38dad70e2380bad8857" kind="function"><name>getInterpretation</name></member>
+    <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1a035c9f5b5f7bbae7eadc5936dfe02b50" kind="function"><name>getInterpretation</name></member>
     <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1ad3468287f4fe6abcb8aaee181c64e0a5" kind="function"><name>matches</name></member>
     <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1a531a1748511fc8c86236618c5ef46b14" kind="function"><name>OTypedGeomParam</name></member>
     <member refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param_1abc2179de7973d465bccf14445411f4bb" kind="function"><name>OTypedGeomParam</name></member>
@@ -1593,6 +1594,8 @@
     <member refid="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a2489d05d23b21c63495d7bbf58e37d72" kind="function"><name>DegreesToRadians</name></member>
     <member refid="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a750f844163cbf00ed2925cee5e1ca7d3" kind="function"><name>RadiansToDegrees</name></member>
     <member refid="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a97ce51951caeb83b244510c445863832" kind="function"><name>IsGeomParam</name></member>
+  </compound>
+  <compound refid="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1@31" kind="namespace"><name>Alembic::AbcGeom::ALEMBIC_VERSION_NS::@31</name>
   </compound>
   <compound refid="_all_8h" kind="file"><name>All.h</name>
   </compound>

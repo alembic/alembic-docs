@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="159" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="158" bodyend="161"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="201" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="200" bodyend="203"/>
       </memberdef>
       <memberdef kind="friend" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1totally__ordered_1aa5ad4929f92ce450aa53380f3e069682" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>friend bool</type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="164" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="163" bodyend="166"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="206" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="205" bodyend="208"/>
       </memberdef>
       <memberdef kind="friend" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1totally__ordered_1aecf94f96970b4f52727fa0cee7e7c9f8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>friend bool</type>
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="169" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="168" bodyend="171"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="211" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="210" bodyend="213"/>
       </memberdef>
       <memberdef kind="friend" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1totally__ordered_1adc7098eecfbb9d3c78738541c9ab904f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>friend bool</type>
@@ -92,14 +92,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="174" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="173" bodyend="176"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="216" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="215" bodyend="218"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="157" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="156" bodyend="177"/>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="199" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="198" bodyend="219"/>
     <listofallmembers>
       <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1totally__ordered_1adc7098eecfbb9d3c78738541c9ab904f" prot="private" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::totally_ordered</scope><name>operator!=</name></member>
       <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1totally__ordered_1aa5ad4929f92ce450aa53380f3e069682" prot="private" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::totally_ordered</scope><name>operator&lt;=</name></member>

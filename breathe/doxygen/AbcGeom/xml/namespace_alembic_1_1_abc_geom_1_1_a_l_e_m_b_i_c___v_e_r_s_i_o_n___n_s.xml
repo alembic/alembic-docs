@@ -666,7 +666,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" line="237" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" bodystart="237" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" line="242" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" bodystart="242" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a2d5dadbf46042fcf71a17d9c85f72dee" prot="public" static="no">
         <type>Util::shared_ptr&lt; IFaceSet &gt;</type>
@@ -679,7 +679,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" line="239" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" bodystart="239" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" line="244" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IFaceSet.h" bodystart="244" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a37443ef58d47bae45e6c13d97a2abe79" prot="public" static="no">
         <type>Abc::OSchemaObject&lt; <ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_face_set_schema" kindref="compound">OFaceSetSchema</ref> &gt;</type>
@@ -1043,7 +1043,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="502" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="502" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="503" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="503" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a4a03a9aeb136cc1757bda65e8e7e4b04" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; Uint8TPTraits &gt;</type>
@@ -1056,7 +1056,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="503" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="503" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="504" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="504" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ac4e9f545cf2179df5ac374906bb658b1" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; Int8TPTraits &gt;</type>
@@ -1069,7 +1069,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="504" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="504" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="505" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="505" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1afa071c3e44218d5c223bf250f812acab" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; Uint16TPTraits &gt;</type>
@@ -1082,7 +1082,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="505" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="505" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="506" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="506" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a51bada9b40055c02e77c632d32b605f3" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; Int16TPTraits &gt;</type>
@@ -1095,7 +1095,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="506" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="506" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="507" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="507" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1aaf830e11b7b02488a2f263aa97879ede" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; Uint32TPTraits &gt;</type>
@@ -1108,7 +1108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="507" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="507" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="508" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="508" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ad6122a65e068a542b72c4000a10d160f" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; Int32TPTraits &gt;</type>
@@ -1121,7 +1121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="508" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="508" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="509" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="509" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1afbf011a90b28f6e3b30646b3605399ef" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; Uint64TPTraits &gt;</type>
@@ -1134,7 +1134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="509" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="509" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="510" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="510" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a64c1b46a3471cdc653b6395217fc83dd" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; Int64TPTraits &gt;</type>
@@ -1147,7 +1147,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="510" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="510" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="511" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="511" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1aedacceb0487c5ee39c732ef1ac2d8470" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; Float16TPTraits &gt;</type>
@@ -1160,7 +1160,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="511" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="511" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="512" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="512" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a81e8da106bb1deecc79650ceaefedf47" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; Float32TPTraits &gt;</type>
@@ -1173,7 +1173,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="512" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="512" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="513" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="513" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ac8a21380ee78aaea42b560b5528b8f11" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; Float64TPTraits &gt;</type>
@@ -1186,7 +1186,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="513" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="513" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="514" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="514" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a4f83df0f9295ff9815a7f9f121c09b68" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; StringTPTraits &gt;</type>
@@ -1199,7 +1199,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="514" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="514" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="515" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="515" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1aaf60e3e590c1bed878d4b428e8af5b03" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; WstringTPTraits &gt;</type>
@@ -1212,7 +1212,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="515" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="515" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="516" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="516" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ac45b15566a848aa6c58a49a1d54c0639" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; V2sTPTraits &gt;</type>
@@ -1225,7 +1225,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="517" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="517" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="518" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="518" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a6889035d33264a70431d873a21729e9a" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; V2iTPTraits &gt;</type>
@@ -1238,7 +1238,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="518" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="518" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="519" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="519" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a8dadf326f106dac0472e40279f6077a1" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; V2fTPTraits &gt;</type>
@@ -1251,7 +1251,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="519" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="519" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="520" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="520" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a9f057e7b5e2e03bab368f9bea3ef2934" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; V2dTPTraits &gt;</type>
@@ -1264,7 +1264,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="520" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="520" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="521" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="521" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a97bf8d9ec71b38251b61021809badffc" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; V3sTPTraits &gt;</type>
@@ -1277,7 +1277,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="522" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="522" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="523" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="523" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ac967c918a910f502209f42d8c2b24094" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; V3iTPTraits &gt;</type>
@@ -1290,7 +1290,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="523" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="523" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="524" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="524" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a52d6687248e08bb63c7b0ec7b3d5eff3" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; V3fTPTraits &gt;</type>
@@ -1303,7 +1303,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="524" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="524" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="525" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="525" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1adcd069cd8e1aacfdfa2196727407c474" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; V3dTPTraits &gt;</type>
@@ -1316,7 +1316,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="525" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="525" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="526" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="526" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ab1973de0cb3343384f7e10d093b2d65e" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; P2sTPTraits &gt;</type>
@@ -1329,7 +1329,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="527" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="527" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="528" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="528" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a77ac39ca3016a65100edcf1347450078" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; P2iTPTraits &gt;</type>
@@ -1342,7 +1342,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="528" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="528" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="529" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="529" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ac48adb34d3c4f5054a9c37178128693c" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; P2fTPTraits &gt;</type>
@@ -1355,7 +1355,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="529" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="529" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="530" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="530" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1abe640ac6f589cc7854b562d53e1a65b0" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; P2dTPTraits &gt;</type>
@@ -1368,7 +1368,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="530" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="530" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="531" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="531" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a22276c21b98ba3197155250de0cb43a9" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; P3sTPTraits &gt;</type>
@@ -1381,7 +1381,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="532" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="532" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="533" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="533" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a284597a0017a97fb9be828c75503fbe4" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; P3iTPTraits &gt;</type>
@@ -1394,7 +1394,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="533" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="533" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="534" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="534" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a2ad9e2a83d1e9ddff48c1062f9e8b018" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; P3fTPTraits &gt;</type>
@@ -1407,7 +1407,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="534" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="534" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="535" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="535" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1aabf58f130b6ec4f56cf211e5d46a747f" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; P3dTPTraits &gt;</type>
@@ -1420,7 +1420,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="535" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="535" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="536" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="536" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a2b355b079b5576790123fa6e28de46b8" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; Box2sTPTraits &gt;</type>
@@ -1433,7 +1433,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="537" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="537" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="538" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="538" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a8b346fcf41c367465b1e1df4ef024bb2" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; Box2iTPTraits &gt;</type>
@@ -1446,7 +1446,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="538" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="538" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="539" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="539" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ad665f41cb8acffa3fd800bde68ff0436" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; Box2fTPTraits &gt;</type>
@@ -1459,7 +1459,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="539" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="539" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="540" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="540" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a633cc1702155a857cd3eb10edb06e0a3" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; Box2dTPTraits &gt;</type>
@@ -1472,7 +1472,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="540" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="540" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="541" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="541" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ae4913a1e94ce9b6ee8ed942f27e68875" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; Box3sTPTraits &gt;</type>
@@ -1485,7 +1485,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="542" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="542" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="543" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="543" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a2890669430eb83074b82c66cd4b1cbb5" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; Box3iTPTraits &gt;</type>
@@ -1498,7 +1498,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="543" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="543" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="544" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="544" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a92b924a91ab8c4898b467326dd96838f" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; Box3fTPTraits &gt;</type>
@@ -1511,7 +1511,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="544" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="544" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="545" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="545" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1adbc2b1c6b401544152a9ea9e8d10a1cf" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; Box3dTPTraits &gt;</type>
@@ -1524,7 +1524,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="545" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="545" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="546" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="546" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1afca6fbc26353f44f74867b7cdc458af2" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; M33fTPTraits &gt;</type>
@@ -1537,7 +1537,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="547" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="547" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="548" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="548" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1add370135dbb61db2eb3bfa6f9b3dce4e" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; M33dTPTraits &gt;</type>
@@ -1550,7 +1550,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="548" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="548" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="549" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="549" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a4e2c97a51713af5e7f4f91c296fe46ec" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; M44fTPTraits &gt;</type>
@@ -1563,7 +1563,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="549" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="549" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="550" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="550" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a2d192bba2af9f337f4b7ce15ccdabb9d" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; M44dTPTraits &gt;</type>
@@ -1576,7 +1576,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="550" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="550" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="551" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="551" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a41368bfa9ba6bd57dac572904fbc7964" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; QuatfTPTraits &gt;</type>
@@ -1589,7 +1589,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="552" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="552" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="553" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="553" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ac4ff87a520dbfc2a54de36ed91273a4e" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; QuatdTPTraits &gt;</type>
@@ -1602,7 +1602,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="553" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="553" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="554" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="554" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a1c7ea52a4d1b79e2dc2a615ade6ca868" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; C3hTPTraits &gt;</type>
@@ -1615,7 +1615,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="555" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="555" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="556" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="556" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ab4792d70c8b40af828f242b35133df16" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; C3fTPTraits &gt;</type>
@@ -1628,7 +1628,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="556" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="556" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="557" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="557" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ada401c0a15a02a1741ea083005cb12da" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; C3cTPTraits &gt;</type>
@@ -1641,7 +1641,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="557" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="557" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="558" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="558" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1afa6685bbdef746efe48b9ab7bf8cb46a" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; C4hTPTraits &gt;</type>
@@ -1654,7 +1654,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="559" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="559" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="560" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="560" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1aa569dc691acd02e0a51ca8e7ca8b238b" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; C4fTPTraits &gt;</type>
@@ -1667,7 +1667,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="560" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="560" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="561" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="561" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a1ddc74d3f3838433cd1d36deb0eeac3b" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; C4cTPTraits &gt;</type>
@@ -1680,7 +1680,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="561" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="561" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="562" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="562" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1aafe2e0d72de383155896a836cbb97dea" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; N2fTPTraits &gt;</type>
@@ -1693,7 +1693,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="563" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="563" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="564" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="564" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a59cf50c80d4408a7997596e038624a28" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; N2dTPTraits &gt;</type>
@@ -1706,7 +1706,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="564" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="564" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="565" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="565" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a6686d319467a7cef4725391757dea51d" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; N3fTPTraits &gt;</type>
@@ -1719,7 +1719,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="566" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="566" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="567" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="567" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1accd220d273b5f21f837cd603c959296c" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_typed_geom_param" kindref="compound">ITypedGeomParam</ref>&lt; N3dTPTraits &gt;</type>
@@ -1732,7 +1732,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="567" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="567" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" line="568" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/IGeomParam.h" bodystart="568" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1acc7cb1e88445d9f7cfde2ea16f45bbdd" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; BooleanTPTraits &gt;</type>
@@ -1745,7 +1745,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="397" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="397" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="396" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="396" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1af4327fcee92742fed1bc4d00ed63d111" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; Uint8TPTraits &gt;</type>
@@ -1758,7 +1758,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="398" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="398" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="397" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="397" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ada7ff5932bcf3affe05a60ad37b5a928" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; Int8TPTraits &gt;</type>
@@ -1771,7 +1771,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="399" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="399" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="398" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="398" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ae402eeca8e8d3c2cdce9dcd324ba289a" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; Uint16TPTraits &gt;</type>
@@ -1784,7 +1784,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="400" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="400" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="399" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="399" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a6245bcbd066383d0e8e8c5b4c7d02f3b" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; Int16TPTraits &gt;</type>
@@ -1797,7 +1797,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="401" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="401" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="400" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="400" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a43241be52711fc184f5ec31b10349c7d" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; Uint32TPTraits &gt;</type>
@@ -1810,7 +1810,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="402" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="402" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="401" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="401" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ac894502f463aef2929c3868e04c8da7b" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; Int32TPTraits &gt;</type>
@@ -1823,7 +1823,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="403" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="403" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="402" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="402" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ae8bb2af2e1bd5e559343fe723d28a593" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; Uint64TPTraits &gt;</type>
@@ -1836,7 +1836,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="404" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="404" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="403" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="403" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a1b4b29702b586528358b18f8b43da62a" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; Int64TPTraits &gt;</type>
@@ -1849,7 +1849,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="405" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="405" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="404" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="404" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1aa4d66ad91377af8d965cc06fc31cb8e8" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; Float16TPTraits &gt;</type>
@@ -1862,7 +1862,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="406" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="406" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="405" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="405" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a578cbb2ac93f48e7d6d3858a339cbbdf" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; Float32TPTraits &gt;</type>
@@ -1875,7 +1875,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="407" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="407" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="406" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="406" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a4295d0e9f6fb081fe589f4cabb73a3f9" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; Float64TPTraits &gt;</type>
@@ -1888,7 +1888,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="408" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="408" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="407" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="407" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a44c11a853cb79296309b7df324798e6a" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; StringTPTraits &gt;</type>
@@ -1901,7 +1901,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="409" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="409" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="408" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="408" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a1d90ed5498b95bccbbd86664cd7d390e" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; WstringTPTraits &gt;</type>
@@ -1914,7 +1914,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="410" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="410" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="409" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="409" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ae8ea29a37181cea5254bb558dc746c6c" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; V2sTPTraits &gt;</type>
@@ -1927,7 +1927,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="412" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="412" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="411" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="411" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1aa871388b3a3a48796029e3939c4bf4b5" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; V2iTPTraits &gt;</type>
@@ -1940,7 +1940,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="413" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="413" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="412" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="412" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a3960599fea630cb4fb95e00c9228c366" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; V2fTPTraits &gt;</type>
@@ -1953,7 +1953,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="414" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="414" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="413" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="413" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1aa70e9f01f18ddbe7da6d311bc1382feb" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; V2dTPTraits &gt;</type>
@@ -1966,7 +1966,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="415" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="415" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="414" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="414" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a234836839f440af41a0c11fe91088d3c" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; V3sTPTraits &gt;</type>
@@ -1979,7 +1979,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="417" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="417" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="416" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="416" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ad9741a123fc49e874c6eff17e85bd048" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; V3iTPTraits &gt;</type>
@@ -1992,7 +1992,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="418" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="418" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="417" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="417" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a0df87d599406c12584b15de66237bdda" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; V3fTPTraits &gt;</type>
@@ -2005,7 +2005,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="419" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="419" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="418" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="418" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a6494da8bb04b9b1868f43218719e4990" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; V3dTPTraits &gt;</type>
@@ -2018,7 +2018,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="420" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="420" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="419" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="419" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a9b8885ff3e6958226b2c0315aebeb71d" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; P2sTPTraits &gt;</type>
@@ -2031,7 +2031,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="422" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="422" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="421" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="421" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a35ea1bdc58a6263d36f9c861c9463a17" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; P2iTPTraits &gt;</type>
@@ -2044,7 +2044,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="423" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="423" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="422" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="422" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a1db284af2fc4f17e6eb464a03915cd7f" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; P2fTPTraits &gt;</type>
@@ -2057,7 +2057,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="424" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="424" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="423" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="423" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ad0ddbcefb12a38e74d867195435178af" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; P2dTPTraits &gt;</type>
@@ -2070,7 +2070,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="425" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="425" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="424" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="424" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ad1f9c13f4bd8b2a9b773ee436b9afefa" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; P3sTPTraits &gt;</type>
@@ -2083,7 +2083,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="427" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="427" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="426" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="426" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ab57ee7180f4d46fba90a752e46564922" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; P3iTPTraits &gt;</type>
@@ -2096,7 +2096,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="428" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="428" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="427" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="427" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ac3cdcbde9b510a4235698d542cbf62eb" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; P3fTPTraits &gt;</type>
@@ -2109,7 +2109,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="429" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="429" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="428" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="428" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ae7d250ba6ea6f2e75b4a7e9ece526532" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; P3dTPTraits &gt;</type>
@@ -2122,7 +2122,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="430" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="430" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="429" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="429" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ae25799dd470cae638c7d1d83801209a9" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; Box2sTPTraits &gt;</type>
@@ -2135,7 +2135,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="432" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="432" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="431" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="431" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a8059eb029dab5c54bf5d3c3ff4dc857e" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; Box2iTPTraits &gt;</type>
@@ -2148,7 +2148,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="433" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="433" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="432" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="432" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a10a09b86e232ee06d7ab0c62746f0c5a" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; Box2fTPTraits &gt;</type>
@@ -2161,7 +2161,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="434" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="434" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="433" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="433" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1acd700a9e7eadbc3435dd20ff5c12fd76" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; Box2dTPTraits &gt;</type>
@@ -2174,7 +2174,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="435" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="435" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="434" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="434" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a3134303fcd267195dfa9c29aefd3e7b5" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; Box3sTPTraits &gt;</type>
@@ -2187,7 +2187,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="437" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="437" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="436" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="436" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a0326bc0f048d60107f9dc861a6fec785" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; Box3iTPTraits &gt;</type>
@@ -2200,7 +2200,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="438" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="438" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="437" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="437" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a8354731151bb93d45228a15a41d6c5f3" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; Box3fTPTraits &gt;</type>
@@ -2213,7 +2213,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="439" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="439" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="438" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="438" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ad625609a84e14f19384934d79d422e78" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; Box3dTPTraits &gt;</type>
@@ -2226,7 +2226,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="440" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="440" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="439" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="439" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1accbc17d9d427bd1c99693b7c0b8c5a90" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; M33fTPTraits &gt;</type>
@@ -2239,7 +2239,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="442" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="442" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="441" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="441" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1aa4acce9fd72c62e07feafaf364f527f1" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; M33dTPTraits &gt;</type>
@@ -2252,7 +2252,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="443" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="443" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="442" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="442" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1af6ce64e5ceed101459a54e0b35f81bb1" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; M44fTPTraits &gt;</type>
@@ -2265,7 +2265,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="444" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="444" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="443" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="443" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a85b8fe87f01c5c6baab103d568ebeabd" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; M44dTPTraits &gt;</type>
@@ -2278,7 +2278,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="445" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="445" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="444" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="444" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ac8a620f3e53876e2f75fd845033ac207" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; QuatfTPTraits &gt;</type>
@@ -2291,7 +2291,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="447" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="447" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="446" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="446" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ac1863a722cfdf63768df6debf8dd64f4" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; QuatdTPTraits &gt;</type>
@@ -2304,7 +2304,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="448" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="448" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="447" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="447" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a2fbf76d9a5050b3969528bb68f9c316d" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; C3hTPTraits &gt;</type>
@@ -2317,7 +2317,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="450" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="450" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="449" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="449" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a68d6a22867e179f365d349dbbba4bf05" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; C3fTPTraits &gt;</type>
@@ -2330,7 +2330,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="451" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="451" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="450" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="450" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a76ed37498119ce1538bb99390cf9a9d8" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; C3cTPTraits &gt;</type>
@@ -2343,7 +2343,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="452" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="452" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="451" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="451" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ad970fa76edf41c84990d64b18fb079ad" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; C4hTPTraits &gt;</type>
@@ -2356,7 +2356,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="454" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="454" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="453" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="453" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ae439344a650ddf11685431aaab569f3b" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; C4fTPTraits &gt;</type>
@@ -2369,7 +2369,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="455" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="455" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="454" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="454" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1aaa2752830e71dc3d65ff5fc9500d5f22" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; C4cTPTraits &gt;</type>
@@ -2382,7 +2382,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="456" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="456" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="455" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="455" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a03a0a576d34bddb4ee0fd8da3a6f8460" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; N2fTPTraits &gt;</type>
@@ -2395,7 +2395,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="458" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="458" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="457" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="457" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a2a9b5ef59ca0db94e0b34882629a5866" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; N2dTPTraits &gt;</type>
@@ -2408,7 +2408,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="459" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="459" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="458" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="458" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a9b93842d6094a21517946d31019820e5" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; N3fTPTraits &gt;</type>
@@ -2421,7 +2421,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="461" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="461" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="460" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="460" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ae6c2ec35442e61275f6f0cf34a1f061a" prot="public" static="no">
         <type><ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_geom_param" kindref="compound">OTypedGeomParam</ref>&lt; N3dTPTraits &gt;</type>
@@ -2434,7 +2434,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="462" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="462" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" line="461" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/AbcGeom/OGeomParam.h" bodystart="461" bodyend="-1"/>
       </memberdef>
       <memberdef kind="typedef" id="namespace_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a4ac8490fe747705d200d9400a7c32cd2" prot="public" static="no">
         <type>Abc::ISchemaObject&lt; <ref refid="class_alembic_1_1_abc_geom_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_camera_schema" kindref="compound">ICameraSchema</ref> &gt;</type>

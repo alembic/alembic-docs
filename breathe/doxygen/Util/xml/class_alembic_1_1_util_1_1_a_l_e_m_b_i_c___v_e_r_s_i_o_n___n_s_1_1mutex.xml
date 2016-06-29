@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="236" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="236" bodyend="-1"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="278" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="278" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="216" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="215" bodyend="218"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="258" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="257" bodyend="260"/>
       </memberdef>
       <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1mutex_1adde9940b67012f2befeee411608975cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="221" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="220" bodyend="223"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="263" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="262" bodyend="265"/>
       </memberdef>
       <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1mutex_1ad977f349f54e70c749a7af7441a260ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="226" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="225" bodyend="228"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="268" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="267" bodyend="270"/>
       </memberdef>
       <memberdef kind="function" id="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1mutex_1aa903e28154b61ca9dd3f9d60f40354ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -69,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="231" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="230" bodyend="233"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="273" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="272" bodyend="275"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -100,7 +100,7 @@
         <link refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1noncopyable"/>
       </node>
     </collaborationgraph>
-    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="213" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="212" bodyend="237"/>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" line="255" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Util/Foundation.h" bodystart="254" bodyend="279"/>
     <listofallmembers>
       <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1mutex_1ad977f349f54e70c749a7af7441a260ed" prot="public" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::mutex</scope><name>lock</name></member>
       <member refid="class_alembic_1_1_util_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1mutex_1a7b07b28fb398544f362a568cfaa93911" prot="private" virt="non-virtual"><scope>Alembic::Util::ALEMBIC_VERSION_NS::mutex</scope><name>m</name></member>

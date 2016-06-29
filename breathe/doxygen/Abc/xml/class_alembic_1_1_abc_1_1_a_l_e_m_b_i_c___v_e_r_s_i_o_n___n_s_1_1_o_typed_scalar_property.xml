@@ -51,9 +51,9 @@
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
-      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_scalar_property_1a989b880f863bc77b3ed027ad693ccdd1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>const std::string &amp;</type>
-        <definition>static const std::string&amp; Alembic::Abc::ALEMBIC_VERSION_NS::OTypedScalarProperty&lt; TRAITS &gt;::getInterpretation</definition>
+      <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_scalar_property_1ab725fa0078a4896f0f2e42931e85784a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const char *</type>
+        <definition>static const char* Alembic::Abc::ALEMBIC_VERSION_NS::OTypedScalarProperty&lt; TRAITS &gt;::getInterpretation</definition>
         <argsstring>()</argsstring>
         <name>getInterpretation</name>
         <briefdescription>
@@ -62,7 +62,7 @@
 <para>Return the interpretation expected of this property. An empty interpretation matches everything </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedScalarProperty.h" line="62" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedScalarProperty.h" bodystart="61" bodyend="65"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedScalarProperty.h" line="62" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedScalarProperty.h" bodystart="61" bodyend="64"/>
       </memberdef>
       <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_scalar_property_1af760b760342b4d4366387cadb4246294" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -84,7 +84,7 @@
 <para>This will check whether or not a given entity (as represented by a metadata) strictly matches the interpretation of this schema object </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedScalarProperty.h" line="72" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedScalarProperty.h" bodystart="70" bodyend="75"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedScalarProperty.h" line="71" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedScalarProperty.h" bodystart="69" bodyend="74"/>
       </memberdef>
       <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_scalar_property_1aa5dbb98901df7b775935266841354d44" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>bool</type>
@@ -106,7 +106,7 @@
 <para>This will check whether or not a given object (as represented by an object header) strictly matches the interpretation of this schema object, as well as the data type. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedScalarProperty.h" line="82" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedScalarProperty.h" bodystart="80" bodyend="90"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedScalarProperty.h" line="81" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedScalarProperty.h" bodystart="79" bodyend="89"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -121,7 +121,7 @@
 <para>Create a default (empty) TypedScalarProperty ... </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedScalarProperty.h" line="98" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedScalarProperty.h" bodystart="98" bodyend="98"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedScalarProperty.h" line="97" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedScalarProperty.h" bodystart="97" bodyend="97"/>
       </memberdef>
       <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_scalar_property_1a0d081eac286b729c4678169e81912bd1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -162,7 +162,7 @@
 <para>Create a new TypedScalarProperty as a child of the passed COMPOUND_PTR <ref refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_arguments" kindref="compound">Arguments</ref> can specify metadata, timesampling, and error handling. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedScalarProperty.h" line="110" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedScalarProperty.h" bodystart="140" bodyend="183"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedScalarProperty.h" line="109" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedScalarProperty.h" bodystart="139" bodyend="182"/>
       </memberdef>
       <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_scalar_property_1ac6bc1226d0e9703614818c33e1609063" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -193,7 +193,7 @@
 <para>Wrap an existing scalar property, checking to make sure it matches data type and also (if requested) interpretation. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedScalarProperty.h" line="119" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedScalarProperty.h" bodystart="187" bodyend="213"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedScalarProperty.h" line="118" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedScalarProperty.h" bodystart="186" bodyend="212"/>
       </memberdef>
       <memberdef kind="function" id="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_scalar_property_1af6a60ef6a37a08e6c29f0b806d80c05b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -210,7 +210,7 @@
 <para>Set a sample using a reference to a value-type, instead of a void* </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedScalarProperty.h" line="128" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedScalarProperty.h" bodystart="127" bodyend="130"/>
+        <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedScalarProperty.h" line="127" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedScalarProperty.h" bodystart="126" bodyend="129"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -272,7 +272,7 @@
         <link refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_error_handler"/>
       </node>
     </collaborationgraph>
-    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedScalarProperty.h" line="50" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedScalarProperty.h" bodystart="49" bodyend="131"/>
+    <location file="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedScalarProperty.h" line="50" bodyfile="/var/tmp/doNotRemove/local/alembic-1.6.0/include/Alembic/Abc/OTypedScalarProperty.h" bodystart="49" bodyend="130"/>
     <listofallmembers>
       <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a60f48919bb320e49380f1ff64c571985" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OTypedScalarProperty</scope><name>ALEMBIC_OPERATOR_BOOL</name></member>
       <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1af36435a2f134e3bd7ae9452772bbc359" prot="protected" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OTypedScalarProperty</scope><name>Base</name></member>
@@ -282,7 +282,7 @@
       <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1af35d99de9b57714c46c454c03e620268" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OTypedScalarProperty</scope><name>getErrorHandler</name></member>
       <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_base_1a64d9e1f5ed8dfab78f490d3e7a06643f" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OTypedScalarProperty</scope><name>getErrorHandlerPolicy</name></member>
       <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1aaa52ea351d4bf3fa296a619b752476f0" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OTypedScalarProperty</scope><name>getHeader</name></member>
-      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_scalar_property_1a989b880f863bc77b3ed027ad693ccdd1" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OTypedScalarProperty</scope><name>getInterpretation</name></member>
+      <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_typed_scalar_property_1ab725fa0078a4896f0f2e42931e85784a" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OTypedScalarProperty</scope><name>getInterpretation</name></member>
       <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1ad475a461622add945b742e2e2a49b044" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OTypedScalarProperty</scope><name>getMetaData</name></member>
       <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_base_property_t_1a54e96572abb02a3ecb6cdf31264dfd21" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OTypedScalarProperty</scope><name>getName</name></member>
       <member refid="class_alembic_1_1_abc_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_scalar_property_1a5eed106f5c295695340eab32f1d1cc1a" prot="public" virt="non-virtual"><scope>Alembic::Abc::ALEMBIC_VERSION_NS::OTypedScalarProperty</scope><name>getNumSamples</name></member>
