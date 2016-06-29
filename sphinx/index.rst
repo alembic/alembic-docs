@@ -34,19 +34,17 @@ dependencies:
 Required:
 
     - A unix-like OS (Linux, Mac OS X); Windows support is experimental
-    - `CMake (2.8.0) <http://www.cmake.org>`_
-    - `Boost (1.44) <http://www.boost.org>`_
+    - `CMake (2.8.11) <http://www.cmake.org>`_
     - `ilmbase (1.0.3) <http://www.openexr.com>`_
-    - zlib
 
 Optional:
 
     - `HDF5 (1.8.9) <http://www.hdfgroup.org/HDF5>`_
-    - pyilmbase (1.0.0)
+    - `Boost (1.44) <http://www.boost.org>`_
+    - pyilmbase (1.0.3)
     - Arnold (3.0)
     - Pixar PRMan (15.x)
     - Autodesk Maya (2012)
-    - `OpenEXR (1.7.1) <http://www.openexr.com>`_
 
 
 Note that the versions given parenthetically above are minimum-tested

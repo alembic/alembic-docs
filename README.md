@@ -4,7 +4,6 @@ The documentation [website](http://docs.alembic.io) for
 
 Requires
 --------
-
 ::
 
     - sphinx 1.4 (pip install sphinx)
@@ -12,7 +11,6 @@ Requires
 
 Building
 --------
-
 ::
 
     $ git clone http://github.com/alembic-docs
