@@ -8,9 +8,11 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Alembic::AbcMaterial &mdash; Alembic 1.6.0 documentation</title>
+  <title>Alembic::AbcMaterial &mdash; Alembic 1.7.0 documentation</title>
   
 
+  
+  
   
   
 
@@ -30,7 +32,10 @@
   
 
   
-    <link rel="top" title="Alembic 1.6.0 documentation" href="../index.html"/> 
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="Alembic 1.7.0 documentation" href="../index.html"/> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
@@ -39,6 +44,7 @@
 
 <body class="wy-body-for-nav" role="document">
 
+   
   <div class="wy-grid-for-nav">
 
     
@@ -61,7 +67,7 @@
             
             
               <div class="version">
-                1.6.0
+                1.7.0
               </div>
             
           
@@ -82,8 +88,11 @@
           
             
             
-                <!-- Local TOC -->
-                <div class="local-toc"><ul>
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
 <li><a class="reference internal" href="#">Alembic::AbcMaterial</a></li>
 </ul>
 </div>
@@ -97,8 +106,10 @@
 
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">Alembic</a>
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Alembic</a>
+        
       </nav>
 
 
@@ -107,23 +118,40 @@
         <div class="rst-content">
           
 
- 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 <div role="navigation" aria-label="breadcrumbs navigation">
+
   <ul class="wy-breadcrumbs">
-    <li><a href="../index.html">Docs</a> &raquo;</li>
-      
-    <li>Alembic::AbcMaterial</li>
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Alembic::AbcMaterial</li>
+    
+    
       <li class="wy-breadcrumbs-aside">
         
-          
-            <a href="../_sources/reference/abcm.txt" rel="nofollow"> View page source</a>
+            
+            <a href="../_sources/reference/abcm.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
+    
   </ul>
+
+  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -151,869 +179,12 @@ object path</p>
 The common case is the flattening of a hierarchy of material objects following
 assignment. It can also reference to the combination of a locally defined material
 with that of an assigned material.</p>
-<dl class="class">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode10ConnectionE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::Connection"></span><span class="target" id="AbcMaterialstruct_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1_1_connection"></span><em class="property">struct </em><code class="descname">Connection</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode10ConnectionE" title="Permalink to this definition">¶</a></dt>
-<dd><div class="breathe-sectiondef container">
-<p class="breathe-sectiondef-title rubric">Public Functions</p>
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode10Connection10ConnectionERKNSt6stringERKNSt6stringERKNSt6stringE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::Connection::Connection__ssCR.ssCR.ssCR"></span><span class="target" id="AbcMaterialstruct_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1_1_connection_1aa65363a80f3040ede59fcee790d0147d"></span><code class="descname">Connection</code><span class="sig-paren">(</span><em class="property">const</em> std::string &amp;<em>iInputName</em>, <em class="property">const</em> std::string &amp;<em>iConnectedNodeName</em>, <em class="property">const</em> std::string &amp;<em>iConnectedOutputName</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode10Connection10ConnectionERKNSt6stringERKNSt6stringERKNSt6stringE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode10ConnectioneqERK10Connection">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::Connection::eq-operator__ConnectionCR"></span><span class="target" id="AbcMaterialstruct_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1_1_connection_1acbd0c4592dd33b350cb80e6436390a97"></span>bool <code class="descname">operator==</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode10ConnectionE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::Connection">Connection</a> &amp;<em>iRhs</em><span class="sig-paren">)</span> const<a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode10ConnectioneqERK10Connection" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-</div>
-<div class="breathe-sectiondef container">
-<p class="breathe-sectiondef-title rubric">Public Members</p>
-<dl class="member">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode10Connection9inputNameE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::Connection::inputName__ss"></span><span class="target" id="AbcMaterialstruct_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1_1_connection_1af696f966692c7b17364bbb0968e7e3e2"></span>std::string <code class="descname">inputName</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode10Connection9inputNameE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="member">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode10Connection17connectedNodeNameE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::Connection::connectedNodeName__ss"></span><span class="target" id="AbcMaterialstruct_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1_1_connection_1ad87879d0845d9ddf669b72ab9071dec1"></span>std::string <code class="descname">connectedNodeName</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode10Connection17connectedNodeNameE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="member">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode10Connection19connectedOutputNameE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::Connection::connectedOutputName__ss"></span><span class="target" id="AbcMaterialstruct_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1_1_connection_1a0c9ffd9e272a58221514ccbcf96c835d"></span>std::string <code class="descname">connectedOutputName</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode10Connection19connectedOutputNameE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-</div>
-</dd></dl>
-
-<dl class="class">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchemaE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema"></span><em class="property">class </em><code class="descname">IMaterialSchema</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchemaE" title="Permalink to this definition">¶</a></dt>
-<dd><em>#include &lt;IMaterial.h&gt;</em><p>Schema for reading and querying shader definitions from either an object or compound property. Only &#8220;monolithic&#8221; shader definitions (i.e. non network) are presently supported in this implementation. </p>
-<div class="breathe-sectiondef container">
-<p class="breathe-sectiondef-title rubric">Public Types</p>
-<dl class="type">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema9this_typeE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::this_type"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a5c36ba3752e073fef72c63a719bc2275"></span><em class="property">typedef </em><a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchemaE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema">IMaterialSchema</a> <code class="descname">this_type</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema9this_typeE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-</div>
-<div class="breathe-sectiondef container">
-<p class="breathe-sectiondef-title rubric">Public Functions</p>
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema15IMaterialSchemaEv">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::IMaterialSchema"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1acbdf0d1ee620621229c16ead9ad4acb8"></span><code class="descname">IMaterialSchema</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema15IMaterialSchemaEv" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt>
-<em class="property">template </em>&lt;<em class="property">class</em> CPROP_PTR&gt;</dt>
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema15IMaterialSchemaE9CPROP_PTRRKNSt6stringERKN3Abc8ArgumentERKN3Abc8ArgumentE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::IMaterialSchema__CPROP_PTR.ssCR.Abc::ArgumentCR.Abc::ArgumentCR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1aa024f5f991d92d5d22d9971bbfd3793b"></span><code class="descname">IMaterialSchema</code><span class="sig-paren">(</span>CPROP_PTR <em>iParent</em>, <em class="property">const</em> std::string &amp;<em>iName</em>, <em class="property">const</em> <a class="reference internal" href="abc.html#_CPPv2N7Alembic3AbcE" title="Alembic::Abc">Abc</a>::Argument &amp;<em>iArg0</em> = Abc::Argument(), <em class="property">const</em> <a class="reference internal" href="abc.html#_CPPv2N7Alembic3AbcE" title="Alembic::Abc">Abc</a>::Argument &amp;<em>iArg1</em> = Abc::Argument()<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema15IMaterialSchemaE9CPROP_PTRRKNSt6stringERKN3Abc8ArgumentERKN3Abc8ArgumentE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt>
-<em class="property">template </em>&lt;<em class="property">class</em> CPROP_PTR&gt;</dt>
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema15IMaterialSchemaE9CPROP_PTRRKN3Abc8ArgumentERKN3Abc8ArgumentE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::IMaterialSchema__CPROP_PTR.Abc::ArgumentCR.Abc::ArgumentCR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1aa9bda472b23559987260e26c4c4efe4f"></span><code class="descname">IMaterialSchema</code><span class="sig-paren">(</span>CPROP_PTR <em>iParent</em>, <em class="property">const</em> <a class="reference internal" href="abc.html#_CPPv2N7Alembic3AbcE" title="Alembic::Abc">Abc</a>::Argument &amp;<em>iArg0</em> = Abc::Argument(), <em class="property">const</em> <a class="reference internal" href="abc.html#_CPPv2N7Alembic3AbcE" title="Alembic::Abc">Abc</a>::Argument &amp;<em>iArg1</em> = Abc::Argument()<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema15IMaterialSchemaE9CPROP_PTRRKN3Abc8ArgumentERKN3Abc8ArgumentE" title="Permalink to this definition">¶</a></dt>
-<dd><p>This constructor is the same as above, but with default schema name used. </p>
-</dd></dl>
-
-<dl class="function">
-<dt>
-<em class="property">template </em>&lt;<em class="property">class</em> CPROP_PTR&gt;</dt>
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema15IMaterialSchemaE9CPROP_PTRN3Abc16WrapExistingFlagERKN3Abc8ArgumentERKN3Abc8ArgumentE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::IMaterialSchema__CPROP_PTR.Abc::WrapExistingFlag.Abc::ArgumentCR.Abc::ArgumentCR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1acc84a80ad9990abf7d218aef652313fc"></span><code class="descname">IMaterialSchema</code><span class="sig-paren">(</span>CPROP_PTR <em>iThis</em>, <a class="reference internal" href="abc.html#_CPPv2N7Alembic3AbcE" title="Alembic::Abc">Abc</a>::WrapExistingFlag <em>iFlag</em>, <em class="property">const</em> <a class="reference internal" href="abc.html#_CPPv2N7Alembic3AbcE" title="Alembic::Abc">Abc</a>::Argument &amp;<em>iArg0</em> = Abc::Argument(), <em class="property">const</em> <a class="reference internal" href="abc.html#_CPPv2N7Alembic3AbcE" title="Alembic::Abc">Abc</a>::Argument &amp;<em>iArg1</em> = Abc::Argument()<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema15IMaterialSchemaE9CPROP_PTRN3Abc16WrapExistingFlagERKN3Abc8ArgumentERKN3Abc8ArgumentE" title="Permalink to this definition">¶</a></dt>
-<dd><p>Wrap an existing schema object. </p>
-</dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema15IMaterialSchemaERK15IMaterialSchema">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::IMaterialSchema__IMaterialSchemaCR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a7d6c2b616f7ff42b5b16f904068cf9b1"></span><code class="descname">IMaterialSchema</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchemaE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema">IMaterialSchema</a> &amp;<em>iCopy</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema15IMaterialSchemaERK15IMaterialSchema" title="Permalink to this definition">¶</a></dt>
-<dd><p>Copy constructor. </p>
-</dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema14getTargetNamesERNSt6vectorINSt6stringEEE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::getTargetNames__std::vector:ss:R"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1ac81dd6372cef7beaad223ae4e7dff3ee"></span>void <code class="descname">getTargetNames</code><span class="sig-paren">(</span>std::vector&lt;std::string&gt; &amp;<em>iTargetNames</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema14getTargetNamesERNSt6vectorINSt6stringEEE" title="Permalink to this definition">¶</a></dt>
-<dd><p>Fills a list of target name strings for which either shader or parameter definitions are locally present. Target name values match an upon convention for a renderer or application (i.e. &#8220;prman&#8221;) This gets the target names for the monolithic shaders </p>
-</dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema23getShaderTypesForTargetERKNSt6stringERNSt6vectorINSt6stringEEE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::getShaderTypesForTarget__ssCR.std::vector:ss:R"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a069ab7ee11fcdd9b59a59f5e4d4ca29a"></span>void <code class="descname">getShaderTypesForTarget</code><span class="sig-paren">(</span><em class="property">const</em> std::string &amp;<em>iTargetName</em>, std::vector&lt;std::string&gt; &amp;<em>oShaderTypeNames</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema23getShaderTypesForTargetERKNSt6stringERNSt6vectorINSt6stringEEE" title="Permalink to this definition">¶</a></dt>
-<dd><p>Fills a list of shader type strings for which either shader or parameter definitions are locally present for a given target. Shader type names match an agreed upon convention for shader terminals such as &#8220;surface,&#8221; &#8220;displacement,&#8221; &#8220;light&#8221;, &#8220;coshader_somename.&#8221; </p>
-</dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema9getShaderERKNSt6stringERKNSt6stringERNSt6stringE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::getShader__ssCR.ssCR.ssR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1acacdf8d95d45e58f6c3b74d40b09c26a"></span>bool <code class="descname">getShader</code><span class="sig-paren">(</span><em class="property">const</em> std::string &amp;<em>iTarget</em>, <em class="property">const</em> std::string &amp;<em>iShaderType</em>, std::string &amp;<em>oResult</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema9getShaderERKNSt6stringERKNSt6stringERNSt6stringE" title="Permalink to this definition">¶</a></dt>
-<dd><p>Returns true and fills result with the shader name for a given target and shaderType if locally defined </p>
-</dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema19getShaderParametersERKNSt6stringERKNSt6stringE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::getShaderParameters__ssCR.ssCR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1abdffe69c9daf9b396dd575c91d871588"></span><a class="reference internal" href="abc.html#_CPPv2N7Alembic3AbcE" title="Alembic::Abc">Abc</a>::ICompoundProperty <code class="descname">getShaderParameters</code><span class="sig-paren">(</span><em class="property">const</em> std::string &amp;<em>iTarget</em>, <em class="property">const</em> std::string &amp;<em>iShaderType</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema19getShaderParametersERKNSt6stringERKNSt6stringE" title="Permalink to this definition">¶</a></dt>
-<dd><p>Returns the enclosing compound property for the given target and shader type. Call .valid() on the result to determine whether it&#8217;s locally defined or not. </p>
-</dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema18getNumNetworkNodesEv">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::getNumNetworkNodes"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a87356f0cde4a743621d2bdf6c9e3acfb"></span>size_t <code class="descname">getNumNetworkNodes</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema18getNumNetworkNodesEv" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema19getNetworkNodeNamesERNSt6vectorINSt6stringEEE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::getNetworkNodeNames__std::vector:ss:R"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a047772cb0031a75117f399f452bc9025"></span>void <code class="descname">getNetworkNodeNames</code><span class="sig-paren">(</span>std::vector&lt;std::string&gt; &amp;<em>oNames</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema19getNetworkNodeNamesERNSt6vectorINSt6stringEEE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema14getNetworkNodeE6size_t">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::getNetworkNode__s"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a30927f6f83048500796aebd0b2a2040c"></span><a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNodeE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::NetworkNode">NetworkNode</a> <code class="descname">getNetworkNode</code><span class="sig-paren">(</span>size_t <em>iIndex</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema14getNetworkNodeE6size_t" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema14getNetworkNodeERKNSt6stringE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::getNetworkNode__ssCR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a49ad0ed1dd3c6426d725a94ed3c8bfbe"></span><a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNodeE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::NetworkNode">NetworkNode</a> <code class="descname">getNetworkNode</code><span class="sig-paren">(</span><em class="property">const</em> std::string &amp;<em>iNodeName</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema14getNetworkNodeERKNSt6stringE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema29getNetworkTerminalTargetNamesERNSt6vectorINSt6stringEEE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::getNetworkTerminalTargetNames__std::vector:ss:R"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a0e2356d9e0a25384376fdbf2dbb88eab"></span>void <code class="descname">getNetworkTerminalTargetNames</code><span class="sig-paren">(</span>std::vector&lt;std::string&gt; &amp;<em>oTargetNames</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema29getNetworkTerminalTargetNamesERNSt6vectorINSt6stringEEE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema38getNetworkTerminalShaderTypesForTargetERKNSt6stringERNSt6vectorINSt6stringEEE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::getNetworkTerminalShaderTypesForTarget__ssCR.std::vector:ss:R"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a2aad809d14759cb6f152c692c3b20dd4"></span>void <code class="descname">getNetworkTerminalShaderTypesForTarget</code><span class="sig-paren">(</span><em class="property">const</em> std::string &amp;<em>iTargetName</em>, std::vector&lt;std::string&gt; &amp;<em>oShaderTypeNames</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema38getNetworkTerminalShaderTypesForTargetERKNSt6stringERNSt6vectorINSt6stringEEE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema18getNetworkTerminalERKNSt6stringERKNSt6stringERNSt6stringERNSt6stringE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::getNetworkTerminal__ssCR.ssCR.ssR.ssR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1ae3b46eccac1cc865f02f446b63d3c6a7"></span>bool <code class="descname">getNetworkTerminal</code><span class="sig-paren">(</span><em class="property">const</em> std::string &amp;<em>iTarget</em>, <em class="property">const</em> std::string &amp;<em>iShaderType</em>, std::string &amp;<em>oNodeName</em>, std::string &amp;<em>oOutputName</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema18getNetworkTerminalERKNSt6stringERKNSt6stringERNSt6stringERNSt6stringE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema39getNumNetworkInterfaceParameterMappingsEv">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::getNumNetworkInterfaceParameterMappings"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a571b7cff96529ed3b89f28db350027f0"></span>size_t <code class="descname">getNumNetworkInterfaceParameterMappings</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema39getNumNetworkInterfaceParameterMappingsEv" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema35getNetworkInterfaceParameterMappingE6size_tRNSt6stringERNSt6stringERNSt6stringE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::getNetworkInterfaceParameterMapping__s.ssR.ssR.ssR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a84435e7acd0a4f230ea8743e8d10cfb7"></span>bool <code class="descname">getNetworkInterfaceParameterMapping</code><span class="sig-paren">(</span>size_t <em>iIndex</em>, std::string &amp;<em>oInterfaceParamName</em>, std::string &amp;<em>oMapToNodeName</em>, std::string &amp;<em>oMapToParamName</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema35getNetworkInterfaceParameterMappingE6size_tRNSt6stringERNSt6stringERNSt6stringE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema40getNetworkInterfaceParameterMappingNamesERNSt6vectorINSt6stringEEE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::getNetworkInterfaceParameterMappingNames__std::vector:ss:R"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a2883baf11f2941eb87f398fa1fb62ddb"></span>void <code class="descname">getNetworkInterfaceParameterMappingNames</code><span class="sig-paren">(</span>std::vector&lt;std::string&gt; &amp;<em>oNames</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema40getNetworkInterfaceParameterMappingNamesERNSt6vectorINSt6stringEEE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema35getNetworkInterfaceParameterMappingERKNSt6stringERNSt6stringERNSt6stringE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::getNetworkInterfaceParameterMapping__ssCR.ssR.ssR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a60b5f4618d0835a22ebdb1b4ce6c313e"></span>bool <code class="descname">getNetworkInterfaceParameterMapping</code><span class="sig-paren">(</span><em class="property">const</em> std::string &amp;<em>iInterfaceParamName</em>, std::string &amp;<em>oMapToNodeName</em>, std::string &amp;<em>oMapToParamName</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema35getNetworkInterfaceParameterMappingERKNSt6stringERNSt6stringERNSt6stringE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema29getNetworkInterfaceParametersEv">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::getNetworkInterfaceParameters"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a7e70898e6934a4bb469e127dc6c5a742"></span><a class="reference internal" href="abc.html#_CPPv2N7Alembic3AbcE" title="Alembic::Abc">Abc</a>::ICompoundProperty <code class="descname">getNetworkInterfaceParameters</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema29getNetworkInterfaceParametersEv" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-</div>
-<div class="breathe-sectiondef container">
-<p class="breathe-sectiondef-title rubric">Private Functions</p>
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema4initEv">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::init"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a5fefdbaf1f59bd4ff2fcf7e2c955ecfd"></span>void <code class="descname">init</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema4initEv" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-</div>
-<div class="breathe-sectiondef container">
-<p class="breathe-sectiondef-title rubric">Private Members</p>
-<dl class="member">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema13m_shaderNamesE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::m_shaderNames__std::map:ss.ss:"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1ae83fddf52871e0b994b3a3543806d1af"></span>std::map&lt;std::string, std::string&gt; <code class="descname">m_shaderNames</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema13m_shaderNamesE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="member">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11m_terminalsE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::m_terminals__std::map:ss.ss:"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a38b56edfcb3c88241afe0de114bbbd12"></span>std::map&lt;std::string, std::string&gt; <code class="descname">m_terminals</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11m_terminalsE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="member">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema14m_interfaceMapE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::m_interfaceMap__std::map:ss.ss:"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a45ec9f24a7fc85b58ff79ebf19b79e66"></span>std::map&lt;std::string, std::string&gt; <code class="descname">m_interfaceMap</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema14m_interfaceMapE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="member">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11m_interfaceE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::m_interface__std::vector:ss:"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a7798e8b20a605b0904b5134d2405315d"></span>std::vector&lt;std::string&gt; <code class="descname">m_interface</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11m_interfaceE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="member">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema17m_interfaceParamsE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::m_interfaceParams__Abc::ICompoundProperty"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1adc001846646824a371700b184165b8fc"></span><a class="reference internal" href="abc.html#_CPPv2N7Alembic3AbcE" title="Alembic::Abc">Abc</a>::ICompoundProperty <code class="descname">m_interfaceParams</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema17m_interfaceParamsE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="member">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema6m_nodeE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::m_node__Abc::ICompoundProperty"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1a26ac9d2a649d9e4f65906622c1cb0d75"></span><a class="reference internal" href="abc.html#_CPPv2N7Alembic3AbcE" title="Alembic::Abc">Abc</a>::ICompoundProperty <code class="descname">m_node</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema6m_nodeE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-</div>
-</dd></dl>
-
-<dl class="class">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlattenE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten"></span><em class="property">class </em><code class="descname">MaterialFlatten</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlattenE" title="Permalink to this definition">¶</a></dt>
-<dd><em>#include &lt;MaterialFlatten.h&gt;</em><p>Utility class for querying against flattened inheritance hierarchies or definitions. </p>
-<div class="breathe-sectiondef container">
-<p class="breathe-sectiondef-title rubric">Public Types</p>
-<dl class="type">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten20ParameterEntryVectorE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::ParameterEntryVector"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1ae073acdd003d20fd0d2da6195382b957"></span><em class="property">typedef </em>std::vector&lt;<a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten14ParameterEntryE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::ParameterEntry">ParameterEntry</a>&gt; <code class="descname">ParameterEntryVector</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten20ParameterEntryVectorE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="type">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten9StringMapE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::StringMap"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1a8a73b10517aa7d39100295e14659890b"></span><em class="property">typedef </em>std::map&lt;std::string, std::string&gt; <code class="descname">StringMap</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten9StringMapE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="type">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten12StringMapPtrE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::StringMapPtr"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1a14e3cc8ceec760f944a475c8c1af00c7"></span><em class="property">typedef </em><a class="reference internal" href="abc.html#_CPPv27Alembic" title="Alembic">Alembic</a>::<a class="reference internal" href="util.html#_CPPv2N7Alembic4UtilE" title="Alembic::Util">Util</a>::shared_ptr&lt;<a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten9StringMapE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::StringMap">StringMap</a>&gt; <code class="descname">StringMapPtr</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten12StringMapPtrE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="type">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten12SchemaVectorE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::SchemaVector"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1af7bd88398d575e7ecff65220bb0436b4"></span><em class="property">typedef </em>std::vector&lt;<a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchemaE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema">IMaterialSchema</a>&gt; <code class="descname">SchemaVector</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten12SchemaVectorE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-</div>
-<div class="breathe-sectiondef container">
-<p class="breathe-sectiondef-title rubric">Public Functions</p>
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten15MaterialFlattenEv">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::MaterialFlatten"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1a73802918f646f18b202b57cc19694536"></span><code class="descname">MaterialFlatten</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten15MaterialFlattenEv" title="Permalink to this definition">¶</a></dt>
-<dd><p>Create empty. Use append to add material schema manually. </p>
-</dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten15MaterialFlattenE15IMaterialSchema">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::MaterialFlatten__IMaterialSchema"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1aa279d8297da876e2c0e3806c6bbf9278"></span><code class="descname">MaterialFlatten</code><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchemaE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema">IMaterialSchema</a> <em>iMaterialSchema</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten15MaterialFlattenE15IMaterialSchema" title="Permalink to this definition">¶</a></dt>
-<dd><p>Create with a single materialSchema. </p>
-</dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten15MaterialFlattenE9IMaterial">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::MaterialFlatten__IMaterial"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1a8768e984796f2853cb1510423a58ad11"></span><code class="descname">MaterialFlatten</code><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS9IMaterialE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterial">IMaterial</a> <em>iMaterialObject</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten15MaterialFlattenE9IMaterial" title="Permalink to this definition">¶</a></dt>
-<dd><p>Create from a material object. The schemas of matching parent material objects are automatically append </p>
-</dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten15MaterialFlattenEN3Abc7IObjectEN3Abc8IArchiveE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::MaterialFlatten__Abc::IObject.Abc::IArchive"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1ad17c2097919c93f3263ff440f33d8b30"></span><code class="descname">MaterialFlatten</code><span class="sig-paren">(</span><a class="reference internal" href="abc.html#_CPPv2N7Alembic3AbcE" title="Alembic::Abc">Abc</a>::IObject <em>iObject</em>, <a class="reference internal" href="abc.html#_CPPv2N7Alembic3AbcE" title="Alembic::Abc">Abc</a>::IArchive <em>iAlternateSearchArchive</em> = Abc::IArchive()<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten15MaterialFlattenEN3Abc7IObjectEN3Abc8IArchiveE" title="Permalink to this definition">¶</a></dt>
-<dd><p>Create from an IObject. This will interpret values for hasMaterial and getMaterialAssignmentPath to flatten the full assignment and inheritance chain. A locally present material is first in the inheritance path. A material assignment is then appended with IMaterial rules.</p>
-<p>An alternate archive can be optionally specified. If provided, assigned material paths will be traversed within that archive instead of the archive of the object itself. </p>
-</dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten6appendE15IMaterialSchema">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::append__IMaterialSchema"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1a7a15c087e10ff3a604e4e1d05b58be36"></span>void <code class="descname">append</code><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchemaE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema">IMaterialSchema</a> <em>iMaterialSchema</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten6appendE15IMaterialSchema" title="Permalink to this definition">¶</a></dt>
-<dd><p>Manually append a schema to the inheritance hierarchy. </p>
-</dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten6appendE9IMaterial">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::append__IMaterial"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1a2085dbba82ffeef540f164e2188e4fee"></span>void <code class="descname">append</code><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS9IMaterialE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterial">IMaterial</a> <em>iMaterialObject</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten6appendE9IMaterial" title="Permalink to this definition">¶</a></dt>
-<dd><p>Append the schemas of matching parent material objects. </p>
-</dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten5emptyEv">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::empty"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1a106e936ea73e797808345fee39e6a79c"></span>bool <code class="descname">empty</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten5emptyEv" title="Permalink to this definition">¶</a></dt>
-<dd><p>Returns true is there are no schema in the inheritance path. </p>
-</dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten14getTargetNamesERNSt6vectorINSt6stringEEE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::getTargetNames__std::vector:ss:R"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1aaf3dedc47aa731c6faae9e0c7030e7fe"></span>void <code class="descname">getTargetNames</code><span class="sig-paren">(</span>std::vector&lt;std::string&gt; &amp;<em>oTargetNames</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten14getTargetNamesERNSt6vectorINSt6stringEEE" title="Permalink to this definition">¶</a></dt>
-<dd><p>Fill the list with a union of target names defined within the inheritance hierarchy </p>
-</dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten23getShaderTypesForTargetERKNSt6stringERNSt6vectorINSt6stringEEE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::getShaderTypesForTarget__ssCR.std::vector:ss:R"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1a8c5346ef8570eded503b5064df3d6dde"></span>void <code class="descname">getShaderTypesForTarget</code><span class="sig-paren">(</span><em class="property">const</em> std::string &amp;<em>iTargetName</em>, std::vector&lt;std::string&gt; &amp;<em>oShaderTypeNames</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten23getShaderTypesForTargetERKNSt6stringERNSt6vectorINSt6stringEEE" title="Permalink to this definition">¶</a></dt>
-<dd><p>Fill the list with a union of shader types define for the specified target within the inheritance hierarchy </p>
-</dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten9getShaderERKNSt6stringERKNSt6stringERNSt6stringE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::getShader__ssCR.ssCR.ssR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1a6db7c1ae9813cd9a0ae610934919f756"></span>bool <code class="descname">getShader</code><span class="sig-paren">(</span><em class="property">const</em> std::string &amp;<em>iTarget</em>, <em class="property">const</em> std::string &amp;<em>iShaderType</em>, std::string &amp;<em>oResult</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten9getShaderERKNSt6stringERKNSt6stringERNSt6stringE" title="Permalink to this definition">¶</a></dt>
-<dd><p>Returns true and fills result with the shader name of first defined for the target and shaderType within the inheritance hierarchy. False if not defined. </p>
-</dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten19getShaderParametersERKNSt6stringERKNSt6stringER20ParameterEntryVector">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::getShaderParameters__ssCR.ssCR.ParameterEntryVectorR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1a837098eda7c2c3bde4750c6404ba082e"></span>void <code class="descname">getShaderParameters</code><span class="sig-paren">(</span><em class="property">const</em> std::string &amp;<em>iTarget</em>, <em class="property">const</em> std::string &amp;<em>iShaderType</em>, <a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten20ParameterEntryVectorE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::ParameterEntryVector">ParameterEntryVector</a> &amp;<em>oResult</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten19getShaderParametersERKNSt6stringERKNSt6stringER20ParameterEntryVector" title="Permalink to this definition">¶</a></dt>
-<dd><p>Fills result with the parent compound and property header for shader parameters defined for the target and shader type within the inheritance hierarchy. Shallower definitions mask deeper ones (i.e. you&#8217;ll only get one entry for a given name) </p>
-</dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten29getNetworkTerminalTargetNamesERNSt6vectorINSt6stringEEE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::getNetworkTerminalTargetNames__std::vector:ss:R"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1ad89cc23ac190797bf9847933a16fe9fe"></span>void <code class="descname">getNetworkTerminalTargetNames</code><span class="sig-paren">(</span>std::vector&lt;std::string&gt; &amp;<em>iTargetNames</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten29getNetworkTerminalTargetNamesERNSt6vectorINSt6stringEEE" title="Permalink to this definition">¶</a></dt>
-<dd><p>network stuff </p>
-</dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten38getNetworkTerminalShaderTypesForTargetERKNSt6stringERNSt6vectorINSt6stringEEE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::getNetworkTerminalShaderTypesForTarget__ssCR.std::vector:ss:R"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1a5ed24dc4f6ec437ed5aaf015c1a373dc"></span>void <code class="descname">getNetworkTerminalShaderTypesForTarget</code><span class="sig-paren">(</span><em class="property">const</em> std::string &amp;<em>iTargetName</em>, std::vector&lt;std::string&gt; &amp;<em>oShaderTypeNames</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten38getNetworkTerminalShaderTypesForTargetERKNSt6stringERNSt6vectorINSt6stringEEE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten18getNetworkTerminalERKNSt6stringERKNSt6stringERNSt6stringERNSt6stringE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::getNetworkTerminal__ssCR.ssCR.ssR.ssR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1a07726cf8477afe6fdbbcd291626fb110"></span>bool <code class="descname">getNetworkTerminal</code><span class="sig-paren">(</span><em class="property">const</em> std::string &amp;<em>iTarget</em>, <em class="property">const</em> std::string &amp;<em>iShaderType</em>, std::string &amp;<em>oNodeName</em>, std::string &amp;<em>oOutputName</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten18getNetworkTerminalERKNSt6stringERKNSt6stringERNSt6stringERNSt6stringE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten18getNumNetworkNodesEv">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::getNumNetworkNodes"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1af578af22e32cca9dc5f45e6b8a0c513c"></span>size_t <code class="descname">getNumNetworkNodes</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten18getNumNetworkNodesEv" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten14getNetworkNodeE6size_t">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::getNetworkNode__s"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1ad23927ba6139fc2ca4b5d143a0455bd1"></span><a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNodeE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode">NetworkNode</a> <code class="descname">getNetworkNode</code><span class="sig-paren">(</span>size_t <em>iIndex</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten14getNetworkNodeE6size_t" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten14getNetworkNodeERKNSt6stringE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::getNetworkNode__ssCR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1a73f383c6668d914671fd3cfada6782dd"></span><a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNodeE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode">NetworkNode</a> <code class="descname">getNetworkNode</code><span class="sig-paren">(</span><em class="property">const</em> std::string &amp;<em>iNodeName</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten14getNetworkNodeERKNSt6stringE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-</div>
-<div class="breathe-sectiondef container">
-<p class="breathe-sectiondef-title rubric">Private Types</p>
-<dl class="type">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten12StringMapMapE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::StringMapMap"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1a31865d37a2ad839c2c6b32013e331397"></span><em class="property">typedef </em>std::map&lt;std::string, <a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten12StringMapPtrE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::StringMapPtr">StringMapPtr</a>&gt; <code class="descname">StringMapMap</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten12StringMapMapE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-</div>
-<div class="breathe-sectiondef container">
-<p class="breathe-sectiondef-title rubric">Private Functions</p>
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten14flattenNetworkEv">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::flattenNetwork"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1a3d0078b5a86c3698405c4c53ce86dcb4"></span>void <code class="descname">flattenNetwork</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten14flattenNetworkEv" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-</div>
-<div class="breathe-sectiondef container">
-<p class="breathe-sectiondef-title rubric">Private Members</p>
-<dl class="member">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten9m_schemasE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::m_schemas__SchemaVector"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1ace8bfc77180b76b16c94960ed6d20a9f"></span><a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten12SchemaVectorE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::SchemaVector">SchemaVector</a> <code class="descname">m_schemas</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten9m_schemasE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="member">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten18m_networkFlattenedE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::m_networkFlattened__b"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1a069d3752b130f6cdfc7b64f110e63af0"></span>bool <code class="descname">m_networkFlattened</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten18m_networkFlattenedE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="member">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11m_nodeNamesE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::m_nodeNames__std::vector:ss:"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1ac15adce764073258721fb9dc311ed0c9"></span>std::vector&lt;std::string&gt; <code class="descname">m_nodeNames</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11m_nodeNamesE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="member">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten26m_nodesToInterfaceMappingsE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::m_nodesToInterfaceMappings__StringMapMap"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1ab00ec7a9acf75ba93f4ca8ff346c52ee"></span><a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten12StringMapMapE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::StringMapMap">StringMapMap</a> <code class="descname">m_nodesToInterfaceMappings</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten26m_nodesToInterfaceMappingsE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-</div>
-</dd></dl>
-
-<dl class="class">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNodeE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::NetworkNode"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node"></span><em class="property">class </em><code class="descname">NetworkNode</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNodeE" title="Permalink to this definition">¶</a></dt>
-<dd><div class="breathe-sectiondef container">
-<p class="breathe-sectiondef-title rubric">Public Functions</p>
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNode11NetworkNodeEv">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::NetworkNode::NetworkNode"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node_1addc9d4a24def8f940078a4ac1e26a2e2"></span><code class="descname">NetworkNode</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNode11NetworkNodeEv" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNode11NetworkNodeEN3Abc17ICompoundPropertyE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::NetworkNode::NetworkNode__Abc::ICompoundProperty"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node_1a805bab82e0cc840ab6c37b8fcc5bc0db"></span><code class="descname">NetworkNode</code><span class="sig-paren">(</span><a class="reference internal" href="abc.html#_CPPv2N7Alembic3AbcE" title="Alembic::Abc">Abc</a>::ICompoundProperty <em>iCompound</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNode11NetworkNodeEN3Abc17ICompoundPropertyE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNode11NetworkNodeEN3Abc17ICompoundPropertyERKNSt6stringE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::NetworkNode::NetworkNode__Abc::ICompoundProperty.ssCR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node_1ad87e4146b3c63d3a7c17538d24cdf076"></span><code class="descname">NetworkNode</code><span class="sig-paren">(</span><a class="reference internal" href="abc.html#_CPPv2N7Alembic3AbcE" title="Alembic::Abc">Abc</a>::ICompoundProperty <em>iParent</em>, <em class="property">const</em> std::string &amp;<em>iNodeName</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNode11NetworkNodeEN3Abc17ICompoundPropertyERKNSt6stringE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNode5validEv">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::NetworkNode::valid"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node_1a0a1e9adfd24c63aa0314dcdcf049107d"></span>bool <code class="descname">valid</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNode5validEv" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNode7getNameEv">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::NetworkNode::getName"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node_1ad4c17e7130ff004f208c332e8857af92"></span>std::string <code class="descname">getName</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNode7getNameEv" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNode9getTargetERNSt6stringE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::NetworkNode::getTarget__ssR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node_1ab985d139ada6f428edad1befc9a0f996"></span>bool <code class="descname">getTarget</code><span class="sig-paren">(</span>std::string &amp;<em>oResult</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNode9getTargetERNSt6stringE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNode11getNodeTypeERNSt6stringE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::NetworkNode::getNodeType__ssR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node_1ad064d0a467e334b3f6508b9ccfbe7419"></span>bool <code class="descname">getNodeType</code><span class="sig-paren">(</span>std::string &amp;<em>oResult</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNode11getNodeTypeERNSt6stringE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNode13getParametersEv">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::NetworkNode::getParameters"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node_1acf7a9035ea9f66721aa60e02adb67468"></span><a class="reference internal" href="abc.html#_CPPv2N7Alembic3AbcE" title="Alembic::Abc">Abc</a>::ICompoundProperty <code class="descname">getParameters</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNode13getParametersEv" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNode17getNumConnectionsEv">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::NetworkNode::getNumConnections"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node_1ac0e2bd2fddb058f9154031a6f53432bb"></span>size_t <code class="descname">getNumConnections</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNode17getNumConnectionsEv" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNode13getConnectionE6size_tRNSt6stringERNSt6stringERNSt6stringE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::NetworkNode::getConnection__s.ssR.ssR.ssR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node_1a7427b633632463eef116f07434fb820c"></span>bool <code class="descname">getConnection</code><span class="sig-paren">(</span>size_t <em>iIndex</em>, std::string &amp;<em>oInputName</em>, std::string &amp;<em>oConnectedNodeName</em>, std::string &amp;<em>oConnectedOutputName</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNode13getConnectionE6size_tRNSt6stringERNSt6stringERNSt6stringE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNode13getConnectionERKNSt6stringERNSt6stringERNSt6stringE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::NetworkNode::getConnection__ssCR.ssR.ssR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node_1a359269ced55299d2a16efef4d7caede2"></span>bool <code class="descname">getConnection</code><span class="sig-paren">(</span><em class="property">const</em> std::string &amp;<em>iInputName</em>, std::string &amp;<em>oConnectedNodeName</em>, std::string &amp;<em>oConnectedOutputName</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNode13getConnectionERKNSt6stringERNSt6stringERNSt6stringE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-</div>
-<div class="breathe-sectiondef container">
-<p class="breathe-sectiondef-title rubric">Private Functions</p>
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNode20splitConnectionValueERKNSt6stringERNSt6stringERNSt6stringE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::NetworkNode::splitConnectionValue__ssCR.ssR.ssR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node_1a6c5394fcce9d154c372e3877de9f4536"></span>void <code class="descname">splitConnectionValue</code><span class="sig-paren">(</span><em class="property">const</em> std::string &amp;<em>v</em>, std::string &amp;<em>a</em>, std::string &amp;<em>b</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNode20splitConnectionValueERKNSt6stringERNSt6stringERNSt6stringE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-</div>
-<div class="breathe-sectiondef container">
-<p class="breathe-sectiondef-title rubric">Private Members</p>
-<dl class="member">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNode10m_compoundE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::NetworkNode::m_compound__Abc::ICompoundProperty"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node_1a5fddadc118b46a77569ba693953ff9c4"></span><a class="reference internal" href="abc.html#_CPPv2N7Alembic3AbcE" title="Alembic::Abc">Abc</a>::ICompoundProperty <code class="descname">m_compound</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNode10m_compoundE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="member">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNode20m_connectionsCheckedE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::NetworkNode::m_connectionsChecked__b"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node_1af19147892a245b2dd6c065e91e7895dd"></span>bool <code class="descname">m_connectionsChecked</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNode20m_connectionsCheckedE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="member">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNode13m_connectionsE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::NetworkNode::m_connections__std::vector:ss:"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node_1af036deb47969b7df88e28876acfb2924"></span>std::vector&lt;std::string&gt; <code class="descname">m_connections</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNode13m_connectionsE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="member">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNode16m_connectionsMapE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::NetworkNode::m_connectionsMap__std::map:ss.ss:"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_i_material_schema_1_1_network_node_1af848067cfd5ba1ef87afabadbf74f97c"></span>std::map&lt;std::string, std::string&gt; <code class="descname">m_connectionsMap</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNode16m_connectionsMapE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-</div>
-</dd></dl>
-
-<dl class="class">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNodeE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node"></span><em class="property">class </em><code class="descname">NetworkNode</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNodeE" title="Permalink to this definition">¶</a></dt>
-<dd><div class="breathe-sectiondef container">
-<p class="breathe-sectiondef-title rubric">Public Types</p>
-<dl class="type">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode16ConnectionVectorE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::ConnectionVector"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1ad7e4f8ec5cebfbfe145deb590d4d261c"></span><em class="property">typedef </em>std::vector&lt;<a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode10ConnectionE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::Connection">Connection</a>&gt; <code class="descname">ConnectionVector</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode16ConnectionVectorE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-</div>
-<div class="breathe-sectiondef container">
-<p class="breathe-sectiondef-title rubric">Public Functions</p>
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode11NetworkNodeEv">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::NetworkNode"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a7bc3e856be1eb9ee43c85cad085aed4c"></span><code class="descname">NetworkNode</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode11NetworkNodeEv" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode5validEv">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::valid"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a001aaeb26fdcbc12c354ea76158b9260"></span>bool <code class="descname">valid</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode5validEv" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode7getNameEv">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::getName"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a52614b7bfe24de67c5f6752e19ade6dd"></span>std::string <code class="descname">getName</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode7getNameEv" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode9getTargetERNSt6stringE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::getTarget__ssR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1ab17835e49778f2411d1e8cb3679fe0e3"></span>bool <code class="descname">getTarget</code><span class="sig-paren">(</span>std::string &amp;<em>oResult</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode9getTargetERNSt6stringE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode11getNodeTypeERNSt6stringE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::getNodeType__ssR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a1931bdda9bf94dcdae734fa6e6e3eb10"></span>bool <code class="descname">getNodeType</code><span class="sig-paren">(</span>std::string &amp;<em>oResult</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode11getNodeTypeERNSt6stringE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode13getParametersER20ParameterEntryVector">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::getParameters__ParameterEntryVectorR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1ad7cd91f853e3f74f797c5c3a53cc29e6"></span>void <code class="descname">getParameters</code><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten20ParameterEntryVectorE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::ParameterEntryVector">ParameterEntryVector</a> &amp;<em>oResult</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode13getParametersER20ParameterEntryVector" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode14getConnectionsER16ConnectionVector">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::getConnections__ConnectionVectorR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a4a2d8bcc2dfb61321f6fcd5fa3b89579"></span>void <code class="descname">getConnections</code><span class="sig-paren">(</span><a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode16ConnectionVectorE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::ConnectionVector">ConnectionVector</a> &amp;<em>oResult</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode14getConnectionsER16ConnectionVector" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-</div>
-<div class="breathe-sectiondef container">
-<p class="breathe-sectiondef-title rubric">Private Functions</p>
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode11NetworkNodeERKNSt6stringER12SchemaVector12StringMapPtr">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::NetworkNode__ssCR.SchemaVectorR.StringMapPtr"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a4ac9a742424a6eb12fb10b61a57f954d"></span><code class="descname">NetworkNode</code><span class="sig-paren">(</span><em class="property">const</em> std::string &amp;<em>iName</em>, <a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten12SchemaVectorE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::SchemaVector">SchemaVector</a> &amp;<em>iSchemas</em>, <a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten12StringMapPtrE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::StringMapPtr">StringMapPtr</a> <em>iInterfaceMappings</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode11NetworkNodeERKNSt6stringER12SchemaVector12StringMapPtr" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-</div>
-<div class="breathe-sectiondef container">
-<p class="breathe-sectiondef-title rubric">Private Members</p>
-<dl class="member">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode6m_nameE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::m_name__ss"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a09c3b0417d23bae80e7c0b857554fdf2"></span>std::string <code class="descname">m_name</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode6m_nameE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="member">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode7m_nodesE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::m_nodes__std::vector:IMaterialSchema::NetworkNode:"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1ac168fb4b7f2cc036d82140aa337be7e5"></span>std::vector&lt;<a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchemaE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema">IMaterialSchema</a>::<a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchema11NetworkNodeE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema::NetworkNode">NetworkNode</a>&gt; <code class="descname">m_nodes</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode7m_nodesE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="member">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode19m_networkParametersE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::m_networkParameters__std::vector:Abc::ICompoundProperty:"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a4314981ee61fe14d7598eb1b3aa46239"></span>std::vector&lt;<a class="reference internal" href="abc.html#_CPPv2N7Alembic3AbcE" title="Alembic::Abc">Abc</a>::ICompoundProperty&gt; <code class="descname">m_networkParameters</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode19m_networkParametersE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="member">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode19m_interfaceMappingsE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::m_interfaceMappings__StringMapPtr"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1ad289bbce799446ad89f8e124ecdf9131"></span><a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten12StringMapPtrE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::StringMapPtr">StringMapPtr</a> <code class="descname">m_interfaceMappings</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten11NetworkNode19m_interfaceMappingsE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-</div>
-<div class="breathe-sectiondef container">
-<p class="breathe-sectiondef-title rubric">Friends</p>
-<dl class="function">
-<dt>
-<span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_network_node_1a41f2f70bce01a95925c1691e4f065066"></span><em class="property">friend </em><code class="descname">Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::NetworkNode::MaterialFlatten</code></dt>
-<dd></dd></dl>
-
-</div>
-</dd></dl>
-
-<dl class="class">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchemaE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::OMaterialSchema"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema"></span><em class="property">class </em><code class="descname">OMaterialSchema</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchemaE" title="Permalink to this definition">¶</a></dt>
-<dd><em>#include &lt;OMaterial.h&gt;</em><p>Schema for writing shader definitions as either an object or a compound property. Only &#8220;monolithic&#8221; shader definitions (i.e. non network) are presently supported in this implementation. </p>
-<div class="breathe-sectiondef container">
-<p class="breathe-sectiondef-title rubric">Public Types</p>
-<dl class="type">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema9this_typeE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::OMaterialSchema::this_type"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1a7cedefba6e384de7e9c62be0320eac80"></span><em class="property">typedef </em><a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchemaE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::OMaterialSchema">OMaterialSchema</a> <code class="descname">this_type</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema9this_typeE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-</div>
-<div class="breathe-sectiondef container">
-<p class="breathe-sectiondef-title rubric">Public Functions</p>
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema15OMaterialSchemaEv">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::OMaterialSchema::OMaterialSchema"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1ac6004edb27859c54a0482347b2842dac"></span><code class="descname">OMaterialSchema</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema15OMaterialSchemaEv" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt>
-<em class="property">template </em>&lt;<em class="property">class</em> CPROP_PTR&gt;</dt>
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema15OMaterialSchemaE9CPROP_PTRRKNSt6stringERKN3Abc8ArgumentERKN3Abc8ArgumentERKN3Abc8ArgumentE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::OMaterialSchema::OMaterialSchema__CPROP_PTR.ssCR.Abc::ArgumentCR.Abc::ArgumentCR.Abc::ArgumentCR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1a7a07899b47855ee0244e3c45cc0d2656"></span><code class="descname">OMaterialSchema</code><span class="sig-paren">(</span>CPROP_PTR <em>iParent</em>, <em class="property">const</em> std::string &amp;<em>iName</em>, <em class="property">const</em> <a class="reference internal" href="abc.html#_CPPv2N7Alembic3AbcE" title="Alembic::Abc">Abc</a>::Argument &amp;<em>iArg0</em> = Abc::Argument(), <em class="property">const</em> <a class="reference internal" href="abc.html#_CPPv2N7Alembic3AbcE" title="Alembic::Abc">Abc</a>::Argument &amp;<em>iArg1</em> = Abc::Argument(), <em class="property">const</em> <a class="reference internal" href="abc.html#_CPPv2N7Alembic3AbcE" title="Alembic::Abc">Abc</a>::Argument &amp;<em>iArg2</em> = Abc::Argument()<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema15OMaterialSchemaE9CPROP_PTRRKNSt6stringERKN3Abc8ArgumentERKN3Abc8ArgumentERKN3Abc8ArgumentE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt>
-<em class="property">template </em>&lt;<em class="property">class</em> CPROP_PTR&gt;</dt>
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema15OMaterialSchemaE9CPROP_PTRRKN3Abc8ArgumentERKN3Abc8ArgumentERKN3Abc8ArgumentE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::OMaterialSchema::OMaterialSchema__CPROP_PTR.Abc::ArgumentCR.Abc::ArgumentCR.Abc::ArgumentCR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1ad2fa484b1846a8baad168218d64d47f9"></span><code class="descname">OMaterialSchema</code><span class="sig-paren">(</span>CPROP_PTR <em>iParent</em>, <em class="property">const</em> <a class="reference internal" href="abc.html#_CPPv2N7Alembic3AbcE" title="Alembic::Abc">Abc</a>::Argument &amp;<em>iArg0</em> = Abc::Argument(), <em class="property">const</em> <a class="reference internal" href="abc.html#_CPPv2N7Alembic3AbcE" title="Alembic::Abc">Abc</a>::Argument &amp;<em>iArg1</em> = Abc::Argument(), <em class="property">const</em> <a class="reference internal" href="abc.html#_CPPv2N7Alembic3AbcE" title="Alembic::Abc">Abc</a>::Argument &amp;<em>iArg2</em> = Abc::Argument()<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema15OMaterialSchemaE9CPROP_PTRRKN3Abc8ArgumentERKN3Abc8ArgumentERKN3Abc8ArgumentE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema15OMaterialSchemaERK15OMaterialSchema">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::OMaterialSchema::OMaterialSchema__OMaterialSchemaCR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1a6bb978c8737dc3db0d7e5e9193be3d16"></span><code class="descname">OMaterialSchema</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchemaE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::OMaterialSchema">OMaterialSchema</a> &amp;<em>iCopy</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema15OMaterialSchemaERK15OMaterialSchema" title="Permalink to this definition">¶</a></dt>
-<dd><p>Copy constructor. </p>
-</dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema9setShaderERKNSt6stringERKNSt6stringERKNSt6stringE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::OMaterialSchema::setShader__ssCR.ssCR.ssCR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1aab945f75e9e5a555c4226bef209fd548"></span>void <code class="descname">setShader</code><span class="sig-paren">(</span><em class="property">const</em> std::string &amp;<em>iTarget</em>, <em class="property">const</em> std::string &amp;<em>iShaderType</em>, <em class="property">const</em> std::string &amp;<em>iShaderName</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema9setShaderERKNSt6stringERKNSt6stringERKNSt6stringE" title="Permalink to this definition">¶</a></dt>
-<dd><p>Declare shader for a given target and shaderType. &#8220;Target&#8217;s&#8221; value is an agreed upon convention for a renderer or application (i.e. &#8220;prman&#8221;) &#8220;ShaderType&#8217;s&#8221; value is an agreed upon convention for shader terminals such as &#8220;surface,&#8221; &#8220;displacement,&#8221; &#8220;light&#8221;, &#8220;coshader_somename.&#8221; &#8220;ShaderName&#8217;s&#8221; value is an identifier meaningful to the target application (i.e. &#8220;paintedplastic,&#8221; &#8220;fancy_spot_light&#8221;). It&#8217;s only valid to call this once per target/shaderType combo. </p>
-</dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema19getShaderParametersERKNSt6stringERKNSt6stringE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::OMaterialSchema::getShaderParameters__ssCR.ssCR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1a95cc55866c470f13fbba87b534cc3efc"></span><a class="reference internal" href="abc.html#_CPPv2N7Alembic3AbcE" title="Alembic::Abc">Abc</a>::OCompoundProperty <code class="descname">getShaderParameters</code><span class="sig-paren">(</span><em class="property">const</em> std::string &amp;<em>iTarget</em>, <em class="property">const</em> std::string &amp;<em>iShaderType</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema19getShaderParametersERKNSt6stringERKNSt6stringE" title="Permalink to this definition">¶</a></dt>
-<dd><p>Declare and retrieve a container for storing properties representing parameters for the target and shaderType. You put them in there yourself since there are no restrictions on type or sampling other than what&#8217;s appropriate and meaningful for the target application. Repeated calls will return the same object. </p>
-</dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema14addNetworkNodeERKNSt6stringERKNSt6stringERKNSt6stringE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::OMaterialSchema::addNetworkNode__ssCR.ssCR.ssCR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1a08c3e20bc8180f57b2126bdbd2092a7e"></span>void <code class="descname">addNetworkNode</code><span class="sig-paren">(</span><em class="property">const</em> std::string &amp;<em>iNodeName</em>, <em class="property">const</em> std::string &amp;<em>iTarget</em>, <em class="property">const</em> std::string &amp;<em>iNodeType</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema14addNetworkNodeERKNSt6stringERKNSt6stringERKNSt6stringE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema24setNetworkNodeConnectionERKNSt6stringERKNSt6stringERKNSt6stringERKNSt6stringE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::OMaterialSchema::setNetworkNodeConnection__ssCR.ssCR.ssCR.ssCR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1ae9a75d2128a9057c62b40ef9359a353c"></span>void <code class="descname">setNetworkNodeConnection</code><span class="sig-paren">(</span><em class="property">const</em> std::string &amp;<em>iNodeName</em>, <em class="property">const</em> std::string &amp;<em>iInputName</em>, <em class="property">const</em> std::string &amp;<em>iConnectedNodeName</em>, <em class="property">const</em> std::string &amp;<em>iConnectedOutputName</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema24setNetworkNodeConnectionERKNSt6stringERKNSt6stringERKNSt6stringERKNSt6stringE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema24getNetworkNodeParametersERKNSt6stringE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::OMaterialSchema::getNetworkNodeParameters__ssCR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1a28285f2a588706c7f666e7f62b1392f4"></span><a class="reference internal" href="abc.html#_CPPv2N7Alembic3AbcE" title="Alembic::Abc">Abc</a>::OCompoundProperty <code class="descname">getNetworkNodeParameters</code><span class="sig-paren">(</span><em class="property">const</em> std::string &amp;<em>iNodeName</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema24getNetworkNodeParametersERKNSt6stringE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema18setNetworkTerminalERKNSt6stringERKNSt6stringERKNSt6stringERKNSt6stringE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::OMaterialSchema::setNetworkTerminal__ssCR.ssCR.ssCR.ssCR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1a41188e6e9b1d591eb4a2f92b3ee58a6d"></span>void <code class="descname">setNetworkTerminal</code><span class="sig-paren">(</span><em class="property">const</em> std::string &amp;<em>iTarget</em>, <em class="property">const</em> std::string &amp;<em>iShaderType</em>, <em class="property">const</em> std::string &amp;<em>iNodeName</em>, <em class="property">const</em> std::string &amp;<em>iOutputName</em> = &quot;&quot;<span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema18setNetworkTerminalERKNSt6stringERKNSt6stringERKNSt6stringERKNSt6stringE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema35setNetworkInterfaceParameterMappingERKNSt6stringERKNSt6stringERKNSt6stringE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::OMaterialSchema::setNetworkInterfaceParameterMapping__ssCR.ssCR.ssCR"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1a78acc7100f533ec9a5521cd497f3c302"></span>void <code class="descname">setNetworkInterfaceParameterMapping</code><span class="sig-paren">(</span><em class="property">const</em> std::string &amp;<em>iInterfaceParamName</em>, <em class="property">const</em> std::string &amp;<em>iMapToNodeName</em>, <em class="property">const</em> std::string &amp;<em>iMapToParamName</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema35setNetworkInterfaceParameterMappingERKNSt6stringERKNSt6stringERKNSt6stringE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema29getNetworkInterfaceParametersEv">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::OMaterialSchema::getNetworkInterfaceParameters"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1ac368901b30ca20a09abf9a5233a05c6e"></span><a class="reference internal" href="abc.html#_CPPv2N7Alembic3AbcE" title="Alembic::Abc">Abc</a>::OCompoundProperty <code class="descname">getNetworkInterfaceParameters</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema29getNetworkInterfaceParametersEv" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-</div>
-<div class="breathe-sectiondef container">
-<p class="breathe-sectiondef-title rubric">Protected Functions</p>
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema4initEv">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::OMaterialSchema::init"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1a4eb8fdcc47ba1a4ae04bd0f839f68d9f"></span>void <code class="descname">init</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema4initEv" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema18createNodeCompoundEv">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::OMaterialSchema::createNodeCompound"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1ac5f699e3bda18a28f4f5db46103a5aa9"></span>void <code class="descname">createNodeCompound</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema18createNodeCompoundEv" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-</div>
-<div class="breathe-sectiondef container">
-<p class="breathe-sectiondef-title rubric">Protected Attributes</p>
-<dl class="member">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema6m_nodeE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::OMaterialSchema::m_node__Abc::OCompoundProperty"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1a740fcbd0b8d8ea639a900a972ac083af"></span><a class="reference internal" href="abc.html#_CPPv2N7Alembic3AbcE" title="Alembic::Abc">Abc</a>::OCompoundProperty <code class="descname">m_node</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema6m_nodeE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="member">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema6m_dataE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::OMaterialSchema::m_data__Util::shared_ptr:Data:"></span><span class="target" id="AbcMaterialclass_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_o_material_schema_1a033d15cbbea5edc7b642d589ba217fca"></span><a class="reference internal" href="util.html#_CPPv2N7Alembic4UtilE" title="Alembic::Util">Util</a>::shared_ptr&lt;Data&gt; <code class="descname">m_data</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchema6m_dataE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-</div>
-</dd></dl>
-
-<dl class="class">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten14ParameterEntryE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::ParameterEntry"></span><span class="target" id="AbcMaterialstruct_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_parameter_entry"></span><em class="property">struct </em><code class="descname">ParameterEntry</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten14ParameterEntryE" title="Permalink to this definition">¶</a></dt>
-<dd><div class="breathe-sectiondef container">
-<p class="breathe-sectiondef-title rubric">Public Functions</p>
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten14ParameterEntry14ParameterEntryEv">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::ParameterEntry::ParameterEntry"></span><span class="target" id="AbcMaterialstruct_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_parameter_entry_1ac5ce9a076150e551e243a554dc7fe560"></span><code class="descname">ParameterEntry</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten14ParameterEntry14ParameterEntryEv" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten14ParameterEntry14ParameterEntryERKNSt6stringEN3Abc17ICompoundPropertyEPKN15AbcCoreAbstract14PropertyHeaderE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::ParameterEntry::ParameterEntry__ssCR.Abc::ICompoundProperty.AbcCoreAbstract::PropertyHeaderCP"></span><span class="target" id="AbcMaterialstruct_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_parameter_entry_1a52671de9350d489804c2ac428e4bb7ae"></span><code class="descname">ParameterEntry</code><span class="sig-paren">(</span><em class="property">const</em> std::string &amp;<em>iName</em>, <a class="reference internal" href="abc.html#_CPPv2N7Alembic3AbcE" title="Alembic::Abc">Abc</a>::ICompoundProperty <em>iParent</em>, <em class="property">const</em> <a class="reference internal" href="abca.html#_CPPv2N7Alembic15AbcCoreAbstractE" title="Alembic::AbcCoreAbstract">AbcCoreAbstract</a>::PropertyHeader *<em>iHeader</em><span class="sig-paren">)</span><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten14ParameterEntry14ParameterEntryERKNSt6stringEN3Abc17ICompoundPropertyEPKN15AbcCoreAbstract14PropertyHeaderE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten14ParameterEntryeqERK14ParameterEntry">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::ParameterEntry::eq-operator__ParameterEntryCR"></span><span class="target" id="AbcMaterialstruct_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_parameter_entry_1a074eac9de64cb4091117603b66876f72"></span>bool <code class="descname">operator==</code><span class="sig-paren">(</span><em class="property">const</em> <a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten14ParameterEntryE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::ParameterEntry">ParameterEntry</a> &amp;<em>iRhs</em><span class="sig-paren">)</span> const<a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten14ParameterEntryeqERK14ParameterEntry" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-</div>
-<div class="breathe-sectiondef container">
-<p class="breathe-sectiondef-title rubric">Public Members</p>
-<dl class="member">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten14ParameterEntry4nameE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::ParameterEntry::name__ss"></span><span class="target" id="AbcMaterialstruct_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_parameter_entry_1a11037a7be3bf3e4addb6a13830ef1f55"></span>std::string <code class="descname">name</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten14ParameterEntry4nameE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="member">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten14ParameterEntry6parentE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::ParameterEntry::parent__Abc::ICompoundProperty"></span><span class="target" id="AbcMaterialstruct_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_parameter_entry_1a6db4917cb41e5a583d888b1dbb277541"></span><a class="reference internal" href="abc.html#_CPPv2N7Alembic3AbcE" title="Alembic::Abc">Abc</a>::ICompoundProperty <code class="descname">parent</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten14ParameterEntry6parentE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="member">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten14ParameterEntry6headerE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::MaterialFlatten::ParameterEntry::header__AbcCoreAbstract::PropertyHeaderCP"></span><span class="target" id="AbcMaterialstruct_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1_1_material_flatten_1_1_parameter_entry_1a4b08f47fd0c1fb28e471eef0c97d5c4a"></span><em class="property">const</em> <a class="reference internal" href="abca.html#_CPPv2N7Alembic15AbcCoreAbstractE" title="Alembic::AbcCoreAbstract">AbcCoreAbstract</a>::PropertyHeader *<code class="descname">header</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15MaterialFlatten14ParameterEntry6headerE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-</div>
-</dd></dl>
-
-<dl class="type">
-<dt id="_CPPv27Alembic">
-<span id="Alembic"></span><span class="target" id="AbcMaterialnamespace_alembic"></span><em class="property">namespace </em><code class="descname">Alembic</code><a class="headerlink" href="#_CPPv27Alembic" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="type">
-<dt id="_CPPv2N7Alembic11AbcMaterialE">
-<span id="Alembic::AbcMaterial"></span><span class="target" id="AbcMaterialnamespace_alembic_1_1_abc_material"></span><em class="property">namespace </em><code class="descname">AbcMaterial</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterialE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="type">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NSE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS"></span><span class="target" id="AbcMaterialnamespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s"></span><em class="property">namespace </em><code class="descname">ALEMBIC_VERSION_NS</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NSE" title="Permalink to this definition">¶</a></dt>
-<dd><div class="breathe-sectiondef container">
-<p class="breathe-sectiondef-title rubric">Typedefs</p>
-<dl class="type">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS9IMaterialE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterial"></span><span class="target" id="AbcMaterialnamespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ac45895f0e40b75f2febf8791b2395f81"></span><em class="property">typedef </em><a class="reference internal" href="abc.html#_CPPv2N7Alembic3AbcE" title="Alembic::Abc">Abc</a>::ISchemaObject&lt;<a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15IMaterialSchemaE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialSchema">IMaterialSchema</a>&gt; <code class="descname">IMaterial</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS9IMaterialE" title="Permalink to this definition">¶</a></dt>
-<dd><p>Object declaration. </p>
-</dd></dl>
-
-<dl class="type">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS12IMaterialPtrE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterialPtr"></span><span class="target" id="AbcMaterialnamespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a2cf683406ca277c316ed9d10c8de1dd7"></span><em class="property">typedef </em><a class="reference internal" href="util.html#_CPPv2N7Alembic4UtilE" title="Alembic::Util">Util</a>::shared_ptr&lt;<a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS9IMaterialE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::IMaterial">IMaterial</a>&gt; <code class="descname">IMaterialPtr</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS12IMaterialPtrE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="type">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS9OMaterialE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::OMaterial"></span><span class="target" id="AbcMaterialnamespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a0d0b469b13e121a5fc9dbfa054f7633e"></span><em class="property">typedef </em><a class="reference internal" href="abc.html#_CPPv2N7Alembic3AbcE" title="Alembic::Abc">Abc</a>::OSchemaObject&lt;<a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS15OMaterialSchemaE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::OMaterialSchema">OMaterialSchema</a>&gt; <code class="descname">OMaterial</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS9OMaterialE" title="Permalink to this definition">¶</a></dt>
-<dd><p>Object declaration. </p>
-</dd></dl>
-
-<dl class="type">
-<dt id="_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS12OMaterialPtrE">
-<span id="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::OMaterialPtr"></span><span class="target" id="AbcMaterialnamespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1abbb4c62e6d902a7d20a39acfd6cdcb73"></span><em class="property">typedef </em><a class="reference internal" href="util.html#_CPPv2N7Alembic4UtilE" title="Alembic::Util">Util</a>::shared_ptr&lt;<a class="reference internal" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS9OMaterialE" title="Alembic::AbcMaterial::ALEMBIC_VERSION_NS::OMaterial">OMaterial</a>&gt; <code class="descname">OMaterialPtr</code><a class="headerlink" href="#_CPPv2N7Alembic11AbcMaterial18ALEMBIC_VERSION_NS12OMaterialPtrE" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-</div>
-<div class="breathe-sectiondef container">
-<p class="breathe-sectiondef-title rubric">Functions</p>
-<dl class="function">
-<dt>
-<span class="target" id="AbcMaterialnamespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a15ca19dfeaac18d7fb429c39b73caa25"></span><code class="descname">Alembic::AbcMaterial::ALEMBIC_VERSION_NS::ALEMBIC_ABC_DECLARE_SCHEMA_INFO(&quot;AbcMaterial_Material_v1&quot;, &quot;&quot;, &quot;.material&quot;, MaterialSchemaInfo)</code></dt>
-<dd></dd></dl>
-
-<dl class="function">
-<dt>
-<span class="target" id="AbcMaterialnamespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a7c5539d9b2a647f262e01284e5fee0ee"></span><code class="descname">ALEMBIC_EXPORT void Alembic::AbcMaterial::ALEMBIC_VERSION_NS::addMaterialAssignment(Abc::OObject iObject, const std::string &amp; iValue, const std::string &amp; iPropName = MATERIALASSIGN_PROPNAME)</code></dt>
-<dd><p>Adds a material assignment to an object. The value should be the absolute path to an Material object. (The default interpretation is that this path is to an object within the same archive.)</p>
-<p>The default value for &#8220;propName&#8221; is officially supported convention of the library. You may provide an alternative value for custom solutions that want to make use of this convenience. </p>
-</dd></dl>
-
-<dl class="function">
-<dt>
-<span class="target" id="AbcMaterialnamespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ae8005261adb6c2b425b52540315c133c"></span><code class="descname">ALEMBIC_EXPORT void Alembic::AbcMaterial::ALEMBIC_VERSION_NS::addMaterialAssignment(Abc::OCompoundProperty iProp, const std::string &amp; iValue, const std::string &amp; iPropName = MATERIALASSIGN_PROPNAME)</code></dt>
-<dd><p>Adds a material assignment within a compound property. The conventions and concerns are identical as with applying to an object. This exists primarily for custom solutions which want to make use of the convenience within nested compounds. </p>
-</dd></dl>
-
-<dl class="function">
-<dt>
-<span class="target" id="AbcMaterialnamespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1afae69a4e0d1d9e3f1b197340c4b334f7"></span><code class="descname">ALEMBIC_EXPORT OMaterialSchema Alembic::AbcMaterial::ALEMBIC_VERSION_NS::addMaterial(Abc::OObject iObject, const std::string &amp; iPropName = MATERIAL_PROPNAME)</code></dt>
-<dd><p>Adds a local material schema to any object. This is intended for &#8220;has-a&#8221; cases such as &#8220;this polymesh has a material locally defined.&#8221;</p>
-<p>The default value for &#8220;propName&#8221; is officially supported convention of the library. You may provide an alternative value for custom solutions that want to make use of this convenience. </p>
-</dd></dl>
-
-<dl class="function">
-<dt>
-<span class="target" id="AbcMaterialnamespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a817578d6035e1e0800e494da2fc58ccc"></span><code class="descname">ALEMBIC_EXPORT OMaterialSchema Alembic::AbcMaterial::ALEMBIC_VERSION_NS::addMaterial(Abc::OCompoundProperty iProp, const std::string &amp; iPropName = MATERIAL_PROPNAME)</code></dt>
-<dd><p>Adds a local material schema within any compound. This is intended for the &#8220;has-a&#8221; cases for nested compound properties. </p>
-</dd></dl>
-
-<dl class="function">
-<dt>
-<span class="target" id="AbcMaterialnamespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a94fe080cdc3eab063dcc4c618d91b2a7"></span><code class="descname">ALEMBIC_EXPORT bool Alembic::AbcMaterial::ALEMBIC_VERSION_NS::getMaterialAssignmentPath(Abc::IObject iObject, std::string &amp; oResult, const std::string &amp; iPropName = MATERIALASSIGN_PROPNAME)</code></dt>
-<dd><p>Returns true and fills result with the value of previously defined material assignment path. The default interpretation of the value is as a full path to an IMaterial object within the same archive.</p>
-<p>The default value for &#8220;propName&#8221; is officially supported convention of the library. You may provide an alternative value for custom solutions that want to make use of this convenience. </p>
-</dd></dl>
-
-<dl class="function">
-<dt>
-<span class="target" id="AbcMaterialnamespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ac32023785e59856eb84686a69168eb6a"></span><code class="descname">ALEMBIC_EXPORT bool Alembic::AbcMaterial::ALEMBIC_VERSION_NS::getMaterialAssignmentPath(Abc::ICompoundProperty iProp, std::string &amp; oResult, const std::string &amp; iPropName = MATERIALASSIGN_PROPNAME)</code></dt>
-<dd><p>Returns true and fills result with the value of previously defined material assignment path within a given compound property.</p>
-<p>The common case is at the object level but this is here as a convenince for custom solutions </p>
-</dd></dl>
-
-<dl class="function">
-<dt>
-<span class="target" id="AbcMaterialnamespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1a019bb0636f8cfc75d5d9b34655a0f040"></span><code class="descname">ALEMBIC_EXPORT bool Alembic::AbcMaterial::ALEMBIC_VERSION_NS::hasMaterial(Abc::IObject iObject, IMaterialSchema  &amp; oResult, const std::string &amp; iPropName = MATERIAL_PROPNAME)</code></dt>
-<dd><p>Returns true and fills result a previously defined local material on this object following the &#8220;has a&#8221; pattern.</p>
-<p>The default value for &#8220;propName&#8221; is officially supported convention of the library. You may provide an alternative value for custom solutions that want to make use of this convenience. </p>
-</dd></dl>
-
-<dl class="function">
-<dt>
-<span class="target" id="AbcMaterialnamespace_alembic_1_1_abc_material_1_1_a_l_e_m_b_i_c___v_e_r_s_i_o_n___n_s_1ab0096b6a23bed23996e60e7407778c9b"></span><code class="descname">ALEMBIC_EXPORT bool Alembic::AbcMaterial::ALEMBIC_VERSION_NS::hasMaterial(Abc::ICompoundProperty iCompound, IMaterialSchema  &amp; oResult, const std::string &amp; iPropName = MATERIAL_PROPNAME)</code></dt>
-<dd><p>Returns true and fills result a previously defined local material within the given compound property. This is useful for solutions in which another schema wants to contain a material definition but not advertise it as such at the object level </p>
-</dd></dl>
-
-</div>
-</dd></dl>
-
-<dl class="file">
-<dt>
-<span class="target" id="AbcMaterial_all_8h"></span><em>file</em> <code class="descname">All.h</code></dt>
-<dd><em>#include &lt;Alembic/AbcMaterial/IMaterial.h&gt;</em><em>#include &lt;Alembic/AbcMaterial/OMaterial.h&gt;</em><em>#include &lt;Alembic/AbcMaterial/MaterialAssignment.h&gt;</em><em>#include &lt;Alembic/AbcMaterial/MaterialFlatten.h&gt;</em></dd></dl>
-
-<dl class="file">
-<dt>
-<span class="target" id="AbcMaterial_i_material_8h"></span><em>file</em> <code class="descname">IMaterial.h</code></dt>
-<dd><em>#include &lt;Alembic/Abc/All.h&gt;</em><em>#include &lt;Alembic/Util/Export.h&gt;</em><em>#include &lt;Alembic/AbcMaterial/SchemaInfoDeclarations.h&gt;</em></dd></dl>
-
-<dl class="file">
-<dt>
-<span class="target" id="AbcMaterial_material_assignment_8h"></span><em>file</em> <code class="descname">MaterialAssignment.h</code></dt>
-<dd><em>#include &lt;Alembic/Util/Export.h&gt;</em><em>#include &lt;Alembic/AbcMaterial/IMaterial.h&gt;</em><em>#include &lt;Alembic/AbcMaterial/OMaterial.h&gt;</em><div class="breathe-sectiondef container">
-<p class="breathe-sectiondef-title rubric">Defines</p>
-<dl class="macro">
-<dt id="c.MATERIALASSIGN_PROPNAME">
-<span class="target" id="AbcMaterial_material_assignment_8h_1ad469a673fb261ab95e896df92d8004fd"></span><code class="descname">MATERIALASSIGN_PROPNAME</code><a class="headerlink" href="#c.MATERIALASSIGN_PROPNAME" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-<dl class="macro">
-<dt id="c.MATERIAL_PROPNAME">
-<span class="target" id="AbcMaterial_material_assignment_8h_1ad1dca1dfdc5efb377a5bfdffbea1df13"></span><code class="descname">MATERIAL_PROPNAME</code><a class="headerlink" href="#c.MATERIAL_PROPNAME" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-</div>
-</dd></dl>
-
-<dl class="file">
-<dt>
-<span class="target" id="AbcMaterial_material_flatten_8h"></span><em>file</em> <code class="descname">MaterialFlatten.h</code></dt>
-<dd><em>#include &lt;Alembic/Util/Export.h&gt;</em><em>#include &lt;Alembic/AbcMaterial/IMaterial.h&gt;</em></dd></dl>
-
-<dl class="file">
-<dt>
-<span class="target" id="AbcMaterial_o_material_8h"></span><em>file</em> <code class="descname">OMaterial.h</code></dt>
-<dd><em>#include &lt;Alembic/Abc/All.h&gt;</em><em>#include &lt;Alembic/Util/Export.h&gt;</em><em>#include &lt;Alembic/AbcMaterial/SchemaInfoDeclarations.h&gt;</em></dd></dl>
-
-<dl class="file">
-<dt>
-<span class="target" id="AbcMaterial_schema_info_declarations_8h"></span><em>file</em> <code class="descname">SchemaInfoDeclarations.h</code></dt>
-<dd><em>#include &lt;Alembic/Abc/OSchema.h&gt;</em></dd></dl>
-
 </div>
 
 
+           </div>
+           <div class="articleComments">
+            
            </div>
           </div>
           <footer>
@@ -1045,10 +216,12 @@ with that of an assigned material.</p>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'1.6.0',
+            VERSION:'1.7.0',
+            LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
         };
     </script>
       <script type="text/javascript" src="../_static/jquery.js"></script>

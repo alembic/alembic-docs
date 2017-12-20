@@ -8,9 +8,11 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>alembic.AbcCoreAbstract &mdash; Alembic 1.6.0 documentation</title>
+  <title>alembic.AbcCoreAbstract &mdash; Alembic 1.7.0 documentation</title>
   
 
+  
+  
   
   
 
@@ -30,7 +32,10 @@
   
 
   
-    <link rel="top" title="Alembic 1.6.0 documentation" href="../index.html"/> 
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="Alembic 1.7.0 documentation" href="../index.html"/> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
@@ -39,6 +44,7 @@
 
 <body class="wy-body-for-nav" role="document">
 
+   
   <div class="wy-grid-for-nav">
 
     
@@ -61,7 +67,7 @@
             
             
               <div class="version">
-                1.6.0
+                1.7.0
               </div>
             
           
@@ -82,8 +88,11 @@
           
             
             
-                <!-- Local TOC -->
-                <div class="local-toc"><ul>
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
 <li><a class="reference internal" href="#"><code class="docutils literal"><span class="pre">alembic.AbcCoreAbstract</span></code></a></li>
 </ul>
 </div>
@@ -97,8 +106,10 @@
 
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../index.html">Alembic</a>
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Alembic</a>
+        
       </nav>
 
 
@@ -107,23 +118,40 @@
         <div class="rst-content">
           
 
- 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 <div role="navigation" aria-label="breadcrumbs navigation">
+
   <ul class="wy-breadcrumbs">
-    <li><a href="../index.html">Docs</a> &raquo;</li>
-      
-    <li><code class="docutils literal"><span class="pre">alembic.AbcCoreAbstract</span></code></li>
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li><code class="docutils literal"><span class="pre">alembic.AbcCoreAbstract</span></code></li>
+    
+    
       <li class="wy-breadcrumbs-aside">
         
-          
-            <a href="../_sources/python/abca.txt" rel="nofollow"> View page source</a>
+            
+            <a href="../_sources/python/abca.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
+    
   </ul>
+
+  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
@@ -169,31 +197,31 @@ library in Alembic; that distinction is held by the Abc library.</p>
 <dd><p>The DataType class is a description of how an element of a sample in a Scalar or an Array property is stored</p>
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.DataType.getExtent">
-<code class="descname">getExtent</code><span class="sig-paren">(</span><em>(DataType)arg1</em><span class="sig-paren">)</span> &rarr; int :<a class="headerlink" href="#alembic.AbcCoreAbstract.DataType.getExtent" title="Permalink to this definition">¶</a></dt>
+<code class="descname">getExtent</code><span class="sig-paren">(</span><em>(DataType)arg1</em><span class="sig-paren">)</span> &#x2192; int :<a class="headerlink" href="#alembic.AbcCoreAbstract.DataType.getExtent" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the 8-bit extent</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.DataType.getNumBytes">
-<code class="descname">getNumBytes</code><span class="sig-paren">(</span><em>(DataType)arg1</em><span class="sig-paren">)</span> &rarr; int :<a class="headerlink" href="#alembic.AbcCoreAbstract.DataType.getNumBytes" title="Permalink to this definition">¶</a></dt>
+<code class="descname">getNumBytes</code><span class="sig-paren">(</span><em>(DataType)arg1</em><span class="sig-paren">)</span> &#x2192; int :<a class="headerlink" href="#alembic.AbcCoreAbstract.DataType.getNumBytes" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the number of bytes occupied by a single datum</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.DataType.getPod">
-<code class="descname">getPod</code><span class="sig-paren">(</span><em>(DataType)arg1</em><span class="sig-paren">)</span> &rarr; POD :<a class="headerlink" href="#alembic.AbcCoreAbstract.DataType.getPod" title="Permalink to this definition">¶</a></dt>
+<code class="descname">getPod</code><span class="sig-paren">(</span><em>(DataType)arg1</em><span class="sig-paren">)</span> &#x2192; POD :<a class="headerlink" href="#alembic.AbcCoreAbstract.DataType.getPod" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the PlainOldDataType enum</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.DataType.setExtent">
-<code class="descname">setExtent</code><span class="sig-paren">(</span><em>(DataType)arg1</em>, <em>(int)extent</em><span class="sig-paren">)</span> &rarr; None :<a class="headerlink" href="#alembic.AbcCoreAbstract.DataType.setExtent" title="Permalink to this definition">¶</a></dt>
+<code class="descname">setExtent</code><span class="sig-paren">(</span><em>(DataType)arg1</em>, <em>(int)extent</em><span class="sig-paren">)</span> &#x2192; None :<a class="headerlink" href="#alembic.AbcCoreAbstract.DataType.setExtent" title="Permalink to this definition">¶</a></dt>
 <dd><p>Set the 8-bit extent</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.DataType.setPod">
-<code class="descname">setPod</code><span class="sig-paren">(</span><em>(DataType)arg1</em>, <em>(POD)plainOldDataType</em><span class="sig-paren">)</span> &rarr; None :<a class="headerlink" href="#alembic.AbcCoreAbstract.DataType.setPod" title="Permalink to this definition">¶</a></dt>
+<code class="descname">setPod</code><span class="sig-paren">(</span><em>(DataType)arg1</em>, <em>(POD)plainOldDataType</em><span class="sig-paren">)</span> &#x2192; None :<a class="headerlink" href="#alembic.AbcCoreAbstract.DataType.setPod" title="Permalink to this definition">¶</a></dt>
 <dd><p>Set the PlainOldDataType enum</p>
 </dd></dl>
 
@@ -205,91 +233,91 @@ library in Alembic; that distinction is held by the Abc library.</p>
 <dd><p>The MetaData class is an unordered, unique dictionary of strings for describing Protocol for Objects and Interpretation for Properties</p>
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.MetaData.append">
-<code class="descname">append</code><span class="sig-paren">(</span><em>(MetaData)arg1</em>, <em>(MetaData)metaData</em><span class="sig-paren">)</span> &rarr; None :<a class="headerlink" href="#alembic.AbcCoreAbstract.MetaData.append" title="Permalink to this definition">¶</a></dt>
+<code class="descname">append</code><span class="sig-paren">(</span><em>(MetaData)arg1</em>, <em>(MetaData)metaData</em><span class="sig-paren">)</span> &#x2192; None :<a class="headerlink" href="#alembic.AbcCoreAbstract.MetaData.append" title="Permalink to this definition">¶</a></dt>
 <dd><p>Append the given MetaData. Duplicates are overwritten</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.MetaData.appendUnique">
-<code class="descname">appendUnique</code><span class="sig-paren">(</span><em>(MetaData)arg1</em>, <em>(MetaData)metaData</em><span class="sig-paren">)</span> &rarr; None :<a class="headerlink" href="#alembic.AbcCoreAbstract.MetaData.appendUnique" title="Permalink to this definition">¶</a></dt>
+<code class="descname">appendUnique</code><span class="sig-paren">(</span><em>(MetaData)arg1</em>, <em>(MetaData)metaData</em><span class="sig-paren">)</span> &#x2192; None :<a class="headerlink" href="#alembic.AbcCoreAbstract.MetaData.appendUnique" title="Permalink to this definition">¶</a></dt>
 <dd><p>Append the given MetaData. Duplicate values will cause an exception to be thrown</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.MetaData.get">
-<code class="descname">get</code><span class="sig-paren">(</span><em>(MetaData)arg1</em>, <em>(str)key</em><span class="sig-paren">)</span> &rarr; str :<a class="headerlink" href="#alembic.AbcCoreAbstract.MetaData.get" title="Permalink to this definition">¶</a></dt>
+<code class="descname">get</code><span class="sig-paren">(</span><em>(MetaData)arg1</em>, <em>(str)key</em><span class="sig-paren">)</span> &#x2192; str :<a class="headerlink" href="#alembic.AbcCoreAbstract.MetaData.get" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the value of the given key or an empty string if it is not set</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.MetaData.getRequired">
-<code class="descname">getRequired</code><span class="sig-paren">(</span><em>(MetaData)arg1</em>, <em>(str)key</em><span class="sig-paren">)</span> &rarr; str :<a class="headerlink" href="#alembic.AbcCoreAbstract.MetaData.getRequired" title="Permalink to this definition">¶</a></dt>
+<code class="descname">getRequired</code><span class="sig-paren">(</span><em>(MetaData)arg1</em>, <em>(str)key</em><span class="sig-paren">)</span> &#x2192; str :<a class="headerlink" href="#alembic.AbcCoreAbstract.MetaData.getRequired" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the value of the given key and throws an exception if it is not found</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.MetaData.getSourceName">
-<code class="descname">getSourceName</code><span class="sig-paren">(</span><em>(MetaData)arg1</em><span class="sig-paren">)</span> &rarr; str :<a class="headerlink" href="#alembic.AbcCoreAbstract.MetaData.getSourceName" title="Permalink to this definition">¶</a></dt>
+<code class="descname">getSourceName</code><span class="sig-paren">(</span><em>(MetaData)arg1</em><span class="sig-paren">)</span> &#x2192; str :<a class="headerlink" href="#alembic.AbcCoreAbstract.MetaData.getSourceName" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get the stored source name from the metadata, if any.</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.MetaData.matches">
-<code class="descname">matches</code><span class="sig-paren">(</span><em>(MetaData)arg1</em>, <em>(MetaData)metaData</em><span class="sig-paren">)</span> &rarr; bool :<a class="headerlink" href="#alembic.AbcCoreAbstract.MetaData.matches" title="Permalink to this definition">¶</a></dt>
+<code class="descname">matches</code><span class="sig-paren">(</span><em>(MetaData)arg1</em>, <em>(MetaData)metaData</em><span class="sig-paren">)</span> &#x2192; bool :<a class="headerlink" href="#alembic.AbcCoreAbstract.MetaData.matches" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return True if each of the fields in the given MetaData are found in this MetaData and have the same values</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.MetaData.matchesExactly">
-<code class="descname">matchesExactly</code><span class="sig-paren">(</span><em>(MetaData)arg1</em>, <em>(MetaData)metaData</em><span class="sig-paren">)</span> &rarr; bool :<a class="headerlink" href="#alembic.AbcCoreAbstract.MetaData.matchesExactly" title="Permalink to this definition">¶</a></dt>
+<code class="descname">matchesExactly</code><span class="sig-paren">(</span><em>(MetaData)arg1</em>, <em>(MetaData)metaData</em><span class="sig-paren">)</span> &#x2192; bool :<a class="headerlink" href="#alembic.AbcCoreAbstract.MetaData.matchesExactly" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return True if the given MetaData is exactly equal to this MetaData in every field</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.MetaData.matchesOverlap">
-<code class="descname">matchesOverlap</code><span class="sig-paren">(</span><em>(MetaData)arg1</em>, <em>(MetaData)metaData</em><span class="sig-paren">)</span> &rarr; bool :<a class="headerlink" href="#alembic.AbcCoreAbstract.MetaData.matchesOverlap" title="Permalink to this definition">¶</a></dt>
+<code class="descname">matchesOverlap</code><span class="sig-paren">(</span><em>(MetaData)arg1</em>, <em>(MetaData)metaData</em><span class="sig-paren">)</span> &#x2192; bool :<a class="headerlink" href="#alembic.AbcCoreAbstract.MetaData.matchesOverlap" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return True if, for each of the fields in the given MetaData , this MetaData has either no entry, or the same entry</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.MetaData.serialize">
-<code class="descname">serialize</code><span class="sig-paren">(</span><em>(MetaData)arg1</em><span class="sig-paren">)</span> &rarr; str :<a class="headerlink" href="#alembic.AbcCoreAbstract.MetaData.serialize" title="Permalink to this definition">¶</a></dt>
+<code class="descname">serialize</code><span class="sig-paren">(</span><em>(MetaData)arg1</em><span class="sig-paren">)</span> &#x2192; str :<a class="headerlink" href="#alembic.AbcCoreAbstract.MetaData.serialize" title="Permalink to this definition">¶</a></dt>
 <dd><p>Convert the contents of this MetaData into a single formatted string</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.MetaData.set">
-<code class="descname">set</code><span class="sig-paren">(</span><em>(MetaData)arg1</em>, <em>(str)key</em>, <em>(str)data</em><span class="sig-paren">)</span> &rarr; None :<a class="headerlink" href="#alembic.AbcCoreAbstract.MetaData.set" title="Permalink to this definition">¶</a></dt>
+<code class="descname">set</code><span class="sig-paren">(</span><em>(MetaData)arg1</em>, <em>(str)key</em>, <em>(str)data</em><span class="sig-paren">)</span> &#x2192; None :<a class="headerlink" href="#alembic.AbcCoreAbstract.MetaData.set" title="Permalink to this definition">¶</a></dt>
 <dd><p>Set a key/data pair (silently ovewrite an existing value)</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.MetaData.setIsUV">
-<code class="descname">setIsUV</code><span class="sig-paren">(</span><em>(MetaData)arg1</em>, <em>(bool)arg2</em><span class="sig-paren">)</span> &rarr; None :<a class="headerlink" href="#alembic.AbcCoreAbstract.MetaData.setIsUV" title="Permalink to this definition">¶</a></dt>
+<code class="descname">setIsUV</code><span class="sig-paren">(</span><em>(MetaData)arg1</em>, <em>(bool)arg2</em><span class="sig-paren">)</span> &#x2192; None :<a class="headerlink" href="#alembic.AbcCoreAbstract.MetaData.setIsUV" title="Permalink to this definition">¶</a></dt>
 <dd><p>Set whether or not this metadata stores UVs.</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.MetaData.setReference">
-<code class="descname">setReference</code><span class="sig-paren">(</span><em>(MetaData)arg1</em><span class="sig-paren">)</span> &rarr; None :<a class="headerlink" href="#alembic.AbcCoreAbstract.MetaData.setReference" title="Permalink to this definition">¶</a></dt>
+<code class="descname">setReference</code><span class="sig-paren">(</span><em>(MetaData)arg1</em><span class="sig-paren">)</span> &#x2192; None :<a class="headerlink" href="#alembic.AbcCoreAbstract.MetaData.setReference" title="Permalink to this definition">¶</a></dt>
 <dd><p>Helper function to tag this metadata as being a reference. See isReference() in PropertyHeader for the counterpart.</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.MetaData.setSourceName">
-<code class="descname">setSourceName</code><span class="sig-paren">(</span><em>(MetaData)arg1</em>, <em>(str)arg2</em><span class="sig-paren">)</span> &rarr; None :<a class="headerlink" href="#alembic.AbcCoreAbstract.MetaData.setSourceName" title="Permalink to this definition">¶</a></dt>
+<code class="descname">setSourceName</code><span class="sig-paren">(</span><em>(MetaData)arg1</em>, <em>(str)arg2</em><span class="sig-paren">)</span> &#x2192; None :<a class="headerlink" href="#alembic.AbcCoreAbstract.MetaData.setSourceName" title="Permalink to this definition">¶</a></dt>
 <dd><p>Set a source name, for later retrieval via getSourceName()</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.MetaData.setUnique">
-<code class="descname">setUnique</code><span class="sig-paren">(</span><em>(MetaData)arg1</em>, <em>(str)key</em>, <em>(str)data</em><span class="sig-paren">)</span> &rarr; None :<a class="headerlink" href="#alembic.AbcCoreAbstract.MetaData.setUnique" title="Permalink to this definition">¶</a></dt>
+<code class="descname">setUnique</code><span class="sig-paren">(</span><em>(MetaData)arg1</em>, <em>(str)key</em>, <em>(str)data</em><span class="sig-paren">)</span> &#x2192; None :<a class="headerlink" href="#alembic.AbcCoreAbstract.MetaData.setUnique" title="Permalink to this definition">¶</a></dt>
 <dd><p>Set a key/data pair (throws an exception in attempt to change the value of an existing field, Setting the same value is fine</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.MetaData.size">
-<code class="descname">size</code><span class="sig-paren">(</span><em>(MetaData)arg1</em><span class="sig-paren">)</span> &rarr; int :<a class="headerlink" href="#alembic.AbcCoreAbstract.MetaData.size" title="Permalink to this definition">¶</a></dt>
+<code class="descname">size</code><span class="sig-paren">(</span><em>(MetaData)arg1</em><span class="sig-paren">)</span> &#x2192; int :<a class="headerlink" href="#alembic.AbcCoreAbstract.MetaData.size" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the size of the dictionary</p>
 </dd></dl>
 
@@ -301,19 +329,19 @@ library in Alembic; that distinction is held by the Abc library.</p>
 <dd><p>The ObjectHeader is a collection of MetaData which helps define an Object</p>
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.ObjectHeader.getFullName">
-<code class="descname">getFullName</code><span class="sig-paren">(</span><em>(ObjectHeader)arg1</em><span class="sig-paren">)</span> &rarr; str :<a class="headerlink" href="#alembic.AbcCoreAbstract.ObjectHeader.getFullName" title="Permalink to this definition">¶</a></dt>
+<code class="descname">getFullName</code><span class="sig-paren">(</span><em>(ObjectHeader)arg1</em><span class="sig-paren">)</span> &#x2192; str :<a class="headerlink" href="#alembic.AbcCoreAbstract.ObjectHeader.getFullName" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the full name of the object, which is unique in the whole file</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.ObjectHeader.getMetaData">
-<code class="descname">getMetaData</code><span class="sig-paren">(</span><em>(ObjectHeader)arg1</em><span class="sig-paren">)</span> &rarr; MetaData :<a class="headerlink" href="#alembic.AbcCoreAbstract.ObjectHeader.getMetaData" title="Permalink to this definition">¶</a></dt>
+<code class="descname">getMetaData</code><span class="sig-paren">(</span><em>(ObjectHeader)arg1</em><span class="sig-paren">)</span> &#x2192; MetaData :<a class="headerlink" href="#alembic.AbcCoreAbstract.ObjectHeader.getMetaData" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the MetaData of the object</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.ObjectHeader.getName">
-<code class="descname">getName</code><span class="sig-paren">(</span><em>(ObjectHeader)arg1</em><span class="sig-paren">)</span> &rarr; str :<a class="headerlink" href="#alembic.AbcCoreAbstract.ObjectHeader.getName" title="Permalink to this definition">¶</a></dt>
+<code class="descname">getName</code><span class="sig-paren">(</span><em>(ObjectHeader)arg1</em><span class="sig-paren">)</span> &#x2192; str :<a class="headerlink" href="#alembic.AbcCoreAbstract.ObjectHeader.getName" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the name of the object, which is unique amongst its siblings</p>
 </dd></dl>
 
@@ -325,55 +353,55 @@ library in Alembic; that distinction is held by the Abc library.</p>
 <dd><p>The PropertyHeader is a collection of MetaData which helps define a Property. It also acts as a key of getting an instance of a Property from a CompoundProperty</p>
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.PropertyHeader.getDataType">
-<code class="descname">getDataType</code><span class="sig-paren">(</span><em>(PropertyHeader)arg1</em><span class="sig-paren">)</span> &rarr; DataType :<a class="headerlink" href="#alembic.AbcCoreAbstract.PropertyHeader.getDataType" title="Permalink to this definition">¶</a></dt>
+<code class="descname">getDataType</code><span class="sig-paren">(</span><em>(PropertyHeader)arg1</em><span class="sig-paren">)</span> &#x2192; DataType :<a class="headerlink" href="#alembic.AbcCoreAbstract.PropertyHeader.getDataType" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the DataType of the property. An exception will be thrown if this is called for a CompoundProperty</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.PropertyHeader.getMetaData">
-<code class="descname">getMetaData</code><span class="sig-paren">(</span><em>(PropertyHeader)arg1</em><span class="sig-paren">)</span> &rarr; MetaData :<a class="headerlink" href="#alembic.AbcCoreAbstract.PropertyHeader.getMetaData" title="Permalink to this definition">¶</a></dt>
+<code class="descname">getMetaData</code><span class="sig-paren">(</span><em>(PropertyHeader)arg1</em><span class="sig-paren">)</span> &#x2192; MetaData :<a class="headerlink" href="#alembic.AbcCoreAbstract.PropertyHeader.getMetaData" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the MetaData of the property</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.PropertyHeader.getName">
-<code class="descname">getName</code><span class="sig-paren">(</span><em>(PropertyHeader)arg1</em><span class="sig-paren">)</span> &rarr; str :<a class="headerlink" href="#alembic.AbcCoreAbstract.PropertyHeader.getName" title="Permalink to this definition">¶</a></dt>
+<code class="descname">getName</code><span class="sig-paren">(</span><em>(PropertyHeader)arg1</em><span class="sig-paren">)</span> &#x2192; str :<a class="headerlink" href="#alembic.AbcCoreAbstract.PropertyHeader.getName" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the name of the property, which is unique amongst its  siblings</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.PropertyHeader.isArray">
-<code class="descname">isArray</code><span class="sig-paren">(</span><em>(PropertyHeader)arg1</em><span class="sig-paren">)</span> &rarr; bool :<a class="headerlink" href="#alembic.AbcCoreAbstract.PropertyHeader.isArray" title="Permalink to this definition">¶</a></dt>
+<code class="descname">isArray</code><span class="sig-paren">(</span><em>(PropertyHeader)arg1</em><span class="sig-paren">)</span> &#x2192; bool :<a class="headerlink" href="#alembic.AbcCoreAbstract.PropertyHeader.isArray" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return True if the property is array</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.PropertyHeader.isCompound">
-<code class="descname">isCompound</code><span class="sig-paren">(</span><em>(PropertyHeader)arg1</em><span class="sig-paren">)</span> &rarr; bool :<a class="headerlink" href="#alembic.AbcCoreAbstract.PropertyHeader.isCompound" title="Permalink to this definition">¶</a></dt>
+<code class="descname">isCompound</code><span class="sig-paren">(</span><em>(PropertyHeader)arg1</em><span class="sig-paren">)</span> &#x2192; bool :<a class="headerlink" href="#alembic.AbcCoreAbstract.PropertyHeader.isCompound" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return True if the property is compound</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.PropertyHeader.isReference">
-<code class="descname">isReference</code><span class="sig-paren">(</span><em>(PropertyHeader)arg1</em><span class="sig-paren">)</span> &rarr; bool :<a class="headerlink" href="#alembic.AbcCoreAbstract.PropertyHeader.isReference" title="Permalink to this definition">¶</a></dt>
+<code class="descname">isReference</code><span class="sig-paren">(</span><em>(PropertyHeader)arg1</em><span class="sig-paren">)</span> &#x2192; bool :<a class="headerlink" href="#alembic.AbcCoreAbstract.PropertyHeader.isReference" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return true if the property is tagged as being a reference</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.PropertyHeader.isScalar">
-<code class="descname">isScalar</code><span class="sig-paren">(</span><em>(PropertyHeader)arg1</em><span class="sig-paren">)</span> &rarr; bool :<a class="headerlink" href="#alembic.AbcCoreAbstract.PropertyHeader.isScalar" title="Permalink to this definition">¶</a></dt>
+<code class="descname">isScalar</code><span class="sig-paren">(</span><em>(PropertyHeader)arg1</em><span class="sig-paren">)</span> &#x2192; bool :<a class="headerlink" href="#alembic.AbcCoreAbstract.PropertyHeader.isScalar" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return True if the property is scalar</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.PropertyHeader.isSimple">
-<code class="descname">isSimple</code><span class="sig-paren">(</span><em>(PropertyHeader)arg1</em><span class="sig-paren">)</span> &rarr; bool :<a class="headerlink" href="#alembic.AbcCoreAbstract.PropertyHeader.isSimple" title="Permalink to this definition">¶</a></dt>
+<code class="descname">isSimple</code><span class="sig-paren">(</span><em>(PropertyHeader)arg1</em><span class="sig-paren">)</span> &#x2192; bool :<a class="headerlink" href="#alembic.AbcCoreAbstract.PropertyHeader.isSimple" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return True if the property is simple (non-compound)</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.PropertyHeader.isUV">
-<code class="descname">isUV</code><span class="sig-paren">(</span><em>(PropertyHeader)arg1</em><span class="sig-paren">)</span> &rarr; bool :<a class="headerlink" href="#alembic.AbcCoreAbstract.PropertyHeader.isUV" title="Permalink to this definition">¶</a></dt>
+<code class="descname">isUV</code><span class="sig-paren">(</span><em>(PropertyHeader)arg1</em><span class="sig-paren">)</span> &#x2192; bool :<a class="headerlink" href="#alembic.AbcCoreAbstract.PropertyHeader.isUV" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return true if the property is tagged as being UVs</p>
 </dd></dl>
 
@@ -385,43 +413,43 @@ library in Alembic; that distinction is held by the Abc library.</p>
 <dd><p>The TimeSampling class reports information about the time values  that are associated with the samples written to a Property</p>
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.TimeSampling.getCeilIndex">
-<code class="descname">getCeilIndex</code><span class="sig-paren">(</span><em>(TimeSampling)arg1</em>, <em>(float)time</em>, <em>(int)numSamples</em><span class="sig-paren">)</span> &rarr; int :<a class="headerlink" href="#alembic.AbcCoreAbstract.TimeSampling.getCeilIndex" title="Permalink to this definition">¶</a></dt>
+<code class="descname">getCeilIndex</code><span class="sig-paren">(</span><em>(TimeSampling)arg1</em>, <em>(float)time</em>, <em>(int)numSamples</em><span class="sig-paren">)</span> &#x2192; int :<a class="headerlink" href="#alembic.AbcCoreAbstract.TimeSampling.getCeilIndex" title="Permalink to this definition">¶</a></dt>
 <dd><p>Find the smallest valid index that has a time greater than or equal to the given time</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.TimeSampling.getFloorIndex">
-<code class="descname">getFloorIndex</code><span class="sig-paren">(</span><em>(TimeSampling)arg1</em>, <em>(float)time</em>, <em>(int)numSamples</em><span class="sig-paren">)</span> &rarr; int :<a class="headerlink" href="#alembic.AbcCoreAbstract.TimeSampling.getFloorIndex" title="Permalink to this definition">¶</a></dt>
+<code class="descname">getFloorIndex</code><span class="sig-paren">(</span><em>(TimeSampling)arg1</em>, <em>(float)time</em>, <em>(int)numSamples</em><span class="sig-paren">)</span> &#x2192; int :<a class="headerlink" href="#alembic.AbcCoreAbstract.TimeSampling.getFloorIndex" title="Permalink to this definition">¶</a></dt>
 <dd><p>Find the largest valid index that as a time less than or equal to the given time</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.TimeSampling.getNearIndex">
-<code class="descname">getNearIndex</code><span class="sig-paren">(</span><em>(TimeSampling)arg1</em>, <em>(float)time</em>, <em>(int)numSamples</em><span class="sig-paren">)</span> &rarr; int :<a class="headerlink" href="#alembic.AbcCoreAbstract.TimeSampling.getNearIndex" title="Permalink to this definition">¶</a></dt>
+<code class="descname">getNearIndex</code><span class="sig-paren">(</span><em>(TimeSampling)arg1</em>, <em>(float)time</em>, <em>(int)numSamples</em><span class="sig-paren">)</span> &#x2192; int :<a class="headerlink" href="#alembic.AbcCoreAbstract.TimeSampling.getNearIndex" title="Permalink to this definition">¶</a></dt>
 <dd><p>Find the valid index with the closest time to the given time</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.TimeSampling.getNumStoredTimes">
-<code class="descname">getNumStoredTimes</code><span class="sig-paren">(</span><em>(TimeSampling)arg1</em><span class="sig-paren">)</span> &rarr; int :<a class="headerlink" href="#alembic.AbcCoreAbstract.TimeSampling.getNumStoredTimes" title="Permalink to this definition">¶</a></dt>
+<code class="descname">getNumStoredTimes</code><span class="sig-paren">(</span><em>(TimeSampling)arg1</em><span class="sig-paren">)</span> &#x2192; int :<a class="headerlink" href="#alembic.AbcCoreAbstract.TimeSampling.getNumStoredTimes" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the number of stored times samples</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.TimeSampling.getSampleTime">
-<code class="descname">getSampleTime</code><span class="sig-paren">(</span><em>(TimeSampling)arg1</em>, <em>(int)index</em><span class="sig-paren">)</span> &rarr; float :<a class="headerlink" href="#alembic.AbcCoreAbstract.TimeSampling.getSampleTime" title="Permalink to this definition">¶</a></dt>
+<code class="descname">getSampleTime</code><span class="sig-paren">(</span><em>(TimeSampling)arg1</em>, <em>(int)index</em><span class="sig-paren">)</span> &#x2192; float :<a class="headerlink" href="#alembic.AbcCoreAbstract.TimeSampling.getSampleTime" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the time of the given sample index</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.TimeSampling.getStoredTimes">
-<code class="descname">getStoredTimes</code><span class="sig-paren">(</span><em>(TimeSampling)arg1</em><span class="sig-paren">)</span> &rarr; TimeVector :<a class="headerlink" href="#alembic.AbcCoreAbstract.TimeSampling.getStoredTimes" title="Permalink to this definition">¶</a></dt>
+<code class="descname">getStoredTimes</code><span class="sig-paren">(</span><em>(TimeSampling)arg1</em><span class="sig-paren">)</span> &#x2192; TimeVector :<a class="headerlink" href="#alembic.AbcCoreAbstract.TimeSampling.getStoredTimes" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the stored times</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.TimeSampling.getTimeSamplingType">
-<code class="descname">getTimeSamplingType</code><span class="sig-paren">(</span><em>(TimeSampling)arg1</em><span class="sig-paren">)</span> &rarr; TimeSamplingType :<a class="headerlink" href="#alembic.AbcCoreAbstract.TimeSampling.getTimeSamplingType" title="Permalink to this definition">¶</a></dt>
+<code class="descname">getTimeSamplingType</code><span class="sig-paren">(</span><em>(TimeSampling)arg1</em><span class="sig-paren">)</span> &#x2192; TimeSamplingType :<a class="headerlink" href="#alembic.AbcCoreAbstract.TimeSampling.getTimeSamplingType" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the TimeSamplingType of this class</p>
 </dd></dl>
 
@@ -433,43 +461,43 @@ library in Alembic; that distinction is held by the Abc library.</p>
 <dd><p>The TimeSamplingType class controls how properties in Alembic relate time values to their samplig indices</p>
 <dl class="staticmethod">
 <dt id="alembic.AbcCoreAbstract.TimeSamplingType.AcyclicNumSamples">
-<em class="property">static </em><code class="descname">AcyclicNumSamples</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &rarr; int :<a class="headerlink" href="#alembic.AbcCoreAbstract.TimeSamplingType.AcyclicNumSamples" title="Permalink to this definition">¶</a></dt>
+<em class="property">static </em><code class="descname">AcyclicNumSamples</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; int :<a class="headerlink" href="#alembic.AbcCoreAbstract.TimeSamplingType.AcyclicNumSamples" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the predefined number of samples per cycle reserved for acyclic sampling type</p>
 </dd></dl>
 
 <dl class="staticmethod">
 <dt id="alembic.AbcCoreAbstract.TimeSamplingType.AcyclicTimePerCycle">
-<em class="property">static </em><code class="descname">AcyclicTimePerCycle</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &rarr; float :<a class="headerlink" href="#alembic.AbcCoreAbstract.TimeSamplingType.AcyclicTimePerCycle" title="Permalink to this definition">¶</a></dt>
+<em class="property">static </em><code class="descname">AcyclicTimePerCycle</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; float :<a class="headerlink" href="#alembic.AbcCoreAbstract.TimeSamplingType.AcyclicTimePerCycle" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the predefined time per cycle reserved for acyclic sampling type</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.TimeSamplingType.getNumSamplesPerCycle">
-<code class="descname">getNumSamplesPerCycle</code><span class="sig-paren">(</span><em>(TimeSamplingType)arg1</em><span class="sig-paren">)</span> &rarr; int :<a class="headerlink" href="#alembic.AbcCoreAbstract.TimeSamplingType.getNumSamplesPerCycle" title="Permalink to this definition">¶</a></dt>
+<code class="descname">getNumSamplesPerCycle</code><span class="sig-paren">(</span><em>(TimeSamplingType)arg1</em><span class="sig-paren">)</span> &#x2192; int :<a class="headerlink" href="#alembic.AbcCoreAbstract.TimeSamplingType.getNumSamplesPerCycle" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the number of samples per cycle</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.TimeSamplingType.getTimePerCycle">
-<code class="descname">getTimePerCycle</code><span class="sig-paren">(</span><em>(TimeSamplingType)arg1</em><span class="sig-paren">)</span> &rarr; float :<a class="headerlink" href="#alembic.AbcCoreAbstract.TimeSamplingType.getTimePerCycle" title="Permalink to this definition">¶</a></dt>
+<code class="descname">getTimePerCycle</code><span class="sig-paren">(</span><em>(TimeSamplingType)arg1</em><span class="sig-paren">)</span> &#x2192; float :<a class="headerlink" href="#alembic.AbcCoreAbstract.TimeSamplingType.getTimePerCycle" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the time per cycle</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.TimeSamplingType.isAcyclic">
-<code class="descname">isAcyclic</code><span class="sig-paren">(</span><em>(TimeSamplingType)arg1</em><span class="sig-paren">)</span> &rarr; bool :<a class="headerlink" href="#alembic.AbcCoreAbstract.TimeSamplingType.isAcyclic" title="Permalink to this definition">¶</a></dt>
+<code class="descname">isAcyclic</code><span class="sig-paren">(</span><em>(TimeSamplingType)arg1</em><span class="sig-paren">)</span> &#x2192; bool :<a class="headerlink" href="#alembic.AbcCoreAbstract.TimeSamplingType.isAcyclic" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return True of the sampling type is acyclic (infinit samples per cycle)</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.TimeSamplingType.isCyclic">
-<code class="descname">isCyclic</code><span class="sig-paren">(</span><em>(TimeSamplingType)arg1</em><span class="sig-paren">)</span> &rarr; bool :<a class="headerlink" href="#alembic.AbcCoreAbstract.TimeSamplingType.isCyclic" title="Permalink to this definition">¶</a></dt>
+<code class="descname">isCyclic</code><span class="sig-paren">(</span><em>(TimeSamplingType)arg1</em><span class="sig-paren">)</span> &#x2192; bool :<a class="headerlink" href="#alembic.AbcCoreAbstract.TimeSamplingType.isCyclic" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return True if the sampling type is cyclic (more than 1 samples per cycle)</p>
 </dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.TimeSamplingType.isUniform">
-<code class="descname">isUniform</code><span class="sig-paren">(</span><em>(TimeSamplingType)arg1</em><span class="sig-paren">)</span> &rarr; bool :<a class="headerlink" href="#alembic.AbcCoreAbstract.TimeSamplingType.isUniform" title="Permalink to this definition">¶</a></dt>
+<code class="descname">isUniform</code><span class="sig-paren">(</span><em>(TimeSamplingType)arg1</em><span class="sig-paren">)</span> &#x2192; bool :<a class="headerlink" href="#alembic.AbcCoreAbstract.TimeSamplingType.isUniform" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return True if the sampling type is uniform (1 samples per cycle)</p>
 </dd></dl>
 
@@ -481,12 +509,12 @@ library in Alembic; that distinction is held by the Abc library.</p>
 <dd><p>TimeVector class holds a list of the sampled times</p>
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.TimeVector.append">
-<code class="descname">append</code><span class="sig-paren">(</span><em>(TimeVector)arg1</em>, <em>(object)arg2</em><span class="sig-paren">)</span> &rarr; None<a class="headerlink" href="#alembic.AbcCoreAbstract.TimeVector.append" title="Permalink to this definition">¶</a></dt>
+<code class="descname">append</code><span class="sig-paren">(</span><em>(TimeVector)arg1</em>, <em>(object)arg2</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#alembic.AbcCoreAbstract.TimeVector.append" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="method">
 <dt id="alembic.AbcCoreAbstract.TimeVector.extend">
-<code class="descname">extend</code><span class="sig-paren">(</span><em>(TimeVector)arg1</em>, <em>(object)arg2</em><span class="sig-paren">)</span> &rarr; None<a class="headerlink" href="#alembic.AbcCoreAbstract.TimeVector.extend" title="Permalink to this definition">¶</a></dt>
+<code class="descname">extend</code><span class="sig-paren">(</span><em>(TimeVector)arg1</em>, <em>(object)arg2</em><span class="sig-paren">)</span> &#x2192; None<a class="headerlink" href="#alembic.AbcCoreAbstract.TimeVector.extend" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
@@ -494,6 +522,9 @@ library in Alembic; that distinction is held by the Abc library.</p>
 </div>
 
 
+           </div>
+           <div class="articleComments">
+            
            </div>
           </div>
           <footer>
@@ -525,10 +556,12 @@ library in Alembic; that distinction is held by the Abc library.</p>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'1.6.0',
+            VERSION:'1.7.0',
+            LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
-            HAS_SOURCE:  true
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
         };
     </script>
       <script type="text/javascript" src="../_static/jquery.js"></script>
