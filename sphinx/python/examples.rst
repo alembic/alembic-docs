@@ -350,7 +350,7 @@ name, we're going to call a new function, :py:func:`getBounds()`.
     gBounds = imath.Box3d()
     gBounds.makeEmpty()
     kWrapExisting = alembic.Abc.WrapExistingFlag.kWrapExisting
-
+    
     def accumXform(xf, obj):
         if IXform.matches(obj.getHeader()):
             x = IXform(obj, kWrapExisting)
@@ -377,7 +377,7 @@ name, we're going to call a new function, :py:func:`getBounds()`.
             numPoints = len(positions)
             for i in range(numPoints):
                 bnds.extendBy(imath.V3d(positions[i]))
-        bnds.extendBy(transform(bnds, xf))
+        bnds.extendBy(bnds * getFinalMatrix(obj))
         gBounds.extendBy(bnds)
 
     def visitObject(obj):
@@ -386,7 +386,9 @@ name, we're going to call a new function, :py:func:`getBounds()`.
             getBounds(obj)
         for childObject in obj.children:
             visitObject(childObject)
-
+    
+    arch = IArchive("octopus.abc")
+    visitObject(arch.getTop())
 
 Write Non-Standard Data for a PolyMesh
 ======================================
