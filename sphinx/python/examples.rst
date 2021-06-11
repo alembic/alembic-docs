@@ -30,11 +30,21 @@ Importing
 Importing Alembic is simply: ::
 
     >>> import alembic
+    
+However you may find it useful to import all objects in the packages you need. Most examples 
+given below do this: ::
+
+    >>> from alembic.Abc import *
+    >>> from alembic.AbcGeom import *
 
 .. note::
 
     Make sure that PyImath is in your PYTHONPATH, and Boost::Python in LD_LIBRARY_PATH.
+    
+Additionally some examples below make use of the Imath library to make working with various
+matrix classes easier. Find the library `here <https://github.com/AcademySoftwareFoundation/Imath>`_ and import it using: ::
 
+    >>> from imath import *
 
 Namespaces
 ----------
